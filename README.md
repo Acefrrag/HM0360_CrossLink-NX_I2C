@@ -15,11 +15,11 @@ The main VHDL entity developed and testbenched is ***HM0360_serial_I2C_master***
 
 The code has been developed under Radiant Software.
 
-##Hardware
+## Hardware
 
 The CrossLink NX Voice and Vision ML Board includes the FPGA LIFCL-40-8MG289C 
 
-##Bugs
+## Bugs
 
 At the current version the VHDL code has a bug. Sometimes when writing/reading to and from the register. The ACK bit is occasionally missed. This produces invalid write or read operation with the sensor.
 
