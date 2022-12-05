@@ -1,6 +1,6 @@
 # HM0360_CrossLink-NX_Voice_Vision_ML_Board
 
-VHDL code to implement the interface with the built-in camera on the CrossLink-NX Board Voice and Vision Machine Learning Board. To the best of my knowledge there is no VHDL code implementing the I2C interface with this sensor.
+VHDL code to implement the interface with the built-in camera on the CrossLink-NX Board Voice and Vision Machine Learning Board. To the best of my knowledge there is no VHDL code implementing the (modified) I2C interface with this sensor.
 
 
 ## Introduction
