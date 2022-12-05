@@ -21,7 +21,7 @@ The code has been developed under *Radiant Software* version 3.2.1.217.3 . The b
 
 ## Finite State Machine
 
-The modified I2C protocol has been implemented by using a finite state machine. The clock utilized to synchronize
+The modified I2C protocol has been implemented by using a finite state machine. To synchronize the communication, two clock are generated out of the system clock, which are the SCL (Serial Clock) and DATA_CLK (DATA_CLK). They are used to transition between states, update and sample SDA signal.
 
 ## Hardware
 
