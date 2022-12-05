@@ -11,9 +11,17 @@ It was not possible to use the I2C IP from Lattice Semiconductor, because the I2
 
 ## Development
 
-The main VHDL entity developed and testbenched is ***HM0360_serial_I2C_master***. This entity implements a I2C interface with the sensor. It enables reading and writing from any HM0360 valid register.
+The main VHDL entity developed and testbenched is ***HM0360_serial_I2C_master***. This entity implements a I2C interface with the sensor. It enables reading and writing from any HM0360 valid register. Nevertheless I include a small description for every file included in the project
+
+* **HM0360_top_level**, it implements the connection between the I2C master VHDL entity and the components external to the FPGA (LEDs, buttons, 27 MHz oscillator, HM0360 camera sensor).
+* **HM0360_top_level_tb**, for testbenching the HM0360_top_level.
+* **HM0360_serial_master**, implements the modified I2C protocol with the HM0360 camera sensor.
 
 The code has been developed under *Radiant Software* version 3.2.1.217.3 . The bitstream is download onto the board using *Radiant Programmer*.
+
+## Finite State Machine
+
+The modified I2C protocol has been implemented by using a finite state machine. The clock utilized to synchronize
 
 ## Hardware
 
@@ -25,5 +33,5 @@ The whole Radiant Software project has been uploaded, therefore the user may onl
 
 ## Bugs
 
-At the current version the VHDL code has a bug. Sometimes when reading from the register, the ACK bit is occasionally missed. This produces an invalid read operation with the sensor. When this happen the value 3C is read from the register. In order to avoid this, the very same transaction  is repeated, after the device attempts to give a stop condition, as adviced by the [I2C Bus Tecnical Overview](https://www.esacademy.com/en/library/technical-articles-and-documents/miscellaneous/i2c-bus).
+At the current version the VHDL code has a bug. Sometimes when reading from the register, the ACK bit is occasionally missed. This produces an invalid read operation with the sensor. When this happen the value 3C is read from the register. In order to avoid this, the very same transaction is repeated until no no-ACK is detected during the transaction. When a no-ACK arises the device attempts to give a stop condition, as adviced by the [I2C Bus Tecnical Overview](https://www.esacademy.com/en/library/technical-articles-and-documents/miscellaneous/i2c-bus) and the operation is repeated once again.
 
