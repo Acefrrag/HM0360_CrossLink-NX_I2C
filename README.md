@@ -7,7 +7,7 @@ VHDL code to implement the interface with the built-in camera on the CrossLink-N
 
 This repository contains the code for the development and testbenching of the VHDL entity implementing the I2C interface with built-in camera sensor HM0360, embedded on the CrossLink-NX Voice and Vision Machine Learning(ML) Board by Lattice Semiconductor.
 
-It was not possible to use the I2C IP from Lattice Semiconductor, because the I2C protocol to interface with this sensor is significaly different. In fact, the *addressing mode is 16-bit*, which is atypical for a I2C protocol. Moreover, the *read operation differs significantly from the the standard read operation*. Read the documentation for greater details. I call this I2C protocol ***modified I2C***.
+It was not possible to use the I2C IP from Lattice Semiconductor, because the I2C protocol to interface with this sensor is significaly different. In fact, the *addressing mode is 16-bit*, which is atypical for a I2C protocol. Moreover, the *read operation differs significantly from the the standard read operation*. Read the documentation for greater details. I call this I2C protocol ***modified I2C protocol***.
 
 ## Development
 
