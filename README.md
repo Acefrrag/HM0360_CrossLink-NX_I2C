@@ -33,5 +33,5 @@ The whole Radiant Software project has been uploaded, therefore the user may onl
 
 ## Bugs
 
-At the current version the VHDL code has a bug. Sometimes when reading from the register, the ACK bit is occasionally missed. This produces an invalid read operation with the sensor. When this happen the value 3C is read from the register. In order to avoid this, the very same transaction is repeated until no no-ACK is detected during the transaction. When a no-ACK arises the device attempts to give a stop condition, as adviced by the [I2C Bus Tecnical Overview](https://www.esacademy.com/en/library/technical-articles-and-documents/miscellaneous/i2c-bus) and the operation is repeated once again.
+At the current version the VHDL code has a bug. Sometimes when reading from the register, the ACK bit is occasionally missed. This produces an invalid read operation with the sensor. When this happen the value 0x3C is read from the register. In order to avoid this, the very same transaction is repeated until no no-ACK is detected during the transaction. When a no-ACK arises the device attempts to give a stop condition, as adviced by the [I2C Bus Tecnical Overview](https://www.esacademy.com/en/library/technical-articles-and-documents/miscellaneous/i2c-bus) and the operation is repeated once again.
 
