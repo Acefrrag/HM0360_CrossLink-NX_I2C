@@ -21,7 +21,7 @@ The code has been developed under *Radiant Software* version 3.2.1.217.3 . The b
 
 ## Finite State Machine
 
-The modified I2C protocol has been implemented by using a finite state machine. To synchronize the communication, two clocks are generated out of the system clock, which are the SCL (Serial Clock) and DATA_CLK (DATA_CLK). They are used to transition between states, update and sample SDA signal. This type of implementation inspires to the [I2C Master (VHDL) topic](https://forum.digikey.com/t/i2c-master-vhdl/12797) in the Digi-Key forum.
+The modified I2C protocol has been implemented by using a finite state machine. To synchronize the communication, two clocks are generated out of the system clock, which are the SCL (Serial Clock) and DATA_CLK (DATA_CLK). They are used to transition between states, update and sample SDA signal. This type of implementation inspires to [this design](https://forum.digikey.com/t/i2c-master-vhdl/12797) in the Digi-Key forum.
 
 
 
