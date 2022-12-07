@@ -1,0 +1,107 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity HM0360_top_level_tb is
+
+end HM0360_top_level_tb;
+
+Architecture Behavioral of HM0360_top_level_tb is
+
+constant slave_ID: std_logic_vector(6 downto 0) := std_logic_vector(to_unsigned(16#24#,7));
+
+signal CLK: std_logic := '0';
+signal SDA: std_logic;
+signal SCL: std_logic;
+signal start_button_n: std_logic := '1';
+signal R_W_button_n: std_logic := '1';
+signal RD_content1_LED, RD_content2_LED, RD_content3_LED, RD_content4_LED, RD_content5_LED, RD_content6_LED, RD_content7_LED, RD_content8_LED :std_logic;
+signal RW_LED: std_logic;
+
+component HM0360_top_level is
+port(
+CLK: in std_logic;
+R_W_button_n: in std_logic;
+SDA: inout std_logic;
+SCL: inout std_logic;
+start_button_n: in std_logic;
+RD_content1_LED: out std_logic;
+RD_content2_LED: out std_logic;
+RD_content3_LED: out std_logic;
+RD_content4_LED: out std_logic;
+RD_content5_LED: out std_logic;
+RD_content6_LED: out std_logic;
+RD_content7_LED: out std_logic;
+RD_content8_LED: out std_logic;
+RW_LED: out std_logic
+);
+end component;
+
+component HM0360_device is
+generic(
+constant slave_ID: std_logic_vector(6 downto 0)
+);
+port(
+SDA: inout std_logic;
+SCL: inout std_logic
+);
+end component;
+
+
+
+begin
+
+HM0360_top_level_comp: HM0360_top_level
+port map(
+CLK => CLK,
+SDA => SDA,
+SCL => SCL,
+R_W_button_n =>  R_W_button_n,
+start_button_n => start_button_n,
+RD_content1_LED => RD_content1_LED,
+RD_content2_LED => RD_content2_LED,
+RD_content3_LED => RD_content3_LED,
+RD_content4_LED => RD_content4_LED,
+RD_content5_LED => RD_content5_LED,
+RD_content6_LED => RD_content6_LED,
+RD_content7_LED => RD_content7_LED,
+RD_content8_LED => RD_content8_LED,
+RW_LED => RW_LED
+);
+
+HM0360_device_comp: HM0360_device
+generic map(
+slave_ID => slave_ID
+)
+port map(
+SDA => SDA,
+SCL => SCL
+);
+
+CLK_gen: process is
+begin
+wait for 37 ns;
+CLK <= not(CLK);
+end process;
+
+
+start_gen: process is
+begin
+wait for 20 ms;
+wait for 35_000 ns;
+start_button_n <= '0';
+wait for 20 ms;
+wait for 35_000 ns;
+start_button_n <= '1';
+wait;
+end process;
+
+R_W_gen: process is
+begin
+wait for 100 ns;
+R_W_button_n <= '0';
+wait;
+end process;
+
+
+end Behavioral;

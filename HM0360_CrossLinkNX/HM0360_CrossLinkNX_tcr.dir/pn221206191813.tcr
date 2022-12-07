@@ -1,0 +1,14 @@
+#Start recording tcl command: 12/6/2022 19:13:06
+#Project Location: C:/Users/miche/Desktop/HM0360_CrossLinkNX; Project name: HM0360_CrossLinkNX
+prj_open "C:/Users/miche/Desktop/HM0360_CrossLinkNX/HM0360_CrossLinkNX.rdf"
+prj_add_source "C:/Users/miche/Desktop/HM0360_CrossLinkNX/source/HM0360_CrossLinkNX_impl/TETS.vhd"
+prj_remove_source "C:/Users/miche/Desktop/HM0360_CrossLinkNX/source/HM0360_CrossLinkNX_impl/TETS.vhd"
+prj_add_source "C:/Users/miche/Desktop/HM0360_CrossLinkNX/source/HM0360_CrossLinkNX_impl/counter.vhd" "C:/Users/miche/Desktop/HM0360_CrossLinkNX/source/HM0360_CrossLinkNX_impl/debounce.vhd" "C:/Users/miche/Desktop/HM0360_CrossLinkNX/source/HM0360_CrossLinkNX_impl/HM0360_serial_I2C_master.vhd" "C:/Users/miche/Desktop/HM0360_CrossLinkNX/source/HM0360_CrossLinkNX_impl/HM0360_serial_I2C_slave.vhd" "C:/Users/miche/Desktop/HM0360_CrossLinkNX/source/HM0360_CrossLinkNX_impl/HM0360_serial_tb.vhd" "C:/Users/miche/Desktop/HM0360_CrossLinkNX/source/HM0360_CrossLinkNX_impl/HM0360_serial_tb_2.vhd" "C:/Users/miche/Desktop/HM0360_CrossLinkNX/source/HM0360_CrossLinkNX_impl/HM0360_top_level.vhd" "C:/Users/miche/Desktop/HM0360_CrossLinkNX/source/HM0360_CrossLinkNX_impl/HM0360_top_level_tb.vhd" "C:/Users/miche/Desktop/HM0360_CrossLinkNX/source/HM0360_CrossLinkNX_impl/prescaler.vhd"
+prj_syn_sim_source -src "C:/Users/miche/Desktop/HM0360_CrossLinkNX/source/HM0360_CrossLinkNX_impl/HM0360_serial_I2C_slave.vhd" SimulateOnly
+prj_syn_sim_source -src "C:/Users/miche/Desktop/HM0360_CrossLinkNX/source/HM0360_CrossLinkNX_impl/HM0360_top_level_tb.vhd" SimulateOnly
+prj_syn_sim_source -src "C:/Users/miche/Desktop/HM0360_CrossLinkNX/source/HM0360_CrossLinkNX_impl/HM0360_serial_tb_2.vhd" SimulateOnly
+prj_syn_sim_source -src "C:/Users/miche/Desktop/HM0360_CrossLinkNX/source/HM0360_CrossLinkNX_impl/HM0360_serial_tb.vhd" SimulateOnly
+prj_run Synthesis -impl HM0360_CrossLinkNX_impl
+prj_set_strategy_value -strategy Strategy1 lse_vhdl2008=True
+prj_run Synthesis -impl HM0360_CrossLinkNX_impl
+#Stop recording: 12/6/2022 19:18:13

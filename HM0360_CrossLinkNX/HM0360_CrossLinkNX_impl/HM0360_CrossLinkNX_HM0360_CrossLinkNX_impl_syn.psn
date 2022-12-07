@@ -1,0 +1,15 @@
+POSTSYN: Post Synthesis Process Radiant Software (64-bit) 3.2.1.217.3
+Command Line: postsyn -a LIFCL -p LIFCL-40 -t CSBGA289 -sp 8_High-Performance_1.0V -oc Commercial -top -w -o HM0360_CrossLinkNX_HM0360_CrossLinkNX_impl_syn.udb -gui -msgset C:/Users/miche/Github_Repositories/HM0360_CrossLink-NX_I2C/HM0360_CrossLinkNX/promote.xml HM0360_CrossLinkNX_HM0360_CrossLinkNX_impl.vm 
+   Architecture:     LIFCL
+   Device:           LIFCL-40
+   Package:          CSBGA289
+   Performance:      8_High-Performance_1.0V
+Reading input file 'HM0360_CrossLinkNX_HM0360_CrossLinkNX_impl.vm' ...
+Removing unused logic ...
+INFO - Signal GSR_INST.GSROUT undriven or does not drive anything - clipped
+Starting design annotation....
+Writing output file 'HM0360_CrossLinkNX_HM0360_CrossLinkNX_impl_syn.udb'.
+POSTSYN finished successfully.
+Total CPU Time: 2 secs 
+Total REAL Time: 2 secs 
+Peak Memory Usage: 132 MB

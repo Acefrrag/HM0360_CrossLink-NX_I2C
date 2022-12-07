@@ -1,0 +1,10 @@
+#Start recording tcl command: 12/6/2022 19:22:01
+#Project Location: C:/Users/miche/Github_Repositories/HM0360_CrossLink-NX_I2C/HM0360_CrossLinkNX; Project name: HM0360_CrossLinkNX
+prj_open "C:/Users/miche/Github_Repositories/HM0360_CrossLink-NX_I2C/HM0360_CrossLinkNX/HM0360_CrossLinkNX.rdf"
+prj_run Synthesis -impl HM0360_CrossLinkNX_impl
+prj_run Synthesis -impl HM0360_CrossLinkNX_impl
+prj_add_source "C:/Users/miche/Github_Repositories/HM0360_CrossLink-NX_I2C/HM0360_CrossLinkNX/constr.pdc"
+prj_enable_source "C:/Users/miche/Github_Repositories/HM0360_CrossLink-NX_I2C/HM0360_CrossLinkNX/constr.pdc"
+prj_run PAR -impl HM0360_CrossLinkNX_impl
+prj_run Export -impl HM0360_CrossLinkNX_impl
+#Stop recording: 12/6/2022 19:43:40

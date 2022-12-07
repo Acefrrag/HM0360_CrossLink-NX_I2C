@@ -1,0 +1,535 @@
+<HTML>
+<HEAD>
+<TITLE>Map Report</TITLE>
+<link href="file:///C:/lscc/radiant/3.2/data/theme/css/light/report.css" rel="stylesheet" type="text/css" media="screen"/>
+<link href="file:///C:/lscc/radiant/3.2/data/theme/css/print/report.css" rel="stylesheet" type="text/css" media="print"/>
+<style type="text/css">
+#toc {
+  position: fixed;
+  right: 2px;
+  top: 2px;
+  padding: 2px 5px 2px 5px;
+  background-color:rgba(210,210,210,0.1);
+  border-style: solid;
+  border-color: rgba(192,192,192,0.8);
+  border-width:1px;
+}
+#toc_list {
+  display: none;
+  }
+</style>
+
+<script type="text/javascript">
+<!--
+function showTocList() {
+var a = document.getElementById("toc_list");
+a.style.display = "block";
+}
+
+function hideTocList() {
+var a = document.getElementById("toc_list");
+if (a)
+    a.style.display = "none";
+}
+
+//-->
+</script>
+
+</HEAD>
+
+<BODY>
+
+<DIV id="content" onclick="hideTocList()"><PRE>
+<A name="Mrp"></A>Lattice Mapping Report File for Design Module
+     &apos;HM0360_CrossLinkNX_HM0360_CrossLinkNX_impl&apos;
+
+Target Vendor:        LATTICE
+Target Device:        LIFCL-40CSBGA289
+Target Performance:   8_High-Performance_1.0V
+
+Mapper:    version Radiant Software (64-bit) 3.2.1.217.3
+Mapped on: Tue Dec  6 19:37:40 2022
+
+
+<A name="mrp_di"></A><B><U><big>Design Information</big></U></B>
+
+Command line:   map -i HM0360_CrossLinkNX_HM0360_CrossLinkNX_impl_syn.udb -pdc C
+     :/Users/miche/Github_Repositories/HM0360_CrossLink-NX_I2C/HM0360_CrossLinkN
+     X/constr.pdc -o HM0360_CrossLinkNX_HM0360_CrossLinkNX_impl_map.udb -mp
+     HM0360_CrossLinkNX_HM0360_CrossLinkNX_impl.mrp -hierrpt -gui
+
+<A name="mrp_ds"></A><B><U><big>Design Summary</big></U></B>
+   Number of registers:         161 out of 32775 (<1%)
+      Number of SLICE         registers:  161 out of 32256 (<1%)
+      Number of PIO Input     registers:    0 out of   173 (0%)
+      Number of PIO Output    registers:    0 out of   173 (0%)
+      Number of PIO Tri-State registers:    0 out of   173 (0%)
+   Number of LUT4s:             683 out of 32256 (2%)
+      Number used as logic LUT4s:                        299
+      Number used as distributed RAM:                      0 (6 per 16X4 RAM)
+      Number used as ripple logic:                       384 (2 per CCU2)
+   Number of PIOs used/reserved:   27 out of   173 (12%)
+      Number of PIOs reserved:      7 (per sysConfig and/or prohibit constraint)
+      Number of PIOs used:         20
+        Number of PIOs used for single ended IO:        20
+        Number of PIO pairs used for differential IO:    0
+        Number allocated to regular speed PIOs:    12 out of   99 (12%)
+        Number allocated to high speed PIOs:        8 out of   74 (11%)
+   Number of Dedicated IO used for ADC/PCIE/DPHY:   0 out of   32 (0%)
+   Number of IDDR/ODDR/TDDR functions used:      0 out of   420 (0%)
+   Number of IOs using at least one DDR function: 0 (0 differential)
+   Number of Block RAMs:          0 out of 84 (0%)
+   Number of Large RAMs:          0 out of 2 (0%)
+   Number of Logical DSP Functions:
+      Number of Pre-Adders (9+9):    0 out of 112 (0%)
+      Number of Multipliers (18x18): 0 out of 56 (0%)
+         Number of 9X9:        0 (1 18x18 = 2   9x9)
+         Number of 18x18:      0 (1 18x18 = 1 18x18)
+         Number of 18x36:      0 (2 18x18 = 1 18x36)
+         Number of 36x36:      0 (4 18x18 = 1 36x36)
+      Number of 54-bit Accumulators: 0 out of 28 (0%)
+      Number of 18-bit Registers:    0 out of 112 (0%)
+   Number of Physical DSP Components:
+      Number of PREADD9:             0 out of 112 (0%)
+      Number of MULT9:               0 out of 112 (0%)
+      Number of MULT18:              0 out of 56 (0%)
+      Number of MULT18X36:           0 out of 28 (0%)
+      Number of MULT36:              0 out of 14 (0%)
+      Number of ACC54:               0 out of 28 (0%)
+      Number of REG18:               0 out of 112 (0%)
+   Number of ALUREGs:             0 out of 1 (0%)
+   Number of PLLs:                0 out of 3 (0%)
+   Number of DDRDLLs:             0 out of 2 (0%)
+
+   Number of DLLDELs:             0 out of 10 (0%)
+   Number of DQSs:                0 out of 4 (0%)
+   Number of DCSs:                0 out of 1 (0%)
+   Number of DCCs:                0 out of 62 (0%)
+   Number of PCLKDIVs:            0 out of 1 (0%)
+   Number of ECLKDIVs:            0 out of 12 (0%)
+   Number of ECLKSYNCs:           0 out of 12 (0%)
+   Number of ADC Blocks:          0 out of 1 (0%)
+   Number of SGMIICDRs:           0 out of 2 (0%)
+   Number of PMUs:                0 out of 1 (0%)
+   Number of BNKREF18s:           0 out of 3 (0%)
+   Number of BNKREF33s:           0 out of 5 (0%)
+   Number of PCIEs:               0 out of 1 (0%)
+   Number of I2CFIFOs:            0 out of 1 (0%)
+   Number of DPHYs:               0 out of 2 (0%)
+   Number of Oscillators:         0 out of 1 (0%)
+   Number of GSR:                 0 out of 1 (0%)
+   Number of Cryptographic Block: 0 out of 1 (0%)
+   Number of Config IP:           0 out of 1 (0%)
+                 TSALL:           0 out of 1 (0%)
+   Number of JTAG:                0 out of 1 (0%)
+   Number of SED:                 0 out of 1 (0%)
+   Number of Clocks:  2
+      Net CLK_c: 141 loads, 141 rising, 0 falling (Driver: Port CLK)
+      Net R_W_button_deb: 1 loads, 1 rising, 0 falling (Driver: Pin
+     debounce_start_button.button_deb_internal.ff_inst/Q)
+   Number of Clock Enables:  14
+      Net debounce_start_button.button_deb_internal_N_455: 10 loads, 10 SLICEs
+      Net debounce_start_button.CLK_c_enable_17: 1 loads, 1 SLICEs
+      Net debounce_R_W_button.CLK_c_enable_18: 1 loads, 1 SLICEs
+      Net debounce_R_W_button.button_deb_internal_N_455: 10 loads, 10 SLICEs
+      Net HM0360_serial_I2C_master_comp.CLK_c_enable_80: 2 loads, 2 SLICEs
+      Net HM0360_serial_I2C_master_comp.CLK_c_enable_15: 7 loads, 7 SLICEs
+      Net HM0360_serial_I2C_master_comp.CLK_c_enable_79: 62 loads, 62 SLICEs
+      Net HM0360_serial_I2C_master_comp.CLK_c_enable_7: 1 loads, 1 SLICEs
+      Net HM0360_serial_I2C_master_comp.CLK_c_enable_5: 1 loads, 1 SLICEs
+      Net HM0360_serial_I2C_master_comp.CLK_c_enable_4: 1 loads, 1 SLICEs
+      Net HM0360_serial_I2C_master_comp.CLK_c_enable_3: 2 loads, 2 SLICEs
+      Net HM0360_serial_I2C_master_comp.CLK_c_enable_8: 1 loads, 1 SLICEs
+      Net HM0360_serial_I2C_master_comp.CLK_c_enable_19: 1 loads, 1 SLICEs
+      Net HM0360_serial_I2C_master_comp.SDA_N_278: 2 loads, 2 SLICEs
+   Number of LSRs:  31
+      Net debounce_start_button.n12791: 10 loads, 10 SLICEs
+      Net debounce_R_W_button.n12790: 10 loads, 10 SLICEs
+      Net HM0360_serial_I2C_master_comp.prescaler_comp.counter_comp.n12767: 2
+     loads, 2 SLICEs
+      Net HM0360_serial_I2C_master_comp.prescaler_comp.counter_comp.count_pr.c_3
+     0__N_366[29]: 1 loads, 1 SLICEs
+      Net HM0360_serial_I2C_master_comp.prescaler_comp.counter_comp.count_pr.c_3
+     0__N_366[28]: 1 loads, 1 SLICEs
+      Net HM0360_serial_I2C_master_comp.prescaler_comp.counter_comp.count_pr.c_3
+     0__N_366[30]: 1 loads, 1 SLICEs
+      Net HM0360_serial_I2C_master_comp.prescaler_comp.counter_comp.count_pr.c_3
+     0__N_366[27]: 1 loads, 1 SLICEs
+      Net HM0360_serial_I2C_master_comp.prescaler_comp.counter_comp.count_pr.c_3
+     0__N_366[26]: 1 loads, 1 SLICEs
+      Net HM0360_serial_I2C_master_comp.prescaler_comp.counter_comp.count_pr.c_3
+
+     0__N_366[25]: 1 loads, 1 SLICEs
+      Net HM0360_serial_I2C_master_comp.prescaler_comp.counter_comp.count_pr.c_3
+     0__N_366[24]: 1 loads, 1 SLICEs
+      Net HM0360_serial_I2C_master_comp.prescaler_comp.counter_comp.count_pr.c_3
+     0__N_366[23]: 1 loads, 1 SLICEs
+      Net HM0360_serial_I2C_master_comp.prescaler_comp.counter_comp.count_pr.c_3
+     0__N_366[8]: 1 loads, 1 SLICEs
+      Net HM0360_serial_I2C_master_comp.prescaler_comp.counter_comp.count_pr.c_3
+     0__N_366[7]: 1 loads, 1 SLICEs
+      Net HM0360_serial_I2C_master_comp.prescaler_comp.counter_comp.count_pr.c_3
+     0__N_366[6]: 1 loads, 1 SLICEs
+      Net HM0360_serial_I2C_master_comp.prescaler_comp.counter_comp.count_pr.c_3
+     0__N_366[5]: 1 loads, 1 SLICEs
+      Net HM0360_serial_I2C_master_comp.prescaler_comp.counter_comp.count_pr.c_3
+     0__N_366[4]: 1 loads, 1 SLICEs
+      Net HM0360_serial_I2C_master_comp.prescaler_comp.counter_comp.count_pr.c_3
+     0__N_366[3]: 1 loads, 1 SLICEs
+      Net HM0360_serial_I2C_master_comp.prescaler_comp.counter_comp.count_pr.c_3
+     0__N_366[22]: 1 loads, 1 SLICEs
+      Net HM0360_serial_I2C_master_comp.prescaler_comp.counter_comp.count_pr.c_3
+     0__N_366[21]: 1 loads, 1 SLICEs
+      Net HM0360_serial_I2C_master_comp.prescaler_comp.counter_comp.count_pr.c_3
+     0__N_366[20]: 1 loads, 1 SLICEs
+      Net HM0360_serial_I2C_master_comp.prescaler_comp.counter_comp.count_pr.c_3
+     0__N_366[19]: 1 loads, 1 SLICEs
+      Net HM0360_serial_I2C_master_comp.prescaler_comp.counter_comp.count_pr.c_3
+     0__N_366[13]: 1 loads, 1 SLICEs
+      Net HM0360_serial_I2C_master_comp.prescaler_comp.counter_comp.count_pr.c_3
+     0__N_366[12]: 1 loads, 1 SLICEs
+      Net HM0360_serial_I2C_master_comp.prescaler_comp.counter_comp.count_pr.c_3
+     0__N_366[18]: 1 loads, 1 SLICEs
+      Net HM0360_serial_I2C_master_comp.prescaler_comp.counter_comp.count_pr.c_3
+     0__N_366[17]: 1 loads, 1 SLICEs
+      Net HM0360_serial_I2C_master_comp.prescaler_comp.counter_comp.count_pr.c_3
+     0__N_366[16]: 1 loads, 1 SLICEs
+      Net HM0360_serial_I2C_master_comp.prescaler_comp.counter_comp.count_pr.c_3
+     0__N_366[15]: 1 loads, 1 SLICEs
+      Net HM0360_serial_I2C_master_comp.prescaler_comp.counter_comp.count_pr.c_3
+     0__N_366[14]: 1 loads, 1 SLICEs
+      Net HM0360_serial_I2C_master_comp.prescaler_comp.counter_comp.count_pr.c_3
+     0__N_366[9]: 1 loads, 1 SLICEs
+      Net HM0360_serial_I2C_master_comp.prescaler_comp.counter_comp.count_pr.c_3
+     0__N_366[10]: 1 loads, 1 SLICEs
+      Net HM0360_serial_I2C_master_comp.prescaler_comp.counter_comp.count_pr.c_3
+     0__N_366[11]: 1 loads, 1 SLICEs
+   Top 10 highest fanout non-clock nets:
+      Net HM0360_serial_I2C_master_comp.CLK_c_enable_79: 62 loads
+      Net HM0360_serial_I2C_master_comp.pr_state[2]: 57 loads
+      Net HM0360_serial_I2C_master_comp.pr_state[1]: 53 loads
+      Net HM0360_serial_I2C_master_comp.pr_state[0]: 44 loads
+      Net HM0360_serial_I2C_master_comp.pr_state[3]: 42 loads
+      Net HM0360_serial_I2C_master_comp.n1220: 41 loads
+      Net HM0360_serial_I2C_master_comp.n546: 31 loads
+      Net HM0360_serial_I2C_master_comp.n9: 31 loads
+      Net HM0360_serial_I2C_master_comp.prescaler_comp.counter_comp.n12769: 29
+     loads
+      Net HM0360_serial_I2C_master_comp.DATA_CLK: 23 loads
+
+
+
+
+
+   Number of warnings:  0
+   Number of errors:    0
+
+   Number of warnings:  0
+   Number of errors:    0
+
+
+
+<A name="mrp_dwe"></A><B><U><big>Design Errors/Warnings</big></U></B>
+
+   No errors or warnings present.
+
+
+
+<A name="mrp_ioa"></A><B><U><big>IO (PIO) Attributes</big></U></B>
+
++---------------------+-----------+-----------+-------+-------+-----------+
+| IO Name             | Direction | Levelmode |  IO   |  IO   | Special   |
+|                     |           |  IO_TYPE  |  REG  |  DDR  | IO Buffer |
++---------------------+-----------+-----------+-------+-------+-----------+
+| SDA                 | BIDIR     |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| RD_content3_LED_n   | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| RD_content2_LED_n   | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| RD_content1_LED_n   | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| RD_content4_LED_n   | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| RD_content5_LED_n   | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| RD_content6_LED_n   | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| RD_content7_LED_n   | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| RD_content8_LED_n   | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| RW_LED_n            | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| SCL                 | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| HM_MCLK             | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| HM_CLK_SEL          | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| HM_RTC              | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| HM_SHUTDOWN_N       | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| HM_SLEEP_N          | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| debug_LED_n         | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| CLK                 | INPUT     |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| R_W_button_n        | INPUT     |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| start_button_n      | INPUT     |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+
+
+
+
+<A name="mrp_rm"></A><B><U><big>Removed logic</big></U></B>
+
+Block GSR_INST undriven or does not drive anything - clipped.
+Block i2 was optimized away.
+Block HM0360_serial_I2C_master_comp/prescaler_comp/counter_comp/sub_479_inv_0_i3
+     1_1_lut was optimized away.
+Block HM0360_serial_I2C_master_comp/prescaler_comp/counter_comp/sub_479_inv_0_i3
+     0_1_lut was optimized away.
+Block HM0360_serial_I2C_master_comp/prescaler_comp/counter_comp/sub_479_inv_0_i2
+     9_1_lut was optimized away.
+Block HM0360_serial_I2C_master_comp/prescaler_comp/counter_comp/sub_479_inv_0_i2
+     8_1_lut was optimized away.
+Block HM0360_serial_I2C_master_comp/prescaler_comp/counter_comp/sub_479_inv_0_i2
+     7_1_lut was optimized away.
+Block HM0360_serial_I2C_master_comp/prescaler_comp/counter_comp/sub_479_inv_0_i2
+     6_1_lut was optimized away.
+Block HM0360_serial_I2C_master_comp/prescaler_comp/counter_comp/sub_479_inv_0_i2
+     5_1_lut was optimized away.
+Block HM0360_serial_I2C_master_comp/prescaler_comp/counter_comp/sub_479_inv_0_i2
+     4_1_lut was optimized away.
+Block HM0360_serial_I2C_master_comp/prescaler_comp/counter_comp/sub_479_inv_0_i2
+     3_1_lut was optimized away.
+Block HM0360_serial_I2C_master_comp/prescaler_comp/counter_comp/sub_479_inv_0_i2
+     2_1_lut was optimized away.
+Block HM0360_serial_I2C_master_comp/prescaler_comp/counter_comp/sub_479_inv_0_i2
+     1_1_lut was optimized away.
+Block HM0360_serial_I2C_master_comp/prescaler_comp/counter_comp/sub_479_inv_0_i2
+     0_1_lut was optimized away.
+Block HM0360_serial_I2C_master_comp/prescaler_comp/counter_comp/sub_479_inv_0_i1
+     9_1_lut was optimized away.
+Block HM0360_serial_I2C_master_comp/prescaler_comp/counter_comp/sub_479_inv_0_i1
+     8_1_lut was optimized away.
+Block HM0360_serial_I2C_master_comp/prescaler_comp/counter_comp/sub_479_inv_0_i1
+     7_1_lut was optimized away.
+Block HM0360_serial_I2C_master_comp/prescaler_comp/counter_comp/sub_479_inv_0_i1
+     6_1_lut was optimized away.
+Block HM0360_serial_I2C_master_comp/prescaler_comp/counter_comp/sub_479_inv_0_i1
+     5_1_lut was optimized away.
+Block HM0360_serial_I2C_master_comp/prescaler_comp/counter_comp/sub_479_inv_0_i1
+     4_1_lut was optimized away.
+Block HM0360_serial_I2C_master_comp/prescaler_comp/counter_comp/sub_479_inv_0_i1
+     3_1_lut was optimized away.
+Block HM0360_serial_I2C_master_comp/prescaler_comp/counter_comp/sub_479_inv_0_i1
+     2_1_lut was optimized away.
+Block HM0360_serial_I2C_master_comp/prescaler_comp/counter_comp/sub_479_inv_0_i1
+     1_1_lut was optimized away.
+Block HM0360_serial_I2C_master_comp/prescaler_comp/counter_comp/sub_479_inv_0_i1
+     0_1_lut was optimized away.
+Block HM0360_serial_I2C_master_comp/prescaler_comp/counter_comp/sub_479_inv_0_i9
+     _1_lut was optimized away.
+Block HM0360_serial_I2C_master_comp/prescaler_comp/counter_comp/sub_479_inv_0_i8
+     _1_lut was optimized away.
+Block HM0360_serial_I2C_master_comp/prescaler_comp/counter_comp/sub_479_inv_0_i7
+     _1_lut was optimized away.
+Block HM0360_serial_I2C_master_comp/prescaler_comp/counter_comp/sub_479_inv_0_i6
+     _1_lut was optimized away.
+Block HM0360_serial_I2C_master_comp/prescaler_comp/counter_comp/sub_479_inv_0_i5
+
+     _1_lut was optimized away.
+Block HM0360_serial_I2C_master_comp/prescaler_comp/counter_comp/sub_479_inv_0_i4
+     _1_lut was optimized away.
+Block HM0360_serial_I2C_master_comp/i760_1_lut was optimized away.
+
+
+
+<A name="mrp_runtime"></A><B><U><big>Run Time and Memory Usage</big></U></B>
+-------------------------
+
+   Total CPU Time: 4 secs
+   Total REAL Time: 5 secs
+   Peak Memory Usage: 321 MB
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995
+     AT&amp;T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent
+     Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems
+     All rights reserved.
+Copyright (c) 2002-2022 Lattice Semiconductor
+     Corporation,  All rights reserved.
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></DIV>
+
+<DIV id="toc" class="radiant"><span onmousemove="showTocList()">Contents</span>
+<UL id="toc_list">
+<LI><A href=#mrp_di>Design Information</A></LI>
+<LI><A href=#mrp_ds>Design Summary</A></LI>
+<LI><A href=#mrp_dwe>Design Errors/Warnings</A></LI>
+<LI><A href=#mrp_ioa>IO (PIO) Attributes</A></LI>
+<LI><A href=#mrp_rm>Removed logic</A></LI>
+<LI><A href=#mrp_runtime>Run Time and Memory Usage</A></LI>
+</UL>
+</DIV>
+
+<button id="back_to_top" class="radiant" onclick="scrollToTop()">&lt;</button>
+<script type="text/javascript">
+<!--
+var scrollStep = 0;
+function scrollToTop(){
+  var funScroll = function() {
+    var top = document.body.scrollTop;
+    if (top == 0) {
+      scrollStep = 0;
+      return;
+    }
+    if (scrollStep == 0)
+      scrollStep = top/20 + 1;
+    top -= scrollStep;
+    if (top < 0)
+      top = 0;
+    document.body.scrollTop = top;
+    requestAnimationFrame(funScroll);
+  };
+  funScroll();
+}
+
+window.addEventListener('scroll', function(e) {
+  var backToTop = document.getElementById('back_to_top')
+  if (document.body.scrollTop > 0) {
+    backToTop.style.display = 'block';
+  } else {	backToTop.style.display = 'none'  }});
+
+//-->
+</script>
+
+<style type="text/css">
+#back_to_top {
+  bottom:20px; right:20px;
+  width:30px; height:30px;
+  font-size: 20px;
+  padding: 2px 5px 2px 5px;
+  position:fixed;
+  background-color:rgba(210,210,210,0.1);
+  border-style: solid;
+  border-color: rgba(192,192,192,0.8);
+  border-width:1px;
+  display:none;
+  -webkit-transform: rotate(90deg);
+  -webkit-transform-origin:50% 50%;
+}
+#back_to_top:focus {
+  outline-width:0px;
+}
+</style>
+
+</BODY>
+

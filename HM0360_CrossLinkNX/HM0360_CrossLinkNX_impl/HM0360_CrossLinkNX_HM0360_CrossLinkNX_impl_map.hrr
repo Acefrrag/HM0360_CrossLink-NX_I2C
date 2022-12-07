@@ -1,0 +1,55 @@
+---------------------------------------------------
+Report for cell HM0360_top_level
+   Instance path: HM0360_top_level
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        683        100.0
+                                 IOBUF	         20        100.0
+                                PFUREG	        161        100.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+HM0360_serial_I2C_master(slave_id="0100100")	          1        89.9
+                              debounce	          1         4.1
+                           debounce_U0	          1         4.1
+---------------------------------------------------
+Report for cell debounce
+   Instance path: HM0360_top_level/debounce_start_button
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         28         4.1
+                                PFUREG	         22        13.7
+---------------------------------------------------
+Report for cell debounce_U0
+   Instance path: HM0360_top_level/debounce_R_W_button
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         28         4.1
+                                PFUREG	         22        13.7
+---------------------------------------------------
+Report for cell HM0360_serial_I2C_master(slave_id="0100100")
+   Instance path: HM0360_top_level/HM0360_serial_I2C_master_comp
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        614        89.9
+                                 IOBUF	          1         5.0
+                                PFUREG	        116        72.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+    prescaler(output_frequency=500000)	          1        37.6
+---------------------------------------------------
+Report for cell prescaler(output_frequency=500000)
+   Instance path: HM0360_top_level/HM0360_serial_I2C_master_comp/prescaler_comp
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        257        37.6
+                                PFUREG	         33        20.5
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                 counter(end_value=14)	          1        37.6
+---------------------------------------------------
+Report for cell counter(end_value=14)
+   Instance path: HM0360_top_level/HM0360_serial_I2C_master_comp/prescaler_comp/counter_comp
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        257        37.6
+                                PFUREG	         33        20.5

@@ -1,0 +1,79 @@
+----------------------------------------------------------------------
+Report for cell HM0360_top_level.TECH
+Register bits:  161 of 32256 (0.499%)
+I/O cells:      19
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                                 BB         1          100.0
+                               CCU2       192          100.0
+                            FD1P3DX        92          100.0
+                            FD1P3IX        69          100.0
+                                GSR         1          100.0
+                                 IB         3          100.0
+                               LUT4       298          100.0
+                                 OB        16          100.0
+                            WIDEFN9        17          100.0
+SUB MODULES
+HM0360_serial_I2C_master(slave_id="0100100")         1
+              counter(end_value=14)         1
+                           debounce         1
+                        debounce_U0         1
+ prescaler(output_frequency=500000)         1
+                              TOTAL       694
+----------------------------------------------------------------------
+Report for cell debounce.v1
+Instance Path : debounce_start_button
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               CCU2        10            5.2
+                            FD1P3DX         3            3.3
+                            FD1P3IX        19           27.5
+                               LUT4         8            2.7
+                              TOTAL        40
+----------------------------------------------------------------------
+Report for cell debounce_U0.v1
+Instance Path : debounce_R_W_button
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               CCU2        10            5.2
+                            FD1P3DX         3            3.3
+                            FD1P3IX        19           27.5
+                               LUT4         8            2.7
+                              TOTAL        40
+----------------------------------------------------------------------
+Report for cell HM0360_serial_I2C_master(slave_id="0100100").v1
+Instance Path : HM0360_serial_I2C_master_comp
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                                 BB         1          100.0
+                               CCU2       172           89.6
+                            FD1P3DX        85           92.4
+                            FD1P3IX        31           44.9
+                               LUT4       270           90.6
+                            WIDEFN9        17          100.0
+SUB MODULES
+              counter(end_value=14)         1
+ prescaler(output_frequency=500000)         1
+                              TOTAL       578
+----------------------------------------------------------------------
+Report for cell prescaler(output_frequency=500000).v1
+Instance Path : HM0360_serial_I2C_master_comp.prescaler_comp
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               CCU2       125           65.1
+                            FD1P3DX         2            2.2
+                            FD1P3IX        31           44.9
+                               LUT4        35           11.7
+SUB MODULES
+              counter(end_value=14)         1
+                              TOTAL       194
+----------------------------------------------------------------------
+Report for cell counter(end_value=14).v1
+Instance Path : HM0360_serial_I2C_master_comp.prescaler_comp.counter_comp
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               CCU2       125           65.1
+                            FD1P3DX         2            2.2
+                            FD1P3IX        31           44.9
+                               LUT4        35           11.7
+                              TOTAL       193

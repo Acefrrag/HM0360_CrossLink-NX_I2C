@@ -1,0 +1,6 @@
+#Start recording tcl command: 12/6/2022 19:12:32
+#Project Location: C:/Users/miche/Desktop/HM0360_CrossLinkNX; Project name: HM0360_CrossLinkNX
+prj_create -name "HM0360_CrossLinkNX" -impl "HM0360_CrossLinkNX_impl" -dev LIFCL-40-8MG289C -performance "8_High-Performance_1.0V" -synthesis "lse"
+prj_save 
+prj_save 
+#Stop recording: 12/6/2022 19:12:50
