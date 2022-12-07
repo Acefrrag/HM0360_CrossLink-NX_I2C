@@ -1,0 +1,6 @@
+ckid0_0:@|S:HM0360_Interface_comp.HM0360_CSI2_DPHY_comp.lscc_dphy_rx_inst.CIL_TOP\.u_hard_dphy.u_dphy_cil.URWDCKHS@|E:HM0360_Interface_comp.HM0360_CSI2_DPHY_comp.lscc_dphy_rx_inst.CIL_TOP\.u_hard_dphy.u_hs_rx_data_r[7:0]@|F:@syn_dgcc_clockid0_0==1@|M:ClockId_0_0
+ckid0_4:@|S:HM0360_Interface_comp.prescaler_6MHz.counter_comp.CLK_OUT_int.Q[0]@|E:HM0360_Interface_comp.HM0360_CSI2_DPHY_comp.lscc_dphy_rx_inst.CIL_TOP\.u_hard_dphy.toggle@|F:@syn_dgcc_clockid0_4==1@|M:ClockId_0_4
+ckid0_5:@|S:HM0360_Interface_comp.PLL_sync_clk_comp.lscc_pll_inst.gen_no_refclk_mon\.u_PLL.CLKOP@|E:ENCRYPTED@|F:@syn_dgcc_clockid0_5==1@|M:ClockId_0_5
+ckid0_6:@|S:CLK@|E:mux_data_out_debug[5:0]@|F:@syn_dgcc_clockid0_6==1@|M:ClockId_0_6
+ckid0_7:@|S:HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.un1_nx_state_1_sqmuxa.OUT@|E:HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.nx_state[0]@|F:@syn_dgcc_clockid0_7==1@|M:ClockId_0_7
+ckid0_8:@|S:HM0360_Interface_comp.I2C_module_comp.trig_acq_module_comp.pr_state[1].Q[0]@|E:HM0360_Interface_comp.I2C_module_comp.trig_acq_module_comp.nx_state[1]@|F:@syn_dgcc_clockid0_8==1@|M:ClockId_0_8

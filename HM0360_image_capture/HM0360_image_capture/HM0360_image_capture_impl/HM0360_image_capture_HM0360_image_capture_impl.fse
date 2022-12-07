@@ -1,0 +1,32 @@
+
+fsm_encoding {17921921} sequential
+
+fsm_state_encoding {17921921} idle_s {0000}
+
+fsm_state_encoding {17921921} start_s {0001}
+
+fsm_state_encoding {17921921} id_check_s {0010}
+
+fsm_state_encoding {17921921} wait_ack0_s {0011}
+
+fsm_state_encoding {17921921} addr1_s {0100}
+
+fsm_state_encoding {17921921} wait_ack1_s {0101}
+
+fsm_state_encoding {17921921} addr2_s {0110}
+
+fsm_state_encoding {17921921} wait_ack2_s {0111}
+
+fsm_state_encoding {17921921} give_stop_s {1000}
+
+fsm_state_encoding {17921921} give_ack_s {1001}
+
+fsm_state_encoding {17921921} data_read_s {1010}
+
+fsm_state_encoding {17921921} data_write_s {1011}
+
+fsm_state_encoding {17921921} wait_ack3_s {1100}
+
+fsm_state_encoding {17921921} idle_cleanup_s {1101}
+
+fsm_registers {17921921} {pr_state[3]}  {pr_state[2]}  {pr_state[1]}  {pr_state[0]} 

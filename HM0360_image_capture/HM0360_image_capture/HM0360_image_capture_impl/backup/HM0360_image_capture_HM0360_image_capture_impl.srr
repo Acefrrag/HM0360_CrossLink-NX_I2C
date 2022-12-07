@@ -1,0 +1,258 @@
+#Build: Synplify Pro (R) S-2021.09LR-2, Build 407R, Jun 27 2022
+#install: C:\lscc\radiant\3.2\synpbase
+#OS: Windows 10 or later
+#Hostname: DESKTOP-9VA2EUV
+
+# Fri Nov 11 16:56:08 2022
+
+#Implementation: HM0360_image_capture_impl
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09LR-2
+Install: C:\lscc\radiant\3.2\synpbase
+OS: Windows 10 or later
+Hostname: DESKTOP-9VA2EUV
+
+Implementation : HM0360_image_capture_impl
+Synopsys HDL Compiler, Version comp202109synp1, Build 403R, Built Jun 27 2022 11:09:13, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09LR-2
+Install: C:\lscc\radiant\3.2\synpbase
+OS: Windows 10 or later
+Hostname: DESKTOP-9VA2EUV
+
+Implementation : HM0360_image_capture_impl
+Synopsys VHDL Compiler, Version comp202109synp1, Build 403R, Built Jun 27 2022 11:09:13, @
+
+@N|Running in 64-bit mode
+@N:"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_top_level.vhd":5:7:5:22|Top entity is set to HM0360_top_level.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\lscc\radiant\3.2\ip\pmi\pmi_lifcl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\debounce.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_device.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\configuration_module.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\trig_acq_module.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\image_buffer.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\pic_source.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\enable_pic_source_logic.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\lscc\radiant\3.2\cae_library\synthesis\vhdl\lifcl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\prescaler.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_serial_master.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\I2C_module.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_top_level.vhd'.
+VHDL syntax check successful!
+@N: CD231 :"C:\lscc\radiant\3.2\synpbase\lib\vhd2008\std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+
+Process completed successfully.
+# Fri Nov 11 16:56:08 2022
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09LR-2
+Install: C:\lscc\radiant\3.2\synpbase
+OS: Windows 10 or later
+Hostname: DESKTOP-9VA2EUV
+
+Implementation : HM0360_image_capture_impl
+Synopsys Verilog Compiler, Version comp202109synp1, Build 403R, Built Jun 27 2022 11:09:13, @
+
+@N|Running in 64-bit mode
+@I::"C:\lscc\radiant\3.2\synpbase\lib\lucent\lifcl.v" (library work)
+@I::"C:\lscc\radiant\3.2\synpbase\lib\lucent\pmi_def.v" (library work)
+@I::"C:\lscc\radiant\3.2\synpbase\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\lscc\radiant\3.2\synpbase\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\lscc\radiant\3.2\synpbase\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\lscc\radiant\3.2\synpbase\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"C:\lscc\radiant\3.2\ip\pmi\pmi_lifcl.v" (library work)
+@I:"C:\lscc\radiant\3.2\ip\pmi\pmi_lifcl.v":"C:\lscc\radiant\3.2\ip\pmi\pmi_addsub.v" (library work)
+@I:"C:\lscc\radiant\3.2\ip\pmi\pmi_addsub.v":"C:\lscc\radiant\3.2\ip\pmi\../common/adder_subtractor/rtl\lscc_add_sub.v" (library work)
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../common/adder_subtractor/rtl\lscc_add_sub.v":313:13:313:25|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../common/adder_subtractor/rtl\lscc_add_sub.v":333:13:333:24|Read directive translate_on.
+@I:"C:\lscc\radiant\3.2\ip\pmi\pmi_lifcl.v":"C:\lscc\radiant\3.2\ip\pmi\pmi_add.v" (library work)
+@I:"C:\lscc\radiant\3.2\ip\pmi\pmi_add.v":"C:\lscc\radiant\3.2\ip\pmi\../common/adder/rtl\lscc_adder.v" (library work)
+@I:"C:\lscc\radiant\3.2\ip\pmi\pmi_lifcl.v":"C:\lscc\radiant\3.2\ip\pmi\pmi_complex_mult.v" (library work)
+@I:"C:\lscc\radiant\3.2\ip\pmi\pmi_complex_mult.v":"C:\lscc\radiant\3.2\ip\pmi\../common/complex_mult/rtl\lscc_complex_mult.v" (library work)
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\pmi_complex_mult.v":92:11:92:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\pmi_complex_mult.v":101:11:101:22|Read directive translate_on.
+@I:"C:\lscc\radiant\3.2\ip\pmi\pmi_lifcl.v":"C:\lscc\radiant\3.2\ip\pmi\pmi_counter.v" (library work)
+@I:"C:\lscc\radiant\3.2\ip\pmi\pmi_counter.v":"C:\lscc\radiant\3.2\ip\pmi\../common/counter/rtl\lscc_cntr.v" (library work)
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../common/counter/rtl\lscc_cntr.v":129:13:129:25|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../common/counter/rtl\lscc_cntr.v":143:13:143:24|Read directive translate_on.
+@I:"C:\lscc\radiant\3.2\ip\pmi\pmi_lifcl.v":"C:\lscc\radiant\3.2\ip\pmi\pmi_distributed_dpram.v" (library work)
+@I:"C:\lscc\radiant\3.2\ip\pmi\pmi_distributed_dpram.v":"C:\lscc\radiant\3.2\ip\pmi\../common/distributed_dpram/rtl\lscc_distributed_dpram.v" (library work)
+@I:"C:\lscc\radiant\3.2\ip\pmi\pmi_lifcl.v":"C:\lscc\radiant\3.2\ip\pmi\pmi_distributed_spram.v" (library work)
+@I:"C:\lscc\radiant\3.2\ip\pmi\pmi_distributed_spram.v":"C:\lscc\radiant\3.2\ip\pmi\../common/distributed_spram/rtl\lscc_distributed_spram.v" (library work)
+@I:"C:\lscc\radiant\3.2\ip\pmi\pmi_lifcl.v":"C:\lscc\radiant\3.2\ip\pmi\pmi_distributed_rom.v" (library work)
+@I:"C:\lscc\radiant\3.2\ip\pmi\pmi_distributed_rom.v":"C:\lscc\radiant\3.2\ip\pmi\../common/distributed_rom/rtl\lscc_distributed_rom.v" (library work)
+@I:"C:\lscc\radiant\3.2\ip\pmi\pmi_lifcl.v":"C:\lscc\radiant\3.2\ip\pmi\pmi_distributed_shift_reg.v" (library work)
+@I:"C:\lscc\radiant\3.2\ip\pmi\pmi_distributed_shift_reg.v":"C:\lscc\radiant\3.2\ip\pmi\../common/ram_shift_reg/rtl\lscc_shift_register.v" (library work)
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../common/ram_shift_reg/rtl\lscc_shift_register.v":132:25:132:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../common/ram_shift_reg/rtl\lscc_shift_register.v":136:25:136:36|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../common/ram_shift_reg/rtl\lscc_shift_register.v":174:29:174:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../common/ram_shift_reg/rtl\lscc_shift_register.v":178:29:178:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../common/ram_shift_reg/rtl\lscc_shift_register.v":214:29:214:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../common/ram_shift_reg/rtl\lscc_shift_register.v":218:29:218:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\pmi_distributed_shift_reg.v":126:11:126:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\pmi_distributed_shift_reg.v":135:11:135:22|Read directive translate_on.
+@I:"C:\lscc\radiant\3.2\ip\pmi\pmi_lifcl.v":"C:\lscc\radiant\3.2\ip\pmi\pmi_fifo.v" (library work)
+@I:"C:\lscc\radiant\3.2\ip\pmi\pmi_fifo.v":"C:\lscc\radiant\3.2\ip\pmi\../avant/fifo/rtl\lscc_fifo.v" (library work)
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../avant/fifo/rtl\lscc_fifo.v":3273:17:3273:29|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../avant/fifo/rtl\lscc_fifo.v":3280:17:3280:28|Read directive translate_on.
+@I:"C:\lscc\radiant\3.2\ip\pmi\pmi_lifcl.v":"C:\lscc\radiant\3.2\ip\pmi\pmi_fifo_dc.v" (library work)
+@I:"C:\lscc\radiant\3.2\ip\pmi\pmi_fifo_dc.v":"C:\lscc\radiant\3.2\ip\pmi\../avant/fifo_dc/rtl\lscc_fifo_dc.v" (library work)
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../avant/fifo_dc/rtl\lscc_fifo_dc.v":4879:25:4879:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../avant/fifo_dc/rtl\lscc_fifo_dc.v":4883:25:4883:36|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../avant/fifo_dc/rtl\lscc_fifo_dc.v":4914:29:4914:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../avant/fifo_dc/rtl\lscc_fifo_dc.v":4918:29:4918:40|Read directive translate_on.
+@I:"C:\lscc\radiant\3.2\ip\pmi\pmi_lifcl.v":"C:\lscc\radiant\3.2\ip\pmi\pmi_mac.v" (library work)
+@I:"C:\lscc\radiant\3.2\ip\pmi\pmi_mac.v":"C:\lscc\radiant\3.2\ip\pmi\../common/mult_accumulate/rtl\lscc_mult_accumulate.v" (library work)
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\pmi_mac.v":94:11:94:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\pmi_mac.v":109:11:109:22|Read directive translate_on.
+@I:"C:\lscc\radiant\3.2\ip\pmi\pmi_lifcl.v":"C:\lscc\radiant\3.2\ip\pmi\pmi_multaddsubsum.v" (library work)
+@I:"C:\lscc\radiant\3.2\ip\pmi\pmi_multaddsubsum.v":"C:\lscc\radiant\3.2\ip\pmi\../common/mult_add_sub_sum/rtl\lscc_mult_add_sub_sum.v" (library work)
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../common/mult_add_sub_sum/rtl\lscc_mult_add_sub_sum.v":210:13:210:25|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../common/mult_add_sub_sum/rtl\lscc_mult_add_sub_sum.v":227:13:227:24|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\pmi_multaddsubsum.v":84:11:84:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\pmi_multaddsubsum.v":93:11:93:22|Read directive translate_on.
+@I:"C:\lscc\radiant\3.2\ip\pmi\pmi_lifcl.v":"C:\lscc\radiant\3.2\ip\pmi\pmi_multaddsub.v" (library work)
+@I:"C:\lscc\radiant\3.2\ip\pmi\pmi_multaddsub.v":"C:\lscc\radiant\3.2\ip\pmi\../common/mult_add_sub/rtl\lscc_mult_add_sub.v" (library work)
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\pmi_multaddsub.v":91:11:91:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\pmi_multaddsub.v":100:11:100:22|Read directive translate_on.
+@I:"C:\lscc\radiant\3.2\ip\pmi\pmi_lifcl.v":"C:\lscc\radiant\3.2\ip\pmi\pmi_mult.v" (library work)
+@I:"C:\lscc\radiant\3.2\ip\pmi\pmi_mult.v":"C:\lscc\radiant\3.2\ip\pmi\../common/multiplier/rtl\lscc_multiplier.v" (library work)
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\pmi_mult.v":87:11:87:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\pmi_mult.v":96:11:96:22|Read directive translate_on.
+@I:"C:\lscc\radiant\3.2\ip\pmi\pmi_lifcl.v":"C:\lscc\radiant\3.2\ip\pmi\pmi_ram_dp.v" (library work)
+@I:"C:\lscc\radiant\3.2\ip\pmi\pmi_ram_dp.v":"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp/rtl\lscc_ram_dp.v" (library work)
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp/rtl\lscc_ram_dp.v":1077:25:1077:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp/rtl\lscc_ram_dp.v":1081:25:1081:36|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp/rtl\lscc_ram_dp.v":1112:29:1112:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp/rtl\lscc_ram_dp.v":1116:29:1116:40|Read directive translate_on.
+@I:"C:\lscc\radiant\3.2\ip\pmi\pmi_lifcl.v":"C:\lscc\radiant\3.2\ip\pmi\pmi_ram_dp_be.v" (library work)
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\pmi_ram_dp_be.v":146:11:146:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\pmi_ram_dp_be.v":155:11:155:22|Read directive translate_on.
+@I:"C:\lscc\radiant\3.2\ip\pmi\pmi_lifcl.v":"C:\lscc\radiant\3.2\ip\pmi\pmi_ram_dp_true.v" (library work)
+@I:"C:\lscc\radiant\3.2\ip\pmi\pmi_ram_dp_true.v":"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v" (library work)
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":1830:29:1830:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":1835:29:1835:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":1866:33:1866:45|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":1870:33:1870:44|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":1903:29:1903:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":1908:29:1908:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":1938:33:1938:45|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":1942:33:1942:44|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":2454:29:2454:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":2459:29:2459:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":2490:33:2490:45|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":2494:33:2494:44|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":2527:29:2527:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":2532:29:2532:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":2563:33:2563:45|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":2567:33:2567:44|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":3050:29:3050:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":3055:29:3055:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":3086:33:3086:45|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":3090:33:3090:44|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":3123:29:3123:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":3128:29:3128:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":3159:33:3159:45|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":3163:33:3163:44|Read directive translate_on.
+@I:"C:\lscc\radiant\3.2\ip\pmi\pmi_lifcl.v":"C:\lscc\radiant\3.2\ip\pmi\pmi_ram_dq.v" (library work)
+@I:"C:\lscc\radiant\3.2\ip\pmi\pmi_ram_dq.v":"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dq/rtl\lscc_ram_dq.v" (library work)
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dq/rtl\lscc_ram_dq.v":1465:25:1465:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dq/rtl\lscc_ram_dq.v":1471:25:1471:36|Read directive translate_on.
+@I:"C:\lscc\radiant\3.2\ip\pmi\pmi_lifcl.v":"C:\lscc\radiant\3.2\ip\pmi\pmi_ram_dq_be.v" (library work)
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\pmi_ram_dq_be.v":87:11:87:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\pmi_ram_dq_be.v":95:11:95:22|Read directive translate_on.
+@I:"C:\lscc\radiant\3.2\ip\pmi\pmi_lifcl.v":"C:\lscc\radiant\3.2\ip\pmi\pmi_rom.v" (library work)
+@I:"C:\lscc\radiant\3.2\ip\pmi\pmi_rom.v":"C:\lscc\radiant\3.2\ip\pmi\../avant/rom/rtl\lscc_rom.v" (library work)
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../avant/rom/rtl\lscc_rom.v":955:25:955:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../avant/rom/rtl\lscc_rom.v":961:25:961:36|Read directive translate_on.
+@I:"C:\lscc\radiant\3.2\ip\pmi\pmi_lifcl.v":"C:\lscc\radiant\3.2\ip\pmi\pmi_sub.v" (library work)
+@I:"C:\lscc\radiant\3.2\ip\pmi\pmi_sub.v":"C:\lscc\radiant\3.2\ip\pmi\../common/subtractor/rtl\lscc_subtractor.v" (library work)
+Verilog syntax check successful!
+
+At c_ver Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 122MB peak: 122MB)
+
+
+Process completed successfully.
+# Fri Nov 11 16:56:10 2022
+
+###########################################################]
+###########################################################[
+@N:"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd":6:7:6:22|Top entity is set to HM0360_Interface.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\lscc\radiant\3.2\ip\pmi\pmi_lifcl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\debounce.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_device.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\configuration_module.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\trig_acq_module.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\image_buffer.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\pic_source.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\enable_pic_source_logic.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\lscc\radiant\3.2\cae_library\synthesis\vhdl\lifcl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\prescaler.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_serial_master.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\I2C_module.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_top_level.vhd'.
+VHDL syntax check successful!
+@N: CD231 :"C:\lscc\radiant\3.2\synpbase\lib\vhd2008\std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd":6:7:6:22|Synthesizing work.hm0360_interface.behavioral.
+@N: CD630 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\image_buffer.vhd":5:7:5:18|Synthesizing work.image_buffer.behavioral.
+Post processing for work.image_buffer.behavioral
+Running optimization stage 1 on image_buffer .......
+@N: CL134 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\image_buffer.vhd":19:7:19:17|Found RAM buffer_data, depth=524289, width=8
+Finished optimization stage 1 on image_buffer (CPU Time 0h:00m:00s, Memory Used current: 109MB peak: 112MB)
+@N: CD630 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\I2C_module.vhd":5:7:5:16|Synthesizing work.i2c_module.behavioral.
+@W: CD276 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\trig_acq_module.vhd":7:0:7:2|Map for port clk of component trig_acq_module not found
+@W: CD279 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\I2C_module.vhd":82:0:82:12|Port trig_finished of component trig_acq_module not found on corresponding entity
+@E: CD326 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\I2C_module.vhd":111:0:111:19|Port clk of entity work.trig_acq_module is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD276 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\configuration_module.vhd":7:0:7:2|Map for port clk of component configuration_module not found
+@W: CD279 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\I2C_module.vhd":71:0:71:14|Port config_finished of component configuration_module not found on corresponding entity
+@E: CD326 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\I2C_module.vhd":120:0:120:24|Port clk of entity work.configuration_module is unconnected. If a port needs to remain unconnected, use the keyword open.
+@N: CD604 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\I2C_module.vhd":148:0:148:13|OTHERS clause is not synthesized.
+@W: CD638 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\I2C_module.vhd":24:7:24:9|Signal r_w is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\I2C_module.vhd":28:7:28:14|Signal finished is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\I2C_module.vhd":33:7:33:21|Signal data_write_conf is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\I2C_module.vhd":33:24:33:37|Signal data_write_acq is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\I2C_module.vhd":34:7:34:15|Signal addr_conf is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\I2C_module.vhd":34:18:34:25|Signal addr_acq is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\I2C_module.vhd":35:7:35:16|Signal start_conf is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\I2C_module.vhd":35:19:35:27|Signal start_acq is undriven. Either assign the signal a value or remove the signal declaration.
+2 errors during synthesis
+# Fri Nov 11 16:56:11 2022
+
+###########################################################]
+@E::Errors while synthesizing top module HM0360_Interface.
+@END
+Process took 0h:00m:03s realtime, 0h:00m:02s cputime
+# Fri Nov 11 16:56:11 2022
+
+###########################################################]

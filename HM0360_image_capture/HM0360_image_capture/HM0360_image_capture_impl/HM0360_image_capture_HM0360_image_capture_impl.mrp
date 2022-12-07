@@ -1,0 +1,1268 @@
+Lattice Mapping Report File for Design Module
+     'HM0360_image_capture_HM0360_image_capture_impl'
+
+Target Vendor:        LATTICE
+Target Device:        LIFCL-40CSBGA289
+Target Performance:   8_High-Performance_1.0V
+
+Mapper:    version Radiant Software (64-bit) 3.2.1.217.3
+Mapped on: Sat Dec  3 21:00:50 2022
+
+Design Information
+------------------
+
+Command line:   map -i HM0360_image_capture_HM0360_image_capture_impl_syn.udb
+     -pdc C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/HM0360_C
+     SI2_DPHY_device_contr.pdc -o
+     HM0360_image_capture_HM0360_image_capture_impl_map.udb -mp
+     HM0360_image_capture_HM0360_image_capture_impl.mrp -hierrpt -gui
+
+Design Summary
+--------------
+
+   Number of registers:         273 out of 32775 (1%)
+      Number of SLICE         registers:  273 out of 32256 (1%)
+      Number of PIO Input     registers:    0 out of   173 (0%)
+      Number of PIO Output    registers:    0 out of   173 (0%)
+      Number of PIO Tri-State registers:    0 out of   173 (0%)
+   Number of LUT4s:            1311 out of 32256 (4%)
+      Number used as logic LUT4s:                        435
+      Number used as distributed RAM:                      0 (6 per 16X4 RAM)
+      Number used as ripple logic:                       876 (2 per CCU2)
+   Number of PIOs used/reserved:   27 out of   173 (12%)
+      Number of PIOs reserved:      7 (per sysConfig and/or prohibit constraint)
+      Number of PIOs used:         20
+        Number of PIOs used for single ended IO:        20
+        Number of PIO pairs used for differential IO:    0
+        Number allocated to regular speed PIOs:    12 out of   99 (12%)
+        Number allocated to high speed PIOs:        8 out of   74 (11%)
+   Number of Dedicated IO used for ADC/PCIE/DPHY:   0 out of   32 (0%)
+   Number of IDDR/ODDR/TDDR functions used:      0 out of   420 (0%)
+   Number of IOs using at least one DDR function: 0 (0 differential)
+   Number of Block RAMs:          0 out of 84 (0%)
+   Number of Large RAMs:          0 out of 2 (0%)
+   Number of Logical DSP Functions:
+      Number of Pre-Adders (9+9):    0 out of 112 (0%)
+      Number of Multipliers (18x18): 0 out of 56 (0%)
+         Number of 9X9:        0 (1 18x18 = 2   9x9)
+         Number of 18x18:      0 (1 18x18 = 1 18x18)
+         Number of 18x36:      0 (2 18x18 = 1 18x36)
+         Number of 36x36:      0 (4 18x18 = 1 36x36)
+      Number of 54-bit Accumulators: 0 out of 28 (0%)
+      Number of 18-bit Registers:    0 out of 112 (0%)
+   Number of Physical DSP Components:
+      Number of PREADD9:             0 out of 112 (0%)
+      Number of MULT9:               0 out of 112 (0%)
+      Number of MULT18:              0 out of 56 (0%)
+      Number of MULT18X36:           0 out of 28 (0%)
+      Number of MULT36:              0 out of 14 (0%)
+      Number of ACC54:               0 out of 28 (0%)
+      Number of REG18:               0 out of 112 (0%)
+   Number of ALUREGs:             0 out of 1 (0%)
+   Number of PLLs:                0 out of 3 (0%)
+
+                                    Page 1
+
+
+
+
+
+Design Summary (cont)
+---------------------
+   Number of DDRDLLs:             0 out of 2 (0%)
+   Number of DLLDELs:             0 out of 10 (0%)
+   Number of DQSs:                0 out of 4 (0%)
+   Number of DCSs:                0 out of 1 (0%)
+   Number of DCCs:                0 out of 62 (0%)
+   Number of PCLKDIVs:            0 out of 1 (0%)
+   Number of ECLKDIVs:            0 out of 12 (0%)
+   Number of ECLKSYNCs:           0 out of 12 (0%)
+   Number of ADC Blocks:          0 out of 1 (0%)
+   Number of SGMIICDRs:           0 out of 2 (0%)
+   Number of PMUs:                0 out of 1 (0%)
+   Number of BNKREF18s:           0 out of 3 (0%)
+   Number of BNKREF33s:           0 out of 5 (0%)
+   Number of PCIEs:               0 out of 1 (0%)
+   Number of I2CFIFOs:            0 out of 1 (0%)
+   Number of DPHYs:               0 out of 2 (0%)
+   Number of Oscillators:         0 out of 1 (0%)
+   Number of GSR:                 1 out of 1 (100%)
+   Number of Cryptographic Block: 0 out of 1 (0%)
+   Number of Config IP:           0 out of 1 (0%)
+                 TSALL:           0 out of 1 (0%)
+   Number of JTAG:                0 out of 1 (0%)
+   Number of SED:                 0 out of 1 (0%)
+   Number of Clocks:  5
+      Net gen_config_command_comp.slow_CLK: 3 loads, 3 rising, 0 falling
+     (Driver: Pin
+     gen_config_command_comp.prescaler_comp.counter_comp.CLK_OUT_int.ff_inst/Q)
+      Net CLK_c: 213 loads, 213 rising, 0 falling (Driver: Port CLK)
+      Net command_deb: 16 loads, 16 rising, 0 falling (Driver: Pin
+     debounce_command.button_deb_internal.ff_inst/Q)
+      Net debug_deb: 2 loads, 2 rising, 0 falling (Driver: Pin
+     debounce_acq_trig.button_deb_internal.ff_inst/Q)
+      Net sample_and_hold_comp.slow_CLK: 1 loads, 1 rising, 0 falling (Driver:
+     Pin sample_and_hold_comp.prescaler_comp.counter_comp.CLK_OUT_int.ff_inst/Q)
+   Number of Clock Enables:  21
+      Net debounce_acq_trig.button_deb_internal_N_168: 12 loads, 12 SLICEs
+      Net debounce_acq_trig.CLK_c_enable_6: 1 loads, 1 SLICEs
+      Net config_finished: 1 loads, 1 SLICEs
+      Net HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.CLK_c_
+     enable_79: 62 loads, 62 SLICEs
+      Net HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.CLK_c_
+     enable_3: 1 loads, 1 SLICEs
+      Net HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.CLK_c_
+     enable_77: 2 loads, 2 SLICEs
+      Net HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.CLK_c_
+     enable_13: 1 loads, 1 SLICEs
+      Net HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.CLK_c_
+     enable_12: 1 loads, 1 SLICEs
+      Net HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.CLK_c_
+     enable_52: 1 loads, 1 SLICEs
+      Net HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.CLK_c_
+     enable_5: 1 loads, 1 SLICEs
+      Net HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.CLK_c_
+     enable_78: 1 loads, 1 SLICEs
+      Net HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.CLK_c_
+     enable_2: 1 loads, 1 SLICEs
+      Net HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.CLK_c_
+
+                                    Page 2
+
+
+
+
+
+Design Summary (cont)
+---------------------
+     enable_16: 1 loads, 1 SLICEs
+      Net HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.CLK_c_
+     enable_10: 1 loads, 1 SLICEs
+      Net HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.CLK_c_
+     enable_11: 1 loads, 1 SLICEs
+      Net HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.CLK_c_
+     enable_14: 1 loads, 1 SLICEs
+      Net HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.CLK_c_
+     enable_15: 1 loads, 1 SLICEs
+      Net HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.CLK_c_
+     enable_51: 1 loads, 1 SLICEs
+      Net
+     HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_N_601:
+     2 loads, 2 SLICEs
+      Net debounce_command.button_deb_internal_N_168: 12 loads, 12 SLICEs
+      Net debounce_command.CLK_c_enable_7: 1 loads, 1 SLICEs
+   Number of LSRs:  89
+      Net flag_debug_hold: 1 loads, 1 SLICEs
+      Net gen_config_command_comp.c[0]: 1 loads, 1 SLICEs
+      Net gen_config_command_comp.prescaler_comp.counter_comp.count_pr.c_30__N_7
+     3[25]: 1 loads, 1 SLICEs
+      Net gen_config_command_comp.prescaler_comp.counter_comp.count_pr.c_30__N_7
+     3[24]: 1 loads, 1 SLICEs
+      Net gen_config_command_comp.prescaler_comp.counter_comp.count_pr.c_30__N_7
+     3[22]: 1 loads, 1 SLICEs
+      Net gen_config_command_comp.prescaler_comp.counter_comp.count_pr.c_30__N_7
+     3[21]: 1 loads, 1 SLICEs
+      Net gen_config_command_comp.prescaler_comp.counter_comp.count_pr.c_30__N_7
+     3[13]: 1 loads, 1 SLICEs
+      Net gen_config_command_comp.prescaler_comp.counter_comp.count_pr.c_30__N_7
+     3[12]: 1 loads, 1 SLICEs
+      Net gen_config_command_comp.prescaler_comp.counter_comp.count_pr.c_30__N_7
+     3[23]: 1 loads, 1 SLICEs
+      Net gen_config_command_comp.prescaler_comp.counter_comp.count_pr.c_30__N_7
+     3[11]: 1 loads, 1 SLICEs
+      Net gen_config_command_comp.prescaler_comp.counter_comp.count_pr.c_30__N_7
+     3[10]: 1 loads, 1 SLICEs
+      Net gen_config_command_comp.prescaler_comp.counter_comp.count_pr.c_30__N_7
+     3[20]: 1 loads, 1 SLICEs
+      Net gen_config_command_comp.prescaler_comp.counter_comp.count_pr.c_30__N_7
+     3[19]: 1 loads, 1 SLICEs
+      Net gen_config_command_comp.prescaler_comp.counter_comp.count_pr.c_30__N_7
+     3[18]: 1 loads, 1 SLICEs
+      Net gen_config_command_comp.prescaler_comp.counter_comp.count_pr.c_30__N_7
+     3[17]: 1 loads, 1 SLICEs
+      Net gen_config_command_comp.prescaler_comp.counter_comp.count_pr.c_30__N_7
+     3[16]: 1 loads, 1 SLICEs
+      Net gen_config_command_comp.prescaler_comp.counter_comp.count_pr.c_30__N_7
+     3[15]: 1 loads, 1 SLICEs
+      Net gen_config_command_comp.prescaler_comp.counter_comp.count_pr.c_30__N_7
+     3[14]: 1 loads, 1 SLICEs
+      Net gen_config_command_comp.prescaler_comp.counter_comp.count_pr.c_30__N_7
+     3[9]: 1 loads, 1 SLICEs
+      Net gen_config_command_comp.prescaler_comp.counter_comp.count_pr.c_30__N_7
+     3[8]: 1 loads, 1 SLICEs
+      Net gen_config_command_comp.prescaler_comp.counter_comp.count_pr.c_30__N_7
+     3[7]: 1 loads, 1 SLICEs
+
+                                    Page 3
+
+
+
+
+
+Design Summary (cont)
+---------------------
+      Net gen_config_command_comp.prescaler_comp.counter_comp.count_pr.c_30__N_7
+     3[6]: 1 loads, 1 SLICEs
+      Net gen_config_command_comp.prescaler_comp.counter_comp.count_pr.c_30__N_7
+     3[5]: 1 loads, 1 SLICEs
+      Net gen_config_command_comp.prescaler_comp.counter_comp.count_pr.c_30__N_7
+     3[4]: 1 loads, 1 SLICEs
+      Net gen_config_command_comp.prescaler_comp.counter_comp.count_pr.c_30__N_7
+     3[30]: 1 loads, 1 SLICEs
+      Net gen_config_command_comp.prescaler_comp.counter_comp.count_pr.c_30__N_7
+     3[29]: 1 loads, 1 SLICEs
+      Net gen_config_command_comp.prescaler_comp.counter_comp.count_pr.c_30__N_7
+     3[28]: 1 loads, 1 SLICEs
+      Net gen_config_command_comp.prescaler_comp.counter_comp.count_pr.c_30__N_7
+     3[27]: 1 loads, 1 SLICEs
+      Net gen_config_command_comp.prescaler_comp.counter_comp.count_pr.c_30__N_7
+     3[26]: 1 loads, 1 SLICEs
+      Net gen_config_command_comp.prescaler_comp.counter_comp.n22946: 3 loads, 3
+     SLICEs
+      Net debounce_acq_trig.n28253: 12 loads, 12 SLICEs
+      Net HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.presca
+     ler_comp.counter_comp.count_pr.c_30__N_689[7]: 1 loads, 1 SLICEs
+      Net HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.presca
+     ler_comp.counter_comp.count_pr.c_30__N_689[8]: 1 loads, 1 SLICEs
+      Net HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.presca
+     ler_comp.counter_comp.count_pr.c_30__N_689[9]: 1 loads, 1 SLICEs
+      Net HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.presca
+     ler_comp.counter_comp.count_pr.c_30__N_689[29]: 1 loads, 1 SLICEs
+      Net HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.presca
+     ler_comp.counter_comp.count_pr.c_30__N_689[28]: 1 loads, 1 SLICEs
+      Net HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.presca
+     ler_comp.counter_comp.count_pr.c_30__N_689[27]: 1 loads, 1 SLICEs
+      Net HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.presca
+     ler_comp.counter_comp.count_pr.c_30__N_689[26]: 1 loads, 1 SLICEs
+      Net HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.presca
+     ler_comp.counter_comp.count_pr.c_30__N_689[10]: 1 loads, 1 SLICEs
+      Net HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.presca
+     ler_comp.counter_comp.count_pr.c_30__N_689[13]: 1 loads, 1 SLICEs
+      Net HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.presca
+     ler_comp.counter_comp.count_pr.c_30__N_689[12]: 1 loads, 1 SLICEs
+      Net HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.presca
+     ler_comp.counter_comp.count_pr.c_30__N_689[11]: 1 loads, 1 SLICEs
+      Net HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.presca
+     ler_comp.counter_comp.count_pr.c_30__N_689[23]: 1 loads, 1 SLICEs
+      Net HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.presca
+     ler_comp.counter_comp.count_pr.c_30__N_689[22]: 1 loads, 1 SLICEs
+      Net HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.presca
+     ler_comp.counter_comp.count_pr.c_30__N_689[14]: 1 loads, 1 SLICEs
+      Net HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.presca
+     ler_comp.counter_comp.count_pr.c_30__N_689[15]: 1 loads, 1 SLICEs
+      Net HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.presca
+     ler_comp.counter_comp.count_pr.c_30__N_689[16]: 1 loads, 1 SLICEs
+      Net HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.presca
+     ler_comp.counter_comp.count_pr.c_30__N_689[17]: 1 loads, 1 SLICEs
+      Net HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.presca
+     ler_comp.counter_comp.count_pr.c_30__N_689[18]: 1 loads, 1 SLICEs
+      Net HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.presca
+     ler_comp.counter_comp.count_pr.c_30__N_689[19]: 1 loads, 1 SLICEs
+
+                                    Page 4
+
+
+
+
+
+Design Summary (cont)
+---------------------
+      Net HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.presca
+     ler_comp.counter_comp.count_pr.c_30__N_689[21]: 1 loads, 1 SLICEs
+      Net HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.presca
+     ler_comp.counter_comp.count_pr.c_30__N_689[20]: 1 loads, 1 SLICEs
+      Net HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.presca
+     ler_comp.counter_comp.count_pr.c_30__N_689[25]: 1 loads, 1 SLICEs
+      Net HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.presca
+     ler_comp.counter_comp.count_pr.c_30__N_689[24]: 1 loads, 1 SLICEs
+      Net HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.presca
+     ler_comp.counter_comp.count_pr.c_30__N_689[30]: 1 loads, 1 SLICEs
+      Net HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.presca
+     ler_comp.counter_comp.count_pr.c_30__N_689[6]: 1 loads, 1 SLICEs
+      Net HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.presca
+     ler_comp.counter_comp.count_pr.c_30__N_689[5]: 1 loads, 1 SLICEs
+      Net HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.presca
+     ler_comp.counter_comp.count_pr.c_30__N_689[4]: 1 loads, 1 SLICEs
+      Net HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.presca
+     ler_comp.counter_comp.count_pr.c_30__N_689[3]: 1 loads, 1 SLICEs
+      Net HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.presca
+     ler_comp.counter_comp.count_pr.c_30__N_689[2]: 1 loads, 1 SLICEs
+      Net HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.presca
+     ler_comp.counter_comp.count_pr.c_30__N_729: 2 loads, 2 SLICEs
+      Net
+     sample_and_hold_comp.prescaler_comp.counter_comp.count_pr.c_30__N_204[6]: 1
+     loads, 1 SLICEs
+      Net
+     sample_and_hold_comp.prescaler_comp.counter_comp.count_pr.c_30__N_204[5]: 1
+     loads, 1 SLICEs
+      Net
+     sample_and_hold_comp.prescaler_comp.counter_comp.count_pr.c_30__N_204[30]:
+     1 loads, 1 SLICEs
+      Net
+     sample_and_hold_comp.prescaler_comp.counter_comp.count_pr.c_30__N_204[29]:
+     1 loads, 1 SLICEs
+      Net
+     sample_and_hold_comp.prescaler_comp.counter_comp.count_pr.c_30__N_204[28]:
+     1 loads, 1 SLICEs
+      Net
+     sample_and_hold_comp.prescaler_comp.counter_comp.count_pr.c_30__N_204[27]:
+     1 loads, 1 SLICEs
+      Net
+     sample_and_hold_comp.prescaler_comp.counter_comp.count_pr.c_30__N_204[26]:
+     1 loads, 1 SLICEs
+      Net
+     sample_and_hold_comp.prescaler_comp.counter_comp.count_pr.c_30__N_204[25]:
+     1 loads, 1 SLICEs
+      Net
+     sample_and_hold_comp.prescaler_comp.counter_comp.count_pr.c_30__N_204[24]:
+     1 loads, 1 SLICEs
+      Net
+     sample_and_hold_comp.prescaler_comp.counter_comp.count_pr.c_30__N_204[23]:
+     1 loads, 1 SLICEs
+      Net
+     sample_and_hold_comp.prescaler_comp.counter_comp.count_pr.c_30__N_204[22]:
+     1 loads, 1 SLICEs
+      Net
+     sample_and_hold_comp.prescaler_comp.counter_comp.count_pr.c_30__N_204[21]:
+
+                                    Page 5
+
+
+
+
+
+Design Summary (cont)
+---------------------
+     1 loads, 1 SLICEs
+      Net
+     sample_and_hold_comp.prescaler_comp.counter_comp.count_pr.c_30__N_204[20]:
+     1 loads, 1 SLICEs
+      Net
+     sample_and_hold_comp.prescaler_comp.counter_comp.count_pr.c_30__N_204[19]:
+     1 loads, 1 SLICEs
+      Net
+     sample_and_hold_comp.prescaler_comp.counter_comp.count_pr.c_30__N_204[18]:
+     1 loads, 1 SLICEs
+      Net
+     sample_and_hold_comp.prescaler_comp.counter_comp.count_pr.c_30__N_204[17]:
+     1 loads, 1 SLICEs
+      Net
+     sample_and_hold_comp.prescaler_comp.counter_comp.count_pr.c_30__N_204[16]:
+     1 loads, 1 SLICEs
+      Net
+     sample_and_hold_comp.prescaler_comp.counter_comp.count_pr.c_30__N_204[15]:
+     1 loads, 1 SLICEs
+      Net
+     sample_and_hold_comp.prescaler_comp.counter_comp.count_pr.c_30__N_204[14]:
+     1 loads, 1 SLICEs
+      Net
+     sample_and_hold_comp.prescaler_comp.counter_comp.count_pr.c_30__N_204[13]:
+     1 loads, 1 SLICEs
+      Net
+     sample_and_hold_comp.prescaler_comp.counter_comp.count_pr.c_30__N_204[12]:
+     1 loads, 1 SLICEs
+      Net
+     sample_and_hold_comp.prescaler_comp.counter_comp.count_pr.c_30__N_204[11]:
+     1 loads, 1 SLICEs
+      Net
+     sample_and_hold_comp.prescaler_comp.counter_comp.count_pr.c_30__N_204[10]:
+     1 loads, 1 SLICEs
+      Net
+     sample_and_hold_comp.prescaler_comp.counter_comp.count_pr.c_30__N_204[9]: 1
+     loads, 1 SLICEs
+      Net
+     sample_and_hold_comp.prescaler_comp.counter_comp.count_pr.c_30__N_204[8]: 1
+     loads, 1 SLICEs
+      Net
+     sample_and_hold_comp.prescaler_comp.counter_comp.count_pr.c_30__N_204[7]: 1
+     loads, 1 SLICEs
+      Net sample_and_hold_comp.prescaler_comp.counter_comp.n22944: 3 loads, 3
+     SLICEs
+      Net debounce_command.n28254: 12 loads, 12 SLICEs
+   Top 10 highest fanout non-clock nets:
+      Net HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.CLK_c_
+     enable_79: 62 loads
+      Net HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr_sta
+     te_c[0]: 61 loads
+      Net HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr_sta
+     te_c[2]: 59 loads
+      Net HM0360_Interface_comp.I2C_module_comp.pr_state_adj_955[1]: 58 loads
+      Net HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.n2392:
+     42 loads
+      Net HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr_sta
+
+                                    Page 6
+
+
+
+
+
+Design Summary (cont)
+---------------------
+     te_c[3]: 41 loads
+      Net HM0360_Interface_comp.I2C_module_comp.pr_state_c[1]: 39 loads
+      Net HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.n675:
+     31 loads
+      Net HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.n9_adj
+     _919: 31 loads
+      Net HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.presca
+     ler_comp.counter_comp.n28221: 30 loads
+
+
+
+
+   Number of warnings:  8
+   Number of errors:    0
+
+Design Errors/Warnings
+----------------------
+
+WARNING - map: Top module port 'HM_CP' does not connect to anything.
+WARNING - map: Top module port 'HM_CN' does not connect to anything.
+WARNING - map: Top module port 'HM_DP[0]' does not connect to anything.
+WARNING - map: Top module port 'HM_DN[0]' does not connect to anything.
+WARNING - map: Top module port 'HM_CP' does not connect to anything.
+WARNING - map: Top module port 'HM_CN' does not connect to anything.
+WARNING - map: Top module port 'HM_DP[0]' does not connect to anything.
+WARNING - map: Top module port 'HM_DN[0]' does not connect to anything.
+
+IO (PIO) Attributes
+-------------------
+
++---------------------+-----------+-----------+-------+-------+-----------+
+| IO Name             | Direction | Levelmode |  IO   |  IO   | Special   |
+|                     |           |  IO_TYPE  |  REG  |  DDR  | IO Buffer |
++---------------------+-----------+-----------+-------+-------+-----------+
+| SDA                 | BIDIR     |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| debug_button_n      | INPUT     |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| command_button_n    | INPUT     |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| CLK                 | INPUT     |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| flag_debug_2_n      | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| flag_debug_1_n      | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| data_out_debug_n[0] | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| data_out_debug_n[1] | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| data_out_debug_n[2] | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| data_out_debug_n[3] | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| data_out_debug_n[4] | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| data_out_debug_n[5] | OUTPUT    |           |       |       |           |
+
+                                    Page 7
+
+
+
+
+
+IO (PIO) Attributes (cont)
+--------------------------
++---------------------+-----------+-----------+-------+-------+-----------+
+| data_out_debug_n[6] | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| data_out_debug_n[7] | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| HM_SLEEP_N          | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| HM_SHUTDOWN_N       | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| HM_RTC              | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| HM_CLK_SEL          | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| HM_MCLK             | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| SCL                 | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+
+Removed logic
+-------------
+
+Block i2 was optimized away.
+Block sample_and_hold_comp/prescaler_comp/counter_comp/sub_1054_inv_0_i6_1_lut
+     was optimized away.
+Block sample_and_hold_comp/prescaler_comp/counter_comp/sub_1054_inv_0_i31_1_lut
+     was optimized away.
+Block sample_and_hold_comp/prescaler_comp/counter_comp/sub_1054_inv_0_i30_1_lut
+     was optimized away.
+Block sample_and_hold_comp/prescaler_comp/counter_comp/sub_1054_inv_0_i29_1_lut
+     was optimized away.
+Block sample_and_hold_comp/prescaler_comp/counter_comp/sub_1054_inv_0_i28_1_lut
+     was optimized away.
+Block sample_and_hold_comp/prescaler_comp/counter_comp/sub_1054_inv_0_i27_1_lut
+     was optimized away.
+Block sample_and_hold_comp/prescaler_comp/counter_comp/sub_1054_inv_0_i26_1_lut
+     was optimized away.
+Block sample_and_hold_comp/prescaler_comp/counter_comp/sub_1054_inv_0_i25_1_lut
+     was optimized away.
+Block sample_and_hold_comp/prescaler_comp/counter_comp/sub_1054_inv_0_i24_1_lut
+     was optimized away.
+Block sample_and_hold_comp/prescaler_comp/counter_comp/sub_1054_inv_0_i23_1_lut
+     was optimized away.
+Block sample_and_hold_comp/prescaler_comp/counter_comp/sub_1054_inv_0_i22_1_lut
+     was optimized away.
+Block sample_and_hold_comp/prescaler_comp/counter_comp/sub_1054_inv_0_i21_1_lut
+     was optimized away.
+Block sample_and_hold_comp/prescaler_comp/counter_comp/sub_1054_inv_0_i20_1_lut
+     was optimized away.
+Block sample_and_hold_comp/prescaler_comp/counter_comp/sub_1054_inv_0_i19_1_lut
+     was optimized away.
+Block sample_and_hold_comp/prescaler_comp/counter_comp/sub_1054_inv_0_i18_1_lut
+     was optimized away.
+Block sample_and_hold_comp/prescaler_comp/counter_comp/sub_1054_inv_0_i17_1_lut
+     was optimized away.
+Block sample_and_hold_comp/prescaler_comp/counter_comp/sub_1054_inv_0_i16_1_lut
+     was optimized away.
+Block sample_and_hold_comp/prescaler_comp/counter_comp/sub_1054_inv_0_i15_1_lut
+
+                                    Page 8
+
+
+
+
+
+Removed logic (cont)
+--------------------
+     was optimized away.
+Block sample_and_hold_comp/prescaler_comp/counter_comp/sub_1054_inv_0_i14_1_lut
+     was optimized away.
+Block sample_and_hold_comp/prescaler_comp/counter_comp/sub_1054_inv_0_i13_1_lut
+     was optimized away.
+Block sample_and_hold_comp/prescaler_comp/counter_comp/sub_1054_inv_0_i12_1_lut
+     was optimized away.
+Block sample_and_hold_comp/prescaler_comp/counter_comp/sub_1054_inv_0_i11_1_lut
+     was optimized away.
+Block sample_and_hold_comp/prescaler_comp/counter_comp/sub_1054_inv_0_i10_1_lut
+     was optimized away.
+Block sample_and_hold_comp/prescaler_comp/counter_comp/sub_1054_inv_0_i9_1_lut
+     was optimized away.
+Block sample_and_hold_comp/prescaler_comp/counter_comp/sub_1054_inv_0_i8_1_lut
+     was optimized away.
+Block sample_and_hold_comp/prescaler_comp/counter_comp/sub_1054_inv_0_i7_1_lut
+     was optimized away.
+Block HM0360_Interface_comp/I2C_module_comp/HM0360_serial_master_comp/prescaler_
+     comp/counter_comp/sub_1074_inv_0_i7_1_lut was optimized away.
+Block HM0360_Interface_comp/I2C_module_comp/HM0360_serial_master_comp/prescaler_
+     comp/counter_comp/sub_1074_inv_0_i6_1_lut was optimized away.
+Block HM0360_Interface_comp/I2C_module_comp/HM0360_serial_master_comp/prescaler_
+     comp/counter_comp/sub_1074_inv_0_i5_1_lut was optimized away.
+Block HM0360_Interface_comp/I2C_module_comp/HM0360_serial_master_comp/prescaler_
+     comp/counter_comp/sub_1074_inv_0_i4_1_lut was optimized away.
+Block HM0360_Interface_comp/I2C_module_comp/HM0360_serial_master_comp/prescaler_
+     comp/counter_comp/sub_1074_inv_0_i3_1_lut was optimized away.
+Block HM0360_Interface_comp/I2C_module_comp/HM0360_serial_master_comp/prescaler_
+     comp/counter_comp/sub_1074_inv_0_i31_1_lut was optimized away.
+Block HM0360_Interface_comp/I2C_module_comp/HM0360_serial_master_comp/prescaler_
+     comp/counter_comp/sub_1074_inv_0_i30_1_lut was optimized away.
+Block HM0360_Interface_comp/I2C_module_comp/HM0360_serial_master_comp/prescaler_
+     comp/counter_comp/sub_1074_inv_0_i29_1_lut was optimized away.
+Block HM0360_Interface_comp/I2C_module_comp/HM0360_serial_master_comp/prescaler_
+     comp/counter_comp/sub_1074_inv_0_i28_1_lut was optimized away.
+Block HM0360_Interface_comp/I2C_module_comp/HM0360_serial_master_comp/prescaler_
+     comp/counter_comp/sub_1074_inv_0_i27_1_lut was optimized away.
+Block HM0360_Interface_comp/I2C_module_comp/HM0360_serial_master_comp/prescaler_
+     comp/counter_comp/sub_1074_inv_0_i26_1_lut was optimized away.
+Block HM0360_Interface_comp/I2C_module_comp/HM0360_serial_master_comp/prescaler_
+     comp/counter_comp/sub_1074_inv_0_i25_1_lut was optimized away.
+Block HM0360_Interface_comp/I2C_module_comp/HM0360_serial_master_comp/prescaler_
+     comp/counter_comp/sub_1074_inv_0_i24_1_lut was optimized away.
+Block HM0360_Interface_comp/I2C_module_comp/HM0360_serial_master_comp/prescaler_
+     comp/counter_comp/sub_1074_inv_0_i23_1_lut was optimized away.
+Block HM0360_Interface_comp/I2C_module_comp/HM0360_serial_master_comp/prescaler_
+     comp/counter_comp/sub_1074_inv_0_i22_1_lut was optimized away.
+Block HM0360_Interface_comp/I2C_module_comp/HM0360_serial_master_comp/prescaler_
+     comp/counter_comp/sub_1074_inv_0_i21_1_lut was optimized away.
+Block HM0360_Interface_comp/I2C_module_comp/HM0360_serial_master_comp/prescaler_
+     comp/counter_comp/sub_1074_inv_0_i20_1_lut was optimized away.
+Block HM0360_Interface_comp/I2C_module_comp/HM0360_serial_master_comp/prescaler_
+     comp/counter_comp/sub_1074_inv_0_i19_1_lut was optimized away.
+Block HM0360_Interface_comp/I2C_module_comp/HM0360_serial_master_comp/prescaler_
+     comp/counter_comp/sub_1074_inv_0_i18_1_lut was optimized away.
+Block HM0360_Interface_comp/I2C_module_comp/HM0360_serial_master_comp/prescaler_
+     comp/counter_comp/sub_1074_inv_0_i17_1_lut was optimized away.
+
+                                    Page 9
+
+
+
+
+
+Removed logic (cont)
+--------------------
+Block HM0360_Interface_comp/I2C_module_comp/HM0360_serial_master_comp/prescaler_
+     comp/counter_comp/sub_1074_inv_0_i16_1_lut was optimized away.
+Block HM0360_Interface_comp/I2C_module_comp/HM0360_serial_master_comp/prescaler_
+     comp/counter_comp/sub_1074_inv_0_i15_1_lut was optimized away.
+Block HM0360_Interface_comp/I2C_module_comp/HM0360_serial_master_comp/prescaler_
+     comp/counter_comp/sub_1074_inv_0_i14_1_lut was optimized away.
+Block HM0360_Interface_comp/I2C_module_comp/HM0360_serial_master_comp/prescaler_
+     comp/counter_comp/sub_1074_inv_0_i13_1_lut was optimized away.
+Block HM0360_Interface_comp/I2C_module_comp/HM0360_serial_master_comp/prescaler_
+     comp/counter_comp/sub_1074_inv_0_i12_1_lut was optimized away.
+Block HM0360_Interface_comp/I2C_module_comp/HM0360_serial_master_comp/prescaler_
+     comp/counter_comp/sub_1074_inv_0_i11_1_lut was optimized away.
+Block HM0360_Interface_comp/I2C_module_comp/HM0360_serial_master_comp/prescaler_
+     comp/counter_comp/sub_1074_inv_0_i10_1_lut was optimized away.
+Block HM0360_Interface_comp/I2C_module_comp/HM0360_serial_master_comp/prescaler_
+     comp/counter_comp/sub_1074_inv_0_i9_1_lut was optimized away.
+Block HM0360_Interface_comp/I2C_module_comp/HM0360_serial_master_comp/prescaler_
+     comp/counter_comp/sub_1074_inv_0_i8_1_lut was optimized away.
+Block HM0360_Interface_comp/I2C_module_comp/HM0360_serial_master_comp/i2108_1_lu
+     t was optimized away.
+Block gen_config_command_comp/prescaler_comp/counter_comp/sub_1048_inv_0_i5_1_lu
+     t was optimized away.
+Block gen_config_command_comp/prescaler_comp/counter_comp/sub_1048_inv_0_i31_1_l
+     ut was optimized away.
+Block gen_config_command_comp/prescaler_comp/counter_comp/sub_1048_inv_0_i30_1_l
+     ut was optimized away.
+Block gen_config_command_comp/prescaler_comp/counter_comp/sub_1048_inv_0_i29_1_l
+     ut was optimized away.
+Block gen_config_command_comp/prescaler_comp/counter_comp/sub_1048_inv_0_i28_1_l
+     ut was optimized away.
+Block gen_config_command_comp/prescaler_comp/counter_comp/sub_1048_inv_0_i27_1_l
+     ut was optimized away.
+Block gen_config_command_comp/prescaler_comp/counter_comp/sub_1048_inv_0_i26_1_l
+     ut was optimized away.
+Block gen_config_command_comp/prescaler_comp/counter_comp/sub_1048_inv_0_i25_1_l
+     ut was optimized away.
+Block gen_config_command_comp/prescaler_comp/counter_comp/sub_1048_inv_0_i24_1_l
+     ut was optimized away.
+Block gen_config_command_comp/prescaler_comp/counter_comp/sub_1048_inv_0_i23_1_l
+     ut was optimized away.
+Block gen_config_command_comp/prescaler_comp/counter_comp/sub_1048_inv_0_i22_1_l
+     ut was optimized away.
+Block gen_config_command_comp/prescaler_comp/counter_comp/sub_1048_inv_0_i21_1_l
+     ut was optimized away.
+Block gen_config_command_comp/prescaler_comp/counter_comp/sub_1048_inv_0_i20_1_l
+     ut was optimized away.
+Block gen_config_command_comp/prescaler_comp/counter_comp/sub_1048_inv_0_i19_1_l
+     ut was optimized away.
+Block gen_config_command_comp/prescaler_comp/counter_comp/sub_1048_inv_0_i18_1_l
+     ut was optimized away.
+Block gen_config_command_comp/prescaler_comp/counter_comp/sub_1048_inv_0_i17_1_l
+     ut was optimized away.
+Block gen_config_command_comp/prescaler_comp/counter_comp/sub_1048_inv_0_i16_1_l
+     ut was optimized away.
+Block gen_config_command_comp/prescaler_comp/counter_comp/sub_1048_inv_0_i15_1_l
+     ut was optimized away.
+Block gen_config_command_comp/prescaler_comp/counter_comp/sub_1048_inv_0_i14_1_l
+
+                                   Page 10
+
+
+
+
+
+Removed logic (cont)
+--------------------
+     ut was optimized away.
+Block gen_config_command_comp/prescaler_comp/counter_comp/sub_1048_inv_0_i13_1_l
+     ut was optimized away.
+Block gen_config_command_comp/prescaler_comp/counter_comp/sub_1048_inv_0_i12_1_l
+     ut was optimized away.
+Block gen_config_command_comp/prescaler_comp/counter_comp/sub_1048_inv_0_i11_1_l
+     ut was optimized away.
+Block gen_config_command_comp/prescaler_comp/counter_comp/sub_1048_inv_0_i10_1_l
+     ut was optimized away.
+Block gen_config_command_comp/prescaler_comp/counter_comp/sub_1048_inv_0_i9_1_lu
+     t was optimized away.
+Block gen_config_command_comp/prescaler_comp/counter_comp/sub_1048_inv_0_i8_1_lu
+     t was optimized away.
+Block gen_config_command_comp/prescaler_comp/counter_comp/sub_1048_inv_0_i7_1_lu
+     t was optimized away.
+Block gen_config_command_comp/prescaler_comp/counter_comp/sub_1048_inv_0_i6_1_lu
+     t was optimized away.
+Block gen_config_command_comp/i3456_1_lut was optimized away.
+
+GSR Usage
+---------
+
+GSR Component:
+   The Global Set Reset (GSR) resource has been used to implement a global reset
+        of the design. The reset signal used for GSR control is
+        'gen_config_command_comp.reset_c'.
+
+GSR Property:
+   The design components with GSR property set to ENABLED will respond to global
+        set reset while the components with GSR property set to DISABLED will
+        not.
+
+Components with disabled GSR Property
+-------------------------------------
+
+These components have the GSR property set to DISABLED. The components will not
+     respond to the reset signal 'gen_config_command_comp.reset_c' via the GSR
+     component.
+
+Type and number of components of the type:
+   Register = 242
+
+Type and instance name of component:
+   Register :
+        gen_config_command_comp.prescaler_comp.counter_comp.CLK_OUT_int.ff_inst
+   Register : gen_config_command_comp.prescaler_comp.counter_comp.add_6_add_12_a
+        dd_12_add_12_add_12_add_12_add_12_add_5_e1_i0_i30.ff_inst
+   Register : gen_config_command_comp.prescaler_comp.counter_comp.add_6_add_12_a
+        dd_12_add_12_add_12_add_12_add_12_add_5_e1_i0_i29.ff_inst
+   Register : gen_config_command_comp.prescaler_comp.counter_comp.add_6_add_12_a
+        dd_12_add_12_add_12_add_12_add_12_add_5_e1_i0_i28.ff_inst
+   Register : gen_config_command_comp.prescaler_comp.counter_comp.add_6_add_12_a
+        dd_12_add_12_add_12_add_12_add_12_add_5_e1_i0_i27.ff_inst
+   Register : gen_config_command_comp.prescaler_comp.counter_comp.add_6_add_12_a
+        dd_12_add_12_add_12_add_12_add_12_add_5_e1_i0_i26.ff_inst
+   Register : gen_config_command_comp.prescaler_comp.counter_comp.add_6_add_12_a
+        dd_12_add_12_add_12_add_12_add_12_add_5_e1_i0_i25.ff_inst
+   Register : gen_config_command_comp.prescaler_comp.counter_comp.add_6_add_12_a
+        dd_12_add_12_add_12_add_12_add_12_add_5_e1_i0_i24.ff_inst
+   Register : gen_config_command_comp.prescaler_comp.counter_comp.add_6_add_12_a
+        dd_12_add_12_add_12_add_12_add_12_add_5_e1_i0_i23.ff_inst
+   Register : gen_config_command_comp.prescaler_comp.counter_comp.add_6_add_12_a
+
+                                   Page 11
+
+
+
+
+
+GSR Usage (cont)
+----------------
+        dd_12_add_12_add_12_add_12_add_12_add_5_e1_i0_i22.ff_inst
+   Register : gen_config_command_comp.prescaler_comp.counter_comp.add_6_add_12_a
+        dd_12_add_12_add_12_add_12_add_12_add_5_e1_i0_i21.ff_inst
+   Register : gen_config_command_comp.prescaler_comp.counter_comp.add_6_add_12_a
+        dd_12_add_12_add_12_add_12_add_12_add_5_e1_i0_i20.ff_inst
+   Register : gen_config_command_comp.prescaler_comp.counter_comp.add_6_add_12_a
+        dd_12_add_12_add_12_add_12_add_12_add_5_e1_i0_i19.ff_inst
+   Register : gen_config_command_comp.prescaler_comp.counter_comp.add_6_add_12_a
+        dd_12_add_12_add_12_add_12_add_12_add_5_e1_i0_i18.ff_inst
+   Register : gen_config_command_comp.prescaler_comp.counter_comp.add_6_add_12_a
+        dd_12_add_12_add_12_add_12_add_12_add_5_e1_i0_i17.ff_inst
+   Register : gen_config_command_comp.prescaler_comp.counter_comp.add_6_add_12_a
+        dd_12_add_12_add_12_add_12_add_12_add_5_e1_i0_i16.ff_inst
+   Register : gen_config_command_comp.prescaler_comp.counter_comp.add_6_add_12_a
+        dd_12_add_12_add_12_add_12_add_12_add_5_e1_i0_i15.ff_inst
+   Register : gen_config_command_comp.prescaler_comp.counter_comp.add_6_add_12_a
+        dd_12_add_12_add_12_add_12_add_12_add_5_e1_i0_i14.ff_inst
+   Register : gen_config_command_comp.prescaler_comp.counter_comp.add_6_add_12_a
+        dd_12_add_12_add_12_add_12_add_12_add_5_e1_i0_i13.ff_inst
+   Register : gen_config_command_comp.prescaler_comp.counter_comp.add_6_add_12_a
+        dd_12_add_12_add_12_add_12_add_12_add_5_e1_i0_i12.ff_inst
+   Register : gen_config_command_comp.prescaler_comp.counter_comp.add_6_add_12_a
+        dd_12_add_12_add_12_add_12_add_12_add_5_e1_i0_i11.ff_inst
+   Register : gen_config_command_comp.prescaler_comp.counter_comp.add_6_add_12_a
+        dd_12_add_12_add_12_add_12_add_12_add_5_e1_i0_i10.ff_inst
+   Register : gen_config_command_comp.prescaler_comp.counter_comp.add_6_add_12_a
+        dd_12_add_12_add_12_add_12_add_12_add_5_e1_i0_i9.ff_inst
+   Register : gen_config_command_comp.prescaler_comp.counter_comp.add_6_add_12_a
+        dd_12_add_12_add_12_add_12_add_12_add_5_e1_i0_i8.ff_inst
+   Register : gen_config_command_comp.prescaler_comp.counter_comp.add_6_add_12_a
+        dd_12_add_12_add_12_add_12_add_12_add_5_e1_i0_i7.ff_inst
+   Register : gen_config_command_comp.prescaler_comp.counter_comp.add_6_add_12_a
+        dd_12_add_12_add_12_add_12_add_12_add_5_e1_i0_i6.ff_inst
+   Register : gen_config_command_comp.prescaler_comp.counter_comp.add_6_add_12_a
+        dd_12_add_12_add_12_add_12_add_12_add_5_e1_i0_i5.ff_inst
+   Register : gen_config_command_comp.prescaler_comp.counter_comp.add_6_add_12_a
+        dd_12_add_12_add_12_add_12_add_12_add_5_e1_i0_i4.ff_inst
+   Register : gen_config_command_comp.prescaler_comp.counter_comp.add_6_add_12_a
+        dd_12_add_12_add_12_add_12_add_12_add_5_e1_i0_i3.ff_inst
+   Register : gen_config_command_comp.prescaler_comp.counter_comp.add_6_add_12_a
+        dd_12_add_12_add_12_add_12_add_12_add_5_e1_i0_i2.ff_inst
+   Register : gen_config_command_comp.prescaler_comp.counter_comp.add_6_add_12_a
+        dd_12_add_12_add_12_add_12_add_12_add_5_e1_i0_i1.ff_inst
+   Register : gen_config_command_comp.prescaler_comp.counter_comp.add_6_add_12_a
+        dd_12_add_12_add_12_add_12_add_12_add_5_e1_i0_i0.ff_inst
+   Register : gen_config_command_comp.reset_c_c.ff_inst
+   Register : gen_config_command_comp.read_config_c.ff_inst
+   Register : gen_config_command_comp.init_config_c.ff_inst
+   Register : debounce_acq_trig.flipflops_i0.ff_inst
+   Register : debounce_acq_trig.button_deb_internal.ff_inst
+   Register : debounce_acq_trig.count_1120__i22.ff_inst
+   Register : debounce_acq_trig.count_1120__i21.ff_inst
+   Register : debounce_acq_trig.count_1120__i20.ff_inst
+   Register : debounce_acq_trig.count_1120__i19.ff_inst
+   Register : debounce_acq_trig.count_1120__i18.ff_inst
+   Register : debounce_acq_trig.count_1120__i17.ff_inst
+   Register : debounce_acq_trig.count_1120__i16.ff_inst
+
+                                   Page 12
+
+
+
+
+
+GSR Usage (cont)
+----------------
+   Register : debounce_acq_trig.count_1120__i15.ff_inst
+   Register : debounce_acq_trig.count_1120__i14.ff_inst
+   Register : debounce_acq_trig.count_1120__i13.ff_inst
+   Register : debounce_acq_trig.count_1120__i12.ff_inst
+   Register : debounce_acq_trig.count_1120__i11.ff_inst
+   Register : debounce_acq_trig.count_1120__i10.ff_inst
+   Register : debounce_acq_trig.count_1120__i9.ff_inst
+   Register : debounce_acq_trig.count_1120__i8.ff_inst
+   Register : debounce_acq_trig.count_1120__i7.ff_inst
+   Register : debounce_acq_trig.count_1120__i6.ff_inst
+   Register : debounce_acq_trig.count_1120__i5.ff_inst
+   Register : debounce_acq_trig.count_1120__i4.ff_inst
+   Register : debounce_acq_trig.count_1120__i3.ff_inst
+   Register : debounce_acq_trig.count_1120__i2.ff_inst
+   Register : debounce_acq_trig.count_1120__i1.ff_inst
+   Register : debounce_acq_trig.flipflops_i1.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.trig_acq_module_comp.pr_stat
+        e_i0.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.trig_acq_module_comp.pr_stat
+        e_i1.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.read_config_module_comp.pr_s
+        tate_i0.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.read_config_module_comp.pr_s
+        tate_i1.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.pr
+        _state_i0.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.pr
+        _state_i3.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.pr
+        _state_i2.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.pr
+        _state_i1.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr
+        escaler_comp.counter_comp.CLK_OUT_int.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr
+        escaler_comp.counter_comp.shifted_CLK_OUT_int.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr
+        escaler_comp.counter_comp.add_6_add_12_add_12_add_12_add_12_add_12_add_1
+        2_add_5_e1_i0_i0.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr
+        escaler_comp.counter_comp.add_6_add_12_add_12_add_12_add_12_add_12_add_1
+        2_add_5_e1_i0_i30.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr
+        escaler_comp.counter_comp.add_6_add_12_add_12_add_12_add_12_add_12_add_1
+        2_add_5_e1_i0_i29.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr
+        escaler_comp.counter_comp.add_6_add_12_add_12_add_12_add_12_add_12_add_1
+        2_add_5_e1_i0_i28.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr
+        escaler_comp.counter_comp.add_6_add_12_add_12_add_12_add_12_add_12_add_1
+        2_add_5_e1_i0_i27.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr
+        escaler_comp.counter_comp.add_6_add_12_add_12_add_12_add_12_add_12_add_1
+        2_add_5_e1_i0_i26.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr
+        escaler_comp.counter_comp.add_6_add_12_add_12_add_12_add_12_add_12_add_1
+        2_add_5_e1_i0_i25.ff_inst
+
+                                   Page 13
+
+
+
+
+
+GSR Usage (cont)
+----------------
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr
+        escaler_comp.counter_comp.add_6_add_12_add_12_add_12_add_12_add_12_add_1
+        2_add_5_e1_i0_i24.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr
+        escaler_comp.counter_comp.add_6_add_12_add_12_add_12_add_12_add_12_add_1
+        2_add_5_e1_i0_i23.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr
+        escaler_comp.counter_comp.add_6_add_12_add_12_add_12_add_12_add_12_add_1
+        2_add_5_e1_i0_i22.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr
+        escaler_comp.counter_comp.add_6_add_12_add_12_add_12_add_12_add_12_add_1
+        2_add_5_e1_i0_i21.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr
+        escaler_comp.counter_comp.add_6_add_12_add_12_add_12_add_12_add_12_add_1
+        2_add_5_e1_i0_i20.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr
+        escaler_comp.counter_comp.add_6_add_12_add_12_add_12_add_12_add_12_add_1
+        2_add_5_e1_i0_i19.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr
+        escaler_comp.counter_comp.add_6_add_12_add_12_add_12_add_12_add_12_add_1
+        2_add_5_e1_i0_i18.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr
+        escaler_comp.counter_comp.add_6_add_12_add_12_add_12_add_12_add_12_add_1
+        2_add_5_e1_i0_i17.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr
+        escaler_comp.counter_comp.add_6_add_12_add_12_add_12_add_12_add_12_add_1
+        2_add_5_e1_i0_i16.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr
+        escaler_comp.counter_comp.add_6_add_12_add_12_add_12_add_12_add_12_add_1
+        2_add_5_e1_i0_i15.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr
+        escaler_comp.counter_comp.add_6_add_12_add_12_add_12_add_12_add_12_add_1
+        2_add_5_e1_i0_i14.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr
+        escaler_comp.counter_comp.add_6_add_12_add_12_add_12_add_12_add_12_add_1
+        2_add_5_e1_i0_i13.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr
+        escaler_comp.counter_comp.add_6_add_12_add_12_add_12_add_12_add_12_add_1
+        2_add_5_e1_i0_i12.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr
+        escaler_comp.counter_comp.add_6_add_12_add_12_add_12_add_12_add_12_add_1
+        2_add_5_e1_i0_i11.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr
+        escaler_comp.counter_comp.add_6_add_12_add_12_add_12_add_12_add_12_add_1
+        2_add_5_e1_i0_i10.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr
+        escaler_comp.counter_comp.add_6_add_12_add_12_add_12_add_12_add_12_add_1
+        2_add_5_e1_i0_i9.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr
+        escaler_comp.counter_comp.add_6_add_12_add_12_add_12_add_12_add_12_add_1
+        2_add_5_e1_i0_i8.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr
+        escaler_comp.counter_comp.add_6_add_12_add_12_add_12_add_12_add_12_add_1
+        2_add_5_e1_i0_i7.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr
+        escaler_comp.counter_comp.add_6_add_12_add_12_add_12_add_12_add_12_add_1
+        2_add_5_e1_i0_i6.ff_inst
+
+                                   Page 14
+
+
+
+
+
+GSR Usage (cont)
+----------------
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr
+        escaler_comp.counter_comp.add_6_add_12_add_12_add_12_add_12_add_12_add_1
+        2_add_5_e1_i0_i5.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr
+        escaler_comp.counter_comp.add_6_add_12_add_12_add_12_add_12_add_12_add_1
+        2_add_5_e1_i0_i4.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr
+        escaler_comp.counter_comp.add_6_add_12_add_12_add_12_add_12_add_12_add_1
+        2_add_5_e1_i0_i3.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr
+        escaler_comp.counter_comp.add_6_add_12_add_12_add_12_add_12_add_12_add_1
+        2_add_5_e1_i0_i2.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr
+        escaler_comp.counter_comp.add_6_add_12_add_12_add_12_add_12_add_12_add_1
+        2_add_5_e1_i0_i1.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FS
+        M_process.c_i0_i0.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SC
+        L_pr_c.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SD
+        A_pr_c.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.fi
+        nished_internal.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.DA
+        TA_CLK_pr_c.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr
+        _state_i0_i0.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.ad
+        d_21_add_12_add_12_add_12_add_12_add_12_e1_i0.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SD
+        A_c.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.i2
+        40.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.R_
+        W_internal_c.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FS
+        M_process.c_i0_i30.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FS
+        M_process.c_i0_i29.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.da
+        ta_read_internal_i0_i1.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.da
+        ta_read_internal_i0_i2.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.da
+        ta_read_internal_i0_i3.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.da
+        ta_read_internal_i0_i4.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.da
+        ta_read_internal_i0_i5.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.da
+        ta_read_internal_i0_i6.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.da
+        ta_read_internal_i0_i7.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.su
+        b_1037_add_2_add_12_add_12_e1_i30.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.su
+        b_1037_add_2_add_12_add_12_e1_i29.ff_inst
+
+                                   Page 15
+
+
+
+
+
+GSR Usage (cont)
+----------------
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.su
+        b_1037_add_2_add_12_add_12_e1_i28.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.su
+        b_1037_add_2_add_12_add_12_e1_i27.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.su
+        b_1037_add_2_add_12_add_12_e1_i26.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.su
+        b_1037_add_2_add_12_add_12_e1_i25.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.su
+        b_1037_add_2_add_12_add_12_e1_i24.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.su
+        b_1037_add_2_add_12_add_12_e1_i23.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.su
+        b_1037_add_2_add_12_add_12_e1_i22.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.su
+        b_1037_add_2_add_12_add_12_e1_i21.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.su
+        b_1037_add_2_add_12_add_12_e1_i20.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.su
+        b_1037_add_2_add_12_add_12_e1_i19.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.su
+        b_1037_add_2_add_12_add_12_e1_i18.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.su
+        b_1037_add_2_add_12_add_12_e1_i17.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.su
+        b_1037_add_2_add_12_add_12_e1_i16.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.su
+        b_1037_add_2_add_12_add_12_e1_i15.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.su
+        b_1037_add_2_add_12_add_12_e1_i14.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.su
+        b_1037_add_2_add_12_add_12_e1_i13.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.su
+        b_1037_add_2_add_12_add_12_e1_i12.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.su
+        b_1037_add_2_add_12_add_12_e1_i11.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.su
+        b_1037_add_2_add_12_add_12_e1_i10.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.su
+        b_1037_add_2_add_12_add_12_e1_i9.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.su
+        b_1037_add_2_add_12_add_12_e1_i8.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.su
+        b_1037_add_2_add_12_add_12_e1_i7.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.su
+        b_1037_add_2_add_12_add_12_e1_i6.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.su
+        b_1037_add_2_add_12_add_12_e1_i5.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.su
+        b_1037_add_2_add_12_add_12_e1_i4.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.su
+        b_1037_add_2_add_12_add_12_e1_i3.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.su
+        b_1037_add_2_add_12_add_12_e1_i2.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.su
+        b_1037_add_2_add_12_add_12_e1_i1.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FS
+
+                                   Page 16
+
+
+
+
+
+GSR Usage (cont)
+----------------
+        M_process.c_i0_i28.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FS
+        M_process.c_i0_i27.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FS
+        M_process.c_i0_i26.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FS
+        M_process.c_i0_i7.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.rd
+        _flag_c.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.da
+        ta_read_internal_i0_i0.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FS
+        M_process.c_i0_i25.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FS
+        M_process.c_i0_i6.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FS
+        M_process.c_i0_i24.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FS
+        M_process.c_i0_i5.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FS
+        M_process.c_i0_i23.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FS
+        M_process.c_i0_i4.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FS
+        M_process.c_i0_i22.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FS
+        M_process.c_i0_i3.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FS
+        M_process.c_i0_i21.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FS
+        M_process.c_i0_i2.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FS
+        M_process.c_i0_i20.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FS
+        M_process.c_i0_i1.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FS
+        M_process.c_i0_i19.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FS
+        M_process.c_i0_i18.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FS
+        M_process.c_i0_i17.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FS
+        M_process.c_i0_i16.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FS
+        M_process.c_i0_i15.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FS
+        M_process.c_i0_i14.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FS
+        M_process.c_i0_i13.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FS
+        M_process.c_i0_i12.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FS
+        M_process.c_i0_i11.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FS
+        M_process.c_i0_i10.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FS
+        M_process.c_i0_i9.ff_inst
+
+                                   Page 17
+
+
+
+
+
+GSR Usage (cont)
+----------------
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr
+        _state_i0_i3.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr
+        _state_i0_i2.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr
+        _state_i0_i1.ff_inst
+   Register : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FS
+        M_process.c_i0_i8.ff_inst
+   Register :
+        sample_and_hold_comp.prescaler_comp.counter_comp.CLK_OUT_int.ff_inst
+   Register : sample_and_hold_comp.prescaler_comp.counter_comp.add_6_add_12_add_
+        12_add_12_add_12_add_12_add_12_add_5_e1_i0_i0.ff_inst
+   Register : sample_and_hold_comp.prescaler_comp.counter_comp.add_6_add_12_add_
+        12_add_12_add_12_add_12_add_12_add_5_e1_i0_i30.ff_inst
+   Register : sample_and_hold_comp.prescaler_comp.counter_comp.add_6_add_12_add_
+        12_add_12_add_12_add_12_add_12_add_5_e1_i0_i29.ff_inst
+   Register : sample_and_hold_comp.prescaler_comp.counter_comp.add_6_add_12_add_
+        12_add_12_add_12_add_12_add_12_add_5_e1_i0_i28.ff_inst
+   Register : sample_and_hold_comp.prescaler_comp.counter_comp.add_6_add_12_add_
+        12_add_12_add_12_add_12_add_12_add_5_e1_i0_i27.ff_inst
+   Register : sample_and_hold_comp.prescaler_comp.counter_comp.add_6_add_12_add_
+        12_add_12_add_12_add_12_add_12_add_5_e1_i0_i26.ff_inst
+   Register : sample_and_hold_comp.prescaler_comp.counter_comp.add_6_add_12_add_
+        12_add_12_add_12_add_12_add_12_add_5_e1_i0_i25.ff_inst
+   Register : sample_and_hold_comp.prescaler_comp.counter_comp.add_6_add_12_add_
+        12_add_12_add_12_add_12_add_12_add_5_e1_i0_i24.ff_inst
+   Register : sample_and_hold_comp.prescaler_comp.counter_comp.add_6_add_12_add_
+        12_add_12_add_12_add_12_add_12_add_5_e1_i0_i23.ff_inst
+   Register : sample_and_hold_comp.prescaler_comp.counter_comp.add_6_add_12_add_
+        12_add_12_add_12_add_12_add_12_add_5_e1_i0_i22.ff_inst
+   Register : sample_and_hold_comp.prescaler_comp.counter_comp.add_6_add_12_add_
+        12_add_12_add_12_add_12_add_12_add_5_e1_i0_i21.ff_inst
+   Register : sample_and_hold_comp.prescaler_comp.counter_comp.add_6_add_12_add_
+        12_add_12_add_12_add_12_add_12_add_5_e1_i0_i20.ff_inst
+   Register : sample_and_hold_comp.prescaler_comp.counter_comp.add_6_add_12_add_
+        12_add_12_add_12_add_12_add_12_add_5_e1_i0_i19.ff_inst
+   Register : sample_and_hold_comp.prescaler_comp.counter_comp.add_6_add_12_add_
+        12_add_12_add_12_add_12_add_12_add_5_e1_i0_i18.ff_inst
+   Register : sample_and_hold_comp.prescaler_comp.counter_comp.add_6_add_12_add_
+        12_add_12_add_12_add_12_add_12_add_5_e1_i0_i17.ff_inst
+   Register : sample_and_hold_comp.prescaler_comp.counter_comp.add_6_add_12_add_
+        12_add_12_add_12_add_12_add_12_add_5_e1_i0_i16.ff_inst
+   Register : sample_and_hold_comp.prescaler_comp.counter_comp.add_6_add_12_add_
+        12_add_12_add_12_add_12_add_12_add_5_e1_i0_i15.ff_inst
+   Register : sample_and_hold_comp.prescaler_comp.counter_comp.add_6_add_12_add_
+        12_add_12_add_12_add_12_add_12_add_5_e1_i0_i14.ff_inst
+   Register : sample_and_hold_comp.prescaler_comp.counter_comp.add_6_add_12_add_
+        12_add_12_add_12_add_12_add_12_add_5_e1_i0_i13.ff_inst
+   Register : sample_and_hold_comp.prescaler_comp.counter_comp.add_6_add_12_add_
+        12_add_12_add_12_add_12_add_12_add_5_e1_i0_i12.ff_inst
+   Register : sample_and_hold_comp.prescaler_comp.counter_comp.add_6_add_12_add_
+        12_add_12_add_12_add_12_add_12_add_5_e1_i0_i11.ff_inst
+   Register : sample_and_hold_comp.prescaler_comp.counter_comp.add_6_add_12_add_
+        12_add_12_add_12_add_12_add_12_add_5_e1_i0_i10.ff_inst
+   Register : sample_and_hold_comp.prescaler_comp.counter_comp.add_6_add_12_add_
+        12_add_12_add_12_add_12_add_12_add_5_e1_i0_i9.ff_inst
+   Register : sample_and_hold_comp.prescaler_comp.counter_comp.add_6_add_12_add_
+
+                                   Page 18
+
+
+
+
+
+GSR Usage (cont)
+----------------
+        12_add_12_add_12_add_12_add_12_add_5_e1_i0_i8.ff_inst
+   Register : sample_and_hold_comp.prescaler_comp.counter_comp.add_6_add_12_add_
+        12_add_12_add_12_add_12_add_12_add_5_e1_i0_i7.ff_inst
+   Register : sample_and_hold_comp.prescaler_comp.counter_comp.add_6_add_12_add_
+        12_add_12_add_12_add_12_add_12_add_5_e1_i0_i6.ff_inst
+   Register : sample_and_hold_comp.prescaler_comp.counter_comp.add_6_add_12_add_
+        12_add_12_add_12_add_12_add_12_add_5_e1_i0_i5.ff_inst
+   Register : sample_and_hold_comp.prescaler_comp.counter_comp.add_6_add_12_add_
+        12_add_12_add_12_add_12_add_12_add_5_e1_i0_i4.ff_inst
+   Register : sample_and_hold_comp.prescaler_comp.counter_comp.add_6_add_12_add_
+        12_add_12_add_12_add_12_add_12_add_5_e1_i0_i3.ff_inst
+   Register : sample_and_hold_comp.prescaler_comp.counter_comp.add_6_add_12_add_
+        12_add_12_add_12_add_12_add_12_add_5_e1_i0_i2.ff_inst
+   Register : sample_and_hold_comp.prescaler_comp.counter_comp.add_6_add_12_add_
+        12_add_12_add_12_add_12_add_12_add_5_e1_i0_i1.ff_inst
+   Register : sample_and_hold_comp.held_pulse.ff_inst
+   Register : sample_and_hold_comp.sample_c.ff_inst
+   Register : debounce_command.flipflops_i0.ff_inst
+   Register : debounce_command.count_1119__i22.ff_inst
+   Register : debounce_command.count_1119__i21.ff_inst
+   Register : debounce_command.count_1119__i20.ff_inst
+   Register : debounce_command.count_1119__i19.ff_inst
+   Register : debounce_command.count_1119__i18.ff_inst
+   Register : debounce_command.count_1119__i17.ff_inst
+   Register : debounce_command.count_1119__i16.ff_inst
+   Register : debounce_command.count_1119__i15.ff_inst
+   Register : debounce_command.count_1119__i14.ff_inst
+   Register : debounce_command.count_1119__i13.ff_inst
+   Register : debounce_command.count_1119__i12.ff_inst
+   Register : debounce_command.count_1119__i11.ff_inst
+   Register : debounce_command.count_1119__i10.ff_inst
+   Register : debounce_command.count_1119__i9.ff_inst
+   Register : debounce_command.count_1119__i8.ff_inst
+   Register : debounce_command.count_1119__i7.ff_inst
+   Register : debounce_command.count_1119__i6.ff_inst
+   Register : debounce_command.count_1119__i5.ff_inst
+   Register : debounce_command.count_1119__i4.ff_inst
+   Register : debounce_command.count_1119__i3.ff_inst
+   Register : debounce_command.count_1119__i2.ff_inst
+   Register : debounce_command.button_deb_internal.ff_inst
+   Register : debounce_command.count_1119__i1.ff_inst
+   Register : debounce_command.flipflops_i1.ff_inst
+
+Run Time and Memory Usage
+-------------------------
+
+   Total CPU Time: 5 secs
+   Total REAL Time: 5 secs
+   Peak Memory Usage: 327 MB
+
+
+
+
+
+
+
+
+
+                                   Page 19
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995
+     AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent
+     Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems
+     All rights reserved.
+Copyright (c) 2002-2022 Lattice Semiconductor
+     Corporation,  All rights reserved.

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BuildStatus>
+    <Strategy name="Strategy1">
+        <Milestone name="Export" build_result="0" build_time="1670098172">
+            <Task name="Bitgen" build_result="0" update_result="2" update_time="1670098172"/>
+            <Task name="IBIS" build_result="0" update_result="2" update_time="1670098172"/>
+            <Task name="TimingSimFileVlg" build_result="0" update_result="2" update_time="1670098172"/>
+        </Milestone>
+        <Milestone name="Map" build_result="0" build_time="1670098170">
+            <Task name="Map" build_result="0" update_result="2" update_time="1670098170"/>
+            <Task name="MapTrace" build_result="0" update_result="3" update_time="0"/>
+        </Milestone>
+        <Milestone name="PAR" build_result="0" build_time="1670098170">
+            <Task name="PAR" build_result="0" update_result="2" update_time="1670098170"/>
+            <Task name="PARTrace" build_result="0" update_result="2" update_time="1670098170"/>
+            <Task name="IOTiming" build_result="0" update_result="3" update_time="0"/>
+        </Milestone>
+        <Milestone name="Synthesis" build_result="0" build_time="1670098170">
+            <Task name="Lattice_Synthesis" build_result="0" update_result="2" update_time="1670098170"/>
+            <Task name="LSE_Compile" build_result="0" update_result="2" update_time="1670098170"/>
+            <Task name="SynTrace" build_result="0" update_result="2" update_time="1670090772"/>
+            <Task name="SynVerilogSimFile" build_result="0" update_result="2" update_time="1670090772"/>
+        </Milestone>
+        <Milestone name="TOOL_Report" build_result="0" build_time="0">
+            <Task name="HDLE" build_result="0" update_result="3" update_time="0"/>
+            <Task name="BKM" build_result="0" update_result="3" update_time="0"/>
+            <Task name="SSO" build_result="0" update_result="2" update_time="1670090066"/>
+            <Task name="PIODRC" build_result="0" update_result="2" update_time="1670090066"/>
+            <Task name="DEC" build_result="0" update_result="3" update_time="0"/>
+        </Milestone>
+        <Report name="HM0360_image_capture_HM0360_image_capture_impl.bgn" last_build_time="1670097717" last_build_size="4543"/>
+        <Report name="HM0360_image_capture_HM0360_image_capture_impl.bit" last_build_time="1670097717" last_build_size="808253"/>
+        <Report name="HM0360_image_capture_HM0360_image_capture_impl.lsedata" last_build_time="0" last_build_size="0"/>
+        <Report name="HM0360_image_capture_HM0360_image_capture_impl.twr.html" last_build_time="1670097690" last_build_size="15735"/>
+        <Report name="HM0360_image_capture_HM0360_image_capture_impl.udb" last_build_time="1670097685" last_build_size="135456"/>
+        <Report name="HM0360_image_capture_HM0360_image_capture_impl_map.udb" last_build_time="1670097652" last_build_size="81701"/>
+        <Report name="HM0360_image_capture_HM0360_image_capture_impl_rtl.udb" last_build_time="1670097637" last_build_size="59288"/>
+        <Report name="HM0360_image_capture_HM0360_image_capture_impl_syn.udb" last_build_time="1670097647" last_build_size="53196"/>
+        <Report name="HM0360_image_capture_HM0360_image_capture_impl_vo.sdf" last_build_time="1670097729" last_build_size="1308116"/>
+        <Report name="HM0360_image_capture_HM0360_image_capture_impl_vo.vo" last_build_time="1670097729" last_build_size="1379934"/>
+        <Report name="IBIS/HM0360_image_capture_HM0360_image_capture_impl.ibs" last_build_time="1670097723" last_build_size="138682"/>
+    </Strategy>
+</BuildStatus>

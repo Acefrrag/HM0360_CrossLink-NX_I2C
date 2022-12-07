@@ -1,0 +1,7 @@
+C:\lscc\radiant\3.2\synpbase\bin64\syn_nfilter.exe  -link  -top  HM0360_Interface_top_level  -multisrs  C:\Users\miche\Desktop\my_designs\HM0360_image_capture\HM0360_image_capture_impl\synwork\HM0360_image_capture_HM0360_image_capture_impl_comp.srs  -osyn  C:\Users\miche\Desktop\my_designs\HM0360_image_capture\HM0360_image_capture_impl\synwork\HM0360_image_capture_HM0360_image_capture_impl_mult.srs  -log  C:\Users\miche\Desktop\my_designs\HM0360_image_capture\HM0360_image_capture_impl\synlog\HM0360_image_capture_HM0360_image_capture_impl_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\lscc\radiant\3.2\synpbase\bin64\syn_nfilter.exe -link -top HM0360_Interface_top_level -multisrs ..\synwork\HM0360_image_capture_HM0360_image_capture_impl_comp.srs -osyn ..\synwork\HM0360_image_capture_HM0360_image_capture_impl_mult.srs -log ..\synlog\HM0360_image_capture_HM0360_image_capture_impl_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\HM0360_image_capture_HM0360_image_capture_impl_comp.srs|io:i|time:1669064257|size:189748|exec:0|csum:7EF720E88A02B5894812BC205B2AD6A4
+file:..\synwork\HM0360_image_capture_HM0360_image_capture_impl_mult.srs|io:o|time:1669064259|size:4685|exec:0|csum:
+file:..\synlog\HM0360_image_capture_HM0360_image_capture_impl_multi_srs_gen.srr|io:o|time:1669064259|size:1238|exec:0|csum:
+file:..\..\..\..\..\..\..\lscc\radiant\3.2\synpbase\bin64\syn_nfilter.exe|io:i|time:1656451203|size:8737280|exec:1|csum:DBE3E888141FE59175E5662FB9C2BA15

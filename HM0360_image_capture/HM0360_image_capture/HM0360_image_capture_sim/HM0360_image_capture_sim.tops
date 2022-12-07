@@ -1,0 +1,5 @@
+HM0360_Interface,/,C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/HM0360_Interface.vhd
+debounce,/,C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/debounce.vhd
+HM0360_serial_master,/,C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/HM0360_serial_master.vhd
+configuration_module,/,C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/configuration_module.vhd
+trig_acq_module,/,C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/trig_acq_module.vhd

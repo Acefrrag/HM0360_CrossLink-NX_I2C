@@ -1,0 +1,50 @@
+if {![file exists "C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/HM0360_image_capture/HM0360_image_capture.mpf"]} { 
+	project new "C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/HM0360_image_capture" HM0360_image_capture
+	project addfile "C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/HM0360_CSI2_DPHY/rtl/HM0360_CSI2_DPHY.v" verilog
+	project addfile "C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/debounce.vhd" vhdl
+	project addfile "C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/enable_pic_source_logic.vhd" vhdl
+	project addfile "C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/image_buffer.vhd" vhdl
+	project addfile "C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/counter.vhd" vhdl
+	project addfile "C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/prescaler.vhd" vhdl
+	project addfile "C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/read_config_module.vhd" vhdl
+	project addfile "C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/configuration_module.vhd" vhdl
+	project addfile "C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/trig_acq_module.vhd" vhdl
+	project addfile "C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/HM0360_serial_master.vhd" vhdl
+	project addfile "C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/I2C_module.vhd" vhdl
+	project addfile "C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/PLL_sync_clk/rtl/PLL_sync_clk.v" verilog
+	project addfile "C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/HM0360_Interface.vhd" vhdl
+	project addfile "C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/debounce_2.vhd" vhdl
+	project addfile "C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/gen_config_command.vhd" vhdl
+	project addfile "C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/HM0360_Interface_top_level.vhd" vhdl
+	project addfile "C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/HM0360_device.vhd" vhdl
+	project addfile "C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/HM0360_Interface_top_level_tb.vhd" vhdl
+	vlib  work
+	vdel -lib work -all 
+	vlib work
+
+	vlog  +incdir+"C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/HM0360_CSI2_DPHY/rtl" -work work  "C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/HM0360_CSI2_DPHY/rtl/HM0360_CSI2_DPHY.v"
+    vcom -2008 -work work "C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/debounce.vhd"
+    vcom -2008 -work work "C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/enable_pic_source_logic.vhd"
+    vcom -2008 -work work "C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/image_buffer.vhd"
+    vcom -2008 -work work "C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/counter.vhd"
+    vcom -2008 -work work "C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/prescaler.vhd"
+    vcom -2008 -work work "C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/read_config_module.vhd"
+    vcom -2008 -work work "C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/configuration_module.vhd"
+    vcom -2008 -work work "C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/trig_acq_module.vhd"
+    vcom -2008 -work work "C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/HM0360_serial_master.vhd"
+    vcom -2008 -work work "C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/I2C_module.vhd"
+	vlog  +incdir+"C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/PLL_sync_clk/rtl" -work work  "C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/PLL_sync_clk/rtl/PLL_sync_clk.v"
+    vcom -2008 -work work "C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/HM0360_Interface.vhd"
+    vcom -2008 -work work "C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/debounce_2.vhd"
+    vcom -2008 -work work "C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/gen_config_command.vhd"
+    vcom -2008 -work work "C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/HM0360_Interface_top_level.vhd"
+    vcom -2008 -work work "C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/HM0360_device.vhd"
+    vcom -2008 -work work "C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/HM0360_Interface_top_level_tb.vhd"
+} else {
+	project open "C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/HM0360_image_capture/HM0360_image_capture"
+	project compileoutofdate
+}
+vsim -voptargs=+acc -lib work -L pmi_work -L ovi_lifcl  HM0360_Interface_top_level_tb 
+view wave
+add wave /*
+run 100 ns

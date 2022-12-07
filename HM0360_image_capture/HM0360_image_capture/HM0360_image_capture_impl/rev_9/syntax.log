@@ -1,0 +1,40 @@
+###########################################################[
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09LR-2
+Install: C:\lscc\radiant\3.2\synpbase
+OS: Windows 10 or later
+Hostname: DESKTOP-9VA2EUV
+
+Implementation : rev_9
+Synopsys VHDL Compiler, Version comp202109synp1, Build 403R, Built Jun 27 2022 11:09:13, @
+
+@N|Running in 64-bit mode
+@N:"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd":6:7:6:22|Top entity is set to HM0360_Interface.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/lscc/radiant/3.2/ip/pmi/pmi_lifcl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/counter.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/debounce.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/configuration_module.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/trig_acq_module.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/image_buffer.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/lscc/radiant/3.2/cae_library/synthesis/vhdl/lifcl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/prescaler.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/HM0360_serial_master.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/I2C_module.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/HM0360_Interface.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/HM0360_Interface_top_level.vhd'.
+@E: CD218 :"C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/HM0360_Interface_top_level.vhd":36:7:36:9|Declaration hides port sda
+@E: CD218 :"C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/HM0360_Interface_top_level.vhd":37:7:37:9|Declaration hides port scl
+@E: CD218 :"C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/HM0360_Interface_top_level.vhd":39:7:39:7|Declaration hides port d
+3 errors parsing file C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/HM0360_Interface_top_level.vhd
+@END
+@E: Parse errors encountered - exiting
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Nov 13 23:42:49 2022
+
+###########################################################]

@@ -1,0 +1,57 @@
+###########################################################[
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09LR-2
+Install: C:\lscc\radiant\3.2\synpbase
+OS: Windows 10 or later
+Hostname: DESKTOP-9VA2EUV
+
+Implementation : rev_15
+Synopsys VHDL Compiler, Version comp202109synp1, Build 403R, Built Jun 27 2022 11:09:13, @
+
+@N|Running in 64-bit mode
+@N:"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface_top_level.vhd":6:7:6:32|Top entity is set to HM0360_Interface_top_level.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:/lscc/radiant/3.2/ip/pmi/pmi_lifcl.vhd'.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/counter.vhd'.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/debounce.vhd'.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/configuration_module.vhd'.
+@E: CG103 :"C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/configuration_module.vhd":30:22:30:24|Expecting expression
+1 error parsing file C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/configuration_module.vhd
+@END
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/trig_acq_module.vhd'.
+@E: CG103 :"C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/trig_acq_module.vhd":31:22:31:24|Expecting expression
+2 errors parsing file C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/trig_acq_module.vhd
+@END
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/image_buffer.vhd'.
+@W: CD266 :"C:\lscc\radiant\3.2\synpbase\lib\vhd\std_textio.vhd":208:6:208:9|good is not readable.  This may cause a simulation mismatch.
+2 errors parsing file C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/image_buffer.vhd
+@END
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:/lscc/radiant/3.2/cae_library/synthesis/vhdl/lifcl.vhd'.
+2 errors parsing file C:/lscc/radiant/3.2/cae_library/synthesis/vhdl/lifcl.vhd
+@END
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/prescaler.vhd'.
+2 errors parsing file C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/prescaler.vhd
+@END
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/HM0360_serial_master.vhd'.
+2 errors parsing file C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/HM0360_serial_master.vhd
+@END
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/I2C_module.vhd'.
+@E: CG103 :"C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/I2C_module.vhd":131:17:131:19|Expecting expression
+3 errors parsing file C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/I2C_module.vhd
+@END
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/HM0360_Interface.vhd'.
+3 errors parsing file C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/HM0360_Interface.vhd
+@END
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/HM0360_Interface_top_level.vhd'.
+3 errors parsing file C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/HM0360_Interface_top_level.vhd
+@END
+@E: Parse errors encountered - exiting
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Nov 14 00:30:51 2022
+
+###########################################################]

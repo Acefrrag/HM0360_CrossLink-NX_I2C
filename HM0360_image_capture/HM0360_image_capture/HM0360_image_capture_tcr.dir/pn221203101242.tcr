@@ -1,0 +1,15 @@
+#Start recording tcl command: 12/3/2022 09:39:03
+#Project Location: C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture; Project name: HM0360_image_capture
+C:/Users/miche/Desktop/my_designs/sample_and_hold
+sample_and_hold
+#Start recording tcl command: 12/3/2022 10:12:42
+#Project Location: C:/Users/miche/Desktop/my_designs/sample_and_hold; Project name: sample_and_hold
+prj_open "C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/HM0360_image_capture.rdf"
+prj_run Synthesis -impl HM0360_image_capture_impl
+prj_run Export -impl HM0360_image_capture_impl
+prj_run PAR -impl HM0360_image_capture_impl
+prj_run Export -impl HM0360_image_capture_impl
+prj_save 
+prj_close
+prj_open "C:/Users/miche/Desktop/my_designs/sample_and_hold/sample_and_hold.rdf"
+#Stop recording: 12/3/2022 10:12:42

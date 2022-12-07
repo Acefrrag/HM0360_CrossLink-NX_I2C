@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Report>
+<ReportView version="2.0">
+    <Implement name="HM0360_image_capture_impl">
+        <ToolReport id="toolpio" path="C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/drc.log" status="1"/>
+        <ToolReport id="toolsso" path="C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/HM0360_image_capture_impl/sso_rpt.htm" status="1"/>
+    </Implement>
+</ReportView>

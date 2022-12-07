@@ -1,0 +1,69 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity HM0360_top_level_tb is
+--port
+end HM0360_top_level_tb;
+
+Architecture Behavioral of HM0360_top_level_tb is
+
+signal CLK : std_logic := '1';
+signal init_config_button: std_logic := '0';signal trig_acq_button: std_logic := '0';
+signal PADDR_debug: std_logic_vector(18 downto 0) := std_logic_vector(to_unsigned(16#24#, 19));
+signal data_out_debug: std_logic_vector(7 downto 0);
+
+
+component HM0360_top_level is
+port(
+	CLK: in std_logic;
+	init_config_button: in std_logic;
+	trig_acq_button: in std_logic;
+	PADDR_debug: in std_logic_vector(18 downto 0);
+	data_out_debug: out std_logic_vector(7 downto 0)
+);
+end component;
+
+
+begin
+
+HM0360_top_level_comp: HM0360_top_level
+port map(
+	CLK => CLK,
+	init_config_button => init_config_button,
+	trig_acq_button => trig_acq_button,
+	PADDR_debug => PADDR_debug,
+	data_out_debug => data_out_debug
+);
+
+
+CLK_gen: process is
+
+begin
+wait for 19 ns;
+CLK <= not(CLK);
+end process;
+
+config_button_gen: process is 
+
+begin
+wait for 10_000 ns;
+init_config_button <= '1';
+wait for 15 ms;
+init_config_button <= '0';
+wait;
+
+end process;
+
+trig_acq_button_gen: process is
+
+begin
+wait for 15 ms;
+trig_acq_button <= '1';
+wait for 5 ms;
+trig_acq_button <= '0';
+wait;
+
+end process;
+
+end Behavioral;

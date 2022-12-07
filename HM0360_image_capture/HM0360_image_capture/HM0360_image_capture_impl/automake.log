@@ -1,0 +1,179 @@
+
+tmcheck -par "HM0360_image_capture_HM0360_image_capture_impl.par" 
+
+bitgen -w "HM0360_image_capture_HM0360_image_capture_impl.udb" -f "HM0360_image_capture_HM0360_image_capture_impl.t2b" -s "C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/security_setting/HM0360_image_capture.secproj"
+Loading HM0360_image_capture_HM0360_image_capture_impl.udb ...
+Loading device for application GENERIC from file 'je5d30.nph' in environment: C:/lscc/radiant/3.2/ispfpga.
+Package Status:                     Final          Version 39.
+Performance Hardware Data Status:   Final          Version 115.1.
+
+
+
+Design:  HM0360_Interface_top_level
+Family:  LIFCL
+Device:  LIFCL-40
+Package: CSBGA289
+Performance Grade:   8_High-Performance_1.0V
+WARNING - bitgen: Unable to find the instance/port 'HM_CP' in the constraint 'ldc_set_location -site {T1} [get_ports HM_CP]'
+
+WARNING - bitgen: In the constraint 'ldc_set_location -site {T1} [get_ports HM_CP]', the locate object is not specified
+
+WARNING - bitgen: Unable to find the instance/port 'HM_CN' in the constraint 'ldc_set_location -site {R1} [get_ports HM_CN]'
+
+WARNING - bitgen: In the constraint 'ldc_set_location -site {R1} [get_ports HM_CN]', the locate object is not specified
+
+WARNING - bitgen: Unable to find the instance/port 'HM_DP[0]' in the constraint 'ldc_set_location -site {R2} [get_ports {HM_DP[0]}]'
+
+WARNING - bitgen: In the constraint 'ldc_set_location -site {R2} [get_ports {HM_DP[0]}]', the locate object is not specified
+
+WARNING - bitgen: Unable to find the instance/port 'HM_DN[0]' in the constraint 'ldc_set_location -site {P2} [get_ports {HM_DN[0]}]'
+
+WARNING - bitgen: In the constraint 'ldc_set_location -site {P2} [get_ports {HM_DN[0]}]', the locate object is not specified
+
+Successfully loading design udb and device data from disks and to up-layer in CPU time: 3 secs , REAL time: 4 secs 
+
+
+
+BITGEN: Bitstream Generator Radiant Software (64-bit) 3.2.1.217.3
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2022 Lattice Semiconductor Corporation,  All rights reserved.
+
+
+Running DRC.
+DRC detected 0 errors and 0 warnings.
+
+Preference Summary:
++---------------------------------+---------------------------------+
+|  Preference                     |  Current Setting                |
++---------------------------------+---------------------------------+
+|                        DONE_EX  |                           OFF*  |
++---------------------------------+---------------------------------+
+|                        DONE_OD  |                            ON*  |
++---------------------------------+---------------------------------+
+|                  CONFIG_SECURE  |                           OFF*  |
++---------------------------------+---------------------------------+
+|               EARLY_IO_RELEASE  |                           OFF*  |
++---------------------------------+---------------------------------+
+|                  REGISTER_INIT  |                           ON**  |
++---------------------------------+---------------------------------+
+|   MASTER_PREAMBLE_TIMER_CYCLES  |                        600000*  |
++---------------------------------+---------------------------------+
+|                 SLAVE_SPI_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                 SLAVE_I2C_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                 SLAVE_I3C_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                      JTAG_PORT  |                       ENABLE**  |
++---------------------------------+---------------------------------+
+|                      DONE_PORT  |                       ENABLE**  |
++---------------------------------+---------------------------------+
+|                     INITN_PORT  |                       ENABLE**  |
++---------------------------------+---------------------------------+
+|                  PROGRAMN_PORT  |                       ENABLE**  |
++---------------------------------+---------------------------------+
+|                        TRANSFR  |                           OFF*  |
++---------------------------------+---------------------------------+
+|                MASTER_SPI_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                     MCCLK_FREQ  |                           3.5*  |
++---------------------------------+---------------------------------+
+|                COMPRESS_CONFIG  |                           OFF*  |
++---------------------------------+---------------------------------+
+|            BACKGROUND_RECONFIG  |                           OFF*  |
++---------------------------------+---------------------------------+
+|                  CONFIG_IOSLEW  |                          SLOW*  |
++---------------------------------+---------------------------------+
+|                        WAKE_UP  |              ENABLE_DONE_SYNC*  |
++---------------------------------+---------------------------------+
+|                       BOOTMODE  |                          DUAL*  |
++---------------------------------+---------------------------------+
+|         CONFIGIO_VOLTAGE_BANK0  |                 NOT_SPECIFIED*  |
++---------------------------------+---------------------------------+
+|         CONFIGIO_VOLTAGE_BANK1  |                 NOT_SPECIFIED*  |
++---------------------------------+---------------------------------+
+ *  Default setting.
+ ** The specified setting matches the default setting.
+
+
+Creating bit map...
+ 
+Bitstream Status: Final           Version 9.7.
+ 
+Saving bit stream in "C:\Users\miche\Desktop\my_designs\HM0360\HM0360_image_capture\HM0360_image_capture_impl\HM0360_image_capture_HM0360_image_capture_impl.bit".
+Bitstream generation complete!
+
+Total CPU Time: 26 secs 
+Total REAL Time: 27 secs 
+Peak Memory Usage: 534 MB
+
+
+ibisgen "HM0360_image_capture_HM0360_image_capture_impl.udb" "C:/lscc/radiant/3.2/cae_library/ibis/lifcl.ibs"
+IBIS Models Generator: Lattice Radiant Software (64-bit) 3.2.1.217.3
+
+Sat Dec  3 21:01:57 2022
+
+Loading HM0360_image_capture_HM0360_image_capture_impl.udb ...
+Loading device for application GENERIC from file 'je5d30.nph' in environment: C:/lscc/radiant/3.2/ispfpga.
+Package Status:                     Final          Version 39.
+Performance Hardware Data Status:   Final          Version 115.1.
+
+
+
+Design:  HM0360_Interface_top_level
+Family:  LIFCL
+Device:  LIFCL-40
+Package: CSBGA289
+Performance Grade:   8_High-Performance_1.0V
+    <postMsg mid="77001032" type="Warning" dynamic="2" navigation="0" arg0="HM_CP" arg1="ldc_set_location -site {T1} [get_ports HM_CP]"  />
+    <postMsg mid="77001031" type="Warning" dynamic="1" navigation="0" arg0="ldc_set_location -site {T1} [get_ports HM_CP]"  />
+    <postMsg mid="77001032" type="Warning" dynamic="2" navigation="0" arg0="HM_CN" arg1="ldc_set_location -site {R1} [get_ports HM_CN]"  />
+    <postMsg mid="77001031" type="Warning" dynamic="1" navigation="0" arg0="ldc_set_location -site {R1} [get_ports HM_CN]"  />
+    <postMsg mid="77001032" type="Warning" dynamic="2" navigation="0" arg0="HM_DP[0]" arg1="ldc_set_location -site {R2} [get_ports {HM_DP[0]}]"  />
+    <postMsg mid="77001031" type="Warning" dynamic="1" navigation="0" arg0="ldc_set_location -site {R2} [get_ports {HM_DP[0]}]"  />
+    <postMsg mid="77001032" type="Warning" dynamic="2" navigation="0" arg0="HM_DN[0]" arg1="ldc_set_location -site {P2} [get_ports {HM_DN[0]}]"  />
+    <postMsg mid="77001031" type="Warning" dynamic="1" navigation="0" arg0="ldc_set_location -site {P2} [get_ports {HM_DN[0]}]"  />
+Successfully loading design udb and device data from disks and to up-layer in CPU time: 3 secs , REAL time: 4 secs 
+
+Created design models.
+
+
+Generating: C:\Users\miche\Desktop\my_designs\HM0360\HM0360_image_capture\HM0360_image_capture_impl\IBIS\HM0360_image_capture_HM0360_image_capture_impl.ibs
+
+
+    <postMsg mid="1191031" type="Info" dynamic="0" navigation="0"  />
+
+Generating package file:  "C:\Users\miche\Desktop\my_designs\HM0360\HM0360_image_capture\HM0360_image_capture_impl\IBIS\lifcl-40-csbga289.pkg"
+
+
+backanno "HM0360_image_capture_HM0360_image_capture_impl.udb"  -o "HM0360_image_capture_HM0360_image_capture_impl_vo.vo"      -sp "8_High-Performance_1.0V"  -w -neg
+backanno: version Radiant Software (64-bit) 3.2.1.217.3
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2022 Lattice Semiconductor Corporation,  All rights reserved.
+
+Loading device for application GENERIC from file 'je5d30.nph' in environment: C:/lscc/radiant/3.2/ispfpga.
+Package Status:                     Final          Version 39.
+Loading udb::Database ...
+Design:  HM0360_Interface_top_level
+Family:  LIFCL
+Device:  LIFCL-40
+Package: CSBGA289
+Performance Grade:   8_High-Performance_1.0V
+Performance Hardware Data Status:   Final          Version 115.1.
+
+
+
+Writing a verilog netlist based on the HM0360_image_capture_HM0360_image_capture_impl design file.
+
+Writing Verilog netlist to file HM0360_image_capture_HM0360_image_capture_impl_vo.vo
+Writing SDF timing to file HM0360_image_capture_HM0360_image_capture_impl_vo.sdf
+Backanno finished with 0 posted error messages.
+Total CPU Time: 5 secs 
+Total REAL Time: 6 secs 
+Peak Memory Usage: 349 MB

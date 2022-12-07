@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<RadiantModule architecture="LIFCL" date="2022 12 01 00:11:27" device="LIFCL-40" generator="ipgen" library="ip" module="dphy_rx" name="HM0360_CSI2_DPHY" package="CSBGA289" source_format="Verilog" speed="8_High-Performance_1.0V" vendor="latticesemi.com" version="1.4.3">
+ <Package>
+  <File modified="2022 12 01 00:11:26" name="rtl/HM0360_CSI2_DPHY_bb.v" type="black_box_verilog"/>
+  <File modified="2022 12 01 00:11:26" name="HM0360_CSI2_DPHY.cfg" type="cfg"/>
+  <File modified="2022 12 01 00:11:26" name="misc/HM0360_CSI2_DPHY_tmpl.v" type="template_verilog"/>
+  <File modified="2022 12 01 00:11:26" name="misc/HM0360_CSI2_DPHY_tmpl.vhd" type="template_vhdl"/>
+  <File modified="2022 12 01 00:11:26" name="rtl/HM0360_CSI2_DPHY.v" type="top_level_verilog"/>
+  <File modified="2022 12 01 00:11:26" name="constraints/HM0360_CSI2_DPHY.ldc" type="timing_constraints"/>
+  <File modified="2022 12 01 00:11:27" name="testbench/dut_params.v" type="dependency_file"/>
+  <File modified="2022 12 01 00:11:27" name="testbench/dut_inst.v" type="dependency_file"/>
+  <File modified="2022 12 01 00:11:27" name="component.xml" type="IP-XACT_component"/>
+  <File modified="2022 12 01 00:11:27" name="design.xml" type="IP-XACT_design"/>
+  <File modified="2022 10 21 14:25:45" name="testbench/bus_driver.v" type="testbench_verilog"/>
+  <File modified="2022 10 21 14:25:45" name="testbench/clk_driver.v" type="testbench_verilog"/>
+  <File modified="2022 10 21 14:25:45" name="testbench/csi2_model.v" type="testbench_verilog"/>
+  <File modified="2022 10 21 14:25:45" name="testbench/dsi_model.v" type="testbench_verilog"/>
+  <File modified="2022 10 21 14:25:45" name="testbench/tb_top.v" type="testbench_verilog"/>
+ </Package>
+</RadiantModule>

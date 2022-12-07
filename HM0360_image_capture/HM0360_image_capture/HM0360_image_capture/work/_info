@@ -1,0 +1,1286 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+!s11f vlog 2021.4 2021.10, Oct 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/HM0360_image_capture
+Econfiguration_module
+Z1 w1669720457
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 25
+R0
+Z5 8C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/configuration_module.vhd
+Z6 FC:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/configuration_module.vhd
+l0
+L5 1
+Vm=hkG19kc>ocK_e0XPYUR1
+!s100 I>Nl;AKG9JJdnhWUEKE`81
+Z7 OT;C;2021.4;73
+33
+Z8 !s110 1669846728
+!i10b 1
+Z9 !s108 1669846728.000000
+Z10 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/configuration_module.vhd|
+Z11 !s107 C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/configuration_module.vhd|
+!i113 1
+Z12 o-work work -2008 -explicit -O0
+Z13 tExplicit 1 NoCoverage 1 CvgOpt 0
+Abehavioral
+R2
+R3
+R4
+DEx4 work 20 configuration_module 0 22 m=hkG19kc>ocK_e0XPYUR1
+!i122 25
+l36
+L17 201
+V<b_IlK1IG=FRTVkLZ9h7W1
+!s100 z;X@L2oj:<UX5WY@lInCO0
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ecounter
+Z14 w1667215205
+Z15 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
+R3
+R4
+!i122 22
+R0
+Z16 8C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/counter.vhd
+Z17 FC:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/counter.vhd
+l0
+L5 1
+VhmOK[0ibZc=SNcMGhhRc]0
+!s100 U_z^N2>_Wl7AnlW:aBm^G0
+R7
+33
+Z18 !s110 1669846727
+!i10b 1
+Z19 !s108 1669846727.000000
+Z20 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/counter.vhd|
+Z21 !s107 C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/counter.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R15
+R3
+R4
+DEx4 work 7 counter 0 22 hmOK[0ibZc=SNcMGhhRc]0
+!i122 22
+l20
+L16 35
+VVhToD`38BO[[b3LN=lf7T0
+!s100 JV8O[3eAN4oWU5M;KYSCC2
+R7
+33
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R12
+R13
+Edebounce
+Z22 w1664902791
+R3
+R4
+!i122 19
+R0
+Z23 8C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/debounce.vhd
+Z24 FC:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/debounce.vhd
+l0
+Z25 L29 1
+VH[7=6P4Y;51OjdfAJhN`K2
+!s100 X=C=gBSCX<bzQFP?`6e3j0
+R7
+33
+R18
+!i10b 1
+Z26 !s108 1669846726.000000
+Z27 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/debounce.vhd|
+Z28 !s107 C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/debounce.vhd|
+!i113 1
+R12
+R13
+Alogic
+R3
+R4
+DEx4 work 8 debounce 0 22 H[7=6P4Y;51OjdfAJhN`K2
+!i122 19
+l43
+L40 27
+VM=P:^AhKME`NRVAOkUYR^2
+!s100 4k=^5:ISKFSJa_;gYalZT3
+R7
+33
+R18
+!i10b 1
+R26
+R27
+R28
+!i113 1
+R12
+R13
+Edebounce_2
+Z29 w1669712199
+R3
+R4
+!i122 31
+R0
+Z30 8C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/debounce_2.vhd
+Z31 FC:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/debounce_2.vhd
+l0
+R25
+V]KjHR`da5XYbMaFhJFTGX2
+!s100 _0eRUMBL6[K:8lDLaZcK80
+R7
+33
+Z32 !s110 1669846729
+!i10b 1
+Z33 !s108 1669846729.000000
+Z34 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/debounce_2.vhd|
+Z35 !s107 C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/debounce_2.vhd|
+!i113 1
+R12
+R13
+Alogic
+R3
+R4
+DEx4 work 10 debounce_2 0 22 ]KjHR`da5XYbMaFhJFTGX2
+!i122 31
+l51
+L42 35
+Vc5Q8bTnOikZQU0Lb9RYFL0
+!s100 LIPR@H647Nn6]:LJ2TY`A0
+R7
+33
+R32
+!i10b 1
+R33
+R34
+R35
+!i113 1
+R12
+R13
+Eenable_pic_source_logic
+Z36 w1668252581
+R2
+R3
+R4
+!i122 20
+R0
+Z37 8C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/enable_pic_source_logic.vhd
+Z38 FC:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/enable_pic_source_logic.vhd
+l0
+L5 1
+ViR^lS>O5bE>Jk4a`gNDcT1
+!s100 EhR;WRPKCbA8[K29Eo?Mn2
+R7
+33
+R18
+!i10b 1
+R19
+Z39 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/enable_pic_source_logic.vhd|
+Z40 !s107 C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/enable_pic_source_logic.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R2
+R3
+R4
+DEx4 work 23 enable_pic_source_logic 0 22 iR^lS>O5bE>Jk4a`gNDcT1
+!i122 20
+l18
+L14 25
+V8l<Tic7ijA4<FHa4Q<Dlf3
+!s100 >z`X_;mJYTOj?[WfQTP2e0
+R7
+33
+R18
+!i10b 1
+R19
+R39
+R40
+!i113 1
+R12
+R13
+Egen_config_command
+Z41 w1669846302
+R3
+R4
+!i122 32
+R0
+Z42 8C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/gen_config_command.vhd
+Z43 FC:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/gen_config_command.vhd
+l0
+L4 1
+VNGE@_hQmg8kW^mzHEoMc82
+!s100 oi316az<^IPmK>;oH1CXP2
+R7
+33
+R32
+!i10b 1
+R33
+Z44 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/gen_config_command.vhd|
+Z45 !s107 C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/gen_config_command.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R3
+R4
+DEx4 work 18 gen_config_command 0 22 NGE@_hQmg8kW^mzHEoMc82
+!i122 32
+l33
+L14 80
+VH75VR;hWPW>5BmFeKB<203
+!s100 0oGazPz^9SE2aSClT9DT>3
+R7
+33
+R32
+!i10b 1
+R33
+R44
+R45
+!i113 1
+R12
+R13
+vHM0360_CSI2_DPHY
+Z46 !s125 LATTICE_CONN
+Z47 !s110 1669846726
+!i10b 1
+!s100 82F2lD<^Y9FaZA7_<TbT>1
+I^8E9?fSLYRC[ZJE]oh[;C2
+R0
+Z48 w1669846122
+Z49 8C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/HM0360_CSI2_DPHY/rtl/HM0360_CSI2_DPHY.v
+Z50 FC:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/HM0360_CSI2_DPHY/rtl/HM0360_CSI2_DPHY.v
+!i122 18
+L0 11 176
+Z51 VDg1SIo80bB@j0V0VzS_@n1
+Z52 OT;L;2021.4;73
+r1
+!s85 0
+31
+R26
+Z53 !s107 C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/HM0360_CSI2_DPHY/rtl/HM0360_CSI2_DPHY.v|
+Z54 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/HM0360_CSI2_DPHY/rtl/HM0360_CSI2_DPHY.v|
+!s101 -O0
+!i113 1
+Z55 o-work work -O0
+Z56 tCvgOpt 0
+n@h@m0360_@c@s@i2_@d@p@h@y
+vzXQHgGxgco0PWu/UYgI3yyNdncgFBuNb1KjrGSMnvUO+II56IVdq+Gy64Jr6wxM2
+R47
+!i10b 0
+!s100 i;jmVKgY^@j_^KEM7EhKX2
+IViCJF[CzN8jQh=?V[lz6@1
+!i119 1
+!i8a 1126232880
+R0
+Z57 w1669846726
+R49
+R50
+!i122 18
+Z58 L0 296 1
+R51
+R52
+r1
+!s85 0
+31
+R26
+R53
+R54
+!s101 -O0
+!i113 1
+R55
+R56
+n4a7db12
+vu8dI3504qu2/fYZMude3qbKhsldxt1Hv4zggWtSJBOZKgORpTusxLkLLyCRqIrhx
+R47
+!i10b 0
+!s100 CaAa>:W>Ol:;g8bk`6?720
+Ibje<MmAPTQe`I2kPH<GDG3
+!i119 1
+!i8a 1742601696
+R0
+R57
+R49
+R50
+!i122 18
+R58
+R51
+R52
+r1
+!s85 0
+31
+R26
+R53
+R54
+!s101 -O0
+!i113 1
+R55
+R56
+nadf588c
+vEZAdGxPXOM985sghA+EHGdXC8pA+8vRnI/BlaFUr3zrzM/NFwuybNLHb88x9C4/l
+R47
+!i10b 0
+!s100 0XMaW^6bCZ7Tz@MNS_^4<1
+ImTbPc?Zo>AfAU:[4CD>Cl2
+!i119 1
+!i8a 1239533136
+R0
+R57
+R49
+R50
+!i122 18
+R58
+R51
+R52
+r1
+!s85 0
+31
+R26
+R53
+R54
+!s101 -O0
+!i113 1
+R55
+R56
+ne11d7b2
+vEF603f4z36cbvvjrETV8czxY822mQ8X34u983E39JMCdL+YqBCcOSHQPq5gBxX1W
+R47
+!i10b 0
+!s100 TD`ODiHm_kdU]<H@dW4DJ2
+Ih`B31nHXVSEDI]zBWBUJi2
+!i119 1
+!i8a 1201990240
+R0
+R57
+R49
+R50
+!i122 18
+R58
+R51
+R52
+r1
+!s85 0
+31
+R26
+R53
+R54
+!s101 -O0
+!i113 1
+R55
+R56
+n4477ab8
+vS+xByaS2wxbgYmx67SmEfe8Wh+I4e7YisMB8+xg4f9rIAJmIJvTlNy/nEmy7aEt8
+R47
+!i10b 0
+!s100 VRz4T@inS8V^H;`ZP?Ee53
+IlUJN`7SEacT^Ue9Z>0@8;3
+!i119 1
+!i8a 399468304
+R0
+R57
+R49
+R50
+!i122 18
+R58
+R51
+R52
+r1
+!s85 0
+31
+R26
+R53
+R54
+!s101 -O0
+!i113 1
+R55
+R56
+nba1f125
+vANcvH3GcUVokHER+422UcCNJaEqZzMAyqXecgEfg4DE7PIXzzc7+tpFBi79mFx8q
+R47
+!i10b 0
+!s100 <@lmJ=^l^TZ`2XK<03[^]0
+IMhePzNf=TCOcMD3bGT21]3
+!i119 1
+!i8a 276189056
+R0
+R57
+R49
+R50
+!i122 18
+R58
+R51
+R52
+r1
+!s85 0
+31
+R26
+R53
+R54
+!s101 -O0
+!i113 1
+R55
+R56
+nba26599
+vHM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_wrap
+R47
+!i10b 1
+!s100 ANQG27Yf^zE5N5kJ=1kF;2
+I9DIeeKfJ813om[i<ACza]1
+R0
+R48
+R49
+R50
+!i122 18
+L0 5312 2094
+R51
+R52
+r1
+!s85 0
+31
+R26
+R53
+R54
+!s101 -O0
+!i113 1
+R55
+R56
+n@h@m0360_@c@s@i2_@d@p@h@y_ipgen_lscc_dphy_rx_wrap
+vHM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_wrap_cil
+R47
+!i10b 1
+!s100 A2bGRk0VJWVA:bT_b2W=30
+I=Vk4zkAV=B`4G]8TPB4H_2
+R0
+R48
+R49
+R50
+!i122 18
+L0 7471 832
+R51
+R52
+r1
+!s85 0
+31
+R26
+R53
+R54
+!s101 -O0
+!i113 1
+R55
+R56
+n@h@m0360_@c@s@i2_@d@p@h@y_ipgen_lscc_dphy_rx_wrap_cil
+vb34PW32v8B3dAiXj+EqQoh8m86zkr7IY5j5zdTTVhQOPbBMwAtiRZg40DazV9kxu
+R47
+!i10b 0
+!s100 LQj8W2bKUz:4bR^f?g6160
+IV9`[iDUOnM9N7QX:?U[m=1
+!i119 1
+!i8a 919400144
+R0
+R57
+R49
+R50
+!i122 18
+Z59 L0 8412 1
+R51
+R52
+r1
+!s85 0
+31
+R26
+R53
+R54
+!s101 -O0
+!i113 1
+R55
+R56
+n40a8ec3
+v6K5LBvHx7NfAWE6c82j8FttVqk+pfzOI7EgRbTwqB7UpRryeWHt8dtsIzS7t0QFP
+R47
+!i10b 0
+!s100 H`8@k1Fgz8d_Zjn6OTcg@0
+I3bedDCX:N^d@kV^m`4`Ko1
+!i119 1
+!i8a 1000184960
+R0
+R57
+R49
+R50
+!i122 18
+R59
+R51
+R52
+r1
+!s85 0
+31
+R26
+R53
+R54
+!s101 -O0
+!i113 1
+R55
+R56
+n395f91e
+v0g2MCKmEVdHeC1wYbaFl9YETo0cS4W+0tEFGNpo813RuiWEpaFQEfiukZCPUkrmd
+R47
+!i10b 0
+!s100 GdFWl`9;TObG=DEinmA481
+IUUMLjbLgk>a3zF8diVh<;3
+!i119 1
+!i8a 517873232
+R0
+R57
+R49
+R50
+!i122 18
+R59
+R51
+R52
+r1
+!s85 0
+31
+R26
+R53
+R54
+!s101 -O0
+!i113 1
+R55
+R56
+n756635c
+vZbjsgaDh7R1ClKifhJpvp5QNtUQ33GzzuEZYtsylHZvMtPaLDxnN9agIB+NbNBrY
+R47
+!i10b 0
+!s100 :T[W9BjFXR3`4f:2nlodL0
+IX;V@8RnVXbXT[83O8AdJ_0
+!i119 1
+!i8a 1166591856
+R0
+R57
+R49
+R50
+!i122 18
+R59
+R51
+R52
+r1
+!s85 0
+31
+R26
+R53
+R54
+!s101 -O0
+!i113 1
+R55
+R56
+n1d65788
+vgCk6JOlsEgLAqrWKXFiHPB2whlOaSs/53swZBrDOFoJOPIEgdL7eCNed/fTcYvMt
+R47
+!i10b 0
+!s100 Qj9@chPMPj3WWBUm3jXDf2
+I=XcU[<4Jh<g6HTTIC=Dam0
+!i119 1
+!i8a 1628250816
+R0
+R57
+R49
+R50
+!i122 18
+R59
+R51
+R52
+r1
+!s85 0
+31
+R26
+R53
+R54
+!s101 -O0
+!i113 1
+R55
+R56
+n70d43df
+vUFPhTlzCQyBTQhHp6yFuS3DGW/ia7F2+OK2nVESyjaZsNp+YqnryLlb+vhr5hqnc
+R47
+!i10b 0
+!s100 Bl4=7[UBGdg4R=d@MIo4f3
+IL?i0b]Xed151amWXJM5=Y2
+!i119 1
+!i8a 1766730624
+R0
+R57
+R49
+R50
+!i122 18
+R59
+R51
+R52
+r1
+!s85 0
+31
+R26
+R53
+R54
+!s101 -O0
+!i113 1
+R55
+R56
+n43e46a0
+v80DDXjbvpK51UOFSGaSRAIul3+XM2emdQ80DPbwp+L3jJUoWP1qjyQb8iq3kEJVg
+R47
+!i10b 0
+!s100 gd^begcbX?o8^=2YN_7Y90
+IVTBScK9JCn>R]b=;>W`4B1
+!i119 1
+!i8a 168869392
+R0
+R57
+R49
+R50
+!i122 18
+R59
+R51
+R52
+r1
+!s85 0
+31
+R26
+R53
+R54
+!s101 -O0
+!i113 1
+R55
+R56
+n465ff55
+vlCHGwLhMCTQH3Z8zlQXk8etlrkpJFyW2dPr6WVZVPMg1v3rWGPeRrwnuceADUEX9
+R47
+!i10b 0
+!s100 COg:IU>l1WYBE28c0`1Jc1
+I7B@<IZAmVZZY^?C0n:O4B0
+!i119 1
+!i8a 701299632
+R0
+R57
+R49
+R50
+!i122 18
+R59
+R51
+R52
+r1
+!s85 0
+31
+R26
+R53
+R54
+!s101 -O0
+!i113 1
+R55
+R56
+n64c7465
+vFaoqTaEAZxMW7rBvM4+6GUFKvZjsZ9y8xAujYYqIGnMJQEUnzvDUK/SD0z9MYSrf
+R47
+!i10b 0
+!s100 d_]1MFRkdJ9W=ZCZj[kTk2
+INjINb=YL20Y2R3W]B>=ZJ2
+!i119 1
+!i8a 193614992
+R0
+R57
+R49
+R50
+!i122 18
+R59
+R51
+R52
+r1
+!s85 0
+31
+R26
+R53
+R54
+!s101 -O0
+!i113 1
+R55
+R56
+n8d35f7c
+v5avwzv3YZckJ0+ZQGxVtRX/KWPmoR0qBzWK3M/mXpV4oe1tkvPC+TacNWoU7Ps3v
+R47
+!i10b 0
+!s100 8^:YjmZ>T0JYHA7g9BDg60
+I>XST;T]7jWZFND0YS^kd_3
+!i119 1
+!i8a 1569591424
+R0
+R57
+R49
+R50
+!i122 18
+R59
+R51
+R52
+r1
+!s85 0
+31
+R26
+R53
+R54
+!s101 -O0
+!i113 1
+R55
+R56
+nd1fe728
+viG4bdCmEjfRUwwkbr1YaGzlVjYasZxInxUHHakPpF3kCWbqsbkccJ+Jgq0coDngq
+R47
+!i10b 0
+!s100 kaN9dN2oYSP1G<>8NmMOm1
+I>4OJLd;B>GEO6`fMgi6CQ2
+!i119 1
+!i8a 447368432
+R0
+R57
+R49
+R50
+!i122 18
+R59
+R51
+R52
+r1
+!s85 0
+31
+R26
+R53
+R54
+!s101 -O0
+!i113 1
+R55
+R56
+n2971bde
+Ehm0360_device
+Z60 w1669801988
+R2
+R3
+R4
+!i122 34
+R0
+Z61 8C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/HM0360_device.vhd
+Z62 FC:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/HM0360_device.vhd
+l0
+L5 1
+VUdeBD`1`IHaA:`W`]NS3?0
+!s100 ?2ITN6cK@``_Az_<8NJ@C0
+R7
+33
+R32
+!i10b 1
+R33
+Z63 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/HM0360_device.vhd|
+Z64 !s107 C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/HM0360_device.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R2
+R3
+R4
+DEx4 work 13 hm0360_device 0 22 UdeBD`1`IHaA:`W`]NS3?0
+!i122 34
+l46
+L17 254
+VaiTfoUDz@3>27?l`4@4jP2
+!s100 9RB2008d<ECcT0ZzQiHiX0
+R7
+33
+R32
+!i10b 1
+R33
+R63
+R64
+!i113 1
+R12
+R13
+Ehm0360_interface
+Z65 w1669846669
+R2
+R3
+R4
+!i122 30
+R0
+Z66 8C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/HM0360_Interface.vhd
+Z67 FC:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/HM0360_Interface.vhd
+l0
+L6 1
+VT7_o[]2?IER7MI6hRdT>@1
+!s100 nhmFIi?moXj5<Dh:QfTc81
+R7
+33
+R8
+!i10b 1
+R9
+Z68 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/HM0360_Interface.vhd|
+Z69 !s107 C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/HM0360_Interface.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R2
+R3
+R4
+DEx4 work 16 hm0360_interface 0 22 T7_o[]2?IER7MI6hRdT>@1
+!i122 30
+l151
+L35 229
+V9Hz:GSPHLkKKIWm=HTHI@1
+!s100 aA=jjdVRL]hcY9TWiRnG[1
+R7
+33
+R8
+!i10b 1
+R9
+R68
+R69
+!i113 1
+R12
+R13
+Ehm0360_interface_top_level
+Z70 w1669846196
+R2
+R3
+R4
+!i122 33
+R0
+Z71 8C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/HM0360_Interface_top_level.vhd
+Z72 FC:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/HM0360_Interface_top_level.vhd
+l0
+L6 1
+V2L0aSdUEMV8D`8ZVdI_0D3
+!s100 ?dE64TFDh^aiFN?;N=PcU0
+R7
+33
+R32
+!i10b 1
+R33
+Z73 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/HM0360_Interface_top_level.vhd|
+Z74 !s107 C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/HM0360_Interface_top_level.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R2
+R3
+R4
+DEx4 work 26 hm0360_interface_top_level 0 22 2L0aSdUEMV8D`8ZVdI_0D3
+!i122 33
+l100
+L33 149
+VVId<WO2>1OB@Al4PobR^_2
+!s100 R[;2ZT_ZA9CE89[5m]zXM2
+R7
+33
+R32
+!i10b 1
+R33
+R73
+R74
+!i113 1
+R12
+R13
+Ehm0360_interface_top_level_tb
+Z75 w1669764962
+R2
+R3
+R4
+!i122 35
+R0
+Z76 8C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/HM0360_Interface_top_level_tb.vhd
+Z77 FC:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/HM0360_Interface_top_level_tb.vhd
+l0
+L5 1
+V4UY0U9:D1G_F:G1U`SP_o3
+!s100 1_>@G1[[m?8kg47kKFKBe1
+R7
+33
+R32
+!i10b 1
+R33
+Z78 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/HM0360_Interface_top_level_tb.vhd|
+Z79 !s107 C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/HM0360_Interface_top_level_tb.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R2
+R3
+R4
+DEx4 work 29 hm0360_interface_top_level_tb 0 22 4UY0U9:D1G_F:G1U`SP_o3
+!i122 35
+l69
+L9 141
+VC1GD]ABIV6_@0hi?K6Qkh3
+!s100 nQao;XZ<8Hc3Qz7>i2Q530
+R7
+33
+R32
+!i10b 1
+R33
+R78
+R79
+!i113 1
+R12
+R13
+Ehm0360_serial_master
+Z80 w1669809079
+R2
+R3
+R4
+!i122 27
+R0
+Z81 8C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/HM0360_serial_master.vhd
+Z82 FC:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/HM0360_serial_master.vhd
+l0
+L5 1
+V`GWV=[O]NAYPCi3HYXLRP0
+!s100 MB:MBkWm_`TB^PzCXg=fO3
+R7
+33
+R8
+!i10b 1
+R9
+Z83 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/HM0360_serial_master.vhd|
+Z84 !s107 C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/HM0360_serial_master.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R2
+R3
+R4
+DEx4 work 20 hm0360_serial_master 0 22 `GWV=[O]NAYPCi3HYXLRP0
+!i122 27
+l60
+L29 276
+V<Df[`SKkS^Ij_IlRoX?B81
+!s100 ?lK5S<n@iVhihg6OFka7N3
+R7
+33
+R8
+!i10b 1
+R9
+R83
+R84
+!i113 1
+R12
+R13
+Ei2c_module
+Z85 w1669846256
+R2
+R3
+R4
+!i122 28
+R0
+Z86 8C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/I2C_module.vhd
+Z87 FC:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/I2C_module.vhd
+l0
+L5 1
+ViF879XdU42LOnYH1cn?Tb2
+!s100 i=W83Kf1Ohd6O3T:Q_5P22
+R7
+33
+R8
+!i10b 1
+R9
+Z88 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/I2C_module.vhd|
+Z89 !s107 C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/I2C_module.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R2
+R3
+R4
+DEx4 work 10 i2c_module 0 22 iF879XdU42LOnYH1cn?Tb2
+!i122 28
+l107
+L19 189
+VENCOhV];a@@IOdHH:FDN[2
+!s100 8ZbGJg7lARcMHBk^C^z]`3
+R7
+33
+R8
+!i10b 1
+R9
+R88
+R89
+!i113 1
+R12
+R13
+Eimage_buffer
+Z90 w1668899028
+R2
+R3
+R4
+!i122 21
+R0
+Z91 8C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/image_buffer.vhd
+Z92 FC:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/image_buffer.vhd
+l0
+L10 1
+VnC73IhjMj]FI9IAGf7L1J1
+!s100 XiTCS74F^XeXj`_INOVbE1
+R7
+33
+R18
+!i10b 1
+R19
+Z93 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/image_buffer.vhd|
+Z94 !s107 C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/image_buffer.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R2
+R3
+R4
+DEx4 work 12 image_buffer 0 22 nC73IhjMj]FI9IAGf7L1J1
+!i122 21
+l26
+L20 29
+VX1=18=BC5n]8?AA;Q3>d^2
+!s100 ZWYgCdDAzQ28aMkd<m4Df2
+R7
+33
+R18
+!i10b 1
+R19
+R93
+R94
+!i113 1
+R12
+R13
+vPLL_sync_clk
+R46
+R8
+!i10b 1
+!s100 Jk<fBnC=gM=aSmc^gIS703
+Id5Vb4S2`6ZF;iC^TehCMW1
+R0
+Z95 w1669846157
+Z96 8C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/PLL_sync_clk/rtl/PLL_sync_clk.v
+Z97 FC:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/PLL_sync_clk/rtl/PLL_sync_clk.v
+!i122 29
+L0 11 138
+R51
+R52
+r1
+!s85 0
+31
+R9
+Z98 !s107 C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/PLL_sync_clk/rtl/PLL_sync_clk.v|
+Z99 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/PLL_sync_clk/rtl/PLL_sync_clk.v|
+!s101 -O0
+!i113 1
+R55
+R56
+n@p@l@l_sync_clk
+vPLL_sync_clk_ipgen_lscc_apb2lmmi
+R8
+!i10b 1
+!s100 N6k2MBSjK`@T4zWS<mekB0
+ISNf:?__LT4;`Y@YJ>KaH;0
+R0
+R95
+R96
+R97
+!i122 29
+L0 1494 312
+R51
+R52
+r1
+!s85 0
+31
+R9
+R98
+R99
+!s101 -O0
+!i113 1
+R55
+R56
+n@p@l@l_sync_clk_ipgen_lscc_apb2lmmi
+vPLL_sync_clk_ipgen_lscc_pll
+R8
+!i10b 1
+!s100 VK7@nVF3?CA@>?NV>^N>I3
+I59<PjIgei:jmc:]lSZGg22
+R0
+R95
+R96
+R97
+!i122 29
+L0 155 1332
+R51
+R52
+r1
+!s85 0
+31
+R9
+R98
+R99
+!s101 -O0
+!i113 1
+R55
+R56
+n@p@l@l_sync_clk_ipgen_lscc_pll
+Eprescaler
+Z100 w1667152965
+Z101 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z102 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R15
+R3
+R4
+!i122 23
+R0
+Z103 8C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/prescaler.vhd
+Z104 FC:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/prescaler.vhd
+l0
+L6 1
+V_f[0hB_d9U1m?Wf0Y9he12
+!s100 Ibo>?Tn9VU`Qnc[o0k;cA3
+R7
+33
+R18
+!i10b 1
+R19
+Z105 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/prescaler.vhd|
+Z106 !s107 C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/prescaler.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R101
+R102
+R15
+R3
+R4
+DEx4 work 9 prescaler 0 22 _f[0hB_d9U1m?Wf0Y9he12
+!i122 23
+l33
+L18 30
+V1M^0Y:GQ<8;AfS=1IoKjV1
+!s100 JnX<I_lcnAh]PK[5YT2je1
+R7
+33
+R18
+!i10b 1
+R19
+R105
+R106
+!i113 1
+R12
+R13
+Eread_config_module
+Z107 w1669848537
+R2
+R3
+R4
+!i122 37
+R0
+Z108 8C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/read_config_module.vhd
+Z109 FC:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/read_config_module.vhd
+l0
+L5 1
+VzJj@:fOP:Ahm:iT3Mm;IE0
+!s100 ]Xam:g_oY]dGzFSCQ:UAm1
+R7
+33
+Z110 !s110 1669848543
+!i10b 1
+Z111 !s108 1669848543.000000
+Z112 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/read_config_module.vhd|
+Z113 !s107 C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/read_config_module.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R2
+R3
+R4
+Z114 DEx4 work 18 read_config_module 0 22 zJj@:fOP:Ahm:iT3Mm;IE0
+!i122 37
+l56
+Z115 L15 195
+VkijLFUNeUTeO;PQg?7kR=0
+!s100 Ml`OELR9e6^47G[>OD2MF1
+R7
+33
+R110
+!i10b 1
+R111
+R112
+R113
+!i113 1
+R12
+R13
+Etrig_acq_module
+Z116 w1668182164
+R2
+R3
+R4
+!i122 26
+R0
+Z117 8C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/trig_acq_module.vhd
+Z118 FC:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/trig_acq_module.vhd
+l0
+L5 1
+V:<]8i`3COHQ;m1_`fbZfO1
+!s100 [45MfRLLGSOZQC^n][[lg1
+R7
+33
+R8
+!i10b 1
+R9
+Z119 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/trig_acq_module.vhd|
+Z120 !s107 C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/trig_acq_module.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R2
+R3
+R4
+DEx4 work 15 trig_acq_module 0 22 :<]8i`3COHQ;m1_`fbZfO1
+!i122 26
+l21
+L16 70
+VNZ[iD1Vb<:H4fHlLAKChB0
+!s100 :R[m@i>fe;_AaJHSBU``01
+R7
+33
+R8
+!i10b 1
+R9
+R119
+R120
+!i113 1
+R12
+R13

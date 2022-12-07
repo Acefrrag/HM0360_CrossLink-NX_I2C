@@ -1,0 +1,152 @@
+ERROR - c:/users/miche/desktop/my_designs/hm0360_image_capture/source/hm0360_image_capture_impl/hm0360_interface.vhd(24): syntax error near end. VHDL-1261
+@E: CD326 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\I2C_module.vhd":111:0:111:19|Port clk of entity work.trig_acq_module is unconnected. If a port needs to remain unconnected, use the keyword open.
+@E: CD326 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\I2C_module.vhd":120:0:120:24|Port clk of entity work.configuration_module is unconnected. If a port needs to remain unconnected, use the keyword open.
+@E::Errors while synthesizing top module HM0360_Interface.
+ERROR - c:/users/miche/desktop/my_designs/hm0360_image_capture/source/hm0360_image_capture_impl/hm0360_interface_top_level.vhd(38): type of aggregate cannot be determined without context  0 visible types match here. VHDL-1275
+ERROR - c:/users/miche/desktop/my_designs/hm0360_image_capture/source/hm0360_image_capture_impl/hm0360_interface_top_level.vhd(38): type of aggregate cannot be determined without context  0 visible types match here. VHDL-1275
+ERROR - c:/users/miche/desktop/my_designs/hm0360_image_capture/source/hm0360_image_capture_impl/hm0360_interface_top_level.vhd(38): type of aggregate cannot be determined without context  0 visible types match here. VHDL-1275
+ERROR - c:/users/miche/desktop/my_designs/hm0360_image_capture/source/hm0360_image_capture_impl/hm0360_interface_top_level.vhd(75): syntax error near ). VHDL-1261
+ERROR - Design annotation failed!!
+ERROR - Design annotation failed!!
+ERROR - Design annotation failed!!
+ERROR - Bitstream cannot be generated, either because this device does not support IP Evaluation Mode or the Bitstream Strategy Setting for IP Evaluation Mode is set to False.
+ERROR - Bitstream cannot be generated, either because this device does not support IP Evaluation Mode or the Bitstream Strategy Setting for IP Evaluation Mode is set to False.
+ERROR - Bitstream cannot be generated, either because this device does not support IP Evaluation Mode or the Bitstream Strategy Setting for IP Evaluation Mode is set to False.
+ERROR - Design annotation failed!!
+ERROR - c:/users/miche/desktop/my_designs/hm0360_image_capture/source/hm0360_image_capture_impl/hm0360_interface_top_level.vhd(135): hm_cp with mode 'in' cannot be updated. VHDL-1358
+ERROR - Stopping Synthesis Tool flow due to error.
+ERROR - c:/users/miche/desktop/my_designs/hm0360_image_capture/source/hm0360_image_capture_impl/hm0360_interface_top_level.vhd(136): hm_cn with mode 'in' cannot be updated. VHDL-1358
+ERROR - Stopping Synthesis Tool flow due to error.
+ERROR - c:/users/miche/desktop/my_designs/hm0360_image_capture/source/hm0360_image_capture_impl/hm0360_interface_top_level.vhd(137): hm_dp with mode 'in' cannot be updated. VHDL-1358
+ERROR - Stopping Synthesis Tool flow due to error.
+ERROR - c:/users/miche/desktop/my_designs/hm0360_image_capture/source/hm0360_image_capture_impl/hm0360_interface_top_level.vhd(138): hm_dn with mode 'in' cannot be updated. VHDL-1358
+ERROR - Stopping Synthesis Tool flow due to error.
+ERROR - c:/users/miche/desktop/my_designs/hm0360_image_capture/source/hm0360_image_capture_impl/hm0360_interface_top_level.vhd(166): unit behavioral ignored due to previous errors. VHDL-1284
+ERROR - Stopping Synthesis Tool flow due to error.
+ERROR - Failed to analyze the file c:/users/miche/desktop/my_designs/hm0360_image_capture/source/hm0360_image_capture_impl/hm0360_interface_top_level.vhd.
+ERROR - Top module HM0360_Interface_top_level does not exist in the design.
+ERROR - Unknown top module language type.
+ERROR - Failed to elaborate the design HM0360_Interface_top_level.
+ERROR - Processing input files had at least one error. Exiting.
+@E:"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\HM0360_image_capture_impl\HM0360_image_capture_HM0360_image_capture_impl_cpe.ldc":1:0:1:255|couldn't read file "C:\Users\miche\Desktop\my_designs\HM0360_image_capture\HM0360_image_capture_impl\HM0360_image_capture_HM0360_image_capture_impl_cpe.ldc": no such file or directory
+ERROR - The port [HM_CP] cannot be placed in bank [5] based on its IO settings. Please change the port's locate Constraints or IO settings.
+ERROR - The port [HM_CN] cannot be placed in bank [5] based on its IO settings. Please change the port's locate Constraints or IO settings.
+ERROR - The port [HM_DP[0]] cannot be placed in bank [5] based on its IO settings. Please change the port's locate Constraints or IO settings.
+ERROR - The port [HM_DN[0]] cannot be placed in bank [5] based on its IO settings. Please change the port's locate Constraints or IO settings.
+ERROR - The port [HM_CP] cannot be placed in bank [5] based on its IO settings. Please change the port's locate Constraints or IO settings.
+ERROR - The port [HM_CN] cannot be placed in bank [5] based on its IO settings. Please change the port's locate Constraints or IO settings.
+ERROR - The port [HM_DP[0]] cannot be placed in bank [5] based on its IO settings. Please change the port's locate Constraints or IO settings.
+ERROR - The port [HM_DN[0]] cannot be placed in bank [5] based on its IO settings. Please change the port's locate Constraints or IO settings.
+ERROR - The port [HM_CP] cannot be placed in bank [5] based on its IO settings. Please change the port's locate Constraints or IO settings.
+ERROR - The port [HM_CN] cannot be placed in bank [5] based on its IO settings. Please change the port's locate Constraints or IO settings.
+ERROR - The port [HM_DP[0]] cannot be placed in bank [5] based on its IO settings. Please change the port's locate Constraints or IO settings.
+ERROR - The port [HM_DN[0]] cannot be placed in bank [5] based on its IO settings. Please change the port's locate Constraints or IO settings.
+ERROR - The port [HM_CP] has an invalid combination of IO settings according to the device specifications. Check the IO settings and correct the errors.
+ERROR - The port [HM_CN] has an invalid combination of IO settings according to the device specifications. Check the IO settings and correct the errors.
+ERROR - The port [HM_DP[0]] has an invalid combination of IO settings according to the device specifications. Check the IO settings and correct the errors.
+ERROR - The port [HM_DN[0]] has an invalid combination of IO settings according to the device specifications. Check the IO settings and correct the errors.
+ERROR - c:/users/miche/desktop/my_designs/hm0360_image_capture/source/hm0360_image_capture_impl/i2c_module.vhd(140): syntax error near I2C_internal_driver. VHDL-1261
+ERROR - Stopping Synthesis Tool flow due to error.
+ERROR - c:/users/miche/desktop/my_designs/hm0360_image_capture/source/hm0360_image_capture_impl/i2c_module.vhd(159): unit behavioral ignored due to previous errors. VHDL-1284
+ERROR - Stopping Synthesis Tool flow due to error.
+ERROR - Failed to analyze the file c:/users/miche/desktop/my_designs/hm0360_image_capture/source/hm0360_image_capture_impl/i2c_module.vhd.
+ERROR - c:/users/miche/desktop/my_designs/hm0360_image_capture/source/hm0360_image_capture_impl/i2c_module.vhd(140): syntax error near I2C_internal_driver. VHDL-1261
+ERROR - Cannot assign IO_TYPE=MIPI_DPHY to MIPI N-Port HM_CN. It is fixed to LVCMOS12H.
+ERROR - Cannot assign IO_TYPE=MIPI_DPHY to MIPI N-Port HM_DN[0]. It is fixed to LVCMOS12H.
+ERROR - Cannot assign IO_TYPE=MIPI_DPHY to MIPI N-Port HM_CN. It is fixed to LVCMOS12H.
+ERROR - Cannot assign IO_TYPE=LVCMOS12H to MIPI P-Port HM_DP[0]. It is fixed to MIPI_DPHY.
+ERROR - c:/users/miche/desktop/my_designs/hm0360/hm0360_image_capture/source/hm0360_image_capture_impl/hm0360_interface_top_level.vhd(89): sdt_loigic is not declared. VHDL-1241
+ERROR - Stopping Synthesis Tool flow due to error.
+ERROR - c:/users/miche/desktop/my_designs/hm0360/hm0360_image_capture/source/hm0360_image_capture_impl/hm0360_interface_top_level.vhd(170): unit behavioral ignored due to previous errors. VHDL-1284
+ERROR - Stopping Synthesis Tool flow due to error.
+ERROR - Failed to analyze the file c:/users/miche/desktop/my_designs/hm0360/hm0360_image_capture/source/hm0360_image_capture_impl/hm0360_interface_top_level.vhd.
+ERROR - Top module HM0360_Interface_top_level does not exist in the design.
+ERROR - Unknown top module language type.
+ERROR - Failed to elaborate the design HM0360_Interface_top_level.
+ERROR - Processing input files had at least one error. Exiting.
+ERROR - LDC file HM0360_image_capture_HM0360_image_capture_impl_cpe.ldc does not exist.
+ERROR - c:/users/miche/desktop/my_designs/hm0360/hm0360_image_capture/source/hm0360_image_capture_impl/gen_config_command.vhd(66): statement is not synthesizable since it does not hold its value under NOT(clock-edge) condition. VHDL-1242
+ERROR - Stopping Synthesis Tool flow due to error.
+ERROR - c:/users/miche/desktop/my_designs/hm0360/hm0360_image_capture/source/hm0360_image_capture_impl/gen_config_command.vhd(66): statement is not synthesizable since it does not hold its value under NOT(clock-edge) condition. VHDL-1242
+ERROR - c:/users/miche/desktop/my_designs/hm0360/hm0360_image_capture/source/hm0360_image_capture_impl/gen_config_command.vhd(68): statement is not synthesizable since it does not hold its value under NOT(clock-edge) condition. VHDL-1242
+ERROR - Stopping Synthesis Tool flow due to error.
+ERROR - c:/users/miche/desktop/my_designs/hm0360/hm0360_image_capture/source/hm0360_image_capture_impl/gen_config_command.vhd(68): statement is not synthesizable since it does not hold its value under NOT(clock-edge) condition. VHDL-1242
+ERROR - c:/users/miche/desktop/my_designs/hm0360/hm0360_image_capture/source/hm0360_image_capture_impl/gen_config_command.vhd(67): statement is not synthesizable since it does not hold its value under NOT(clock-edge) condition. VHDL-1242
+ERROR - Stopping Synthesis Tool flow due to error.
+ERROR - c:/users/miche/desktop/my_designs/hm0360/hm0360_image_capture/source/hm0360_image_capture_impl/gen_config_command.vhd(67): statement is not synthesizable since it does not hold its value under NOT(clock-edge) condition. VHDL-1242
+ERROR - c:/users/miche/desktop/my_designs/hm0360/hm0360_image_capture/source/hm0360_image_capture_impl/hm0360_interface_top_level.vhd(126): flag_debug_hold_n is not declared. VHDL-1241
+ERROR - Stopping Synthesis Tool flow due to error.
+ERROR - c:/users/miche/desktop/my_designs/hm0360/hm0360_image_capture/source/hm0360_image_capture_impl/hm0360_interface_top_level.vhd(163): config_finished is not declared. VHDL-1241
+ERROR - Stopping Synthesis Tool flow due to error.
+ERROR - c:/users/miche/desktop/my_designs/hm0360/hm0360_image_capture/source/hm0360_image_capture_impl/hm0360_interface_top_level.vhd(193): config_finished is not declared. VHDL-1241
+ERROR - Stopping Synthesis Tool flow due to error.
+ERROR - c:/users/miche/desktop/my_designs/hm0360/hm0360_image_capture/source/hm0360_image_capture_impl/hm0360_interface_top_level.vhd(193): actual of formal out port config_finished cannot be an expression. VHDL-1318
+ERROR - Stopping Synthesis Tool flow due to error.
+ERROR - c:/users/miche/desktop/my_designs/hm0360/hm0360_image_capture/source/hm0360_image_capture_impl/hm0360_interface_top_level.vhd(213): unit behavioral ignored due to previous errors. VHDL-1284
+ERROR - Stopping Synthesis Tool flow due to error.
+ERROR - Failed to analyze the file c:/users/miche/desktop/my_designs/hm0360/hm0360_image_capture/source/hm0360_image_capture_impl/hm0360_interface_top_level.vhd.
+ERROR - c:/users/miche/desktop/my_designs/hm0360/hm0360_image_capture/source/hm0360_image_capture_impl/i2c_module.vhd(106): syntax error near ). VHDL-1261
+ERROR - Stopping Synthesis Tool flow due to error.
+ERROR - c:/users/miche/desktop/my_designs/hm0360/hm0360_image_capture/source/hm0360_image_capture_impl/i2c_module.vhd(112): hm0360_serial_master is not a type. VHDL-1238
+ERROR - Stopping Synthesis Tool flow due to error.
+ERROR - c:/users/miche/desktop/my_designs/hm0360/hm0360_image_capture/source/hm0360_image_capture_impl/i2c_module.vhd(171): operation is not declared. VHDL-1241
+ERROR - Stopping Synthesis Tool flow due to error.
+ERROR - c:/users/miche/desktop/my_designs/hm0360/hm0360_image_capture/source/hm0360_image_capture_impl/i2c_module.vhd(172): syntax error near elsif. VHDL-1261
+ERROR - Stopping Synthesis Tool flow due to error.
+ERROR - c:/users/miche/desktop/my_designs/hm0360/hm0360_image_capture/source/hm0360_image_capture_impl/i2c_module.vhd(173): operation is not declared. VHDL-1241
+ERROR - Stopping Synthesis Tool flow due to error.
+ERROR - c:/users/miche/desktop/my_designs/hm0360/hm0360_image_capture/source/hm0360_image_capture_impl/i2c_module.vhd(174): syntax error near elsif. VHDL-1261
+ERROR - Stopping Synthesis Tool flow due to error.
+ERROR - c:/users/miche/desktop/my_designs/hm0360/hm0360_image_capture/source/hm0360_image_capture_impl/i2c_module.vhd(175): operation is not declared. VHDL-1241
+ERROR - Stopping Synthesis Tool flow due to error.
+ERROR - c:/users/miche/desktop/my_designs/hm0360/hm0360_image_capture/source/hm0360_image_capture_impl/i2c_module.vhd(176): syntax error near else. VHDL-1261
+ERROR - Stopping Synthesis Tool flow due to error.
+ERROR - c:/users/miche/desktop/my_designs/hm0360/hm0360_image_capture/source/hm0360_image_capture_impl/i2c_module.vhd(185): r_w is not declared. VHDL-1241
+ERROR - Stopping Synthesis Tool flow due to error.
+ERROR - c:/users/miche/desktop/my_designs/hm0360/hm0360_image_capture/source/hm0360_image_capture_impl/i2c_module.vhd(186): addr is not declared. VHDL-1241
+ERROR - Stopping Synthesis Tool flow due to error.
+ERROR - c:/users/miche/desktop/my_designs/hm0360/hm0360_image_capture/source/hm0360_image_capture_impl/i2c_module.vhd(187): data_write is not declared. VHDL-1241
+ERROR - Stopping Synthesis Tool flow due to error.
+ERROR - c:/users/miche/desktop/my_designs/hm0360/hm0360_image_capture/source/hm0360_image_capture_impl/i2c_module.vhd(188): start is not declared. VHDL-1241
+ERROR - Stopping Synthesis Tool flow due to error.
+ERROR - c:/users/miche/desktop/my_designs/hm0360/hm0360_image_capture/source/hm0360_image_capture_impl/i2c_module.vhd(191): r_w is not declared. VHDL-1241
+ERROR - Stopping Synthesis Tool flow due to error.
+ERROR - c:/users/miche/desktop/my_designs/hm0360/hm0360_image_capture/source/hm0360_image_capture_impl/i2c_module.vhd(192): addr is not declared. VHDL-1241
+ERROR - Stopping Synthesis Tool flow due to error.
+ERROR - c:/users/miche/desktop/my_designs/hm0360/hm0360_image_capture/source/hm0360_image_capture_impl/i2c_module.vhd(193): data_write is not declared. VHDL-1241
+ERROR - Stopping Synthesis Tool flow due to error.
+ERROR - c:/users/miche/desktop/my_designs/hm0360/hm0360_image_capture/source/hm0360_image_capture_impl/i2c_module.vhd(194): start is not declared. VHDL-1241
+ERROR - Stopping Synthesis Tool flow due to error.
+ERROR - c:/users/miche/desktop/my_designs/hm0360/hm0360_image_capture/source/hm0360_image_capture_impl/i2c_module.vhd(195): data_read_internal is not declared. VHDL-1241
+ERROR - Stopping Synthesis Tool flow due to error.
+ERROR - c:/users/miche/desktop/my_designs/hm0360/hm0360_image_capture/source/hm0360_image_capture_impl/i2c_module.vhd(197): r_w is not declared. VHDL-1241
+ERROR - Stopping Synthesis Tool flow due to error.
+ERROR - c:/users/miche/desktop/my_designs/hm0360/hm0360_image_capture/source/hm0360_image_capture_impl/i2c_module.vhd(198): addr is not declared. VHDL-1241
+ERROR - Stopping Synthesis Tool flow due to error.
+ERROR - Failed to analyze the file c:/users/miche/desktop/my_designs/hm0360/hm0360_image_capture/source/hm0360_image_capture_impl/i2c_module.vhd.
+ERROR - Top module HM0360_Interface_top_level does not exist in the design.
+ERROR - Unknown top module language type.
+ERROR - Failed to elaborate the design HM0360_Interface_top_level.
+ERROR - Processing input files had at least one error. Exiting.
+ERROR - LDC file HM0360_image_capture_HM0360_image_capture_impl_cpe.ldc does not exist.
+ERROR - c:/users/miche/desktop/my_designs/hm0360/hm0360_image_capture/source/hm0360_image_capture_impl/hm0360_interface_top_level.vhd(173): clk_pll is not declared. VHDL-1241
+ERROR - Stopping Synthesis Tool flow due to error.
+ERROR - c:/users/miche/desktop/my_designs/hm0360/hm0360_image_capture/source/hm0360_image_capture_impl/hm0360_interface_top_level.vhd(173): actual of formal out port clkop_o cannot be an expression. VHDL-1318
+ERROR - Stopping Synthesis Tool flow due to error.
+ERROR - c:/users/miche/desktop/my_designs/hm0360/hm0360_image_capture/source/hm0360_image_capture_impl/hm0360_interface_top_level.vhd(178): clk_pll is not declared. VHDL-1241
+ERROR - Stopping Synthesis Tool flow due to error.
+ERROR - c:/users/miche/desktop/my_designs/hm0360/hm0360_image_capture/source/hm0360_image_capture_impl/hm0360_interface_top_level.vhd(229): unit behavioral ignored due to previous errors. VHDL-1284
+ERROR - Stopping Synthesis Tool flow due to error.
+ERROR - Failed to analyze the file c:/users/miche/desktop/my_designs/hm0360/hm0360_image_capture/source/hm0360_image_capture_impl/hm0360_interface_top_level.vhd.
+ERROR - Top module HM0360_Interface_top_level does not exist in the design.
+ERROR - Unknown top module language type.
+ERROR - Failed to elaborate the design HM0360_Interface_top_level.
+ERROR - Processing input files had at least one error. Exiting.
+ERROR - c:/users/miche/desktop/my_designs/hm0360/hm0360_image_capture/source/hm0360_image_capture_impl/gen_config_command.vhd(69): syntax error near process. VHDL-1261
+ERROR - Stopping Synthesis Tool flow due to error.
+ERROR - c:/users/miche/desktop/my_designs/hm0360/hm0360_image_capture/source/hm0360_image_capture_impl/gen_config_command.vhd(71): syntax error near is. VHDL-1261
+ERROR - Stopping Synthesis Tool flow due to error.
+ERROR - c:/users/miche/desktop/my_designs/hm0360/hm0360_image_capture/source/hm0360_image_capture_impl/gen_config_command.vhd(85): unit behavioral ignored due to previous errors. VHDL-1284
+ERROR - Stopping Synthesis Tool flow due to error.
+ERROR - Failed to analyze the file c:/users/miche/desktop/my_designs/hm0360/hm0360_image_capture/source/hm0360_image_capture_impl/gen_config_command.vhd.
+ERROR - c:/users/miche/desktop/my_designs/hm0360/hm0360_image_capture/source/hm0360_image_capture_impl/gen_config_command.vhd(69): syntax error near process. VHDL-1261

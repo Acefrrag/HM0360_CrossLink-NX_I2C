@@ -1,0 +1,49 @@
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@W: MO160 :"c:\users\miche\desktop\my_designs\hm0360_image_capture\source\hm0360_image_capture_impl\hm0360_serial_master.vhd":92:1:92:2|Register bit R_W_internal (in view view:work.HM0360_serial_master_work_hm0360_interface_top_level_behavioral_0layer0(behavioral)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO129 :|Sequential instance HM0360_Interface_comp.I2C_module_comp.trig_acq_module_comp.nx_state_1_.res_reg_0 is reduced to a combinational gate by constant propagation.
+@W: BN137 :|Found combinational loop during mapping at net I_103.t2
+@W: BN137 :|Found combinational loop during mapping at net HM0360_Interface_comp.I2C_module_comp.trig_acq_module_comp.nx_state_0_.o1_0
+@W: BN137 :|Found combinational loop during mapping at net I_101.t2
+@W: BN137 :|Found combinational loop during mapping at net I_99.t2
+@W: BN137 :|Found combinational loop during mapping at net I_100.t2
+@W: BN137 :|Found combinational loop during mapping at net I_109.t1
+@W: BN137 :|Found combinational loop during mapping at net I_108.t1
+@W: BN137 :|Found combinational loop during mapping at net I_107.t1
+@W: BN137 :|Found combinational loop during mapping at net I_106.t1
+@W: BN137 :"c:\users\miche\desktop\my_designs\hm0360_image_capture\source\hm0360_image_capture_impl\hm0360_interface.vhd":204:0:204:14|Found combinational loop during mapping at net I_105.t1
+@W: BN137 :"c:\users\miche\desktop\my_designs\hm0360_image_capture\source\hm0360_image_capture_impl\hm0360_interface.vhd":204:0:204:14|Found combinational loop during mapping at net I_104.t1
+@W: BN137 :"c:\users\miche\desktop\my_designs\hm0360_image_capture\source\hm0360_image_capture_impl\hm0360_interface.vhd":204:0:204:14|Found combinational loop during mapping at net I_117.t1
+@W: BN137 :"c:\users\miche\desktop\my_designs\hm0360_image_capture\source\hm0360_image_capture_impl\hm0360_interface.vhd":204:0:204:14|Found combinational loop during mapping at net I_116.t1
+@W: BN137 :|Found combinational loop during mapping at net I_115.t1
+@W: BN137 :"c:\users\miche\desktop\my_designs\hm0360_image_capture\source\hm0360_image_capture_impl\hm0360_interface.vhd":204:0:204:14|Found combinational loop during mapping at net I_114.t1
+@W: BN137 :|Found combinational loop during mapping at net I_113.t1
+@W: BN137 :"c:\users\miche\desktop\my_designs\hm0360_image_capture\source\hm0360_image_capture_impl\hm0360_interface.vhd":204:0:204:14|Found combinational loop during mapping at net I_112.t1
+@W: BN137 :|Found combinational loop during mapping at net I_111.t1
+@W: BN137 :"c:\users\miche\desktop\my_designs\hm0360_image_capture\source\hm0360_image_capture_impl\hm0360_interface.vhd":204:0:204:14|Found combinational loop during mapping at net I_110.t1
+@W: BN137 :|Found combinational loop during mapping at net I_118.t2
+@W: BN137 :|Found combinational loop during mapping at net I_103.t2
+@W: BN137 :|Found combinational loop during mapping at net HM0360_Interface_comp.I2C_module_comp.trig_acq_module_comp.nx_state_0_.o1_0
+@W: BN137 :|Found combinational loop during mapping at net I_101.t2
+@W: BN137 :|Found combinational loop during mapping at net I_99.t2
+@W: BN137 :|Found combinational loop during mapping at net I_100.t2
+@W: BN137 :|Found combinational loop during mapping at net I_109.t1
+@W: BN137 :|Found combinational loop during mapping at net I_108.t1
+@W: BN137 :|Found combinational loop during mapping at net I_107.t1
+@W: BN137 :|Found combinational loop during mapping at net I_106.t1
+@W: BN137 :"c:\users\miche\desktop\my_designs\hm0360_image_capture\source\hm0360_image_capture_impl\hm0360_interface.vhd":204:0:204:14|Found combinational loop during mapping at net I_105.t1
+@W: BN137 :"c:\users\miche\desktop\my_designs\hm0360_image_capture\source\hm0360_image_capture_impl\hm0360_interface.vhd":204:0:204:14|Found combinational loop during mapping at net I_104.t1
+@W: BN137 :"c:\users\miche\desktop\my_designs\hm0360_image_capture\source\hm0360_image_capture_impl\hm0360_interface.vhd":204:0:204:14|Found combinational loop during mapping at net I_117.t1
+@W: BN137 :"c:\users\miche\desktop\my_designs\hm0360_image_capture\source\hm0360_image_capture_impl\hm0360_interface.vhd":204:0:204:14|Found combinational loop during mapping at net I_116.t1
+@W: BN137 :|Found combinational loop during mapping at net I_115.t1
+@W: BN137 :"c:\users\miche\desktop\my_designs\hm0360_image_capture\source\hm0360_image_capture_impl\hm0360_interface.vhd":204:0:204:14|Found combinational loop during mapping at net I_114.t1
+@W: BN137 :|Found combinational loop during mapping at net I_113.t1
+@W: BN137 :"c:\users\miche\desktop\my_designs\hm0360_image_capture\source\hm0360_image_capture_impl\hm0360_interface.vhd":204:0:204:14|Found combinational loop during mapping at net I_112.t1
+@W: BN137 :|Found combinational loop during mapping at net I_111.t1
+@W: BN137 :"c:\users\miche\desktop\my_designs\hm0360_image_capture\source\hm0360_image_capture_impl\hm0360_interface.vhd":204:0:204:14|Found combinational loop during mapping at net I_110.t1
+@W: BN137 :|Found combinational loop during mapping at net I_118.t2
+@W: MT246 :"c:\users\miche\desktop\my_designs\hm0360_image_capture\pll_sync_clk\rtl\pll_sync_clk.v":1283:67:1283:71|Blackbox PLL is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"c:\users\miche\desktop\my_designs\hm0360_image_capture\hm0360_csi2_dphy\rtl\hm0360_csi2_dphy.v":7161:47:7161:56|Blackbox DPHY_Z2_layer1 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT420 |Found inferred clock HM0360_Interface_top_level|CLK with period 5.00ns. Please declare a user-defined clock on port CLK.
+@W: MT420 |Found inferred clock HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_wrap_cil_Z10_layer1|clk_byte_o_inferred_clock with period 5.00ns. Please declare a user-defined clock on net HM0360_Interface_comp.HM0360_CSI2_DPHY_comp.lscc_dphy_rx_inst.CIL_TOP\.u_hard_dphy.clk_byte_o.
+@W: MT420 |Found inferred clock PLL_sync_clk_ipgen_lscc_pll_Z12_layer1|clkop_o_inferred_clock with period 5.00ns. Please declare a user-defined clock on net HM0360_Interface_comp.PLL_sync_clk_comp.lscc_pll_inst.sync_clk_i.
+@W: MT420 |Found inferred clock configuration_module|un1_nx_state_1_sqmuxa_inferred_clock with period 5.00ns. Please declare a user-defined clock on net HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.un1_nx_state_1_sqmuxa.

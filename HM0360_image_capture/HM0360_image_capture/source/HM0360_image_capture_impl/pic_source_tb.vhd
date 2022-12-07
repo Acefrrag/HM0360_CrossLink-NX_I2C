@@ -1,0 +1,58 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity pic_source_tb is
+--port
+end pic_source_tb;
+
+Architecture Behavioral of pic_source_tb is
+
+signal PCLKO: std_logic;
+signal D: std_logic_vector(7 downto 0);
+signal enable: std_logic:='0';
+signal HSYNC: std_logic;
+signal FSYNC: std_logic;
+signal streamed: std_logic;
+
+component pic_source is
+generic(
+	pic_filename: string
+);	
+port(
+	PCLKO: out std_logic;
+	D: out std_logic_vector(7 downto 0);
+	enable: in std_logic;
+	HSYNC: out std_logic;
+	FSYNC: out std_logic;
+	streamed: out std_logic
+);
+end component;
+
+begin
+
+pic_source_comp: pic_source
+generic map(
+	pic_filename => "C:\Users\miche\Desktop\my_designs\HM0360_image_capture\scripts\pic_file.txt"
+)
+port map(
+	PCLKO => PCLKO,
+	D => D,
+	enable => enable,
+	streamed => streamed,
+	HSYNC => HSYNC,
+	FSYNC => FSYNC
+);
+
+enable_gen: process is
+
+begin
+wait for 1_000 ns;
+enable <= '1';
+wait;
+end process;
+
+
+
+
+end Behavioral;

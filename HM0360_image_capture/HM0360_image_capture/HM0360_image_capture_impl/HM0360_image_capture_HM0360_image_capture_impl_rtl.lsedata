@@ -1,0 +1,24 @@
+<top name = "HM0360_Interface_top_level"  library = "work"  arch = "RTL"  entry = "VHDL">
+
+<clocks>
+    <clockitem name = "CLK"  type = "port" />
+    <clockitem name = "debug_deb"  type = "net" />
+    <clockitem name = "command_deb"  type = "net" />
+    <clockitem name = "HM0360_Interface_comp/image_buffer_comp/buffer_fill_pr.c_31__N_845"  type = "net" />
+    <clockitem name = "PLL_sync_comp/clkop_o"  type = "net" />
+    <clockitem name = "sample_and_hold_comp/slow_CLK"  type = "net" />
+    <clockitem name = "gen_config_command_comp/slow_CLK"  type = "net" />
+    <clockitem name = "HM0360_Interface_comp/PLL_sync_clk_comp/clkop_o"  type = "net" />
+</clocks>
+
+<!--
+    //=============================================================
+    //  Number of Clocks processed: 8
+    //
+    //  If a clock cannot be found in the top level pins section,
+    //  that means it is an internal clock.
+    //
+    //=============================================================
+-->
+
+</top>

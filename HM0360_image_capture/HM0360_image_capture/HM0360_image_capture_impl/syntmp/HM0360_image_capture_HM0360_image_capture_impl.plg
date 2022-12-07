@@ -1,0 +1,37 @@
+@P:  Worst Slack : -0.455
+@P:  HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_wrap_cil_Z10_layer1|clk_byte_o_inferred_clock - Estimated Frequency : 197.4 MHz
+@P:  HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_wrap_cil_Z10_layer1|clk_byte_o_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_wrap_cil_Z10_layer1|clk_byte_o_inferred_clock - Estimated Period : 5.067
+@P:  HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_wrap_cil_Z10_layer1|clk_byte_o_inferred_clock - Requested Period : 5.000
+@P:  HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_wrap_cil_Z10_layer1|clk_byte_o_inferred_clock - Slack : -0.067
+@P:  HM0360_Interface_top_level|CLK - Estimated Frequency : 183.3 MHz
+@P:  HM0360_Interface_top_level|CLK - Requested Frequency : 200.0 MHz
+@P:  HM0360_Interface_top_level|CLK - Estimated Period : 5.455
+@P:  HM0360_Interface_top_level|CLK - Requested Period : 5.000
+@P:  HM0360_Interface_top_level|CLK - Slack : -0.455
+@P:  PLL_sync_clk_ipgen_lscc_pll_Z12_layer1|clkop_o_inferred_clock - Estimated Frequency : 739.6 MHz
+@P:  PLL_sync_clk_ipgen_lscc_pll_Z12_layer1|clkop_o_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  PLL_sync_clk_ipgen_lscc_pll_Z12_layer1|clkop_o_inferred_clock - Estimated Period : 1.352
+@P:  PLL_sync_clk_ipgen_lscc_pll_Z12_layer1|clkop_o_inferred_clock - Requested Period : 5.000
+@P:  PLL_sync_clk_ipgen_lscc_pll_Z12_layer1|clkop_o_inferred_clock - Slack : 3.648
+@P:  configuration_module|un1_nx_state_1_sqmuxa_inferred_clock - Estimated Frequency : NA
+@P:  configuration_module|un1_nx_state_1_sqmuxa_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  configuration_module|un1_nx_state_1_sqmuxa_inferred_clock - Estimated Period : NA
+@P:  configuration_module|un1_nx_state_1_sqmuxa_inferred_clock - Requested Period : 5.000
+@P:  configuration_module|un1_nx_state_1_sqmuxa_inferred_clock - Slack : NA
+@P:  counter_2|CLK_OUT_int_derived_clock - Estimated Frequency : 333.0 MHz
+@P:  counter_2|CLK_OUT_int_derived_clock - Requested Frequency : 200.0 MHz
+@P:  counter_2|CLK_OUT_int_derived_clock - Estimated Period : 3.003
+@P:  counter_2|CLK_OUT_int_derived_clock - Requested Period : 5.000
+@P:  counter_2|CLK_OUT_int_derived_clock - Slack : 3.929
+@P:  trig_acq_module|pr_state_derived_clock[1] - Estimated Frequency : NA
+@P:  trig_acq_module|pr_state_derived_clock[1] - Requested Frequency : 200.0 MHz
+@P:  trig_acq_module|pr_state_derived_clock[1] - Estimated Period : NA
+@P:  trig_acq_module|pr_state_derived_clock[1] - Requested Period : 5.000
+@P:  trig_acq_module|pr_state_derived_clock[1] - Slack : NA
+@P:  System - Estimated Frequency : 619.6 MHz
+@P:  System - Requested Frequency : 200.0 MHz
+@P:  System - Estimated Period : 1.614
+@P:  System - Requested Period : 5.000
+@P:  System - Slack : 3.386
+@P:  CPU Time : 0h:00m:09s

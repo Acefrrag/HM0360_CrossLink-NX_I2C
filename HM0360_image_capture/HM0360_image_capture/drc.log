@@ -1,0 +1,7 @@
+DRC: Design Rule Check Radiant Software (64-bit) 3.2.1.217.3
+Sat Dec  3 20:54:03 2022
+
+WARNING - Top module port 'HM_CP' does not connect to anything.
+WARNING - Top module port 'HM_CN' does not connect to anything.
+WARNING - Top module port 'HM_DP[0]' does not connect to anything.
+WARNING - Top module port 'HM_DN[0]' does not connect to anything.

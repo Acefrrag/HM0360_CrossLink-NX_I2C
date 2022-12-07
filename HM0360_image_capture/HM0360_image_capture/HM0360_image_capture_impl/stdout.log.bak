@@ -1,0 +1,109 @@
+Running in Lattice mode
+
+                               Synplify Pro (R) 
+
+                Version S-2021.09LR-2 for win64 - Jun 27, 2022 
+
+                    Copyright (c) 1988 - 2022 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Starting:    C:\lscc\radiant\3.2\synpbase\bin64\mbin\synbatch.exe
+Install:     C:\lscc\radiant\3.2\synpbase
+Hostname:    DESKTOP-9VA2EUV
+Date:        Mon Nov 21 21:54:08 2022
+Version:     S-2021.09LR-2
+
+Arguments:   -product synplify_pro -batch HM0360_image_capture_HM0360_image_capture_impl_synplify.tcl
+ProductType: synplify_pro
+
+
+
+
+log file: "C:\Users\miche\Desktop\my_designs\HM0360_image_capture\HM0360_image_capture_impl\rev_36\image_buffer.srr"
+Running: hdl_info_gen in foreground
+
+Generating HDL info...
+
+hdl_info_gen completed
+# Mon Nov 21 21:54:09 2022
+
+Return Code: 0
+Run Time:00h:00m:00s
+log file: "C:\Users\miche\Desktop\my_designs\HM0360_image_capture\HM0360_image_capture_impl\HM0360_image_capture_HM0360_image_capture_impl.srr"
+Running: HM0360_image_capture_impl in foreground
+
+Running proj_1|HM0360_image_capture_impl
+
+Running Flow: compile (Compile) on proj_1|HM0360_image_capture_impl
+# Mon Nov 21 21:54:10 2022
+
+Running Flow: compile_flow (Compile Process) on proj_1|HM0360_image_capture_impl
+# Mon Nov 21 21:54:10 2022
+
+Running: compiler (Compile Input) on proj_1|HM0360_image_capture_impl
+# Mon Nov 21 21:54:10 2022
+Copied C:\Users\miche\Desktop\my_designs\HM0360_image_capture\HM0360_image_capture_impl\synwork\HM0360_image_capture_HM0360_image_capture_impl_comp.srs to C:\Users\miche\Desktop\my_designs\HM0360_image_capture\HM0360_image_capture_impl\HM0360_image_capture_HM0360_image_capture_impl.srs
+
+compiler completed
+# Mon Nov 21 21:54:23 2022
+
+Return Code: 0
+Run Time:00h:00m:13s
+
+Running: multi_srs_gen (Multi-srs Generator) on proj_1|HM0360_image_capture_impl
+# Mon Nov 21 21:54:23 2022
+
+multi_srs_gen completed
+# Mon Nov 21 21:54:24 2022
+
+Return Code: 0
+Run Time:00h:00m:01s
+Copied C:\Users\miche\Desktop\my_designs\HM0360_image_capture\HM0360_image_capture_impl\synwork\HM0360_image_capture_HM0360_image_capture_impl_mult.srs to C:\Users\miche\Desktop\my_designs\HM0360_image_capture\HM0360_image_capture_impl\HM0360_image_capture_HM0360_image_capture_impl.srs
+Copied C:\Users\miche\Desktop\my_designs\HM0360_image_capture\HM0360_image_capture_impl\HM0360_image_capture_HM0360_image_capture_impl.srr to C:\Users\miche\Desktop\my_designs\HM0360_image_capture\HM0360_image_capture_impl\HM0360_image_capture_HM0360_image_capture_impl.srf
+Complete: Compile Process on proj_1|HM0360_image_capture_impl
+
+Running: premap (Premap) on proj_1|HM0360_image_capture_impl
+# Mon Nov 21 21:54:24 2022
+
+premap completed with warnings
+# Mon Nov 21 21:54:27 2022
+
+Return Code: 1
+Run Time:00h:00m:03s
+Complete: Compile on proj_1|HM0360_image_capture_impl
+
+Running Flow: map (Map) on proj_1|HM0360_image_capture_impl
+# Mon Nov 21 21:54:27 2022
+License granted for 4 parallel jobs
+
+Running: fpga_mapper (Map & Optimize) on proj_1|HM0360_image_capture_impl
+# Mon Nov 21 21:54:27 2022
+Copied C:\Users\miche\Desktop\my_designs\HM0360_image_capture\HM0360_image_capture_impl\synwork\HM0360_image_capture_HM0360_image_capture_impl_m.srm to C:\Users\miche\Desktop\my_designs\HM0360_image_capture\HM0360_image_capture_impl\HM0360_image_capture_HM0360_image_capture_impl.srm
+
+fpga_mapper completed with warnings
+# Mon Nov 21 21:54:37 2022
+
+Return Code: 1
+Run Time:00h:00m:10s
+Complete: Map on proj_1|HM0360_image_capture_impl
+Copied C:\Users\miche\Desktop\my_designs\HM0360_image_capture\HM0360_image_capture_impl\HM0360_image_capture_HM0360_image_capture_impl.srr to C:\Users\miche\Desktop\my_designs\HM0360_image_capture\HM0360_image_capture_impl\HM0360_image_capture_HM0360_image_capture_impl.srf
+Complete: Logic Synthesis on proj_1|HM0360_image_capture_impl
+TCL script complete: "HM0360_image_capture_HM0360_image_capture_impl_synplify.tcl"
+exit status=0
+exit status=0
+Save changes for project:
+C:\Users\miche\Desktop\my_designs\HM0360_image_capture\HM0360_image_capture_impl\proj_1.prj
+batch mode default:no

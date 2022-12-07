@@ -1,0 +1,30 @@
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+2 non-gated/non-generated clock tree(s) driving 183 clock pin(s) of sequential element(s)
+4 gated/generated clock tree(s) driving 184 clock pin(s) of sequential element(s)
+0 instances converted, 184 sequential instances remain driven by gated/generated clocks
+
+================================================================================================================== Non-Gated/Non-Generated Clocks ===================================================================================================================
+Clock Tree ID     Driving Element                                                                                            Drive Element Type     Fanout     Sample Instance                                                                                       
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@KP:ckid0_0       HM0360_Interface_comp.HM0360_CSI2_DPHY_comp.lscc_dphy_rx_inst.CIL_TOP\.u_hard_dphy.u_dphy_cil.URWDCKHS     DPHY_Z2_layer1         53         HM0360_Interface_comp.HM0360_CSI2_DPHY_comp.lscc_dphy_rx_inst.CIL_TOP\.u_hard_dphy.u_hs_rx_data_r[7:0]
+@KP:ckid0_6       CLK                                                                                                        port                   130        mux_data_out_debug[5:0]                                                                               
+=====================================================================================================================================================================================================================================================================
+================================================================================================================================= Gated/Generated Clocks =================================================================================================================================
+Clock Tree ID     Driving Element                                                                               Drive Element Type     Unconverted Fanout     Sample Instance                                                                               Explanation                   
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@KP:ckid0_4       HM0360_Interface_comp.prescaler_6MHz.counter_comp.CLK_OUT_int.Q[0]                            sdffre                 165                    HM0360_Interface_comp.HM0360_CSI2_DPHY_comp.lscc_dphy_rx_inst.CIL_TOP\.u_hard_dphy.toggle     Clock Optimization not enabled
+@KP:ckid0_5       HM0360_Interface_comp.PLL_sync_clk_comp.lscc_pll_inst.gen_no_refclk_mon\.u_PLL.CLKOP          PLL                    3                      ENCRYPTED                                                                                     Clock Optimization not enabled
+@KP:ckid0_7       HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.un1_nx_state_1_sqmuxa.OUT     or                     14                     HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.nx_state[0]                   Clock Optimization not enabled
+@KP:ckid0_8       HM0360_Interface_comp.I2C_module_comp.trig_acq_module_comp.pr_state[1].Q[0]                   dffr                   2                      HM0360_Interface_comp.I2C_module_comp.trig_acq_module_comp.nx_state[1]                        Clock Optimization not enabled
+==========================================================================================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+

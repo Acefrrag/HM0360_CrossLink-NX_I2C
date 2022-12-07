@@ -1,0 +1,188 @@
+@N: CD231 :"C:\lscc\radiant\3.2\synpbase\lib\vhd2008\std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface_top_level.vhd":6:7:6:32|Synthesizing work.hm0360_interface_top_level.behavioral.
+@N: CD630 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd":6:7:6:22|Synthesizing work.hm0360_interface.behavioral.
+@N: CD630 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\image_buffer.vhd":10:7:10:18|Synthesizing work.image_buffer.behavioral.
+Post processing for work.image_buffer.behavioral
+Running optimization stage 1 on image_buffer .......
+@N: CL134 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\image_buffer.vhd":23:7:23:17|Found RAM buffer_data, depth=16, width=8
+Finished optimization stage 1 on image_buffer (CPU Time 0h:00m:00s, Memory Used current: 94MB peak: 94MB)
+@N: CD630 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\I2C_module.vhd":5:7:5:16|Synthesizing work.i2c_module.behavioral.
+@N: CD604 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\I2C_module.vhd":148:0:148:13|OTHERS clause is not synthesized.
+@N: CD630 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\configuration_module.vhd":5:7:5:26|Synthesizing work.configuration_module.behavioral.
+@N: CD231 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\configuration_module.vhd":18:17:18:18|Using onehot encoding for type fsm_state_t. For example, enumeration idle_s is mapped to "10000000000000".
+Post processing for work.configuration_module.behavioral
+Running optimization stage 1 on configuration_module .......
+@W: CL117 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\configuration_module.vhd":40:0:40:3|Latch generated from process for signal nx_state(0 to 13); possible missing assignment in an if or case statement.
+Finished optimization stage 1 on configuration_module (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 95MB)
+@N: CD630 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\trig_acq_module.vhd":5:7:5:21|Synthesizing work.trig_acq_module.behavioral.
+@N: CD233 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\trig_acq_module.vhd":18:17:18:18|Using sequential encoding for type fsm_state_t.
+Post processing for work.trig_acq_module.behavioral
+Running optimization stage 1 on trig_acq_module .......
+@W: CL117 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\trig_acq_module.vhd":34:0:34:3|Latch generated from process for signal nx_state(1 downto 0); possible missing assignment in an if or case statement.
+Finished optimization stage 1 on trig_acq_module (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 95MB)
+@N: CD630 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_serial_master.vhd":5:7:5:26|Synthesizing work.hm0360_serial_master.behavioral.
+@N: CD231 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_serial_master.vhd":31:22:31:23|Using onehot encoding for type hm0360_fsm_state. For example, enumeration idle_s is mapped to "10000000000000".
+@N: CD630 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\prescaler.vhd":6:7:6:15|Synthesizing work.prescaler.behavioral.
+@N: CD630 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":5:7:5:13|Synthesizing work.counter.behavioral.
+Post processing for work.counter.behavioral
+Running optimization stage 1 on counter .......
+Finished optimization stage 1 on counter (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 96MB)
+Post processing for work.prescaler.behavioral
+Running optimization stage 1 on prescaler .......
+Finished optimization stage 1 on prescaler (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 96MB)
+Post processing for work.hm0360_serial_master.behavioral
+Running optimization stage 1 on HM0360_serial_master .......
+@A: CL282 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_serial_master.vhd":92:1:92:2|Feedback mux created for signal data_read_internal[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_serial_master.vhd":92:1:92:2|Feedback mux created for signal c_debug[30:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_serial_master.vhd":92:1:92:2|Feedback mux created for signal buffer_debug_internal[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_serial_master.vhd":92:1:92:2|Feedback mux created for signal error. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_serial_master.vhd":92:1:92:2|Feedback mux created for signal R_W_internal. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_serial_master.vhd":92:1:92:2|Feedback mux created for signal error_debug_internal. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@W: CL169 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_serial_master.vhd":92:1:92:2|Pruning unused register rd_flag_cl. Make sure that there are no unused intermediate registers.
+Finished optimization stage 1 on HM0360_serial_master (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 98MB)
+Post processing for work.i2c_module.behavioral
+Running optimization stage 1 on I2C_module .......
+@W: CL240 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\I2C_module.vhd":13:0:13:12|Signal trig_finished is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\I2C_module.vhd":12:0:12:14|Signal config_finished is floating; a simulation mismatch is possible.
+@W: CL117 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\I2C_module.vhd":133:0:133:1|Latch generated from process for signal mul_sel; possible missing assignment in an if or case statement.
+Finished optimization stage 1 on I2C_module (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 98MB)
+Running optimization stage 1 on HM0360_CSI2_DPHY .......
+Finished optimization stage 1 on HM0360_CSI2_DPHY (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 98MB)
+Running optimization stage 1 on PLL_sync_clk .......
+Finished optimization stage 1 on PLL_sync_clk (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 98MB)
+@N: CD630 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\prescaler.vhd":6:7:6:15|Synthesizing work.prescaler.behavioral.
+@N: CD630 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":5:7:5:13|Synthesizing work.counter.behavioral.
+Post processing for work.counter.behavioral
+Running optimization stage 1 on counter .......
+Finished optimization stage 1 on counter (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 98MB)
+Post processing for work.prescaler.behavioral
+Running optimization stage 1 on prescaler .......
+Finished optimization stage 1 on prescaler (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 98MB)
+Post processing for work.hm0360_interface.behavioral
+Running optimization stage 1 on HM0360_Interface .......
+@W: CL252 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd":28:0:28:13|Bit 0 of signal data_out_debug is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd":28:0:28:13|Bit 1 of signal data_out_debug is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd":28:0:28:13|Bit 2 of signal data_out_debug is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd":28:0:28:13|Bit 3 of signal data_out_debug is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd":28:0:28:13|Bit 4 of signal data_out_debug is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd":28:0:28:13|Bit 5 of signal data_out_debug is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd":28:0:28:13|Bit 6 of signal data_out_debug is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd":28:0:28:13|Bit 7 of signal data_out_debug is floating -- simulation mismatch possible.
+@W: CL168 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd":215:0:215:16|Removing instance image_buffer_comp because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+Finished optimization stage 1 on HM0360_Interface (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 98MB)
+@N: CD630 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\debounce.vhd":29:7:29:14|Synthesizing work.debounce.logic.
+Post processing for work.debounce.logic
+Running optimization stage 1 on debounce .......
+@A: CL282 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\debounce.vhd":50:4:50:5|Feedback mux created for signal count[18:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+Finished optimization stage 1 on debounce (CPU Time 0h:00m:00s, Memory Used current: 99MB peak: 99MB)
+Post processing for work.hm0360_interface_top_level.behavioral
+Running optimization stage 1 on HM0360_Interface_top_level .......
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface_top_level.vhd":143:0:143:1|Register bit mux_data_out_debug(7) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface_top_level.vhd":143:0:143:1|Register bit mux_data_out_debug(6) is always 0.
+@W: CL279 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface_top_level.vhd":143:0:143:1|Pruning register bits 7 to 6 of mux_data_out_debug(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Finished optimization stage 1 on HM0360_Interface_top_level (CPU Time 0h:00m:00s, Memory Used current: 99MB peak: 99MB)
+Running optimization stage 2 on debounce_27000000_10 .......
+Finished optimization stage 2 on debounce_27000000_10 (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 99MB)
+Running optimization stage 2 on counter_2 .......
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(3) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(4) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(5) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(6) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(7) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(8) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(9) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(10) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(11) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(12) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(13) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(14) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(15) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(16) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(17) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(18) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(19) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(20) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(21) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(22) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(23) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(24) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(25) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(26) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(27) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(28) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(29) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(30) is always 0.
+@W: CL279 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Pruning register bits 30 to 3 of c(30 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Finished optimization stage 2 on counter_2 (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 99MB)
+Running optimization stage 2 on prescaler_27000000_6000000 .......
+Finished optimization stage 2 on prescaler_27000000_6000000 (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 99MB)
+Running optimization stage 2 on PLL_sync_clk .......
+Finished optimization stage 2 on PLL_sync_clk (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 99MB)
+Running optimization stage 2 on HM0360_CSI2_DPHY .......
+Finished optimization stage 2 on HM0360_CSI2_DPHY (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 99MB)
+Running optimization stage 2 on counter_68 .......
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(9) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(10) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(11) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(12) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(13) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(14) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(15) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(16) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(17) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(18) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(19) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(20) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(21) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(22) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(23) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(24) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(25) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(26) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(27) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(28) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(29) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(30) is always 0.
+@W: CL279 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Pruning register bits 30 to 9 of c(30 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Finished optimization stage 2 on counter_68 (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 99MB)
+Running optimization stage 2 on prescaler_27000000_100000 .......
+Finished optimization stage 2 on prescaler_27000000_100000 (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 99MB)
+Running optimization stage 2 on HM0360_serial_master_work_hm0360_interface_top_level_behavioral_0layer0 .......
+@N: CL201 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_serial_master.vhd":92:1:92:2|Trying to extract state machine for register pr_state.
+Extracted state machine for register pr_state
+State machine has 14 reachable states with original encodings of:
+   00000000000001
+   00000000000010
+   00000000000100
+   00000000001000
+   00000000010000
+   00000000100000
+   00000001000000
+   00000010000000
+   00000100000000
+   00001000000000
+   00010000000000
+   00100000000000
+   01000000000000
+   10000000000000
+@W: CL249 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_serial_master.vhd":92:1:92:2|Initial value is not supported on state machine pr_state
+@W: CL279 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_serial_master.vhd":92:1:92:2|Pruning register bits 30 to 3 of c_debug(30 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Finished optimization stage 2 on HM0360_serial_master_work_hm0360_interface_top_level_behavioral_0layer0 (CPU Time 0h:00m:00s, Memory Used current: 99MB peak: 100MB)
+Running optimization stage 2 on trig_acq_module .......
+Finished optimization stage 2 on trig_acq_module (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 100MB)
+Running optimization stage 2 on configuration_module .......
+Finished optimization stage 2 on configuration_module (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 100MB)
+Running optimization stage 2 on I2C_module .......
+Finished optimization stage 2 on I2C_module (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 100MB)
+Running optimization stage 2 on image_buffer .......
+Finished optimization stage 2 on image_buffer (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 100MB)
+Running optimization stage 2 on HM0360_Interface .......
+@N: CL159 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd":27:0:27:10|Input PADDR_debug is unused.
+Finished optimization stage 2 on HM0360_Interface (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 100MB)
+Running optimization stage 2 on HM0360_Interface_top_level .......
+Finished optimization stage 2 on HM0360_Interface_top_level (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 100MB)
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Users\miche\Desktop\my_designs\HM0360_image_capture\HM0360_image_capture_impl\synwork\layer0.rt.csv
+

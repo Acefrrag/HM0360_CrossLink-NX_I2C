@@ -1,0 +1,220 @@
+# Mon Nov 21 21:57:39 2022
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09LR-2
+Install: C:\lscc\radiant\3.2\synpbase
+OS: Windows 10 or later
+Hostname: DESKTOP-9VA2EUV
+
+Implementation : HM0360_image_capture_impl
+Synopsys Lattice Technology Pre-mapping, Version map202109lat, Build 180R, Built Jun 27 2022 09:38:19, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 118MB peak: 118MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 124MB peak: 130MB)
+
+Reading constraint file: C:\Users\miche\Desktop\my_designs\HM0360_image_capture\HM0360_image_capture_impl\HM0360_image_capture_HM0360_image_capture_impl_cpe.ldc
+@L: C:\Users\miche\Desktop\my_designs\HM0360_image_capture\HM0360_image_capture_impl\HM0360_image_capture_HM0360_image_capture_impl_scck.rpt 
+See clock summary report "C:\Users\miche\Desktop\my_designs\HM0360_image_capture\HM0360_image_capture_impl\HM0360_image_capture_HM0360_image_capture_impl_scck.rpt"
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 131MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 132MB)
+
+@W: BN653 :"c:/users/miche/desktop/my_designs/hm0360_image_capture/hm0360_image_capture_impl/hm0360_image_capture_hm0360_image_capture_impl_cpe.ldc":9:0:9:0|Applying constraint to bidirectional hierarchy pin (clk_p_io) not supported: create_generated_clock -name HM0360_CSI2_DPHY_comp_clk_byte_hs_o_c -source [get_pins HM0360_Interface_comp/HM0360_CSI2_DPHY_comp/clk_p_io] -divide_by 4 [get_nets HM0360_Interface_comp/HM0360_CSI2_DPHY_comp/clk_byte_hs_o*] 
+@W: BN653 :"c:/users/miche/desktop/my_designs/hm0360_image_capture/hm0360_image_capture_impl/hm0360_image_capture_hm0360_image_capture_impl_cpe.ldc":11:0:11:0|Applying constraint to bidirectional hierarchy pin (clk_p_io) not supported: create_generated_clock -name HM0360_CSI2_DPHY_comp_clk_byte_o_c -source [get_pins HM0360_Interface_comp/HM0360_CSI2_DPHY_comp/clk_p_io] -divide_by 4 [get_nets HM0360_Interface_comp/HM0360_CSI2_DPHY_comp/clk_byte_o*] 
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 145MB peak: 145MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 145MB peak: 147MB)
+
+@N: FX493 |Applying initial value "0" on instance shifted_CLK_OUT_int.
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@N: FX493 |Applying initial value "0" on instance shifted_CLK_OUT_int.
+@N: FX493 |Applying initial value "0" on instance CLK_OUT_int.
+@N: FX493 |Applying initial value "0" on instance SCL_pr.
+@N: FX493 |Applying initial value "0" on instance DATA_CLK_pr.
+@N: FX493 |Applying initial value "x" on instance SDA_pr.
+@W: FX471 |User-specified initial value x is not applied on instance SDA_pr (of type dff). Initial value must be either 0 or 1.
+@N: FX493 |Applying initial value "00000000" on instance buffer_debug_internal[7:0].
+@N: FX493 |Applying initial value "0" on instance finished_internal.
+@N: FX493 |Applying initial value "0" on instance error_debug_internal.
+@N: FX493 |Applying initial value "0" on instance R_W_internal.
+@N: FX493 |Applying initial value "00000000" on instance data_read_internal[7:0].
+@N: FX493 |Applying initial value "0" on instance rd_flag.
+@N: FX493 |Applying initial value "00" on instance pr_state[1:0].
+@W: BN288 :"c:\users\miche\desktop\my_designs\hm0360_image_capture\source\hm0360_image_capture_impl\trig_acq_module.vhd":34:0:34:3|Latch nx_state[0] with set has an initial value of 0. Ignoring initial value.  
+@W: BN288 :"c:\users\miche\desktop\my_designs\hm0360_image_capture\source\hm0360_image_capture_impl\trig_acq_module.vhd":34:0:34:3|Latch nx_state[1] with set has an initial value of 0. Ignoring initial value.  
+@N: FX493 |Applying initial value "00000000000001" on instance pr_state[0:13].
+@N: FX493 |Applying initial value "00000000000001" on instance nx_state[0:13].
+@N: FX493 |Applying initial value "0" on instance mul_sel.
+
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 178MB peak: 178MB)
+
+
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 178MB peak: 178MB)
+
+@N: BN115 :"c:\lscc\radiant\3.2\ip\pmi\../avant/fifo_dc/rtl\lscc_fifo_dc.v":130:2:130:7|Removing instance u_fwft (in view: work.lscc_fifo_dc_Z8_layer1(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\miche\desktop\my_designs\hm0360_image_capture\source\hm0360_image_capture_impl\hm0360_serial_master.vhd":92:1:92:2|Removing sequential instance data_read_internal[0] (in view: work.HM0360_serial_master_work_hm0360_interface_top_level_behavioral_0layer0(behavioral)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\miche\desktop\my_designs\hm0360_image_capture\source\hm0360_image_capture_impl\hm0360_serial_master.vhd":92:1:92:2|Removing sequential instance data_read_internal[1] (in view: work.HM0360_serial_master_work_hm0360_interface_top_level_behavioral_0layer0(behavioral)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\miche\desktop\my_designs\hm0360_image_capture\source\hm0360_image_capture_impl\hm0360_serial_master.vhd":92:1:92:2|Removing sequential instance data_read_internal[2] (in view: work.HM0360_serial_master_work_hm0360_interface_top_level_behavioral_0layer0(behavioral)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\miche\desktop\my_designs\hm0360_image_capture\source\hm0360_image_capture_impl\hm0360_serial_master.vhd":92:1:92:2|Removing sequential instance data_read_internal[3] (in view: work.HM0360_serial_master_work_hm0360_interface_top_level_behavioral_0layer0(behavioral)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\miche\desktop\my_designs\hm0360_image_capture\source\hm0360_image_capture_impl\hm0360_serial_master.vhd":92:1:92:2|Removing sequential instance data_read_internal[4] (in view: work.HM0360_serial_master_work_hm0360_interface_top_level_behavioral_0layer0(behavioral)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\miche\desktop\my_designs\hm0360_image_capture\source\hm0360_image_capture_impl\hm0360_serial_master.vhd":92:1:92:2|Removing sequential instance data_read_internal[5] (in view: work.HM0360_serial_master_work_hm0360_interface_top_level_behavioral_0layer0(behavioral)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\miche\desktop\my_designs\hm0360_image_capture\source\hm0360_image_capture_impl\hm0360_serial_master.vhd":92:1:92:2|Removing sequential instance data_read_internal[6] (in view: work.HM0360_serial_master_work_hm0360_interface_top_level_behavioral_0layer0(behavioral)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\miche\desktop\my_designs\hm0360_image_capture\source\hm0360_image_capture_impl\hm0360_serial_master.vhd":92:1:92:2|Removing sequential instance data_read_internal[7] (in view: work.HM0360_serial_master_work_hm0360_interface_top_level_behavioral_0layer0(behavioral)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\miche\desktop\my_designs\hm0360_image_capture\source\hm0360_image_capture_impl\hm0360_serial_master.vhd":92:1:92:2|Removing sequential instance error (in view: work.HM0360_serial_master_work_hm0360_interface_top_level_behavioral_0layer0(behavioral)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\miche\desktop\my_designs\hm0360_image_capture\source\hm0360_image_capture_impl\hm0360_serial_master.vhd":92:1:92:2|Removing sequential instance buffer_debug_internal[0] (in view: work.HM0360_serial_master_work_hm0360_interface_top_level_behavioral_0layer0(behavioral)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\miche\desktop\my_designs\hm0360_image_capture\source\hm0360_image_capture_impl\hm0360_serial_master.vhd":92:1:92:2|Removing sequential instance buffer_debug_internal[1] (in view: work.HM0360_serial_master_work_hm0360_interface_top_level_behavioral_0layer0(behavioral)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\miche\desktop\my_designs\hm0360_image_capture\source\hm0360_image_capture_impl\hm0360_serial_master.vhd":92:1:92:2|Removing sequential instance buffer_debug_internal[2] (in view: work.HM0360_serial_master_work_hm0360_interface_top_level_behavioral_0layer0(behavioral)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\miche\desktop\my_designs\hm0360_image_capture\source\hm0360_image_capture_impl\hm0360_serial_master.vhd":92:1:92:2|Removing sequential instance buffer_debug_internal[3] (in view: work.HM0360_serial_master_work_hm0360_interface_top_level_behavioral_0layer0(behavioral)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\miche\desktop\my_designs\hm0360_image_capture\source\hm0360_image_capture_impl\hm0360_serial_master.vhd":92:1:92:2|Removing sequential instance buffer_debug_internal[4] (in view: work.HM0360_serial_master_work_hm0360_interface_top_level_behavioral_0layer0(behavioral)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\miche\desktop\my_designs\hm0360_image_capture\source\hm0360_image_capture_impl\hm0360_serial_master.vhd":92:1:92:2|Removing sequential instance buffer_debug_internal[5] (in view: work.HM0360_serial_master_work_hm0360_interface_top_level_behavioral_0layer0(behavioral)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\miche\desktop\my_designs\hm0360_image_capture\source\hm0360_image_capture_impl\hm0360_serial_master.vhd":92:1:92:2|Removing sequential instance buffer_debug_internal[6] (in view: work.HM0360_serial_master_work_hm0360_interface_top_level_behavioral_0layer0(behavioral)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\miche\desktop\my_designs\hm0360_image_capture\source\hm0360_image_capture_impl\hm0360_serial_master.vhd":92:1:92:2|Removing sequential instance buffer_debug_internal[7] (in view: work.HM0360_serial_master_work_hm0360_interface_top_level_behavioral_0layer0(behavioral)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\lscc\radiant\3.2\ip\pmi\../avant/fifo_dc/rtl\lscc_fifo_dc.v":3343:12:3343:17|Removing sequential instance afull_flag_impl\.async\.af_flag_r (in view: work.lscc_soft_fifo_dc_Z4_layer1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\lscc\radiant\3.2\ip\pmi\../avant/fifo_dc/rtl\lscc_fifo_dc.v":3548:12:3548:17|Removing sequential instance aempty_flag_impl\.async\.ae_flag_r (in view: work.lscc_soft_fifo_dc_Z4_layer1(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\miche\desktop\my_designs\hm0360_image_capture\source\hm0360_image_capture_impl\hm0360_serial_master.vhd":92:1:92:2|Removing sequential instance error_debug_internal (in view: work.HM0360_serial_master_work_hm0360_interface_top_level_behavioral_0layer0(behavioral)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\miche\desktop\my_designs\hm0360_image_capture\source\hm0360_image_capture_impl\hm0360_serial_master.vhd":92:1:92:2|Removing sequential instance c_debug[2:0] (in view: work.HM0360_serial_master_work_hm0360_interface_top_level_behavioral_0layer0(behavioral)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\miche\desktop\my_designs\hm0360_image_capture\source\hm0360_image_capture_impl\counter.vhd":27:0:27:1|Removing sequential instance shifted_CLK_OUT_int (in view: work.counter_2(behavioral)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+Encoding state machine pr_state[0:13] (in view: work.HM0360_serial_master_work_hm0360_interface_top_level_behavioral_0layer0(behavioral))
+original code -> new code
+   00000000000001 -> 0000
+   00000000000010 -> 0001
+   00000000000100 -> 0010
+   00000000001000 -> 0011
+   00000000010000 -> 0100
+   00000000100000 -> 0101
+   00000001000000 -> 0110
+   00000010000000 -> 0111
+   00000100000000 -> 1000
+   00001000000000 -> 1001
+   00010000000000 -> 1010
+   00100000000000 -> 1011
+   01000000000000 -> 1100
+   10000000000000 -> 1101
+
+Starting clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 182MB peak: 182MB)
+
+
+ mixed edge conversion for GCC is OFF
+ mixed edge conversion for GCC is OFF
+Finished clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 182MB peak: 182MB)
+
+@N: FX1184 |Applying syn_allowed_resources blockrams=84 on top level netlist HM0360_Interface_top_level 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 183MB peak: 183MB)
+
+
+
+Clock Summary
+******************
+
+          Start                                                                                 Requested     Requested     Clock                                             Clock                     Clock
+Level     Clock                                                                                 Frequency     Period        Type                                              Group                     Load 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+0 -       System                                                                                200.0 MHz     5.000         system                                            system_clkgroup           0    
+                                                                                                                                                                                                             
+0 -       HM0360_Interface_top_level|CLK                                                        200.0 MHz     5.000         inferred                                          Inferred_clkgroup_0_1     130  
+1 .         counter_2|CLK_OUT_int_derived_clock                                                 200.0 MHz     5.000         derived (from HM0360_Interface_top_level|CLK)     Inferred_clkgroup_0_1     165  
+1 .         trig_acq_module|pr_state_derived_clock[1]                                           200.0 MHz     5.000         derived (from HM0360_Interface_top_level|CLK)     Inferred_clkgroup_0_1     2    
+                                                                                                                                                                                                             
+0 -       HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_wrap_cil_Z10_layer1|clk_byte_o_inferred_clock     200.0 MHz     5.000         inferred                                          Inferred_clkgroup_0_2     53   
+                                                                                                                                                                                                             
+0 -       configuration_module|un1_nx_state_1_sqmuxa_inferred_clock                             200.0 MHz     5.000         inferred                                          Inferred_clkgroup_0_4     14   
+                                                                                                                                                                                                             
+0 -       PLL_sync_clk_ipgen_lscc_pll_Z12_layer1|clkop_o_inferred_clock                         200.0 MHz     5.000         inferred                                          Inferred_clkgroup_0_3     3    
+=============================================================================================================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                                                                      Clock     Source                                                                                                                     Clock Pin                                                                                                      Non-clock Pin     Non-clock Pin                                                                                    
+Clock                                                                                 Load      Pin                                                                                                                        Seq Example                                                                                                    Seq Example       Comb Example                                                                                     
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                                                                0         -                                                                                                                          -                                                                                                              -                 -                                                                                                
+                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+HM0360_Interface_top_level|CLK                                                        130       CLK(port)                                                                                                                  mux_data_out_debug[5:0].C                                                                                      -                 -                                                                                                
+counter_2|CLK_OUT_int_derived_clock                                                   165       HM0360_Interface_comp.prescaler_6MHz.counter_comp.CLK_OUT_int.Q[0](sdffre)                                                 HM0360_Interface_comp.HM0360_CSI2_DPHY_comp.lscc_dphy_rx_inst.CIL_TOP\.u_hard_dphy.u_hs_rx_data_o_1[7:0].C     -                 -                                                                                                
+trig_acq_module|pr_state_derived_clock[1]                                             2         HM0360_Interface_comp.I2C_module_comp.trig_acq_module_comp.pr_state[1].Q[0](dffr)                                          HM0360_Interface_comp.I2C_module_comp.trig_acq_module_comp.nx_state[0].C                                       -                 -                                                                                                
+                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_wrap_cil_Z10_layer1|clk_byte_o_inferred_clock     53        HM0360_Interface_comp.HM0360_CSI2_DPHY_comp.lscc_dphy_rx_inst.CIL_TOP\.u_hard_dphy.u_dphy_cil.URWDCKHS(DPHY_Z2_layer1)     HM0360_Interface_comp.HM0360_CSI2_DPHY_comp.lscc_dphy_rx_inst.CIL_TOP\.u_hard_dphy.u_hs_rx_data_r[7:0].C       -                 -                                                                                                
+                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+configuration_module|un1_nx_state_1_sqmuxa_inferred_clock                             14        HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.un1_nx_state_1_sqmuxa.OUT(or)                              HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.nx_state[13].C                                 -                 HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.un1_nx_state_1_sqmuxa_1.I[0](inv)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+PLL_sync_clk_ipgen_lscc_pll_Z12_layer1|clkop_o_inferred_clock                         3         HM0360_Interface_comp.PLL_sync_clk_comp.lscc_pll_inst.gen_no_refclk_mon\.u_PLL.CLKOP(PLL)                                  HM0360_Interface_comp.HM0360_CSI2_DPHY_comp.lscc_dphy_rx_inst.CIL_TOP\.u_hard_dphy.u_clock_divider.clk_r.C     -                 -                                                                                                
+=============================================================================================================================================================================================================================================================================================================================================================================================================================================================
+
+@W: MT530 :"c:\users\miche\desktop\my_designs\hm0360_image_capture\source\hm0360_image_capture_impl\debounce.vhd":50:4:50:5|Found inferred clock HM0360_Interface_top_level|CLK which controls 130 sequential elements including debounce_init_config.count[18:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\lscc\radiant\3.2\ip\pmi\../avant/fifo_dc/rtl\lscc_fifo_dc.v":8281:147:8281:152|Found inferred clock HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_wrap_cil_Z10_layer1|clk_byte_o_inferred_clock which controls 53 sequential elements including HM0360_Interface_comp.HM0360_CSI2_DPHY_comp.lscc_dphy_rx_inst.CIL_TOP\.u_hard_dphy.fr_fifo_0.u_fifo0.fifo_dc0._FABRIC\.u_fifo.EBR\.genblk12\.u_fifo_mem0.mem_main.NON_MIX\.ADDR_ROUTE\[0\]\.DATA_ROUTE\[0\]\.no_init\.u_mem0.LIFCL_MEM\.pdp16k. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\miche\desktop\my_designs\hm0360_image_capture\source\hm0360_image_capture_impl\configuration_module.vhd":40:0:40:3|Found inferred clock configuration_module|un1_nx_state_1_sqmuxa_inferred_clock which controls 14 sequential elements including HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.nx_state[0]. This clock has no specified timing constraint which may adversely impact design performance. 
+
+ICG Latch Removal Summary:
+Number of ICG latches removed: 0
+Number of ICG latches not removed:	0
+For details review file gcc_ICG_report.rpt
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+2 non-gated/non-generated clock tree(s) driving 183 clock pin(s) of sequential element(s)
+4 gated/generated clock tree(s) driving 184 clock pin(s) of sequential element(s)
+0 instances converted, 184 sequential instances remain driven by gated/generated clocks
+
+================================================================================================================== Non-Gated/Non-Generated Clocks ===================================================================================================================
+Clock Tree ID     Driving Element                                                                                            Drive Element Type     Fanout     Sample Instance                                                                                       
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@KP:ckid0_0       HM0360_Interface_comp.HM0360_CSI2_DPHY_comp.lscc_dphy_rx_inst.CIL_TOP\.u_hard_dphy.u_dphy_cil.URWDCKHS     DPHY_Z2_layer1         53         HM0360_Interface_comp.HM0360_CSI2_DPHY_comp.lscc_dphy_rx_inst.CIL_TOP\.u_hard_dphy.u_hs_rx_data_r[7:0]
+@KP:ckid0_6       CLK                                                                                                        port                   130        mux_data_out_debug[5:0]                                                                               
+=====================================================================================================================================================================================================================================================================
+================================================================================================================================= Gated/Generated Clocks =================================================================================================================================
+Clock Tree ID     Driving Element                                                                               Drive Element Type     Unconverted Fanout     Sample Instance                                                                               Explanation                   
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@KP:ckid0_4       HM0360_Interface_comp.prescaler_6MHz.counter_comp.CLK_OUT_int.Q[0]                            sdffre                 165                    HM0360_Interface_comp.HM0360_CSI2_DPHY_comp.lscc_dphy_rx_inst.CIL_TOP\.u_hard_dphy.toggle     Clock Optimization not enabled
+@KP:ckid0_5       HM0360_Interface_comp.PLL_sync_clk_comp.lscc_pll_inst.gen_no_refclk_mon\.u_PLL.CLKOP          PLL                    3                      ENCRYPTED                                                                                     Clock Optimization not enabled
+@KP:ckid0_7       HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.un1_nx_state_1_sqmuxa.OUT     or                     14                     HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.nx_state[0]                   Clock Optimization not enabled
+@KP:ckid0_8       HM0360_Interface_comp.I2C_module_comp.trig_acq_module_comp.pr_state[1].Q[0]                   dffr                   2                      HM0360_Interface_comp.I2C_module_comp.trig_acq_module_comp.nx_state[1]                        Clock Optimization not enabled
+==========================================================================================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+
+Starting constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 183MB peak: 183MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 183MB peak: 183MB)
+
+@W: MF511 |Found issues with constraints. Please check constraint checker report "C:\Users\miche\Desktop\my_designs\HM0360_image_capture\HM0360_image_capture_impl\HM0360_image_capture_HM0360_image_capture_impl_cck.rpt" .
+
+Finished constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 184MB peak: 184MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 102MB peak: 184MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+# Mon Nov 21 21:57:42 2022
+
+###########################################################]

@@ -2,9 +2,9 @@
 <RadiantProject version="4.2" radiant="3.2.1.217.3" title="HM0360_CrossLinkNX" device="LIFCL-40-8MG289C" performance_grade="8_High-Performance_1.0V" default_implementation="HM0360_CrossLinkNX_impl">
     <Options/>
     <Implementation title="HM0360_CrossLinkNX_impl" dir="HM0360_CrossLinkNX_impl" description="HM0360_CrossLinkNX_impl" synthesis="lse" default_strategy="Strategy1">
-        <Options def_top="HM0360_top_level" top="HM0360_top_level"/>
-        <Source name="source/HM0360_CrossLinkNX_impl/HM0360_top_level.vhd" type="VHDL" type_short="VHDL">
-            <Options top_module="HM0360_top_level"/>
+        <Options def_top="HM0360_I2C_master_top_level" top="HM0360_I2C_master_top_level"/>
+        <Source name="source/HM0360_CrossLinkNX_impl/HM0360_I2C_master_top_level.vhd" type="VHDL" type_short="VHDL">
+            <Options top_module="HM0360_I2C_master_top_level"/>
         </Source>
         <Source name="source/HM0360_CrossLinkNX_impl/HM0360_serial_I2C_master.vhd" type="VHDL" type_short="VHDL">
             <Options/>
@@ -27,7 +27,7 @@
         <Source name="source/HM0360_CrossLinkNX_impl/HM0360_serial_tb_2.vhd" type="VHDL" type_short="VHDL" syn_sim="SimOnly">
             <Options/>
         </Source>
-        <Source name="source/HM0360_CrossLinkNX_impl/HM0360_top_level_tb.vhd" type="VHDL" type_short="VHDL" syn_sim="SimOnly">
+        <Source name="source/HM0360_CrossLinkNX_impl/HM0360_I2C_master_top_level_tb.vhd" type="VHDL" type_short="VHDL" syn_sim="SimOnly">
             <Options/>
         </Source>
         <Source name="constr.pdc" type="Physical Constraints File" type_short="PDC">

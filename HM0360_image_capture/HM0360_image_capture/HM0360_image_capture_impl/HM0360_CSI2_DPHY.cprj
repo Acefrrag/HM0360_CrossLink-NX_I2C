@@ -1,0 +1,8 @@
+-ver "C:/lscc/radiant/3.2/ip/pmi/pmi_lifcl.v"
+-lib pmi -vhd "C:/lscc/radiant/3.2/ip/pmi/pmi_lifcl.vhd"
+-ver "C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/HM0360_CSI2_DPHY/rtl/HM0360_CSI2_DPHY.v"
+-sdc  "C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/HM0360_CSI2_DPHY/constraints/HM0360_CSI2_DPHY.ldc"
+-path "C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/HM0360_CSI2_DPHY"
+-vh2008
+-top HM0360_CSI2_DPHY
+-a "LIFCL"

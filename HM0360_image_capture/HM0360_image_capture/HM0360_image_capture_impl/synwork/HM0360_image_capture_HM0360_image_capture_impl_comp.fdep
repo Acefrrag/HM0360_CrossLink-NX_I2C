@@ -1,0 +1,349 @@
+#OPTIONS:"|-mixedhdl|-top|HM0360_Interface_top_level|-layerid|0|-orig_srs|C:\\Users\\miche\\Desktop\\my_designs\\HM0360_image_capture\\HM0360_image_capture_impl\\synwork\\HM0360_image_capture_HM0360_image_capture_impl_comp.srs|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-ignore_undefined_lib|-lib|pmi|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\radiant\\3.2\\synpbase\\bin64\\c_vhdl.exe":1656451202
+#CUR:"C:\\lscc\\radiant\\3.2\\synpbase\\lib\\vhd2008\\location.map":1656451216
+#CUR:"C:\\lscc\\radiant\\3.2\\synpbase\\lib\\vhd2008\\std.vhd":1656451216
+#CUR:"C:\\lscc\\radiant\\3.2\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1656451216
+#CUR:"C:\\lscc\\radiant\\3.2\\synpbase\\lib\\vhd2008\\std1164.vhd":1656451216
+#CUR:"C:\\lscc\\radiant\\3.2\\synpbase\\lib\\vhd2008\\std_textio.vhd":1656451216
+#CUR:"C:\\lscc\\radiant\\3.2\\synpbase\\lib\\vhd2008\\numeric.vhd":1656451216
+#CUR:"C:\\lscc\\radiant\\3.2\\synpbase\\lib\\vhd\\umr_capim.vhd":1656451216
+#CUR:"C:\\lscc\\radiant\\3.2\\synpbase\\lib\\vhd2008\\arith.vhd":1656451216
+#CUR:"C:\\lscc\\radiant\\3.2\\synpbase\\lib\\vhd2008\\unsigned.vhd":1656451216
+#CUR:"C:\\lscc\\radiant\\3.2\\synpbase\\lib\\vhd\\hyperents.vhd":1656451216
+#CUR:"C:\\lscc\\radiant\\3.2\\ip\\pmi\\pmi_lifcl.vhd":1648540488
+#CUR:"C:\\Users\\miche\\Desktop\\my_designs\\HM0360_image_capture\\source\\HM0360_image_capture_impl\\counter.vhd":1667215205
+#CUR:"C:\\lscc\\radiant\\3.2\\synpbase\\lib\\vhd\\math_real.vhd":1656451216
+#CUR:"C:\\Users\\miche\\Desktop\\my_designs\\HM0360_image_capture\\source\\HM0360_image_capture_impl\\debounce.vhd":1664902791
+#CUR:"C:\\Users\\miche\\Desktop\\my_designs\\HM0360_image_capture\\source\\HM0360_image_capture_impl\\configuration_module.vhd":1668953511
+#CUR:"C:\\Users\\miche\\Desktop\\my_designs\\HM0360_image_capture\\source\\HM0360_image_capture_impl\\trig_acq_module.vhd":1668182164
+#CUR:"C:\\Users\\miche\\Desktop\\my_designs\\HM0360_image_capture\\source\\HM0360_image_capture_impl\\image_buffer.vhd":1668899028
+#CUR:"C:\\Users\\miche\\Desktop\\my_designs\\HM0360_image_capture\\source\\HM0360_image_capture_impl\\prescaler.vhd":1667152965
+#CUR:"C:\\Users\\miche\\Desktop\\my_designs\\HM0360_image_capture\\source\\HM0360_image_capture_impl\\HM0360_serial_master.vhd":1668203474
+#CUR:"C:\\Users\\miche\\Desktop\\my_designs\\HM0360_image_capture\\source\\HM0360_image_capture_impl\\I2C_module.vhd":1669055765
+#CUR:"C:\\Users\\miche\\Desktop\\my_designs\\HM0360_image_capture\\source\\HM0360_image_capture_impl\\HM0360_Interface.vhd":1669064205
+#CUR:"C:\\Users\\miche\\Desktop\\my_designs\\HM0360_image_capture\\source\\HM0360_image_capture_impl\\HM0360_Interface_top_level.vhd":1669055718
+#OPTIONS:"|-mixedhdl|-modhint|C:\\Users\\miche\\Desktop\\my_designs\\HM0360_image_capture\\HM0360_image_capture_impl\\synwork\\_verilog_hintfile|-top|work.HM0360_CSI2_DPHY|-top|work.PLL_sync_clk|-mpparams|C:\\Users\\miche\\Desktop\\my_designs\\HM0360_image_capture\\HM0360_image_capture_impl\\synwork\\_mh_params|-layerid|1|-orig_srs|C:\\Users\\miche\\Desktop\\my_designs\\HM0360_image_capture\\HM0360_image_capture_impl\\synwork\\HM0360_image_capture_HM0360_image_capture_impl_comp.srs|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-I|C:\\Users\\miche\\Desktop\\my_designs\\HM0360_image_capture|-I|C:\\Users\\miche\\Desktop\\my_designs\\HM0360_image_capture\\HM0360_CSI2_DPHY|-I|C:\\Users\\miche\\Desktop\\my_designs\\HM0360_image_capture\\PLL_sync_clk|-I|C:\\Users\\miche\\Desktop\\my_designs\\HM0360_image_capture\\HM0360_image_capture_impl\\|-I|C:\\lscc\\radiant\\3.2\\synpbase\\lib|-v2001|-devicelib|C:\\lscc\\radiant\\3.2\\synpbase\\lib\\lucent\\lifcl.v|-devicelib|C:\\lscc\\radiant\\3.2\\synpbase\\lib\\lucent\\pmi_def.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-D_MULTIPLE_FILE_COMPILATION_UNIT_|-lib|work|-lib|work|-fv2001|-lib|work|-fv2001"
+#CUR:"C:\\lscc\\radiant\\3.2\\synpbase\\bin64\\c_ver.exe":1656451202
+#CUR:"C:\\Users\\miche\\Desktop\\my_designs\\HM0360_image_capture\\HM0360_image_capture_impl\\synwork\\_verilog_hintfile":1669064247
+#CUR:"C:\\lscc\\radiant\\3.2\\synpbase\\lib\\lucent\\lifcl.v":1658463116
+#CUR:"C:\\lscc\\radiant\\3.2\\synpbase\\lib\\lucent\\pmi_def.v":1656451209
+#CUR:"C:\\lscc\\radiant\\3.2\\synpbase\\lib\\vlog\\hypermods.v":1656451216
+#CUR:"C:\\lscc\\radiant\\3.2\\synpbase\\lib\\vlog\\umr_capim.v":1656451216
+#CUR:"C:\\lscc\\radiant\\3.2\\synpbase\\lib\\vlog\\scemi_objects.v":1656451216
+#CUR:"C:\\lscc\\radiant\\3.2\\synpbase\\lib\\vlog\\scemi_pipes.svh":1656451216
+#CUR:"C:\\lscc\\radiant\\3.2\\ip\\pmi\\pmi_lifcl.v":1589160685
+#CUR:"C:\\lscc\\radiant\\3.2\\ip\\pmi\\pmi_addsub.v":1562800400
+#CUR:"C:\\lscc\\radiant\\3.2\\ip\\pmi\\../common/adder_subtractor/rtl/lscc_add_sub.v":1571399882
+#CUR:"C:\\lscc\\radiant\\3.2\\ip\\pmi\\pmi_add.v":1562800366
+#CUR:"C:\\lscc\\radiant\\3.2\\ip\\pmi\\../common/adder/rtl/lscc_adder.v":1564990857
+#CUR:"C:\\lscc\\radiant\\3.2\\ip\\pmi\\pmi_complex_mult.v":1562800443
+#CUR:"C:\\lscc\\radiant\\3.2\\ip\\pmi\\../common/complex_mult/rtl/lscc_complex_mult.v":1631237199
+#CUR:"C:\\lscc\\radiant\\3.2\\ip\\pmi\\pmi_counter.v":1562800475
+#CUR:"C:\\lscc\\radiant\\3.2\\ip\\pmi\\../common/counter/rtl/lscc_cntr.v":1564990907
+#CUR:"C:\\lscc\\radiant\\3.2\\ip\\pmi\\pmi_distributed_dpram.v":1565060115
+#CUR:"C:\\lscc\\radiant\\3.2\\ip\\pmi\\../common/distributed_dpram/rtl/lscc_distributed_dpram.v":1583751136
+#CUR:"C:\\lscc\\radiant\\3.2\\ip\\pmi\\pmi_distributed_spram.v":1565060115
+#CUR:"C:\\lscc\\radiant\\3.2\\ip\\pmi\\../common/distributed_spram/rtl/lscc_distributed_spram.v":1583722196
+#CUR:"C:\\lscc\\radiant\\3.2\\ip\\pmi\\pmi_distributed_rom.v":1565060115
+#CUR:"C:\\lscc\\radiant\\3.2\\ip\\pmi\\../common/distributed_rom/rtl/lscc_distributed_rom.v":1583751331
+#CUR:"C:\\lscc\\radiant\\3.2\\ip\\pmi\\pmi_distributed_shift_reg.v":1584000121
+#CUR:"C:\\lscc\\radiant\\3.2\\ip\\pmi\\../common/ram_shift_reg/rtl/lscc_shift_register.v":1644998757
+#CUR:"C:\\lscc\\radiant\\3.2\\ip\\pmi\\pmi_fifo.v":1640152481
+#CUR:"C:\\lscc\\radiant\\3.2\\ip\\pmi\\../avant/fifo/rtl/lscc_fifo.v":1655972342
+#CUR:"C:\\lscc\\radiant\\3.2\\ip\\pmi\\pmi_fifo_dc.v":1640152663
+#CUR:"C:\\lscc\\radiant\\3.2\\ip\\pmi\\../avant/fifo_dc/rtl/lscc_fifo_dc.v":1655972373
+#CUR:"C:\\lscc\\radiant\\3.2\\ip\\pmi\\pmi_mac.v":1562800511
+#CUR:"C:\\lscc\\radiant\\3.2\\ip\\pmi\\../common/mult_accumulate/rtl/lscc_mult_accumulate.v":1584523096
+#CUR:"C:\\lscc\\radiant\\3.2\\ip\\pmi\\pmi_multaddsubsum.v":1562800615
+#CUR:"C:\\lscc\\radiant\\3.2\\ip\\pmi\\../common/mult_add_sub_sum/rtl/lscc_mult_add_sub_sum.v":1584522940
+#CUR:"C:\\lscc\\radiant\\3.2\\ip\\pmi\\pmi_multaddsub.v":1562800566
+#CUR:"C:\\lscc\\radiant\\3.2\\ip\\pmi\\../common/mult_add_sub/rtl/lscc_mult_add_sub.v":1584523063
+#CUR:"C:\\lscc\\radiant\\3.2\\ip\\pmi\\pmi_mult.v":1562800537
+#CUR:"C:\\lscc\\radiant\\3.2\\ip\\pmi\\../common/multiplier/rtl/lscc_multiplier.v":1564990933
+#CUR:"C:\\lscc\\radiant\\3.2\\ip\\pmi\\pmi_ram_dp.v":1644979873
+#CUR:"C:\\lscc\\radiant\\3.2\\ip\\pmi\\../avant/ram_dp/rtl/lscc_ram_dp.v":1655972405
+#CUR:"C:\\lscc\\radiant\\3.2\\ip\\pmi\\pmi_ram_dp_be.v":1644980856
+#CUR:"C:\\lscc\\radiant\\3.2\\ip\\pmi\\../avant/ram_dp/rtl/lscc_ram_dp.v":1655972405
+#CUR:"C:\\lscc\\radiant\\3.2\\ip\\pmi\\pmi_ram_dp_true.v":1644979914
+#CUR:"C:\\lscc\\radiant\\3.2\\ip\\pmi\\../avant/ram_dp_true/rtl/lscc_ram_dp_true.v":1649137883
+#CUR:"C:\\lscc\\radiant\\3.2\\ip\\pmi\\pmi_ram_dq.v":1644979923
+#CUR:"C:\\lscc\\radiant\\3.2\\ip\\pmi\\../avant/ram_dq/rtl/lscc_ram_dq.v":1655972436
+#CUR:"C:\\lscc\\radiant\\3.2\\ip\\pmi\\pmi_ram_dq_be.v":1644979933
+#CUR:"C:\\lscc\\radiant\\3.2\\ip\\pmi\\../avant/ram_dq/rtl/lscc_ram_dq.v":1655972436
+#CUR:"C:\\lscc\\radiant\\3.2\\ip\\pmi\\pmi_rom.v":1644979944
+#CUR:"C:\\lscc\\radiant\\3.2\\ip\\pmi\\../avant/rom/rtl/lscc_rom.v":1655972464
+#CUR:"C:\\lscc\\radiant\\3.2\\ip\\pmi\\pmi_sub.v":1562800650
+#CUR:"C:\\lscc\\radiant\\3.2\\ip\\pmi\\../common/subtractor/rtl/lscc_subtractor.v":1564990995
+#CUR:"C:\\Users\\miche\\Desktop\\my_designs\\HM0360_image_capture\\HM0360_CSI2_DPHY\\rtl\\HM0360_CSI2_DPHY.v":1668887258
+#CUR:"C:\\Users\\miche\\Desktop\\my_designs\\HM0360_image_capture\\PLL_sync_clk\\rtl\\PLL_sync_clk.v":1668886915
+0			"C:\lscc\radiant\3.2\ip\pmi\pmi_lifcl.vhd" vhdl
+1			"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd" vhdl
+2			"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\debounce.vhd" vhdl
+3			"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\configuration_module.vhd" vhdl
+4			"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\trig_acq_module.vhd" vhdl
+5			"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\image_buffer.vhd" vhdl
+6			"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\prescaler.vhd" vhdl
+7			"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_serial_master.vhd" vhdl
+8			"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\I2C_module.vhd" vhdl
+9			"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd" vhdl
+10			"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface_top_level.vhd" vhdl
+11			"C:\lscc\radiant\3.2\ip\pmi\pmi_lifcl.v" verilog
+12		*	"C:\lscc\radiant\3.2\ip\pmi\pmi_addsub.v" verilog
+13		*	"C:\lscc\radiant\3.2\ip\pmi\../common/adder_subtractor/rtl\lscc_add_sub.v" verilog
+14		*	"C:\lscc\radiant\3.2\ip\pmi\pmi_add.v" verilog
+15		*	"C:\lscc\radiant\3.2\ip\pmi\../common/adder/rtl\lscc_adder.v" verilog
+16		*	"C:\lscc\radiant\3.2\ip\pmi\pmi_complex_mult.v" verilog
+17		*	"C:\lscc\radiant\3.2\ip\pmi\../common/complex_mult/rtl\lscc_complex_mult.v" verilog
+18		*	"C:\lscc\radiant\3.2\ip\pmi\pmi_counter.v" verilog
+19		*	"C:\lscc\radiant\3.2\ip\pmi\../common/counter/rtl\lscc_cntr.v" verilog
+20		*	"C:\lscc\radiant\3.2\ip\pmi\pmi_distributed_dpram.v" verilog
+21		*	"C:\lscc\radiant\3.2\ip\pmi\../common/distributed_dpram/rtl\lscc_distributed_dpram.v" verilog
+22		*	"C:\lscc\radiant\3.2\ip\pmi\pmi_distributed_spram.v" verilog
+23		*	"C:\lscc\radiant\3.2\ip\pmi\../common/distributed_spram/rtl\lscc_distributed_spram.v" verilog
+24		*	"C:\lscc\radiant\3.2\ip\pmi\pmi_distributed_rom.v" verilog
+25		*	"C:\lscc\radiant\3.2\ip\pmi\../common/distributed_rom/rtl\lscc_distributed_rom.v" verilog
+26		*	"C:\lscc\radiant\3.2\ip\pmi\pmi_distributed_shift_reg.v" verilog
+27		*	"C:\lscc\radiant\3.2\ip\pmi\../common/ram_shift_reg/rtl\lscc_shift_register.v" verilog
+28		*	"C:\lscc\radiant\3.2\ip\pmi\pmi_fifo.v" verilog
+29		*	"C:\lscc\radiant\3.2\ip\pmi\../avant/fifo/rtl\lscc_fifo.v" verilog
+30		*	"C:\lscc\radiant\3.2\ip\pmi\pmi_fifo_dc.v" verilog
+31		*	"C:\lscc\radiant\3.2\ip\pmi\../avant/fifo_dc/rtl\lscc_fifo_dc.v" verilog
+32		*	"C:\lscc\radiant\3.2\ip\pmi\pmi_mac.v" verilog
+33		*	"C:\lscc\radiant\3.2\ip\pmi\../common/mult_accumulate/rtl\lscc_mult_accumulate.v" verilog
+34		*	"C:\lscc\radiant\3.2\ip\pmi\pmi_multaddsubsum.v" verilog
+35		*	"C:\lscc\radiant\3.2\ip\pmi\../common/mult_add_sub_sum/rtl\lscc_mult_add_sub_sum.v" verilog
+36		*	"C:\lscc\radiant\3.2\ip\pmi\pmi_multaddsub.v" verilog
+37		*	"C:\lscc\radiant\3.2\ip\pmi\../common/mult_add_sub/rtl\lscc_mult_add_sub.v" verilog
+38		*	"C:\lscc\radiant\3.2\ip\pmi\pmi_mult.v" verilog
+39		*	"C:\lscc\radiant\3.2\ip\pmi\../common/multiplier/rtl\lscc_multiplier.v" verilog
+40		*	"C:\lscc\radiant\3.2\ip\pmi\pmi_ram_dp.v" verilog
+41		*	"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp/rtl\lscc_ram_dp.v" verilog
+42		*	"C:\lscc\radiant\3.2\ip\pmi\pmi_ram_dp_be.v" verilog
+43		*	"C:\lscc\radiant\3.2\ip\pmi\pmi_ram_dp_true.v" verilog
+44		*	"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v" verilog
+45		*	"C:\lscc\radiant\3.2\ip\pmi\pmi_ram_dq.v" verilog
+46		*	"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dq/rtl\lscc_ram_dq.v" verilog
+47		*	"C:\lscc\radiant\3.2\ip\pmi\pmi_ram_dq_be.v" verilog
+48		*	"C:\lscc\radiant\3.2\ip\pmi\pmi_rom.v" verilog
+49		*	"C:\lscc\radiant\3.2\ip\pmi\../avant/rom/rtl\lscc_rom.v" verilog
+50		*	"C:\lscc\radiant\3.2\ip\pmi\pmi_sub.v" verilog
+51		*	"C:\lscc\radiant\3.2\ip\pmi\../common/subtractor/rtl\lscc_subtractor.v" verilog
+52			"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\HM0360_CSI2_DPHY\rtl\HM0360_CSI2_DPHY.v" verilog
+53			"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\PLL_sync_clk\rtl\PLL_sync_clk.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 -1
+3 -1
+4 -1
+5 -1
+6 1
+7 6
+8 3 4 7
+9 52 53 5 8 6
+10 9 2
+11 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12
+12 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 11
+13 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 12 11
+14 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 13 12 11
+15 11 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 14 13 12
+16 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 15 14 13 12 11
+17 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 16 15 14 13 12 11
+18 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 17 16 15 14 13 12 11
+19 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 18 17 16 15 14 13 12 11
+20 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 19 18 17 16 15 14 13 12 11
+21 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 20 19 18 17 16 15 14 13 12 11
+22 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 21 20 19 18 17 16 15 14 13 12 11
+23 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 22 21 20 19 18 17 16 15 14 13 12 11
+24 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 23 22 21 20 19 18 17 16 15 14 13 12 11
+25 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 24 23 22 21 20 19 18 17 16 15 14 13 12 11
+26 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11
+27 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11
+28 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11
+29 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11
+30 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11
+31 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11
+32 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11
+33 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11
+34 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11
+35 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11
+36 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11
+37 11 51 50 49 48 47 46 45 44 43 42 41 40 39 38 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12
+38 51 50 49 48 47 46 45 44 43 42 41 40 39 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11
+39 11 51 50 49 48 47 46 45 44 43 42 41 40 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12
+40 51 50 49 48 47 46 45 44 43 42 41 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11
+41 51 50 49 48 47 46 45 44 43 41 42 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11
+42 51 50 49 48 47 46 45 44 43 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11
+43 51 50 49 48 47 46 45 44 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11
+44 51 50 49 48 47 46 45 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11
+45 51 50 49 48 47 46 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11
+46 51 50 49 48 46 47 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11
+47 51 50 49 48 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11
+48 51 50 49 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11
+49 51 50 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11
+50 51 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11
+51 11 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12
+52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11
+53 -1
+#Dependency Lists(Users Of)
+0 -1
+1 6
+2 10
+3 8
+4 8
+5 9
+6 7 9
+7 8
+8 9
+9 10
+10 -1
+11 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12
+12 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 11
+13 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 12 11
+14 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 13 12 11
+15 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 14 13 12 11
+16 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 15 14 13 12 11
+17 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 16 15 14 13 12 11
+18 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 17 16 15 14 13 12 11
+19 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 18 17 16 15 14 13 12 11
+20 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 19 18 17 16 15 14 13 12 11
+21 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 20 19 18 17 16 15 14 13 12 11
+22 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 21 20 19 18 17 16 15 14 13 12 11
+23 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 22 21 20 19 18 17 16 15 14 13 12 11
+24 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 23 22 21 20 19 18 17 16 15 14 13 12 11
+25 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 24 23 22 21 20 19 18 17 16 15 14 13 12 11
+26 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11
+27 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11
+28 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11
+29 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11
+30 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11
+31 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11
+32 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11
+33 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11
+34 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11
+35 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11
+36 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11
+37 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11
+38 52 51 50 49 48 47 46 45 44 43 42 41 40 39 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11
+39 52 51 50 49 48 47 46 45 44 43 42 41 40 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11
+40 52 51 50 49 48 47 46 45 44 43 42 41 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11
+41 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11
+42 52 51 50 49 48 47 46 45 44 43 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11
+43 52 51 50 49 48 47 46 45 44 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11
+44 52 51 50 49 48 47 46 45 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11
+45 52 51 50 49 48 47 46 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11
+46 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11
+47 52 51 50 49 48 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11
+48 52 51 50 49 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11
+49 52 51 50 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11
+50 52 51 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11
+51 52 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11
+52 9
+53 9
+#Design Unit to File Association
+module work PLL_sync_clk_ipgen_lscc_apb2lmmi 53
+module work PLL_sync_clk_ipgen_lscc_pll 53
+module work PLL_sync_clk 53
+module work HM0360_CSI2_DPHY_ipgen_lscc_rx_fifo_single 52
+module work HM0360_CSI2_DPHY_ipgen_lscc_rx_fifo_pp 52
+module work HM0360_CSI2_DPHY_ipgen_lscc_rx_fifo_queue 52
+module work HM0360_CSI2_DPHY_ipgen_lscc_lp_hs_ctrl 52
+module work HM0360_CSI2_DPHY_ipgen_lscc_gddr_sync 52
+module work HM0360_CSI2_DPHY_ipgen_lscc_mipi_dphy_soft_rx 52
+module work HM0360_CSI2_DPHY_ipgen_lscc_lane_align 52
+module work HM0360_CSI2_DPHY_ipgen_lscc_word_align 52
+module work HM0360_CSI2_DPHY_ipgen_lscc_rx_fifo 52
+module work HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_lmmi 52
+module work HM0360_CSI2_DPHY_ipgen_lscc_rx_global_ctrl 52
+module work HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_wrap 52
+module work HM0360_CSI2_DPHY_ipgen_lscc_clock_divider 52
+module work HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl 52
+module work HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_wrap_cil 52
+module work HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_core 52
+module work HM0360_CSI2_DPHY_ipgen_lscc_synchronizer_rx 52
+module work HM0360_CSI2_DPHY_ipgen_lscc_axi_stream_master 52
+module work HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx 52
+module work HM0360_CSI2_DPHY 52
+module work pmi_sub 50
+module work pmi_rom 48
+module work lscc_rom_inst_core 49
+module work lscc_rom_inst 49
+module work lscc_rom 49
+module work pmi_ram_dq_be 47
+module work pmi_ram_dq 45
+module work lscc_ram_dq_core 46
+module work lscc_ram_dq_inst 46
+module work lscc_ram_dq_main 46
+module work lscc_ram_dq 46
+module work pmi_ram_dp_true 43
+module work lscc_ram_dp_true_core 44
+module work lscc_ram_dp_true_inst 44
+module work lscc_write_through 44
+module work lscc_ram_dp_true_main 44
+module work lscc_ram_dp_true 44
+module work pmi_ram_dp_be 42
+module work pmi_ram_dp 40
+module work lscc_ram_dp_core 41
+module work lscc_ram_dp_main 41
+module work lscc_ram_dp 41
+module work pmi_mult 38
+module work pmi_multaddsub 36
+module work pmi_multaddsubsum 34
+module work lscc_mult_add_sub_sum 35
+module work pmi_mac 32
+module work lscc_mult_accumulate 33
+module work pmi_fifo_dc 30
+module work lscc_fifo_mem_core 31
+module work lscc_fifo_mem_main 31
+module work lscc_fifo_mem 31
+module work lscc_soft_fifo_dc 31
+module work lscc_fifo_dc_main 31
+module work lscc_fifo_dc 31
+module work pmi_fifo 28
+module work lscc_fifo_hw_core 29
+module work lscc_hard_fifo_dc 29
+module work lscc_soft_fifo 29
+module work lscc_fifo_main 29
+module work lscc_fifo_fwft_fabric 29
+module work lscc_fifo 29
+module work pmi_distributed_shift_reg 26
+module work lscc_shift_register 27
+module work pmi_distributed_rom 24
+module work lscc_distributed_rom 25
+module work pmi_distributed_spram 22
+module work lscc_distributed_spram 23
+module work pmi_distributed_dpram 20
+module work lscc_distributed_dpram 21
+module work pmi_counter 18
+module work lscc_cntr 19
+module work pmi_complex_mult 16
+module work lscc_multiplier_dsp 17
+module work lscc_multiplier_lut 17
+module work lscc_multiplier 17
+module work lscc_mult_add_sub 17
+module work lscc_complex_mult 17
+module work pmi_add 14
+module work pmi_addsub 12
+module work lscc_subtractor 13
+module work lscc_adder 13
+module work lscc_add_sub 13
+module work hm0360_interface_top_level 10
+arch work hm0360_interface_top_level behavioral 10
+module work hm0360_interface 9
+arch work hm0360_interface behavioral 9
+module work i2c_module 8
+arch work i2c_module behavioral 8
+module work hm0360_serial_master 7
+arch work hm0360_serial_master behavioral 7
+module work prescaler 6
+arch work prescaler behavioral 6
+module work image_buffer 5
+arch work image_buffer behavioral 5
+module work trig_acq_module 4
+arch work trig_acq_module behavioral 4
+module work configuration_module 3
+arch work configuration_module behavioral 3
+module work debounce 2
+arch work debounce logic 2
+module work counter 1
+arch work counter behavioral 1

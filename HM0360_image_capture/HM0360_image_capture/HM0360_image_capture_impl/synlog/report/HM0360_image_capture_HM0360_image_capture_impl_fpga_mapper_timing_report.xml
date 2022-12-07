@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>C:\Users\miche\Desktop\my_designs\HM0360_image_capture\HM0360_image_capture_impl\synlog\HM0360_image_capture_HM0360_image_capture_impl_fpga_mapper.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_wrap_cil_Z10_layer1|clk_byte_o_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>197.4 MHz</data>
+<data>-0.067</data>
+</row>
+<row>
+<data>HM0360_Interface_top_level|CLK</data>
+<data>200.0 MHz</data>
+<data>183.3 MHz</data>
+<data>-0.455</data>
+</row>
+<row>
+<data>PLL_sync_clk_ipgen_lscc_pll_Z12_layer1|clkop_o_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>739.6 MHz</data>
+<data>3.648</data>
+</row>
+<row>
+<data>configuration_module|un1_nx_state_1_sqmuxa_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>counter_2|CLK_OUT_int_derived_clock</data>
+<data>200.0 MHz</data>
+<data>333.0 MHz</data>
+<data>3.929</data>
+</row>
+<row>
+<data>trig_acq_module|pr_state_derived_clock[1]</data>
+<data>200.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>System</data>
+<data>200.0 MHz</data>
+<data>619.6 MHz</data>
+<data>3.386</data>
+</row>
+</report_table>

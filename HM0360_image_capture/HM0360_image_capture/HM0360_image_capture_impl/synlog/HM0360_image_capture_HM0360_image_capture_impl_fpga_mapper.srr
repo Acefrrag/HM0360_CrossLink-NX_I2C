@@ -1,0 +1,1688 @@
+# Mon Nov 21 21:57:42 2022
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09LR-2
+Install: C:\lscc\radiant\3.2\synpbase
+OS: Windows 10 or later
+Hostname: DESKTOP-9VA2EUV
+
+Implementation : HM0360_image_capture_impl
+Synopsys Lattice Technology Mapper, Version map202109lat, Build 180R, Built Jun 27 2022 09:38:19, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 118MB peak: 118MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 130MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 130MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 135MB peak: 135MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 136MB peak: 138MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 175MB peak: 175MB)
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 179MB peak: 179MB)
+
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@N: FX493 |Applying initial value "0" on instance prescaler_6MHz.counter_comp.c[0].
+@N: FX493 |Applying initial value "0" on instance prescaler_6MHz.counter_comp.c[1].
+@N: FX493 |Applying initial value "0" on instance prescaler_6MHz.counter_comp.c[2].
+@W: MO160 :"c:\users\miche\desktop\my_designs\hm0360_image_capture\source\hm0360_image_capture_impl\hm0360_serial_master.vhd":92:1:92:2|Register bit R_W_internal (in view view:work.HM0360_serial_master_work_hm0360_interface_top_level_behavioral_0layer0(behavioral)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@N: MF179 :|Found 10 by 10 bit equality operator ('==') full_cmp_w (in view: work.lscc_soft_fifo_dc_Z4_layer1(verilog))
+@N: MF179 :|Found 11 by 11 bit equality operator ('==') empty_cmp_w (in view: work.lscc_soft_fifo_dc_Z4_layer1(verilog))
+@N: MF179 :"c:\lscc\radiant\3.2\ip\pmi\../avant/fifo_dc/rtl\lscc_fifo_dc.v":3229:27:3229:61|Found 10 by 10 bit equality operator ('==') full_rel_cmp_w (in view: work.lscc_soft_fifo_dc_Z4_layer1(verilog))
+@N: MF179 :"c:\lscc\radiant\3.2\ip\pmi\../avant/fifo_dc/rtl\lscc_fifo_dc.v":3435:28:3435:62|Found 10 by 10 bit equality operator ('==') empty_rel_cmp_w (in view: work.lscc_soft_fifo_dc_Z4_layer1(verilog))
+
+Starting factoring (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 182MB peak: 182MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 192MB peak: 192MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 193MB peak: 193MB)
+
+@N: FX493 |Applying initial value "0" on instance HM0360_Interface_comp.I2C_module_comp.mul_sel.
+@N: FX493 |Applying initial value "1" on instance HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.nx_state[13].
+@N: FX493 |Applying initial value "0" on instance HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.nx_state[12].
+@N: FX493 |Applying initial value "0" on instance HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.nx_state[11].
+@N: FX493 |Applying initial value "0" on instance HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.nx_state[10].
+@N: FX493 |Applying initial value "0" on instance HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.nx_state[9].
+@N: FX493 |Applying initial value "0" on instance HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.nx_state[8].
+@N: FX493 |Applying initial value "0" on instance HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.nx_state[7].
+@N: FX493 |Applying initial value "0" on instance HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.nx_state[6].
+@N: FX493 |Applying initial value "0" on instance HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.nx_state[5].
+@N: FX493 |Applying initial value "0" on instance HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.nx_state[4].
+@N: FX493 |Applying initial value "0" on instance HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.nx_state[3].
+@N: FX493 |Applying initial value "0" on instance HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.nx_state[2].
+@N: FX493 |Applying initial value "0" on instance HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.nx_state[1].
+@N: FX493 |Applying initial value "0" on instance HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.nx_state[0].
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 193MB peak: 193MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 193MB peak: 193MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 193MB peak: 193MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 193MB peak: 193MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 215MB peak: 215MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:05s		     0.02ns		 498 /       346
+   2		0h:00m:05s		     0.02ns		 491 /       346
+   3		0h:00m:05s		     0.02ns		 491 /       346
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 216MB peak: 216MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@W: MO129 :|Sequential instance HM0360_Interface_comp.I2C_module_comp.trig_acq_module_comp.nx_state_1_.res_reg_0 is reduced to a combinational gate by constant propagation.
+
+Warning: Forcing use of GSR for flip-flops and
+latches that do not specify sets or resets
+   CIL_TOP\.u_hard_dphy.data_valid_r (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_Z1_layer1(verilog))
+   CIL_TOP\.u_hard_dphy.toggle (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_Z1_layer1(verilog))
+   CIL_TOP\.u_hard_dphy.u_hs_rx_data_o_1[7] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_Z1_layer1(verilog))
+   CIL_TOP\.u_hard_dphy.u_hs_rx_data_o_1[6] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_Z1_layer1(verilog))
+   CIL_TOP\.u_hard_dphy.u_hs_rx_data_o_1[5] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_Z1_layer1(verilog))
+   CIL_TOP\.u_hard_dphy.u_hs_rx_data_o_1[4] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_Z1_layer1(verilog))
+   CIL_TOP\.u_hard_dphy.u_hs_rx_data_o_1[3] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_Z1_layer1(verilog))
+   CIL_TOP\.u_hard_dphy.u_hs_rx_data_o_1[2] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_Z1_layer1(verilog))
+   CIL_TOP\.u_hard_dphy.u_hs_rx_data_o_1[1] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_Z1_layer1(verilog))
+   CIL_TOP\.u_hard_dphy.u_hs_rx_data_o_1[0] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_Z1_layer1(verilog))
+   CIL_TOP\.u_hard_dphy.u_hs_rx_data_r[7] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_Z1_layer1(verilog))
+   CIL_TOP\.u_hard_dphy.u_hs_rx_data_r[6] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_Z1_layer1(verilog))
+   CIL_TOP\.u_hard_dphy.u_hs_rx_data_r[5] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_Z1_layer1(verilog))
+   CIL_TOP\.u_hard_dphy.u_hs_rx_data_r[4] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_Z1_layer1(verilog))
+   CIL_TOP\.u_hard_dphy.u_hs_rx_data_r[3] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_Z1_layer1(verilog))
+   CIL_TOP\.u_hard_dphy.u_hs_rx_data_r[2] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_Z1_layer1(verilog))
+   CIL_TOP\.u_hard_dphy.u_hs_rx_data_r[1] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_Z1_layer1(verilog))
+   CIL_TOP\.u_hard_dphy.u_hs_rx_data_r[0] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_Z1_layer1(verilog))
+   HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.DATA_CLK_pr (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SCL_pr (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_1 (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_cl (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_pr (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.c[30] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.c[29] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.c[28] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.c[27] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.c[26] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.c[25] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.c[24] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.c[23] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.c[22] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.c[21] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.c[20] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.c[19] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.c[18] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.c[17] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.c[16] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.c[15] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.c[14] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.c[13] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.c[12] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.c[11] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.c[10] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.c[9] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.c[8] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.c[7] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.c[6] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.c[5] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.c[4] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.c[3] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.c[2] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.c[1] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.c[0] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.finished_internal (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr_state[3] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr_state[2] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr_state[1] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr_state[0] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.prescaler_comp.counter_comp.CLK_OUT_int (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.prescaler_comp.counter_comp.c[8] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.prescaler_comp.counter_comp.c[7] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.prescaler_comp.counter_comp.c[6] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.prescaler_comp.counter_comp.c[5] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.prescaler_comp.counter_comp.c[4] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.prescaler_comp.counter_comp.c[3] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.prescaler_comp.counter_comp.c[2] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.prescaler_comp.counter_comp.c[1] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.prescaler_comp.counter_comp.c[0] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.prescaler_comp.counter_comp.shifted_CLK_OUT_int (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.rd_flag (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.pr_state[13] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.pr_state[12] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.pr_state[11] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.pr_state[10] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.pr_state[9] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.pr_state[8] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.pr_state[7] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.pr_state[6] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.pr_state[5] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.pr_state[4] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.pr_state[3] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.pr_state[2] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.pr_state[1] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.pr_state[0] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.trig_acq_module_comp.pr_state[1] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.I2C_module_comp.trig_acq_module_comp.pr_state[0] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.dt_o_debug[5] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.dt_o_debug[4] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.dt_o_debug[3] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.dt_o_debug[2] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.dt_o_debug[1] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.dt_o_debug[0] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.prescaler_6MHz.counter_comp.CLK_OUT_int (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.prescaler_6MHz.counter_comp.c[2] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.prescaler_6MHz.counter_comp.c[1] (in view: work.HM0360_Interface_top_level(behavioral))
+   HM0360_Interface_comp.prescaler_6MHz.counter_comp.c[0] (in view: work.HM0360_Interface_top_level(behavioral))
+   bd8\.csi2\.lp_cand_off0_r (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   bd8\.csi2\.sp_cand_off0_r (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   bd8\.csi2\.trail_cand_off0_r (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   bd8\.wc_cand_off0_p5_r[15] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   bd8\.wc_cand_off0_p5_r[14] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   bd8\.wc_cand_off0_p5_r[13] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   bd8\.wc_cand_off0_p5_r[12] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   bd8\.wc_cand_off0_p5_r[11] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   bd8\.wc_cand_off0_p5_r[10] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   bd8\.wc_cand_off0_p5_r[9] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   bd8\.wc_cand_off0_p5_r[8] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   bd8\.wc_cand_off0_p5_r[7] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   bd8\.wc_cand_off0_p5_r[6] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   bd8\.wc_cand_off0_p5_r[5] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   bd8\.wc_cand_off0_p5_r[4] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   bd8\.wc_cand_off0_p5_r[3] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   bd8\.wc_cand_off0_p5_r[2] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   bd8\.wc_cand_off0_p5_r[1] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   bd8\.wc_cand_off0_p5_r[0] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   bd_1d_r[7] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   bd_1d_r[6] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   bd_1d_r[5] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   bd_1d_r[4] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   bd_1d_r[3] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   bd_1d_r[2] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   bd_1d_r[1] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   bd_1d_r[0] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   bd_2d_r[7] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   bd_2d_r[6] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   bd_2d_r[5] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   bd_2d_r[4] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   bd_2d_r[3] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   bd_2d_r[2] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   bd_2d_r[1] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   bd_2d_r[0] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   bd_3d_r[7] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   bd_3d_r[6] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   bd_3d_r[5] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   bd_3d_r[4] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   bd_3d_r[3] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   bd_3d_r[2] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   bd_3d_r[1] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   bd_3d_r[0] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   clk_r (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_clock_divider_60s_3s(verilog))
+   count[1] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_clock_divider_60s_3s(verilog))
+   count[0] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_clock_divider_60s_3s(verilog))
+   debounce_acq_trig.button_deb (in view: work.HM0360_Interface_top_level(behavioral))
+   debounce_acq_trig.count[18] (in view: work.HM0360_Interface_top_level(behavioral))
+   debounce_acq_trig.count[17] (in view: work.HM0360_Interface_top_level(behavioral))
+   debounce_acq_trig.count[16] (in view: work.HM0360_Interface_top_level(behavioral))
+   debounce_acq_trig.count[15] (in view: work.HM0360_Interface_top_level(behavioral))
+   debounce_acq_trig.count[14] (in view: work.HM0360_Interface_top_level(behavioral))
+   debounce_acq_trig.count[13] (in view: work.HM0360_Interface_top_level(behavioral))
+   debounce_acq_trig.count[12] (in view: work.HM0360_Interface_top_level(behavioral))
+   debounce_acq_trig.count[11] (in view: work.HM0360_Interface_top_level(behavioral))
+   debounce_acq_trig.count[10] (in view: work.HM0360_Interface_top_level(behavioral))
+   debounce_acq_trig.count[9] (in view: work.HM0360_Interface_top_level(behavioral))
+   debounce_acq_trig.count[8] (in view: work.HM0360_Interface_top_level(behavioral))
+   debounce_acq_trig.count[7] (in view: work.HM0360_Interface_top_level(behavioral))
+   debounce_acq_trig.count[6] (in view: work.HM0360_Interface_top_level(behavioral))
+   debounce_acq_trig.count[5] (in view: work.HM0360_Interface_top_level(behavioral))
+   debounce_acq_trig.count[4] (in view: work.HM0360_Interface_top_level(behavioral))
+   debounce_acq_trig.count[3] (in view: work.HM0360_Interface_top_level(behavioral))
+   debounce_acq_trig.count[2] (in view: work.HM0360_Interface_top_level(behavioral))
+   debounce_acq_trig.count[1] (in view: work.HM0360_Interface_top_level(behavioral))
+   debounce_acq_trig.count[0] (in view: work.HM0360_Interface_top_level(behavioral))
+   debounce_acq_trig.flipflops[1] (in view: work.HM0360_Interface_top_level(behavioral))
+   debounce_acq_trig.flipflops[0] (in view: work.HM0360_Interface_top_level(behavioral))
+   debounce_init_config.button_deb (in view: work.HM0360_Interface_top_level(behavioral))
+   debounce_init_config.count[18] (in view: work.HM0360_Interface_top_level(behavioral))
+   debounce_init_config.count[17] (in view: work.HM0360_Interface_top_level(behavioral))
+   debounce_init_config.count[16] (in view: work.HM0360_Interface_top_level(behavioral))
+   debounce_init_config.count[15] (in view: work.HM0360_Interface_top_level(behavioral))
+   debounce_init_config.count[14] (in view: work.HM0360_Interface_top_level(behavioral))
+   debounce_init_config.count[13] (in view: work.HM0360_Interface_top_level(behavioral))
+   debounce_init_config.count[12] (in view: work.HM0360_Interface_top_level(behavioral))
+   debounce_init_config.count[11] (in view: work.HM0360_Interface_top_level(behavioral))
+   debounce_init_config.count[10] (in view: work.HM0360_Interface_top_level(behavioral))
+   debounce_init_config.count[9] (in view: work.HM0360_Interface_top_level(behavioral))
+   debounce_init_config.count[8] (in view: work.HM0360_Interface_top_level(behavioral))
+   debounce_init_config.count[7] (in view: work.HM0360_Interface_top_level(behavioral))
+   debounce_init_config.count[6] (in view: work.HM0360_Interface_top_level(behavioral))
+   debounce_init_config.count[5] (in view: work.HM0360_Interface_top_level(behavioral))
+   debounce_init_config.count[4] (in view: work.HM0360_Interface_top_level(behavioral))
+   debounce_init_config.count[3] (in view: work.HM0360_Interface_top_level(behavioral))
+   debounce_init_config.count[2] (in view: work.HM0360_Interface_top_level(behavioral))
+   debounce_init_config.count[1] (in view: work.HM0360_Interface_top_level(behavioral))
+   debounce_init_config.count[0] (in view: work.HM0360_Interface_top_level(behavioral))
+   debounce_init_config.flipflops[1] (in view: work.HM0360_Interface_top_level(behavioral))
+   debounce_init_config.flipflops[0] (in view: work.HM0360_Interface_top_level(behavioral))
+   first_byte_r (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   genblk12\.lp_av_en_r_r (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   genblk15\.wc_r[15] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   genblk15\.wc_r[14] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   genblk15\.wc_r[13] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   genblk15\.wc_r[12] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   genblk15\.wc_r[11] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   genblk15\.wc_r[10] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   genblk15\.wc_r[9] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   genblk15\.wc_r[8] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   genblk15\.wc_r[7] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   genblk15\.wc_r[6] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   genblk15\.wc_r[5] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   genblk15\.wc_r[4] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   genblk15\.wc_r[3] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   genblk15\.wc_r[2] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   genblk15\.wc_r[1] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   genblk15\.wc_r[0] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   genblk19\.payload_en_cnt_r[16] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   genblk19\.payload_en_cnt_r[15] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   genblk19\.payload_en_cnt_r[14] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   genblk19\.payload_en_cnt_r[13] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   genblk19\.payload_en_cnt_r[12] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   genblk19\.payload_en_cnt_r[11] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   genblk19\.payload_en_cnt_r[10] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   genblk19\.payload_en_cnt_r[9] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   genblk19\.payload_en_cnt_r[8] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   genblk19\.payload_en_cnt_r[7] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   genblk19\.payload_en_cnt_r[6] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   genblk19\.payload_en_cnt_r[5] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   genblk19\.payload_en_cnt_r[4] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   genblk19\.payload_en_cnt_r[3] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   genblk19\.payload_en_cnt_r[2] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   genblk19\.payload_en_cnt_r[1] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   genblk19\.payload_en_cnt_r[0] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   genblk19\.payload_rdy_r (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   genblk3\.capture_en_1d_r (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   genblk3\.capture_en_i_1d_r (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   genblk3\.capture_en_i_2d_r (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   genblk3\.capture_en_r (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   genblk6\.cycle_cnt_r[15] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   genblk6\.cycle_cnt_r[14] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   genblk6\.cycle_cnt_r[13] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   genblk6\.cycle_cnt_r[12] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   genblk6\.cycle_cnt_r[11] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   genblk6\.cycle_cnt_r[10] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   genblk6\.cycle_cnt_r[9] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   genblk6\.cycle_cnt_r[8] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   genblk6\.cycle_cnt_r[7] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   genblk6\.cycle_cnt_r[6] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   genblk6\.cycle_cnt_r[5] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   genblk6\.cycle_cnt_r[4] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   genblk6\.cycle_cnt_r[3] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   genblk6\.cycle_cnt_r[2] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   genblk6\.cycle_cnt_r[1] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   genblk6\.cycle_cnt_r[0] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   genblk8\.ph_en_r (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   mux_data_out_debug_i[5] (in view: work.HM0360_Interface_top_level(behavioral))
+   mux_data_out_debug_i[4] (in view: work.HM0360_Interface_top_level(behavioral))
+   mux_data_out_debug_i[3] (in view: work.HM0360_Interface_top_level(behavioral))
+   mux_data_out_debug_i[2] (in view: work.HM0360_Interface_top_level(behavioral))
+   mux_data_out_debug_i[1] (in view: work.HM0360_Interface_top_level(behavioral))
+   mux_data_out_debug_i[0] (in view: work.HM0360_Interface_top_level(behavioral))
+   payload_en_r (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   ph_r[5] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   ph_r[4] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   ph_r[3] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   ph_r[2] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   ph_r[1] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   ph_r[0] (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+   trail_on_r (in view: work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl_Z11_layer1(verilog))
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 216MB peak: 216MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 177MB peak: 216MB)
+
+Writing Analyst data base C:\Users\miche\Desktop\my_designs\HM0360_image_capture\HM0360_image_capture_impl\synwork\HM0360_image_capture_HM0360_image_capture_impl_m.srm
+Warning: Found 20 combinational loops!
+@W: BN137 :|Found combinational loop during mapping at net I_103.t2
+1) instance I_103.lat_r (in view: work.HM0360_Interface_top_level(behavioral)), output net I_103.t2 (in view: work.HM0360_Interface_top_level(behavioral))
+    net        I_103.t2
+    input  pin I_103.lat_r/D
+    instance   I_103.lat_r (cell LUT4)
+    output pin I_103.lat_r/Z
+    net        I_103.t2
+@W: BN137 :|Found combinational loop during mapping at net HM0360_Interface_comp.I2C_module_comp.trig_acq_module_comp.nx_state_0_.o1_0
+2) instance I_102.lat_s (in view: work.HM0360_Interface_top_level(behavioral)), output net HM0360_Interface_comp.I2C_module_comp.trig_acq_module_comp.nx_state_0_.o1_0 (in view: work.HM0360_Interface_top_level(behavioral))
+    net        HM0360_Interface_comp.I2C_module_comp.trig_acq_module_comp.nx_state_0_.o1_0
+    input  pin I_102.lat_s/D
+    instance   I_102.lat_s (cell LUT4)
+    output pin I_102.lat_s/Z
+    net        HM0360_Interface_comp.I2C_module_comp.trig_acq_module_comp.nx_state_0_.o1_0
+@W: BN137 :|Found combinational loop during mapping at net I_101.t2
+3) instance I_101.lat_r (in view: work.HM0360_Interface_top_level(behavioral)), output net I_101.t2 (in view: work.HM0360_Interface_top_level(behavioral))
+    net        I_101.t2
+    input  pin I_101.lat_r/C
+    instance   I_101.lat_r (cell LUT4)
+    output pin I_101.lat_r/Z
+    net        I_101.t2
+@W: BN137 :|Found combinational loop during mapping at net I_99.t2
+4) instance I_99.lat_r (in view: work.HM0360_Interface_top_level(behavioral)), output net I_99.t2 (in view: work.HM0360_Interface_top_level(behavioral))
+    net        I_99.t2
+    input  pin I_99.lat_r/B
+    instance   I_99.lat_r (cell LUT4)
+    output pin I_99.lat_r/Z
+    net        I_99.t2
+@W: BN137 :|Found combinational loop during mapping at net I_100.t2
+5) instance I_100.lat_r (in view: work.HM0360_Interface_top_level(behavioral)), output net I_100.t2 (in view: work.HM0360_Interface_top_level(behavioral))
+    net        I_100.t2
+    input  pin I_100.lat_r/B
+    instance   I_100.lat_r (cell LUT4)
+    output pin I_100.lat_r/Z
+    net        I_100.t2
+@W: BN137 :|Found combinational loop during mapping at net I_109.t1
+6) instance I_109.lat (in view: work.HM0360_Interface_top_level(behavioral)), output net I_109.t1 (in view: work.HM0360_Interface_top_level(behavioral))
+    net        I_109.t1
+    input  pin I_109.lat/B
+    instance   I_109.lat (cell LUT4)
+    output pin I_109.lat/Z
+    net        I_109.t1
+@W: BN137 :|Found combinational loop during mapping at net I_108.t1
+7) instance I_108.lat (in view: work.HM0360_Interface_top_level(behavioral)), output net I_108.t1 (in view: work.HM0360_Interface_top_level(behavioral))
+    net        I_108.t1
+    input  pin I_108.lat/B
+    instance   I_108.lat (cell LUT4)
+    output pin I_108.lat/Z
+    net        I_108.t1
+@W: BN137 :|Found combinational loop during mapping at net I_107.t1
+8) instance I_107.lat (in view: work.HM0360_Interface_top_level(behavioral)), output net I_107.t1 (in view: work.HM0360_Interface_top_level(behavioral))
+    net        I_107.t1
+    input  pin I_107.lat/B
+    instance   I_107.lat (cell LUT4)
+    output pin I_107.lat/Z
+    net        I_107.t1
+@W: BN137 :|Found combinational loop during mapping at net I_106.t1
+9) instance I_106.lat (in view: work.HM0360_Interface_top_level(behavioral)), output net I_106.t1 (in view: work.HM0360_Interface_top_level(behavioral))
+    net        I_106.t1
+    input  pin I_106.lat/B
+    instance   I_106.lat (cell LUT4)
+    output pin I_106.lat/Z
+    net        I_106.t1
+@W: BN137 :"c:\users\miche\desktop\my_designs\hm0360_image_capture\source\hm0360_image_capture_impl\hm0360_interface.vhd":204:0:204:14|Found combinational loop during mapping at net I_105.t1
+10) instance I_105.lat (in view: work.HM0360_Interface_top_level(behavioral)), output net I_105.t1 (in view: work.HM0360_Interface_top_level(behavioral))
+    net        I_105.t1
+    input  pin I_105.lat/B
+    instance   I_105.lat (cell LUT4)
+    output pin I_105.lat/Z
+    net        I_105.t1
+@W: BN137 :"c:\users\miche\desktop\my_designs\hm0360_image_capture\source\hm0360_image_capture_impl\hm0360_interface.vhd":204:0:204:14|Found combinational loop during mapping at net I_104.t1
+11) instance I_104.lat (in view: work.HM0360_Interface_top_level(behavioral)), output net I_104.t1 (in view: work.HM0360_Interface_top_level(behavioral))
+    net        I_104.t1
+    input  pin I_104.lat/B
+    instance   I_104.lat (cell LUT4)
+    output pin I_104.lat/Z
+    net        I_104.t1
+@W: BN137 :"c:\users\miche\desktop\my_designs\hm0360_image_capture\source\hm0360_image_capture_impl\hm0360_interface.vhd":204:0:204:14|Found combinational loop during mapping at net I_117.t1
+12) instance I_117.lat (in view: work.HM0360_Interface_top_level(behavioral)), output net I_117.t1 (in view: work.HM0360_Interface_top_level(behavioral))
+    net        I_117.t1
+    input  pin I_117.lat/B
+    instance   I_117.lat (cell LUT4)
+    output pin I_117.lat/Z
+    net        I_117.t1
+@W: BN137 :"c:\users\miche\desktop\my_designs\hm0360_image_capture\source\hm0360_image_capture_impl\hm0360_interface.vhd":204:0:204:14|Found combinational loop during mapping at net I_116.t1
+13) instance I_116.lat (in view: work.HM0360_Interface_top_level(behavioral)), output net I_116.t1 (in view: work.HM0360_Interface_top_level(behavioral))
+    net        I_116.t1
+    input  pin I_116.lat/B
+    instance   I_116.lat (cell LUT4)
+    output pin I_116.lat/Z
+    net        I_116.t1
+@W: BN137 :|Found combinational loop during mapping at net I_115.t1
+14) instance I_115.lat (in view: work.HM0360_Interface_top_level(behavioral)), output net I_115.t1 (in view: work.HM0360_Interface_top_level(behavioral))
+    net        I_115.t1
+    input  pin I_115.lat/B
+    instance   I_115.lat (cell LUT4)
+    output pin I_115.lat/Z
+    net        I_115.t1
+@W: BN137 :"c:\users\miche\desktop\my_designs\hm0360_image_capture\source\hm0360_image_capture_impl\hm0360_interface.vhd":204:0:204:14|Found combinational loop during mapping at net I_114.t1
+15) instance I_114.lat (in view: work.HM0360_Interface_top_level(behavioral)), output net I_114.t1 (in view: work.HM0360_Interface_top_level(behavioral))
+    net        I_114.t1
+    input  pin I_114.lat/B
+    instance   I_114.lat (cell LUT4)
+    output pin I_114.lat/Z
+    net        I_114.t1
+@W: BN137 :|Found combinational loop during mapping at net I_113.t1
+16) instance I_113.lat (in view: work.HM0360_Interface_top_level(behavioral)), output net I_113.t1 (in view: work.HM0360_Interface_top_level(behavioral))
+    net        I_113.t1
+    input  pin I_113.lat/B
+    instance   I_113.lat (cell LUT4)
+    output pin I_113.lat/Z
+    net        I_113.t1
+@W: BN137 :"c:\users\miche\desktop\my_designs\hm0360_image_capture\source\hm0360_image_capture_impl\hm0360_interface.vhd":204:0:204:14|Found combinational loop during mapping at net I_112.t1
+17) instance I_112.lat (in view: work.HM0360_Interface_top_level(behavioral)), output net I_112.t1 (in view: work.HM0360_Interface_top_level(behavioral))
+    net        I_112.t1
+    input  pin I_112.lat/B
+    instance   I_112.lat (cell LUT4)
+    output pin I_112.lat/Z
+    net        I_112.t1
+@W: BN137 :|Found combinational loop during mapping at net I_111.t1
+18) instance I_111.lat (in view: work.HM0360_Interface_top_level(behavioral)), output net I_111.t1 (in view: work.HM0360_Interface_top_level(behavioral))
+    net        I_111.t1
+    input  pin I_111.lat/B
+    instance   I_111.lat (cell LUT4)
+    output pin I_111.lat/Z
+    net        I_111.t1
+@W: BN137 :"c:\users\miche\desktop\my_designs\hm0360_image_capture\source\hm0360_image_capture_impl\hm0360_interface.vhd":204:0:204:14|Found combinational loop during mapping at net I_110.t1
+19) instance I_110.lat (in view: work.HM0360_Interface_top_level(behavioral)), output net I_110.t1 (in view: work.HM0360_Interface_top_level(behavioral))
+    net        I_110.t1
+    input  pin I_110.lat/B
+    instance   I_110.lat (cell LUT4)
+    output pin I_110.lat/Z
+    net        I_110.t1
+@W: BN137 :|Found combinational loop during mapping at net I_118.t2
+20) instance I_118.lat_r (in view: work.HM0360_Interface_top_level(behavioral)), output net I_118.t2 (in view: work.HM0360_Interface_top_level(behavioral))
+    net        I_118.t2
+    input  pin I_118.lat_r/C
+    instance   I_118.lat_r (cell LUT4)
+    output pin I_118.lat_r/Z
+    net        I_118.t2
+End of loops
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 215MB peak: 216MB)
+
+Writing Verilog Simulation files
+
+Writing scf file... (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 216MB peak: 216MB)
+
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 216MB peak: 216MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 216MB peak: 217MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:08s; Memory used current: 212MB peak: 217MB)
+
+Warning: Found 20 combinational loops!
+@W: BN137 :|Found combinational loop during mapping at net I_103.t2
+1) instance I_103.lat_r (in view: work.HM0360_Interface_top_level(behavioral)), output net I_103.t2 (in view: work.HM0360_Interface_top_level(behavioral))
+    net        I_103.t2
+    input  pin I_103.lat_r/D
+    instance   I_103.lat_r (cell LUT4)
+    output pin I_103.lat_r/Z
+    net        I_103.t2
+@W: BN137 :|Found combinational loop during mapping at net HM0360_Interface_comp.I2C_module_comp.trig_acq_module_comp.nx_state_0_.o1_0
+2) instance I_102.lat_s (in view: work.HM0360_Interface_top_level(behavioral)), output net HM0360_Interface_comp.I2C_module_comp.trig_acq_module_comp.nx_state_0_.o1_0 (in view: work.HM0360_Interface_top_level(behavioral))
+    net        HM0360_Interface_comp.I2C_module_comp.trig_acq_module_comp.nx_state_0_.o1_0
+    input  pin I_102.lat_s/D
+    instance   I_102.lat_s (cell LUT4)
+    output pin I_102.lat_s/Z
+    net        HM0360_Interface_comp.I2C_module_comp.trig_acq_module_comp.nx_state_0_.o1_0
+@W: BN137 :|Found combinational loop during mapping at net I_101.t2
+3) instance I_101.lat_r (in view: work.HM0360_Interface_top_level(behavioral)), output net I_101.t2 (in view: work.HM0360_Interface_top_level(behavioral))
+    net        I_101.t2
+    input  pin I_101.lat_r/C
+    instance   I_101.lat_r (cell LUT4)
+    output pin I_101.lat_r/Z
+    net        I_101.t2
+@W: BN137 :|Found combinational loop during mapping at net I_99.t2
+4) instance I_99.lat_r (in view: work.HM0360_Interface_top_level(behavioral)), output net I_99.t2 (in view: work.HM0360_Interface_top_level(behavioral))
+    net        I_99.t2
+    input  pin I_99.lat_r/B
+    instance   I_99.lat_r (cell LUT4)
+    output pin I_99.lat_r/Z
+    net        I_99.t2
+@W: BN137 :|Found combinational loop during mapping at net I_100.t2
+5) instance I_100.lat_r (in view: work.HM0360_Interface_top_level(behavioral)), output net I_100.t2 (in view: work.HM0360_Interface_top_level(behavioral))
+    net        I_100.t2
+    input  pin I_100.lat_r/B
+    instance   I_100.lat_r (cell LUT4)
+    output pin I_100.lat_r/Z
+    net        I_100.t2
+@W: BN137 :|Found combinational loop during mapping at net I_109.t1
+6) instance I_109.lat (in view: work.HM0360_Interface_top_level(behavioral)), output net I_109.t1 (in view: work.HM0360_Interface_top_level(behavioral))
+    net        I_109.t1
+    input  pin I_109.lat/B
+    instance   I_109.lat (cell LUT4)
+    output pin I_109.lat/Z
+    net        I_109.t1
+@W: BN137 :|Found combinational loop during mapping at net I_108.t1
+7) instance I_108.lat (in view: work.HM0360_Interface_top_level(behavioral)), output net I_108.t1 (in view: work.HM0360_Interface_top_level(behavioral))
+    net        I_108.t1
+    input  pin I_108.lat/B
+    instance   I_108.lat (cell LUT4)
+    output pin I_108.lat/Z
+    net        I_108.t1
+@W: BN137 :|Found combinational loop during mapping at net I_107.t1
+8) instance I_107.lat (in view: work.HM0360_Interface_top_level(behavioral)), output net I_107.t1 (in view: work.HM0360_Interface_top_level(behavioral))
+    net        I_107.t1
+    input  pin I_107.lat/B
+    instance   I_107.lat (cell LUT4)
+    output pin I_107.lat/Z
+    net        I_107.t1
+@W: BN137 :|Found combinational loop during mapping at net I_106.t1
+9) instance I_106.lat (in view: work.HM0360_Interface_top_level(behavioral)), output net I_106.t1 (in view: work.HM0360_Interface_top_level(behavioral))
+    net        I_106.t1
+    input  pin I_106.lat/B
+    instance   I_106.lat (cell LUT4)
+    output pin I_106.lat/Z
+    net        I_106.t1
+@W: BN137 :"c:\users\miche\desktop\my_designs\hm0360_image_capture\source\hm0360_image_capture_impl\hm0360_interface.vhd":204:0:204:14|Found combinational loop during mapping at net I_105.t1
+10) instance I_105.lat (in view: work.HM0360_Interface_top_level(behavioral)), output net I_105.t1 (in view: work.HM0360_Interface_top_level(behavioral))
+    net        I_105.t1
+    input  pin I_105.lat/B
+    instance   I_105.lat (cell LUT4)
+    output pin I_105.lat/Z
+    net        I_105.t1
+@W: BN137 :"c:\users\miche\desktop\my_designs\hm0360_image_capture\source\hm0360_image_capture_impl\hm0360_interface.vhd":204:0:204:14|Found combinational loop during mapping at net I_104.t1
+11) instance I_104.lat (in view: work.HM0360_Interface_top_level(behavioral)), output net I_104.t1 (in view: work.HM0360_Interface_top_level(behavioral))
+    net        I_104.t1
+    input  pin I_104.lat/B
+    instance   I_104.lat (cell LUT4)
+    output pin I_104.lat/Z
+    net        I_104.t1
+@W: BN137 :"c:\users\miche\desktop\my_designs\hm0360_image_capture\source\hm0360_image_capture_impl\hm0360_interface.vhd":204:0:204:14|Found combinational loop during mapping at net I_117.t1
+12) instance I_117.lat (in view: work.HM0360_Interface_top_level(behavioral)), output net I_117.t1 (in view: work.HM0360_Interface_top_level(behavioral))
+    net        I_117.t1
+    input  pin I_117.lat/B
+    instance   I_117.lat (cell LUT4)
+    output pin I_117.lat/Z
+    net        I_117.t1
+@W: BN137 :"c:\users\miche\desktop\my_designs\hm0360_image_capture\source\hm0360_image_capture_impl\hm0360_interface.vhd":204:0:204:14|Found combinational loop during mapping at net I_116.t1
+13) instance I_116.lat (in view: work.HM0360_Interface_top_level(behavioral)), output net I_116.t1 (in view: work.HM0360_Interface_top_level(behavioral))
+    net        I_116.t1
+    input  pin I_116.lat/B
+    instance   I_116.lat (cell LUT4)
+    output pin I_116.lat/Z
+    net        I_116.t1
+@W: BN137 :|Found combinational loop during mapping at net I_115.t1
+14) instance I_115.lat (in view: work.HM0360_Interface_top_level(behavioral)), output net I_115.t1 (in view: work.HM0360_Interface_top_level(behavioral))
+    net        I_115.t1
+    input  pin I_115.lat/B
+    instance   I_115.lat (cell LUT4)
+    output pin I_115.lat/Z
+    net        I_115.t1
+@W: BN137 :"c:\users\miche\desktop\my_designs\hm0360_image_capture\source\hm0360_image_capture_impl\hm0360_interface.vhd":204:0:204:14|Found combinational loop during mapping at net I_114.t1
+15) instance I_114.lat (in view: work.HM0360_Interface_top_level(behavioral)), output net I_114.t1 (in view: work.HM0360_Interface_top_level(behavioral))
+    net        I_114.t1
+    input  pin I_114.lat/B
+    instance   I_114.lat (cell LUT4)
+    output pin I_114.lat/Z
+    net        I_114.t1
+@W: BN137 :|Found combinational loop during mapping at net I_113.t1
+16) instance I_113.lat (in view: work.HM0360_Interface_top_level(behavioral)), output net I_113.t1 (in view: work.HM0360_Interface_top_level(behavioral))
+    net        I_113.t1
+    input  pin I_113.lat/B
+    instance   I_113.lat (cell LUT4)
+    output pin I_113.lat/Z
+    net        I_113.t1
+@W: BN137 :"c:\users\miche\desktop\my_designs\hm0360_image_capture\source\hm0360_image_capture_impl\hm0360_interface.vhd":204:0:204:14|Found combinational loop during mapping at net I_112.t1
+17) instance I_112.lat (in view: work.HM0360_Interface_top_level(behavioral)), output net I_112.t1 (in view: work.HM0360_Interface_top_level(behavioral))
+    net        I_112.t1
+    input  pin I_112.lat/B
+    instance   I_112.lat (cell LUT4)
+    output pin I_112.lat/Z
+    net        I_112.t1
+@W: BN137 :|Found combinational loop during mapping at net I_111.t1
+18) instance I_111.lat (in view: work.HM0360_Interface_top_level(behavioral)), output net I_111.t1 (in view: work.HM0360_Interface_top_level(behavioral))
+    net        I_111.t1
+    input  pin I_111.lat/B
+    instance   I_111.lat (cell LUT4)
+    output pin I_111.lat/Z
+    net        I_111.t1
+@W: BN137 :"c:\users\miche\desktop\my_designs\hm0360_image_capture\source\hm0360_image_capture_impl\hm0360_interface.vhd":204:0:204:14|Found combinational loop during mapping at net I_110.t1
+19) instance I_110.lat (in view: work.HM0360_Interface_top_level(behavioral)), output net I_110.t1 (in view: work.HM0360_Interface_top_level(behavioral))
+    net        I_110.t1
+    input  pin I_110.lat/B
+    instance   I_110.lat (cell LUT4)
+    output pin I_110.lat/Z
+    net        I_110.t1
+@W: BN137 :|Found combinational loop during mapping at net I_118.t2
+20) instance I_118.lat_r (in view: work.HM0360_Interface_top_level(behavioral)), output net I_118.t2 (in view: work.HM0360_Interface_top_level(behavioral))
+    net        I_118.t2
+    input  pin I_118.lat_r/C
+    instance   I_118.lat_r (cell LUT4)
+    output pin I_118.lat_r/Z
+    net        I_118.t2
+End of loops
+@W: MT246 :"c:\users\miche\desktop\my_designs\hm0360_image_capture\pll_sync_clk\rtl\pll_sync_clk.v":1283:67:1283:71|Blackbox PLL is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"c:\users\miche\desktop\my_designs\hm0360_image_capture\hm0360_csi2_dphy\rtl\hm0360_csi2_dphy.v":7161:47:7161:56|Blackbox DPHY_Z2_layer1 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT420 |Found inferred clock HM0360_Interface_top_level|CLK with period 5.00ns. Please declare a user-defined clock on port CLK.
+@W: MT420 |Found inferred clock HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_wrap_cil_Z10_layer1|clk_byte_o_inferred_clock with period 5.00ns. Please declare a user-defined clock on net HM0360_Interface_comp.HM0360_CSI2_DPHY_comp.lscc_dphy_rx_inst.CIL_TOP\.u_hard_dphy.clk_byte_o.
+@W: MT420 |Found inferred clock PLL_sync_clk_ipgen_lscc_pll_Z12_layer1|clkop_o_inferred_clock with period 5.00ns. Please declare a user-defined clock on net HM0360_Interface_comp.PLL_sync_clk_comp.lscc_pll_inst.sync_clk_i.
+@N: MT615 |Found clock trig_acq_module|pr_state_derived_clock[1] with period 5.00ns 
+@N: MT615 |Found clock counter_2|CLK_OUT_int_derived_clock with period 5.00ns 
+@W: MT420 |Found inferred clock configuration_module|un1_nx_state_1_sqmuxa_inferred_clock with period 5.00ns. Please declare a user-defined clock on net HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.un1_nx_state_1_sqmuxa.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Mon Nov 21 21:57:51 2022
+#
+
+
+Top view:               HM0360_Interface_top_level
+Requested Frequency:    200.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    C:\Users\miche\Desktop\my_designs\HM0360_image_capture\HM0360_image_capture_impl\HM0360_image_capture_HM0360_image_capture_impl_cpe.ldc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -0.455
+
+                                                                                      Requested     Estimated     Requested     Estimated                Clock                                             Clock                
+Starting Clock                                                                        Frequency     Frequency     Period        Period        Slack      Type                                              Group                
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_wrap_cil_Z10_layer1|clk_byte_o_inferred_clock     200.0 MHz     197.4 MHz     5.000         5.067         -0.067     inferred                                          Inferred_clkgroup_0_2
+HM0360_Interface_top_level|CLK                                                        200.0 MHz     183.3 MHz     5.000         5.455         -0.455     inferred                                          Inferred_clkgroup_0_1
+PLL_sync_clk_ipgen_lscc_pll_Z12_layer1|clkop_o_inferred_clock                         200.0 MHz     739.6 MHz     5.000         1.352         3.648      inferred                                          Inferred_clkgroup_0_3
+configuration_module|un1_nx_state_1_sqmuxa_inferred_clock                             200.0 MHz     NA            5.000         NA            NA         inferred                                          Inferred_clkgroup_0_4
+counter_2|CLK_OUT_int_derived_clock                                                   200.0 MHz     333.0 MHz     5.000         3.003         3.929      derived (from HM0360_Interface_top_level|CLK)     Inferred_clkgroup_0_1
+trig_acq_module|pr_state_derived_clock[1]                                             200.0 MHz     NA            5.000         NA            NA         derived (from HM0360_Interface_top_level|CLK)     Inferred_clkgroup_0_1
+System                                                                                200.0 MHz     619.6 MHz     5.000         1.614         3.386      system                                            system_clkgroup      
+================================================================================================================================================================================================================================
+Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                                                                                                |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                                                           Ending                                                                             |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                                                             System                                                                             |  5.000       3.386   |  No paths    -      |  No paths    -      |  No paths    -    
+System                                                                             HM0360_Interface_top_level|CLK                                                     |  5.000       1.223   |  No paths    -      |  No paths    -      |  No paths    -    
+System                                                                             HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_wrap_cil_Z10_layer1|clk_byte_o_inferred_clock  |  5.000       3.723   |  No paths    -      |  No paths    -      |  No paths    -    
+System                                                                             counter_2|CLK_OUT_int_derived_clock                                                |  5.000       3.203   |  No paths    -      |  No paths    -      |  No paths    -    
+HM0360_Interface_top_level|CLK                                                     System                                                                             |  5.000       1.197   |  No paths    -      |  No paths    -      |  No paths    -    
+HM0360_Interface_top_level|CLK                                                     HM0360_Interface_top_level|CLK                                                     |  5.000       -0.455  |  No paths    -      |  No paths    -      |  No paths    -    
+HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_wrap_cil_Z10_layer1|clk_byte_o_inferred_clock  System                                                                             |  5.000       3.369   |  No paths    -      |  No paths    -      |  No paths    -    
+HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_wrap_cil_Z10_layer1|clk_byte_o_inferred_clock  HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_wrap_cil_Z10_layer1|clk_byte_o_inferred_clock  |  5.000       -0.067  |  No paths    -      |  No paths    -      |  No paths    -    
+HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_wrap_cil_Z10_layer1|clk_byte_o_inferred_clock  counter_2|CLK_OUT_int_derived_clock                                                |  Diff grp    -       |  No paths    -      |  No paths    -      |  No paths    -    
+PLL_sync_clk_ipgen_lscc_pll_Z12_layer1|clkop_o_inferred_clock                      System                                                                             |  5.000       4.247   |  No paths    -      |  No paths    -      |  No paths    -    
+PLL_sync_clk_ipgen_lscc_pll_Z12_layer1|clkop_o_inferred_clock                      PLL_sync_clk_ipgen_lscc_pll_Z12_layer1|clkop_o_inferred_clock                      |  5.000       3.648   |  No paths    -      |  No paths    -      |  No paths    -    
+counter_2|CLK_OUT_int_derived_clock                                                System                                                                             |  5.000       2.148   |  No paths    -      |  No paths    -      |  No paths    -    
+counter_2|CLK_OUT_int_derived_clock                                                HM0360_Interface_top_level|CLK                                                     |  5.000       3.929   |  No paths    -      |  No paths    -      |  No paths    -    
+counter_2|CLK_OUT_int_derived_clock                                                HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_wrap_cil_Z10_layer1|clk_byte_o_inferred_clock  |  Diff grp    -       |  No paths    -      |  No paths    -      |  No paths    -    
+counter_2|CLK_OUT_int_derived_clock                                                counter_2|CLK_OUT_int_derived_clock                                                |  5.000       3.995   |  No paths    -      |  No paths    -      |  No paths    -    
+=============================================================================================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_wrap_cil_Z10_layer1|clk_byte_o_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                   Starting                                                                                                                    Arrival           
+Instance                                           Reference                                                                             Type        Pin     Net               Time        Slack 
+                                                   Clock                                                                                                                                         
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+j9pjiwA5dBkeuldp0K93iubh4vaGdKldHe78CrcHIjDk7J     HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_wrap_cil_Z10_layer1|clk_byte_o_inferred_clock     FD1P3IX     Q       wr_addr_r[0]      0.888       -0.067
+0yi98ehIcsCL6Fn565q4knrwbF3Am3                     HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_wrap_cil_Z10_layer1|clk_byte_o_inferred_clock     FD1P3IX     Q       rp_sync2_r[6]     0.838       -0.018
+0yi98ehIcsCL6Fn565q4knrwbF3ArJ                     HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_wrap_cil_Z10_layer1|clk_byte_o_inferred_clock     FD1P3IX     Q       rp_sync2_r[7]     0.838       -0.018
+j9pjiwA5dBkeuldp0K93iubh4vaGdKldHe78CrcHIjDkDn     HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_wrap_cil_Z10_layer1|clk_byte_o_inferred_clock     FD1P3IX     Q       wr_addr_r[1]      0.883       -0.003
+j9pjiwA5dBkeuldp0K93iubh4vaGdKldHe78CrcHIjDkI3     HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_wrap_cil_Z10_layer1|clk_byte_o_inferred_clock     FD1P3IX     Q       wr_addr_r[2]      0.863       0.017 
+j9pjiwA5dBkeuldp0K93iubh4vaGdKldHe78CrcHIjDlhn     HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_wrap_cil_Z10_layer1|clk_byte_o_inferred_clock     FD1P3IX     Q       wr_addr_r[4]      0.883       0.056 
+j9pjiwA5dBkeuldp0K93iubh4vaGdKldHe78CrcHIjDlbJ     HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_wrap_cil_Z10_layer1|clk_byte_o_inferred_clock     FD1P3IX     Q       wr_addr_r[3]      0.863       0.076 
+j9pjiwA5dBkeuldp0K93iubh4vaGdKldHe78CrcHIjDlrJ     HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_wrap_cil_Z10_layer1|clk_byte_o_inferred_clock     FD1P3IX     Q       wr_addr_r[6]      0.883       0.115 
+j9pjiwA5dBkeuldp0K93iubh4vaGdKldHe78CrcHIjDlm3     HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_wrap_cil_Z10_layer1|clk_byte_o_inferred_clock     FD1P3IX     Q       wr_addr_r[5]      0.863       0.135 
+j9pjiwA5dBkeuldp0K93iubh4vaGdKldHe78CrcHIjDl23     HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_wrap_cil_Z10_layer1|clk_byte_o_inferred_clock     FD1P3IX     Q       wr_addr_r[8]      0.883       0.174 
+=================================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                     Starting                                                                                                                     Required           
+Instance                                             Reference                                                                             Type        Pin     Net                Time         Slack 
+                                                     Clock                                                                                                                                           
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+KB5ocKFglreLn9gLp2eqI5vne1375fjwGbtx8                HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_wrap_cil_Z10_layer1|clk_byte_o_inferred_clock     FD1P3IX     D       un5_full_nxt_c     4.789        -0.067
+bp4HtzBftLAg886CD2GJFt21KoLDxHGL0u16biFHIntEuFDn     HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_wrap_cil_Z10_layer1|clk_byte_o_inferred_clock     FD1P3IX     D       wr_grey_w[8]       4.789        1.278 
+bp4HtzBftLAg886CD2GJFt21KoLDxHGL0u16biFHIntEuFI3     HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_wrap_cil_Z10_layer1|clk_byte_o_inferred_clock     FD1P3IX     D       wr_grey_w[9]       4.789        1.278 
+bp4HtzBftLAg886CD2GJFt21KoLDxHGL0u16biFHIntEuF23     HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_wrap_cil_Z10_layer1|clk_byte_o_inferred_clock     FD1P3IX     D       wr_grey_w[6]       4.789        1.337 
+bp4HtzBftLAg886CD2GJFt21KoLDxHGL0u16biFHIntEuF7J     HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_wrap_cil_Z10_layer1|clk_byte_o_inferred_clock     FD1P3IX     D       wr_grey_w[7]       4.789        1.337 
+bp4HtzBftLAg886CD2GJFt21KoLDxHGL0u16biFHIntEuFrJ     HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_wrap_cil_Z10_layer1|clk_byte_o_inferred_clock     FD1P3IX     D       wr_grey_w[4]       4.789        1.397 
+bp4HtzBftLAg886CD2GJFt21KoLDxHGL0u16biFHIntEuFxn     HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_wrap_cil_Z10_layer1|clk_byte_o_inferred_clock     FD1P3IX     D       wr_grey_w[5]       4.789        1.397 
+bp4HtzBftLAg886CD2GJFt21KoLDxHGL0u16biFHIntEuFhn     HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_wrap_cil_Z10_layer1|clk_byte_o_inferred_clock     FD1P3IX     D       wr_grey_w[2]       4.789        1.456 
+bp4HtzBftLAg886CD2GJFt21KoLDxHGL0u16biFHIntEuFm3     HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_wrap_cil_Z10_layer1|clk_byte_o_inferred_clock     FD1P3IX     D       wr_grey_w[3]       4.789        1.456 
+bp4HtzBftLAg886CD2GJFt21KoLDxHGL0u16biFHIntEuFbJ     HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_wrap_cil_Z10_layer1|clk_byte_o_inferred_clock     FD1P3IX     D       wr_grey_w[1]       4.789        1.514 
+=====================================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.211
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.789
+
+    - Propagation time:                      4.856
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.067
+
+    Number of logic level(s):                10
+    Starting point:                          j9pjiwA5dBkeuldp0K93iubh4vaGdKldHe78CrcHIjDk7J / Q
+    Ending point:                            KB5ocKFglreLn9gLp2eqI5vne1375fjwGbtx8 / D
+    The start point is clocked by            HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_wrap_cil_Z10_layer1|clk_byte_o_inferred_clock [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+    The end   point is clocked by            HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_wrap_cil_Z10_layer1|clk_byte_o_inferred_clock [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+
+Instance / Net                                                              Pin      Pin               Arrival     No. of    
+Name                                                            Type        Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------------
+j9pjiwA5dBkeuldp0K93iubh4vaGdKldHe78CrcHIjDk7J                  FD1P3IX     Q        Out     0.888     0.888 r     -         
+wr_addr_r[0]                                                    Net         -        -       -         -           6         
+h8rw6jr3AnjHcn5Eb51qaaBiI5et26rv1lismFGo0ao9Imendxkb4vhf016     CCU2        A1       In      0.000     0.888 r     -         
+h8rw6jr3AnjHcn5Eb51qaaBiI5et26rv1lismFGo0ao9Imendxkb4vhf016     CCU2        COUT     Out     0.784     1.672 r     -         
+wr_addr_r_cry_0                                                 Net         -        -       -         -           1         
+h8rw6jr3AnjHcn5Eb51qaaBiI5et26rv1lismFGo0ao9Imendxkb4vhghba     CCU2        CIN      In      0.000     1.672 r     -         
+h8rw6jr3AnjHcn5Eb51qaaBiI5et26rv1lismFGo0ao9Imendxkb4vhghba     CCU2        COUT     Out     0.059     1.731 r     -         
+wr_addr_r_cry_2                                                 Net         -        -       -         -           1         
+h8rw6jr3AnjHcn5Eb51qaaBiI5et26rv1lismFGo0ao9Imendxkb4vhhpH6     CCU2        CIN      In      0.000     1.731 r     -         
+h8rw6jr3AnjHcn5Eb51qaaBiI5et26rv1lismFGo0ao9Imendxkb4vhhpH6     CCU2        COUT     Out     0.059     1.790 r     -         
+wr_addr_r_cry_4                                                 Net         -        -       -         -           1         
+h8rw6jr3AnjHcn5Eb51qaaBiI5et26rv1lismFGo0ao9Imendxkb4vhiyCq     CCU2        CIN      In      0.000     1.790 r     -         
+h8rw6jr3AnjHcn5Eb51qaaBiI5et26rv1lismFGo0ao9Imendxkb4vhiyCq     CCU2        COUT     Out     0.059     1.849 r     -         
+wr_addr_r_cry_6                                                 Net         -        -       -         -           1         
+h8rw6jr3AnjHcn5Eb51qaaBiI5et26rv1lismFGo0ao9Imendxkb4vhj77a     CCU2        CIN      In      0.000     1.849 r     -         
+h8rw6jr3AnjHcn5Eb51qaaBiI5et26rv1lismFGo0ao9Imendxkb4vhj77a     CCU2        COUT     Out     0.059     1.908 r     -         
+wr_addr_r_cry_8                                                 Net         -        -       -         -           1         
+h8rw6jr3AnjHcn5Eb51qaaBiI5et26rv1lismFGo0ao9Imendxkb4vhkG16     CCU2        CIN      In      0.000     1.908 r     -         
+h8rw6jr3AnjHcn5Eb51qaaBiI5et26rv1lismFGo0ao9Imendxkb4vhkG16     CCU2        S0       Out     0.692     2.599 r     -         
+wr_addr_r_cry_9_0_S0                                            Net         -        -       -         -           3         
+jk7uly1s3LgHAL5hHepAxan5LAxr6uD525H6                            LUT4        D        In      0.000     2.599 r     -         
+jk7uly1s3LgHAL5hHepAxan5LAxr6uD525H6                            LUT4        Z        Out     0.523     3.123 r     -         
+full_cmp_w_0_I_15_0_RNO_0                                       Net         -        -       -         -           1         
+IpqsIkeaDzdi3noz8LLIJ4oxpH6                                     CCU2        A1       In      0.000     3.123 r     -         
+IpqsIkeaDzdi3noz8LLIJ4oxpH6                                     CCU2        COUT     Out     0.784     3.906 r     -         
+full_cmp_w_0_I_9_cry                                            Net         -        -       -         -           1         
+ioGd0nGAht723xx8D0LLu0B016                                      CCU2        CIN      In      0.000     3.906 r     -         
+ioGd0nGAht723xx8D0LLu0B016                                      CCU2        S0       Out     0.607     4.513 r     -         
+full_cmp_w                                                      Net         -        -       -         -           1         
+qu24xotEvrCbwg63myGeljBJGrwxavEte01mq0oc0wL                     LUT4        B        In      0.000     4.513 r     -         
+qu24xotEvrCbwg63myGeljBJGrwxavEte01mq0oc0wL                     LUT4        Z        Out     0.343     4.856 r     -         
+un5_full_nxt_c                                                  Net         -        -       -         -           1         
+KB5ocKFglreLn9gLp2eqI5vne1375fjwGbtx8                           FD1P3IX     D        In      0.000     4.856 r     -         
+=============================================================================================================================
+
+
+Path information for path number 2: 
+      Requested Period:                      5.000
+    - Setup time:                            0.211
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.789
+
+    - Propagation time:                      4.822
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.033
+
+    Number of logic level(s):                9
+    Starting point:                          j9pjiwA5dBkeuldp0K93iubh4vaGdKldHe78CrcHIjDk7J / Q
+    Ending point:                            KB5ocKFglreLn9gLp2eqI5vne1375fjwGbtx8 / D
+    The start point is clocked by            HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_wrap_cil_Z10_layer1|clk_byte_o_inferred_clock [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+    The end   point is clocked by            HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_wrap_cil_Z10_layer1|clk_byte_o_inferred_clock [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+
+Instance / Net                                                              Pin      Pin               Arrival     No. of    
+Name                                                            Type        Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------------
+j9pjiwA5dBkeuldp0K93iubh4vaGdKldHe78CrcHIjDk7J                  FD1P3IX     Q        Out     0.888     0.888 r     -         
+wr_addr_r[0]                                                    Net         -        -       -         -           6         
+h8rw6jr3AnjHcn5Eb51qaaBiI5et26rv1lismFGo0ao9Imendxkb4vhf016     CCU2        A1       In      0.000     0.888 r     -         
+h8rw6jr3AnjHcn5Eb51qaaBiI5et26rv1lismFGo0ao9Imendxkb4vhf016     CCU2        COUT     Out     0.784     1.672 r     -         
+wr_addr_r_cry_0                                                 Net         -        -       -         -           1         
+h8rw6jr3AnjHcn5Eb51qaaBiI5et26rv1lismFGo0ao9Imendxkb4vhghba     CCU2        CIN      In      0.000     1.672 r     -         
+h8rw6jr3AnjHcn5Eb51qaaBiI5et26rv1lismFGo0ao9Imendxkb4vhghba     CCU2        COUT     Out     0.059     1.731 r     -         
+wr_addr_r_cry_2                                                 Net         -        -       -         -           1         
+h8rw6jr3AnjHcn5Eb51qaaBiI5et26rv1lismFGo0ao9Imendxkb4vhhpH6     CCU2        CIN      In      0.000     1.731 r     -         
+h8rw6jr3AnjHcn5Eb51qaaBiI5et26rv1lismFGo0ao9Imendxkb4vhhpH6     CCU2        COUT     Out     0.059     1.790 r     -         
+wr_addr_r_cry_4                                                 Net         -        -       -         -           1         
+h8rw6jr3AnjHcn5Eb51qaaBiI5et26rv1lismFGo0ao9Imendxkb4vhiyCq     CCU2        CIN      In      0.000     1.790 r     -         
+h8rw6jr3AnjHcn5Eb51qaaBiI5et26rv1lismFGo0ao9Imendxkb4vhiyCq     CCU2        COUT     Out     0.059     1.849 r     -         
+wr_addr_r_cry_6                                                 Net         -        -       -         -           1         
+h8rw6jr3AnjHcn5Eb51qaaBiI5et26rv1lismFGo0ao9Imendxkb4vhj77a     CCU2        CIN      In      0.000     1.849 r     -         
+h8rw6jr3AnjHcn5Eb51qaaBiI5et26rv1lismFGo0ao9Imendxkb4vhj77a     CCU2        S1       Out     0.717     2.566 r     -         
+wr_addr_r_cry_7_0_S1                                            Net         -        -       -         -           4         
+jk7uly1s3LgHAL5hHepAxan5LAxr6uD525H6                            LUT4        C        In      0.000     2.566 r     -         
+jk7uly1s3LgHAL5hHepAxan5LAxr6uD525H6                            LUT4        Z        Out     0.523     3.088 r     -         
+full_cmp_w_0_I_15_0_RNO_0                                       Net         -        -       -         -           1         
+IpqsIkeaDzdi3noz8LLIJ4oxpH6                                     CCU2        A1       In      0.000     3.088 r     -         
+IpqsIkeaDzdi3noz8LLIJ4oxpH6                                     CCU2        COUT     Out     0.784     3.873 r     -         
+full_cmp_w_0_I_9_cry                                            Net         -        -       -         -           1         
+ioGd0nGAht723xx8D0LLu0B016                                      CCU2        CIN      In      0.000     3.873 r     -         
+ioGd0nGAht723xx8D0LLu0B016                                      CCU2        S0       Out     0.607     4.479 r     -         
+full_cmp_w                                                      Net         -        -       -         -           1         
+qu24xotEvrCbwg63myGeljBJGrwxavEte01mq0oc0wL                     LUT4        B        In      0.000     4.479 r     -         
+qu24xotEvrCbwg63myGeljBJGrwxavEte01mq0oc0wL                     LUT4        Z        Out     0.343     4.822 r     -         
+un5_full_nxt_c                                                  Net         -        -       -         -           1         
+KB5ocKFglreLn9gLp2eqI5vne1375fjwGbtx8                           FD1P3IX     D        In      0.000     4.822 r     -         
+=============================================================================================================================
+
+
+Path information for path number 3: 
+      Requested Period:                      5.000
+    - Setup time:                            0.211
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.789
+
+    - Propagation time:                      4.808
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.019
+
+    Number of logic level(s):                8
+    Starting point:                          0yi98ehIcsCL6Fn565q4knrwbF3Am3 / Q
+    Ending point:                            KB5ocKFglreLn9gLp2eqI5vne1375fjwGbtx8 / D
+    The start point is clocked by            HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_wrap_cil_Z10_layer1|clk_byte_o_inferred_clock [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+    The end   point is clocked by            HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_wrap_cil_Z10_layer1|clk_byte_o_inferred_clock [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+
+Instance / Net                                              Pin      Pin               Arrival     No. of    
+Name                                            Type        Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------
+0yi98ehIcsCL6Fn565q4knrwbF3Am3                  FD1P3IX     Q        Out     0.838     0.838 r     -         
+rp_sync2_r[6]                                   Net         -        -       -         -           3         
+dmGraxkp4x41LBj3IAFw2eJnkjAChxilzcHAefd67J      LUT4        A        In      0.000     0.838 r     -         
+dmGraxkp4x41LBj3IAFw2eJnkjAChxilzcHAefd67J      LUT4        Z        Out     0.523     1.361 r     -         
+full_m3_0_1                                     Net         -        -       -         -           1         
+ru7G81Dds4dfoCtp4A3ivGrwwuelxH1Ja9l10kbzbbJ     LUT4        B        In      0.000     1.361 r     -         
+ru7G81Dds4dfoCtp4A3ivGrwwuelxH1Ja9l10kbzbbJ     LUT4        Z        Out     0.608     1.969 r     -         
+N_82                                            Net         -        -       -         -           3         
+jk7uly1s3LgHAL5hHepAxaopCIsrawICf018            LUT4        B        In      0.000     1.969 r     -         
+jk7uly1s3LgHAL5hHepAxaopCIsrawICf018            LUT4        Z        Out     0.523     2.492 r     -         
+full_cmp_w_0_I_26_1                             Net         -        -       -         -           1         
+jk7uly1s3LgHAL5hHepAxaopCIsrawICf016            LUT4        A        In      0.000     2.492 r     -         
+jk7uly1s3LgHAL5hHepAxaopCIsrawICf016            LUT4        Z        Out     0.523     3.015 r     -         
+full_cmp_w_0_I_27_0_RNO_0                       Net         -        -       -         -           1         
+IpqsIkeaDzdi3noz8LLIJ4r6k16                     CCU2        A1       In      0.000     3.015 r     -         
+IpqsIkeaDzdi3noz8LLIJ4r6k16                     CCU2        COUT     Out     0.784     3.799 r     -         
+full_cmp_w_0_data_tmp[2]                        Net         -        -       -         -           1         
+IpqsIkeaDzdi3noz8LLIJ4oxpH6                     CCU2        CIN      In      0.000     3.799 r     -         
+IpqsIkeaDzdi3noz8LLIJ4oxpH6                     CCU2        COUT     Out     0.059     3.858 r     -         
+full_cmp_w_0_I_9_cry                            Net         -        -       -         -           1         
+ioGd0nGAht723xx8D0LLu0B016                      CCU2        CIN      In      0.000     3.858 r     -         
+ioGd0nGAht723xx8D0LLu0B016                      CCU2        S0       Out     0.607     4.465 r     -         
+full_cmp_w                                      Net         -        -       -         -           1         
+qu24xotEvrCbwg63myGeljBJGrwxavEte01mq0oc0wL     LUT4        B        In      0.000     4.465 r     -         
+qu24xotEvrCbwg63myGeljBJGrwxavEte01mq0oc0wL     LUT4        Z        Out     0.343     4.808 r     -         
+un5_full_nxt_c                                  Net         -        -       -         -           1         
+KB5ocKFglreLn9gLp2eqI5vne1375fjwGbtx8           FD1P3IX     D        In      0.000     4.808 r     -         
+=============================================================================================================
+
+
+Path information for path number 4: 
+      Requested Period:                      5.000
+    - Setup time:                            0.211
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.789
+
+    - Propagation time:                      4.808
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.019
+
+    Number of logic level(s):                8
+    Starting point:                          0yi98ehIcsCL6Fn565q4knrwbF3ArJ / Q
+    Ending point:                            KB5ocKFglreLn9gLp2eqI5vne1375fjwGbtx8 / D
+    The start point is clocked by            HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_wrap_cil_Z10_layer1|clk_byte_o_inferred_clock [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+    The end   point is clocked by            HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_wrap_cil_Z10_layer1|clk_byte_o_inferred_clock [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+
+Instance / Net                                              Pin      Pin               Arrival     No. of    
+Name                                            Type        Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------
+0yi98ehIcsCL6Fn565q4knrwbF3ArJ                  FD1P3IX     Q        Out     0.838     0.838 r     -         
+rp_sync2_r[7]                                   Net         -        -       -         -           3         
+dmGraxkp4x41LBj3IAFw2eJnkjAChxilzcHAefd67J      LUT4        B        In      0.000     0.838 r     -         
+dmGraxkp4x41LBj3IAFw2eJnkjAChxilzcHAefd67J      LUT4        Z        Out     0.523     1.361 r     -         
+full_m3_0_1                                     Net         -        -       -         -           1         
+ru7G81Dds4dfoCtp4A3ivGrwwuelxH1Ja9l10kbzbbJ     LUT4        B        In      0.000     1.361 r     -         
+ru7G81Dds4dfoCtp4A3ivGrwwuelxH1Ja9l10kbzbbJ     LUT4        Z        Out     0.608     1.969 r     -         
+N_82                                            Net         -        -       -         -           3         
+jk7uly1s3LgHAL5hHepAxaopCIsrawICf018            LUT4        B        In      0.000     1.969 r     -         
+jk7uly1s3LgHAL5hHepAxaopCIsrawICf018            LUT4        Z        Out     0.523     2.492 r     -         
+full_cmp_w_0_I_26_1                             Net         -        -       -         -           1         
+jk7uly1s3LgHAL5hHepAxaopCIsrawICf016            LUT4        A        In      0.000     2.492 r     -         
+jk7uly1s3LgHAL5hHepAxaopCIsrawICf016            LUT4        Z        Out     0.523     3.015 r     -         
+full_cmp_w_0_I_27_0_RNO_0                       Net         -        -       -         -           1         
+IpqsIkeaDzdi3noz8LLIJ4r6k16                     CCU2        A1       In      0.000     3.015 r     -         
+IpqsIkeaDzdi3noz8LLIJ4r6k16                     CCU2        COUT     Out     0.784     3.799 r     -         
+full_cmp_w_0_data_tmp[2]                        Net         -        -       -         -           1         
+IpqsIkeaDzdi3noz8LLIJ4oxpH6                     CCU2        CIN      In      0.000     3.799 r     -         
+IpqsIkeaDzdi3noz8LLIJ4oxpH6                     CCU2        COUT     Out     0.059     3.858 r     -         
+full_cmp_w_0_I_9_cry                            Net         -        -       -         -           1         
+ioGd0nGAht723xx8D0LLu0B016                      CCU2        CIN      In      0.000     3.858 r     -         
+ioGd0nGAht723xx8D0LLu0B016                      CCU2        S0       Out     0.607     4.465 r     -         
+full_cmp_w                                      Net         -        -       -         -           1         
+qu24xotEvrCbwg63myGeljBJGrwxavEte01mq0oc0wL     LUT4        B        In      0.000     4.465 r     -         
+qu24xotEvrCbwg63myGeljBJGrwxavEte01mq0oc0wL     LUT4        Z        Out     0.343     4.808 r     -         
+un5_full_nxt_c                                  Net         -        -       -         -           1         
+KB5ocKFglreLn9gLp2eqI5vne1375fjwGbtx8           FD1P3IX     D        In      0.000     4.808 r     -         
+=============================================================================================================
+
+
+Path information for path number 5: 
+      Requested Period:                      5.000
+    - Setup time:                            0.211
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.789
+
+    - Propagation time:                      4.797
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.008
+
+    Number of logic level(s):                9
+    Starting point:                          j9pjiwA5dBkeuldp0K93iubh4vaGdKldHe78CrcHIjDk7J / Q
+    Ending point:                            KB5ocKFglreLn9gLp2eqI5vne1375fjwGbtx8 / D
+    The start point is clocked by            HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_wrap_cil_Z10_layer1|clk_byte_o_inferred_clock [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+    The end   point is clocked by            HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_wrap_cil_Z10_layer1|clk_byte_o_inferred_clock [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+
+Instance / Net                                                              Pin      Pin               Arrival     No. of    
+Name                                                            Type        Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------------
+j9pjiwA5dBkeuldp0K93iubh4vaGdKldHe78CrcHIjDk7J                  FD1P3IX     Q        Out     0.888     0.888 r     -         
+wr_addr_r[0]                                                    Net         -        -       -         -           6         
+h8rw6jr3AnjHcn5Eb51qaaBiI5et26rv1lismFGo0ao9Imendxkb4vhf016     CCU2        A1       In      0.000     0.888 r     -         
+h8rw6jr3AnjHcn5Eb51qaaBiI5et26rv1lismFGo0ao9Imendxkb4vhf016     CCU2        COUT     Out     0.784     1.672 r     -         
+wr_addr_r_cry_0                                                 Net         -        -       -         -           1         
+h8rw6jr3AnjHcn5Eb51qaaBiI5et26rv1lismFGo0ao9Imendxkb4vhghba     CCU2        CIN      In      0.000     1.672 r     -         
+h8rw6jr3AnjHcn5Eb51qaaBiI5et26rv1lismFGo0ao9Imendxkb4vhghba     CCU2        COUT     Out     0.059     1.731 r     -         
+wr_addr_r_cry_2                                                 Net         -        -       -         -           1         
+h8rw6jr3AnjHcn5Eb51qaaBiI5et26rv1lismFGo0ao9Imendxkb4vhhpH6     CCU2        CIN      In      0.000     1.731 r     -         
+h8rw6jr3AnjHcn5Eb51qaaBiI5et26rv1lismFGo0ao9Imendxkb4vhhpH6     CCU2        COUT     Out     0.059     1.790 r     -         
+wr_addr_r_cry_4                                                 Net         -        -       -         -           1         
+h8rw6jr3AnjHcn5Eb51qaaBiI5et26rv1lismFGo0ao9Imendxkb4vhiyCq     CCU2        CIN      In      0.000     1.790 r     -         
+h8rw6jr3AnjHcn5Eb51qaaBiI5et26rv1lismFGo0ao9Imendxkb4vhiyCq     CCU2        S0       Out     0.692     2.482 r     -         
+wr_addr_r_cry_5_0_S0                                            Net         -        -       -         -           3         
+jk7uly1s3LgHAL5hHepAxaopCIsrawICf016                            LUT4        D        In      0.000     2.482 r     -         
+jk7uly1s3LgHAL5hHepAxaopCIsrawICf016                            LUT4        Z        Out     0.523     3.005 r     -         
+full_cmp_w_0_I_27_0_RNO_0                                       Net         -        -       -         -           1         
+IpqsIkeaDzdi3noz8LLIJ4r6k16                                     CCU2        A1       In      0.000     3.005 r     -         
+IpqsIkeaDzdi3noz8LLIJ4r6k16                                     CCU2        COUT     Out     0.784     3.788 r     -         
+full_cmp_w_0_data_tmp[2]                                        Net         -        -       -         -           1         
+IpqsIkeaDzdi3noz8LLIJ4oxpH6                                     CCU2        CIN      In      0.000     3.788 r     -         
+IpqsIkeaDzdi3noz8LLIJ4oxpH6                                     CCU2        COUT     Out     0.059     3.848 r     -         
+full_cmp_w_0_I_9_cry                                            Net         -        -       -         -           1         
+ioGd0nGAht723xx8D0LLu0B016                                      CCU2        CIN      In      0.000     3.848 r     -         
+ioGd0nGAht723xx8D0LLu0B016                                      CCU2        S0       Out     0.607     4.454 r     -         
+full_cmp_w                                                      Net         -        -       -         -           1         
+qu24xotEvrCbwg63myGeljBJGrwxavEte01mq0oc0wL                     LUT4        B        In      0.000     4.454 r     -         
+qu24xotEvrCbwg63myGeljBJGrwxavEte01mq0oc0wL                     LUT4        Z        Out     0.343     4.797 r     -         
+un5_full_nxt_c                                                  Net         -        -       -         -           1         
+KB5ocKFglreLn9gLp2eqI5vne1375fjwGbtx8                           FD1P3IX     D        In      0.000     4.797 r     -         
+=============================================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: HM0360_Interface_top_level|CLK
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                                                                    Starting                                                               Arrival           
+Instance                                                                                                            Reference                          Type        Pin     Net             Time        Slack 
+                                                                                                                    Clock                                                                                    
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr_state[0]                                         HM0360_Interface_top_level|CLK     FD1P3IX     Q       pr_state[0]     0.976       -0.455
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr_state[2]                                         HM0360_Interface_top_level|CLK     FD1P3IX     Q       pr_state[2]     0.973       -0.452
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr_state[3]                                         HM0360_Interface_top_level|CLK     FD1P3IX     Q       pr_state[3]     0.969       -0.447
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr_state[1]                                         HM0360_Interface_top_level|CLK     FD1P3IX     Q       pr_state[1]     0.967       -0.446
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.prescaler_comp.counter_comp.shifted_CLK_OUT_int     HM0360_Interface_top_level|CLK     FD1P3IX     Q       DATA_CLK        0.991       -0.410
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.DATA_CLK_pr                                         HM0360_Interface_top_level|CLK     FD1P3IX     Q       DATA_CLK_pr     0.989       -0.408
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.c[19]                                               HM0360_Interface_top_level|CLK     FD1P3IX     Q       c[19]           0.883       -0.343
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.c[20]                                               HM0360_Interface_top_level|CLK     FD1P3IX     Q       c[20]           0.883       -0.343
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.c[21]                                               HM0360_Interface_top_level|CLK     FD1P3IX     Q       c[21]           0.883       -0.343
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.c[22]                                               HM0360_Interface_top_level|CLK     FD1P3IX     Q       c[22]           0.883       -0.343
+=============================================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                           Starting                                                                    Required           
+Instance                                                                   Reference                          Type        Pin     Net                  Time         Slack 
+                                                                           Clock                                                                                          
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_1      HM0360_Interface_top_level|CLK     FD1P3IX     D       SDA_22_iv_i          4.789        -0.455
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_cl     HM0360_Interface_top_level|CLK     FD1P3IX     SP      un1_SDA_2_sqmuxa     4.817        0.098 
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.c[3]       HM0360_Interface_top_level|CLK     FD1P3IX     D       c_8[3]               4.789        0.383 
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.c[4]       HM0360_Interface_top_level|CLK     FD1P3IX     D       c_8[4]               4.789        0.383 
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.c[5]       HM0360_Interface_top_level|CLK     FD1P3IX     D       c_8[5]               4.789        0.383 
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.c[6]       HM0360_Interface_top_level|CLK     FD1P3IX     D       c_8[6]               4.789        0.383 
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.c[7]       HM0360_Interface_top_level|CLK     FD1P3IX     D       c_8[7]               4.789        0.383 
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.c[8]       HM0360_Interface_top_level|CLK     FD1P3IX     D       c_8[8]               4.789        0.383 
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.c[9]       HM0360_Interface_top_level|CLK     FD1P3IX     D       c_8[9]               4.789        0.383 
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.c[10]      HM0360_Interface_top_level|CLK     FD1P3IX     D       c_8[10]              4.789        0.383 
+==========================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.211
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.789
+
+    - Propagation time:                      5.244
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.455
+
+    Number of logic level(s):                8
+    Starting point:                          HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr_state[0] / Q
+    Ending point:                            HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_1 / D
+    The start point is clocked by            HM0360_Interface_top_level|CLK [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+    The end   point is clocked by            HM0360_Interface_top_level|CLK [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+
+Instance / Net                                                                                           Pin      Pin               Arrival     No. of    
+Name                                                                                         Type        Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr_state[0]                  FD1P3IX     Q        Out     0.976     0.976 r     -         
+pr_state[0]                                                                                  Net         -        -       -         -           36        
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr_state_s2_0_a2             LUT4        A        In      0.000     0.976 r     -         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr_state_s2_0_a2             LUT4        Z        Out     0.742     1.718 f     -         
+pr_state_d[11]                                                                               Net         -        -       -         -           33        
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_1_sqmuxa_7               LUT4        C        In      0.000     1.718 f     -         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_1_sqmuxa_7               LUT4        Z        Out     0.523     2.240 f     -         
+SDA_1_sqmuxa_7                                                                               Net         -        -       -         -           1         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_1_sqmuxa                 LUT4        B        In      0.000     2.240 f     -         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_1_sqmuxa                 LUT4        Z        Out     0.568     2.808 f     -         
+SDA_1_sqmuxa                                                                                 Net         -        -       -         -           2         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FSM_process\.SDA_22_iv_2     LUT4        C        In      0.000     2.808 f     -         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FSM_process\.SDA_22_iv_2     LUT4        Z        Out     0.523     3.332 f     -         
+SDA_22_iv_2                                                                                  Net         -        -       -         -           1         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FSM_process\.SDA_22_iv_4     LUT4        A        In      0.000     3.332 f     -         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FSM_process\.SDA_22_iv_4     LUT4        Z        Out     0.523     3.854 f     -         
+SDA_22_iv_4                                                                                  Net         -        -       -         -           1         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FSM_process\.SDA_22_iv_6     LUT4        B        In      0.000     3.854 f     -         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FSM_process\.SDA_22_iv_6     LUT4        Z        Out     0.523     4.378 f     -         
+SDA_22_iv_6                                                                                  Net         -        -       -         -           1         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_1_RNO_1                  LUT4        C        In      0.000     4.378 f     -         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_1_RNO_1                  LUT4        Z        Out     0.523     4.901 r     -         
+g0_0                                                                                         Net         -        -       -         -           1         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_1_RNO                    LUT4        B        In      0.000     4.901 r     -         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_1_RNO                    LUT4        Z        Out     0.343     5.244 r     -         
+SDA_22_iv_i                                                                                  Net         -        -       -         -           1         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_1                        FD1P3IX     D        In      0.000     5.244 r     -         
+==========================================================================================================================================================
+
+
+Path information for path number 2: 
+      Requested Period:                      5.000
+    - Setup time:                            0.211
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.789
+
+    - Propagation time:                      5.240
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.452
+
+    Number of logic level(s):                8
+    Starting point:                          HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr_state[2] / Q
+    Ending point:                            HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_1 / D
+    The start point is clocked by            HM0360_Interface_top_level|CLK [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+    The end   point is clocked by            HM0360_Interface_top_level|CLK [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+
+Instance / Net                                                                                           Pin      Pin               Arrival     No. of    
+Name                                                                                         Type        Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr_state[2]                  FD1P3IX     Q        Out     0.973     0.973 r     -         
+pr_state[2]                                                                                  Net         -        -       -         -           34        
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr_state_s2_0_a2             LUT4        C        In      0.000     0.973 r     -         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr_state_s2_0_a2             LUT4        Z        Out     0.742     1.714 f     -         
+pr_state_d[11]                                                                               Net         -        -       -         -           33        
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_1_sqmuxa_7               LUT4        C        In      0.000     1.714 f     -         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_1_sqmuxa_7               LUT4        Z        Out     0.523     2.237 f     -         
+SDA_1_sqmuxa_7                                                                               Net         -        -       -         -           1         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_1_sqmuxa                 LUT4        B        In      0.000     2.237 f     -         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_1_sqmuxa                 LUT4        Z        Out     0.568     2.805 f     -         
+SDA_1_sqmuxa                                                                                 Net         -        -       -         -           2         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FSM_process\.SDA_22_iv_2     LUT4        C        In      0.000     2.805 f     -         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FSM_process\.SDA_22_iv_2     LUT4        Z        Out     0.523     3.329 f     -         
+SDA_22_iv_2                                                                                  Net         -        -       -         -           1         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FSM_process\.SDA_22_iv_4     LUT4        A        In      0.000     3.329 f     -         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FSM_process\.SDA_22_iv_4     LUT4        Z        Out     0.523     3.852 f     -         
+SDA_22_iv_4                                                                                  Net         -        -       -         -           1         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FSM_process\.SDA_22_iv_6     LUT4        B        In      0.000     3.852 f     -         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FSM_process\.SDA_22_iv_6     LUT4        Z        Out     0.523     4.375 f     -         
+SDA_22_iv_6                                                                                  Net         -        -       -         -           1         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_1_RNO_1                  LUT4        C        In      0.000     4.375 f     -         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_1_RNO_1                  LUT4        Z        Out     0.523     4.897 r     -         
+g0_0                                                                                         Net         -        -       -         -           1         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_1_RNO                    LUT4        B        In      0.000     4.897 r     -         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_1_RNO                    LUT4        Z        Out     0.343     5.240 r     -         
+SDA_22_iv_i                                                                                  Net         -        -       -         -           1         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_1                        FD1P3IX     D        In      0.000     5.240 r     -         
+==========================================================================================================================================================
+
+
+Path information for path number 3: 
+      Requested Period:                      5.000
+    - Setup time:                            0.211
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.789
+
+    - Propagation time:                      5.236
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.447
+
+    Number of logic level(s):                8
+    Starting point:                          HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr_state[3] / Q
+    Ending point:                            HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_1 / D
+    The start point is clocked by            HM0360_Interface_top_level|CLK [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+    The end   point is clocked by            HM0360_Interface_top_level|CLK [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+
+Instance / Net                                                                                           Pin      Pin               Arrival     No. of    
+Name                                                                                         Type        Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr_state[3]                  FD1P3IX     Q        Out     0.969     0.969 r     -         
+pr_state[3]                                                                                  Net         -        -       -         -           31        
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr_state_s2_0_a2             LUT4        D        In      0.000     0.969 r     -         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr_state_s2_0_a2             LUT4        Z        Out     0.742     1.710 f     -         
+pr_state_d[11]                                                                               Net         -        -       -         -           33        
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_1_sqmuxa_7               LUT4        C        In      0.000     1.710 f     -         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_1_sqmuxa_7               LUT4        Z        Out     0.523     2.233 f     -         
+SDA_1_sqmuxa_7                                                                               Net         -        -       -         -           1         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_1_sqmuxa                 LUT4        B        In      0.000     2.233 f     -         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_1_sqmuxa                 LUT4        Z        Out     0.568     2.801 f     -         
+SDA_1_sqmuxa                                                                                 Net         -        -       -         -           2         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FSM_process\.SDA_22_iv_2     LUT4        C        In      0.000     2.801 f     -         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FSM_process\.SDA_22_iv_2     LUT4        Z        Out     0.523     3.324 f     -         
+SDA_22_iv_2                                                                                  Net         -        -       -         -           1         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FSM_process\.SDA_22_iv_4     LUT4        A        In      0.000     3.324 f     -         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FSM_process\.SDA_22_iv_4     LUT4        Z        Out     0.523     3.847 f     -         
+SDA_22_iv_4                                                                                  Net         -        -       -         -           1         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FSM_process\.SDA_22_iv_6     LUT4        B        In      0.000     3.847 f     -         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FSM_process\.SDA_22_iv_6     LUT4        Z        Out     0.523     4.370 f     -         
+SDA_22_iv_6                                                                                  Net         -        -       -         -           1         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_1_RNO_1                  LUT4        C        In      0.000     4.370 f     -         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_1_RNO_1                  LUT4        Z        Out     0.523     4.893 r     -         
+g0_0                                                                                         Net         -        -       -         -           1         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_1_RNO                    LUT4        B        In      0.000     4.893 r     -         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_1_RNO                    LUT4        Z        Out     0.343     5.236 r     -         
+SDA_22_iv_i                                                                                  Net         -        -       -         -           1         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_1                        FD1P3IX     D        In      0.000     5.236 r     -         
+==========================================================================================================================================================
+
+
+Path information for path number 4: 
+      Requested Period:                      5.000
+    - Setup time:                            0.211
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.789
+
+    - Propagation time:                      5.234
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.446
+
+    Number of logic level(s):                8
+    Starting point:                          HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr_state[1] / Q
+    Ending point:                            HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_1 / D
+    The start point is clocked by            HM0360_Interface_top_level|CLK [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+    The end   point is clocked by            HM0360_Interface_top_level|CLK [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+
+Instance / Net                                                                                           Pin      Pin               Arrival     No. of    
+Name                                                                                         Type        Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr_state[1]                  FD1P3IX     Q        Out     0.967     0.967 r     -         
+pr_state[1]                                                                                  Net         -        -       -         -           30        
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr_state_s2_0_a2             LUT4        B        In      0.000     0.967 r     -         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr_state_s2_0_a2             LUT4        Z        Out     0.742     1.708 r     -         
+pr_state_d[11]                                                                               Net         -        -       -         -           33        
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_1_sqmuxa_7               LUT4        C        In      0.000     1.708 r     -         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_1_sqmuxa_7               LUT4        Z        Out     0.523     2.232 r     -         
+SDA_1_sqmuxa_7                                                                               Net         -        -       -         -           1         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_1_sqmuxa                 LUT4        B        In      0.000     2.232 r     -         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_1_sqmuxa                 LUT4        Z        Out     0.568     2.800 r     -         
+SDA_1_sqmuxa                                                                                 Net         -        -       -         -           2         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FSM_process\.SDA_22_iv_2     LUT4        C        In      0.000     2.800 r     -         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FSM_process\.SDA_22_iv_2     LUT4        Z        Out     0.523     3.322 r     -         
+SDA_22_iv_2                                                                                  Net         -        -       -         -           1         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FSM_process\.SDA_22_iv_4     LUT4        A        In      0.000     3.322 r     -         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FSM_process\.SDA_22_iv_4     LUT4        Z        Out     0.523     3.845 r     -         
+SDA_22_iv_4                                                                                  Net         -        -       -         -           1         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FSM_process\.SDA_22_iv_6     LUT4        B        In      0.000     3.845 r     -         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FSM_process\.SDA_22_iv_6     LUT4        Z        Out     0.523     4.369 r     -         
+SDA_22_iv_6                                                                                  Net         -        -       -         -           1         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_1_RNO_1                  LUT4        C        In      0.000     4.369 r     -         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_1_RNO_1                  LUT4        Z        Out     0.523     4.891 f     -         
+g0_0                                                                                         Net         -        -       -         -           1         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_1_RNO                    LUT4        B        In      0.000     4.891 f     -         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_1_RNO                    LUT4        Z        Out     0.343     5.234 f     -         
+SDA_22_iv_i                                                                                  Net         -        -       -         -           1         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_1                        FD1P3IX     D        In      0.000     5.234 f     -         
+==========================================================================================================================================================
+
+
+Path information for path number 5: 
+      Requested Period:                      5.000
+    - Setup time:                            0.211
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.789
+
+    - Propagation time:                      5.199
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.410
+
+    Number of logic level(s):                8
+    Starting point:                          HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.prescaler_comp.counter_comp.shifted_CLK_OUT_int / Q
+    Ending point:                            HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_1 / D
+    The start point is clocked by            HM0360_Interface_top_level|CLK [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+    The end   point is clocked by            HM0360_Interface_top_level|CLK [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+
+Instance / Net                                                                                                                  Pin      Pin               Arrival     No. of    
+Name                                                                                                                Type        Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.prescaler_comp.counter_comp.shifted_CLK_OUT_int     FD1P3IX     Q        Out     0.991     0.991 r     -         
+DATA_CLK                                                                                                            Net         -        -       -         -           49        
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FSM_process\.un1_data_clk_0_o2                      LUT4        A        In      0.000     0.991 r     -         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FSM_process\.un1_data_clk_0_o2                      LUT4        Z        Out     0.683     1.673 f     -         
+N_7                                                                                                                 Net         -        -       -         -           9         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_1_sqmuxa_3_1                                    LUT4        D        In      0.000     1.673 f     -         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_1_sqmuxa_3_1                                    LUT4        Z        Out     0.523     2.196 r     -         
+SDA_1_sqmuxa_3_1                                                                                                    Net         -        -       -         -           1         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_1_sqmuxa                                        LUT4        A        In      0.000     2.196 r     -         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_1_sqmuxa                                        LUT4        Z        Out     0.568     2.764 r     -         
+SDA_1_sqmuxa                                                                                                        Net         -        -       -         -           2         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FSM_process\.SDA_22_iv_2                            LUT4        C        In      0.000     2.764 r     -         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FSM_process\.SDA_22_iv_2                            LUT4        Z        Out     0.523     3.288 r     -         
+SDA_22_iv_2                                                                                                         Net         -        -       -         -           1         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FSM_process\.SDA_22_iv_4                            LUT4        A        In      0.000     3.288 r     -         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FSM_process\.SDA_22_iv_4                            LUT4        Z        Out     0.523     3.811 r     -         
+SDA_22_iv_4                                                                                                         Net         -        -       -         -           1         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FSM_process\.SDA_22_iv_6                            LUT4        B        In      0.000     3.811 r     -         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FSM_process\.SDA_22_iv_6                            LUT4        Z        Out     0.523     4.333 r     -         
+SDA_22_iv_6                                                                                                         Net         -        -       -         -           1         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_1_RNO_1                                         LUT4        C        In      0.000     4.333 r     -         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_1_RNO_1                                         LUT4        Z        Out     0.523     4.856 f     -         
+g0_0                                                                                                                Net         -        -       -         -           1         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_1_RNO                                           LUT4        B        In      0.000     4.856 f     -         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_1_RNO                                           LUT4        Z        Out     0.343     5.199 f     -         
+SDA_22_iv_i                                                                                                         Net         -        -       -         -           1         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_1                                               FD1P3IX     D        In      0.000     5.199 f     -         
+=================================================================================================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: PLL_sync_clk_ipgen_lscc_pll_Z12_layer1|clkop_o_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                 Starting                                                                                           Arrival          
+Instance         Reference                                                         Type        Pin     Net          Time        Slack
+                 Clock                                                                                                               
+-------------------------------------------------------------------------------------------------------------------------------------
+corlxeeltd23     PLL_sync_clk_ipgen_lscc_pll_Z12_layer1|clkop_o_inferred_clock     FD1P3IX     Q       CO0          0.798       3.648
+corlxeeltd7J     PLL_sync_clk_ipgen_lscc_pll_Z12_layer1|clkop_o_inferred_clock     FD1P3IX     Q       count[1]     0.798       3.648
+8HGkoh8          PLL_sync_clk_ipgen_lscc_pll_Z12_layer1|clkop_o_inferred_clock     FD1P3IX     Q       clk_o        0.753       4.247
+=====================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                    Starting                                                                                                         Required          
+Instance            Reference                                                         Type               Pin        Net              Time         Slack
+                    Clock                                                                                                                              
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+corlxeeltd23        PLL_sync_clk_ipgen_lscc_pll_Z12_layer1|clkop_o_inferred_clock     FD1P3IX            D          N_3_i            4.789        3.648
+8HGkoh8             PLL_sync_clk_ipgen_lscc_pll_Z12_layer1|clkop_o_inferred_clock     FD1P3IX            D          count[1]         4.789        3.991
+corlxeeltd7J        PLL_sync_clk_ipgen_lscc_pll_Z12_layer1|clkop_o_inferred_clock     FD1P3IX            D          CO0              4.789        3.991
+b3jrCdmiistal8m     PLL_sync_clk_ipgen_lscc_pll_Z12_layer1|clkop_o_inferred_clock     DPHY_Z2_layer1     UTXCKE     esc_clk_tx_w     5.000        4.247
+=======================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.211
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.789
+
+    - Propagation time:                      1.141
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 3.648
+
+    Number of logic level(s):                1
+    Starting point:                          corlxeeltd23 / Q
+    Ending point:                            corlxeeltd23 / D
+    The start point is clocked by            PLL_sync_clk_ipgen_lscc_pll_Z12_layer1|clkop_o_inferred_clock [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+    The end   point is clocked by            PLL_sync_clk_ipgen_lscc_pll_Z12_layer1|clkop_o_inferred_clock [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+
+Instance / Net                    Pin      Pin               Arrival     No. of    
+Name                  Type        Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------
+corlxeeltd23          FD1P3IX     Q        Out     0.798     0.798 r     -         
+CO0                   Net         -        -       -         -           2         
+CAkenDeegwdkDvvrJ     LUT4        A        In      0.000     0.798 r     -         
+CAkenDeegwdkDvvrJ     LUT4        Z        Out     0.343     1.141 r     -         
+N_3_i                 Net         -        -       -         -           1         
+corlxeeltd23          FD1P3IX     D        In      0.000     1.141 r     -         
+===================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: counter_2|CLK_OUT_int_derived_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                   Starting                                                                       Arrival          
+Instance                                           Reference                               Type        Pin     Net                Time        Slack
+                                                   Clock                                                                                           
+---------------------------------------------------------------------------------------------------------------------------------------------------
+cJqK4vCkkJvi6pmnKLmqlvmcDkrLumxn                   counter_2|CLK_OUT_int_derived_clock     FD1P3IX     Q       wp_sync2_r[10]     0.888       2.148
+0yi98ehIcyK4cFo3CFpcgLmzqJrH23                     counter_2|CLK_OUT_int_derived_clock     FD1P3IX     Q       wp_sync2_r[8]      0.883       2.153
+0yi98ehIcyK4cFo3CFpcgLmzqJrH7J                     counter_2|CLK_OUT_int_derived_clock     FD1P3IX     Q       wp_sync2_r[9]      0.838       2.198
+0yi98ehIcyK4cFo3CFpcgLmzqJrHxn                     counter_2|CLK_OUT_int_derived_clock     FD1P3IX     Q       wp_sync2_r[7]      0.798       2.238
+j9pjiwA5d8B3tdn14yBAALC7q8Lk1nLitAEtKnzufh4Ixn     counter_2|CLK_OUT_int_derived_clock     FD1P3IX     Q       rd_addr_r[0]       0.883       2.446
+j9pjiwA5d8B3tdn14yBAALC7q8Lk1nLitAEtKnzufh4I23     counter_2|CLK_OUT_int_derived_clock     FD1P3IX     Q       rd_addr_r[1]       0.863       2.525
+j9pjiwA5d8B3tdn14yBAALC7q8Lk1nLitAEtKnzufh4I7J     counter_2|CLK_OUT_int_derived_clock     FD1P3IX     Q       rd_addr_r[2]       0.863       2.525
+j9pjiwA5d8B3tdn14yBAALC7q8Lk1nLitAEtKnzufh4IDn     counter_2|CLK_OUT_int_derived_clock     FD1P3IX     Q       rd_addr_r[3]       0.863       2.583
+j9pjiwA5d8B3tdn14yBAALC7q8Lk1nLitAEtKnzufh4II3     counter_2|CLK_OUT_int_derived_clock     FD1P3IX     Q       rd_addr_r[4]       0.863       2.583
+j9pjiwA5d8B3tdn14yBAALC7q8Lk1nLitAEtKnzufh4JbJ     counter_2|CLK_OUT_int_derived_clock     FD1P3IX     Q       rd_addr_r[5]       0.863       2.643
+===================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                                Starting                                                                               Required          
+Instance                                                                        Reference                               Type        Pin     Net                        Time         Slack
+                                                                                Clock                                                                                                    
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ru7G81Dds8f0kG7err251xyDk2wKt2DDt1vDvHxcxhn                                     counter_2|CLK_OUT_int_derived_clock     WIDEFN9     D1      wp_sync_w[3]               5.000        2.148
+daq6fL0q3JxAlbi5orxqjvwvp8yeg7ABeDmc7EyCIypKiktt2chBdjDtnE8ux5pv4gmeHb57pgr     counter_2|CLK_OUT_int_derived_clock     WIDEFN9     B1      wp_sync_w[3]               5.000        2.148
+daq6fL0q3JxAlbi5orxqjvwvp8yeg7ABeDmc7EyCIypKiktt2chBdjDtnE8ux5pv4gmeIcvIbwr     counter_2|CLK_OUT_int_derived_clock     WIDEFN9     C1      wp_sync_w[3]               5.000        2.148
+daq6fL0q3JxAlbi5orxqjvwvp8yeg7ABeDmc7EyCIypKiktt2chBdjDtnEB0huio7Hcu24i1uH7     counter_2|CLK_OUT_int_derived_clock     WIDEFN9     C0      rd_addr_r_1_cry_9_0_S0     5.000        2.446
+daq6fL0q3JxAlbi5orxqjvwvp8yeg7ABeDmc7EyCIypKiktt2chBdjDtnEAA9wKeuJEE39ADnwr     counter_2|CLK_OUT_int_derived_clock     WIDEFN9     C0      rd_addr_r_1_cry_7_0_S1     5.000        2.505
+daq6fL0q3JxAlbi5orxqjvwvp8yeg7ABeDmc7EyCIypKiktt2chBdjDtnEAA9wKeuJEE6JfGBrc     counter_2|CLK_OUT_int_derived_clock     WIDEFN9     C0      rd_addr_r_1_cry_7_0_S0     5.000        2.505
+daq6fL0q3JxAlbi5orxqjvwvp8yeg7ABeDmc7EyCIypKiktt2chBdjDtnE9Lpz9Gia5m0qnw5gr     counter_2|CLK_OUT_int_derived_clock     WIDEFN9     C0      rd_addr_r_1_cry_5_0_S1     5.000        2.563
+daq6fL0q3JxAlbi5orxqjvwvp8yeg7ABeDmc7EyCIypKiktt2chBdjDtnE9Lpz9Gia5m2DpEwCr     counter_2|CLK_OUT_int_derived_clock     WIDEFN9     C0      rd_addr_r_1_cry_5_0_S0     5.000        2.563
+daq6fL0q3JxAlbi5orxqjvwvp8yeg7ABeDmc7EyCIypKiktt2chBdjDtnE9jH2z5Hdv6F067H17     counter_2|CLK_OUT_int_derived_clock     WIDEFN9     C0      rd_addr_r_1_cry_3_0_S1     5.000        2.623
+daq6fL0q3JxAlbi5orxqjvwvp8yeg7ABeDmc7EyCIypKiktt2chBdjDtnE9jH2z5Hdv6HnB0mgr     counter_2|CLK_OUT_int_derived_clock     WIDEFN9     C0      rd_addr_r_1_cry_3_0_S0     5.000        2.623
+=========================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         5.000
+
+    - Propagation time:                      2.852
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 2.148
+
+    Number of logic level(s):                3
+    Starting point:                          cJqK4vCkkJvi6pmnKLmqlvmcDkrLumxn / Q
+    Ending point:                            ru7G81Dds8f0kG7err251xyDk2wKt2DDt1vDvHxcxhn / D1
+    The start point is clocked by            counter_2|CLK_OUT_int_derived_clock [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+    The end   point is clocked by            System [rising]
+
+Instance / Net                                              Pin      Pin               Arrival     No. of    
+Name                                            Type        Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------
+cJqK4vCkkJvi6pmnKLmqlvmcDkrLumxn                FD1P3IX     Q        Out     0.888     0.888 r     -         
+wp_sync2_r[10]                                  Net         -        -       -         -           6         
+bDiEbmw0Gb0m5m7bJmHzl21xn                       LUT4        C        In      0.000     0.888 r     -         
+bDiEbmw0Gb0m5m7bJmHzl21xn                       LUT4        Z        Out     0.653     1.541 r     -         
+wp_sync_w[7]                                    Net         -        -       -         -           5         
+bDiEbmw0Gb0m5m7bJmHzl21m3                       LUT4        C        In      0.000     1.541 r     -         
+bDiEbmw0Gb0m5m7bJmHzl21m3                       LUT4        Z        Out     0.653     2.194 r     -         
+wp_sync_w[5]                                    Net         -        -       -         -           5         
+bDiEbmw0Gb0m5m7bJmHzl21bJ                       LUT4        C        In      0.000     2.194 r     -         
+bDiEbmw0Gb0m5m7bJmHzl21bJ                       LUT4        Z        Out     0.658     2.852 r     -         
+wp_sync_w[3]                                    Net         -        -       -         -           6         
+ru7G81Dds8f0kG7err251xyDk2wKt2DDt1vDvHxcxhn     WIDEFN9     D1       In      0.000     2.852 r     -         
+=============================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                                                 Starting                                                                                                        Arrival          
+Instance                                                                                         Reference     Type         Pin       Net                                                                        Time        Slack
+                                                                                                 Clock                                                                                                                            
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+SDA_pad                                                                                          System        BFD1P3KX     QIN       HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_pr     0.000       1.223
+SDA_pad                                                                                          System        BFD1P3KX     QIN       HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_pr     0.000       1.223
+kvhFlJsC7CFF1wLbp8pkCcl                                                                          System        PDP16K       DO[1]     fifo_data_out_w[1]                                                         0.000       3.203
+kvhFlJsC7CFF1wLbp8pkCcl                                                                          System        PDP16K       DO[1]     fifo_data_out_w[1]                                                         0.000       3.203
+kvhFlJsC7CFF1wLbp8pkCcl                                                                          System        PDP16K       DO[5]     fifo_data_out_w[5]                                                         0.000       3.203
+kvhFlJsC7CFF1wLbp8pkCcl                                                                          System        PDP16K       DO[5]     fifo_data_out_w[5]                                                         0.000       3.203
+kvhFlJsC7CFF1wLbp8pkCcl                                                                          System        PDP16K       DO[6]     fifo_data_out_w[6]                                                         0.000       3.203
+kvhFlJsC7CFF1wLbp8pkCcl                                                                          System        PDP16K       DO[6]     fifo_data_out_w[6]                                                         0.000       3.203
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FSM_process\.SDA_22_iv_6_RNO     System        WIDEFN9      Z         SDA_9                                                                      0.000       3.400
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_1_RNO_8                      System        WIDEFN9      Z         SDA_7                                                                      0.000       3.400
+==================================================================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                                         Starting                                                   Required          
+Instance                                                                                 Reference     Type        Pin     Net                      Time         Slack
+                                                                                         Clock                                                                        
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_1                    System        FD1P3IX     D       SDA_22_iv_i              4.789        1.223
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr_state[2]              System        FD1P3IX     D       pr_state_ns[2]           4.789        2.269
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_cl                   System        FD1P3IX     D       SDA_cl_RNO               4.789        2.792
+DfGJbtc30scfAj78s                                                                        System        FD1P3IX     SP      un1_data_valid_r14_i     4.817        3.203
+e0dq383Dv                                                                                System        FD1P3IX     SP      un1_data_valid_r14_i     4.817        3.203
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_cl                   System        FD1P3IX     SP      un1_SDA_2_sqmuxa         4.817        3.343
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr_state[1]              System        FD1P3IX     D       pr_state_ns[1]           4.789        3.355
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr_state_ns_3_0_.m54     System        WIDEFN9     B0      N_39                     5.000        3.386
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr_state[3]              System        FD1P3IX     D       i40_mux_i                4.789        3.400
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.rd_flag                  System        FD1P3IX     D       N_429_i                  4.789        3.400
+======================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.211
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.789
+
+    - Propagation time:                      3.566
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 1.223
+
+    Number of logic level(s):                7
+    Starting point:                          SDA_pad / QIN
+    Ending point:                            HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_1 / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            HM0360_Interface_top_level|CLK [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+
+Instance / Net                                                                                            Pin      Pin               Arrival     No. of    
+Name                                                                                         Type         Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+SDA_pad                                                                                      BFD1P3KX     QIN      Out     0.000     0.000 r     -         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_pr                       Net          -        -       -         -           6         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr_state_RNIM49R[3]          LUT4         B        In      0.000     0.000 r     -         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.pr_state_RNIM49R[3]          LUT4         Z        Out     0.608     0.608 f     -         
+pr_state_0_sqmuxa_1                                                                          Net          -        -       -         -           3         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_8_sqmuxa_1_0_a4          LUT4         A        In      0.000     0.608 f     -         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_8_sqmuxa_1_0_a4          LUT4         Z        Out     0.523     1.131 f     -         
+SDA_8_sqmuxa_1                                                                               Net          -        -       -         -           1         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FSM_process\.SDA_22_iv_2     LUT4         D        In      0.000     1.131 f     -         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FSM_process\.SDA_22_iv_2     LUT4         Z        Out     0.523     1.654 f     -         
+SDA_22_iv_2                                                                                  Net          -        -       -         -           1         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FSM_process\.SDA_22_iv_4     LUT4         A        In      0.000     1.654 f     -         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FSM_process\.SDA_22_iv_4     LUT4         Z        Out     0.523     2.177 f     -         
+SDA_22_iv_4                                                                                  Net          -        -       -         -           1         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FSM_process\.SDA_22_iv_6     LUT4         B        In      0.000     2.177 f     -         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.FSM_process\.SDA_22_iv_6     LUT4         Z        Out     0.523     2.700 f     -         
+SDA_22_iv_6                                                                                  Net          -        -       -         -           1         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_1_RNO_1                  LUT4         C        In      0.000     2.700 f     -         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_1_RNO_1                  LUT4         Z        Out     0.523     3.223 r     -         
+g0_0                                                                                         Net          -        -       -         -           1         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_1_RNO                    LUT4         B        In      0.000     3.223 r     -         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_1_RNO                    LUT4         Z        Out     0.343     3.566 r     -         
+SDA_22_iv_i                                                                                  Net          -        -       -         -           1         
+HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.SDA_1                        FD1P3IX      D        In      0.000     3.566 r     -         
+===========================================================================================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 214MB peak: 217MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 214MB peak: 217MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lifcl_40-8
+
+Register bits: 345 of 32256 (1%)
+PIC Latch:       0
+I/O cells:       18
+Block Rams : 1 of 84 (1%)
+
+
+Details:
+BB:             1
+BFD1P3KX:       1
+CCU2:           91
+DPHY:           1
+FD1P3IX:        333
+FD1P3JX:        6
+GSR:            1
+IB:             3
+INV:            17
+LUT4:           450
+OB:             14
+OFD1P3IX:       6
+PDP16K:         1
+PLL:            1
+VHI:            26
+VLO:            26
+WIDEFN9:        17
+
+Resource Usage inside macros:
+Registers: 0
+LUTs: 0
+EBRs: 0
+LRAMs: 0
+DSPs: 0
+Distributed RAMs: 0
+Carry Chains: 0
+Blackboxes: 0
+
+Mapping Summary:
+Total number of registers: 345 + 0 = 345 of 32256 (1.07%)
+Total number of LUTs: 450 + 0 = 450 
+Total number of EBRs: 1 + 0 = 1 of 84 (1.19%)
+Total number of LRAMs: 0 + 0 = 0 of 2 (0.00%)
+Total number of DSPs: 0 + 0 = 0 of 56 (0.00%)
+Total number of Distributed RAMs: 0 + 0 = 0 
+Total number of Carry Chains: 91 + 0 = 91 
+Total number of BlackBoxes: 55 + 0 = 55 
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 70MB peak: 217MB)
+
+Process took 0h:00m:09s realtime, 0h:00m:09s cputime
+# Mon Nov 21 21:57:52 2022
+
+###########################################################]

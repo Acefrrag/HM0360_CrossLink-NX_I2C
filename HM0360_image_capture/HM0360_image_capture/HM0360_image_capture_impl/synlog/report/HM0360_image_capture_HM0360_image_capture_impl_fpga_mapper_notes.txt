@@ -1,0 +1,32 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: FX493 |Applying initial value "0" on instance prescaler_6MHz.counter_comp.c[0].
+@N: FX493 |Applying initial value "0" on instance prescaler_6MHz.counter_comp.c[1].
+@N: FX493 |Applying initial value "0" on instance prescaler_6MHz.counter_comp.c[2].
+@N: MF179 :|Found 10 by 10 bit equality operator ('==') full_cmp_w (in view: work.lscc_soft_fifo_dc_Z4_layer1(verilog))
+@N: MF179 :|Found 11 by 11 bit equality operator ('==') empty_cmp_w (in view: work.lscc_soft_fifo_dc_Z4_layer1(verilog))
+@N: MF179 :"c:\lscc\radiant\3.2\ip\pmi\../avant/fifo_dc/rtl\lscc_fifo_dc.v":3229:27:3229:61|Found 10 by 10 bit equality operator ('==') full_rel_cmp_w (in view: work.lscc_soft_fifo_dc_Z4_layer1(verilog))
+@N: MF179 :"c:\lscc\radiant\3.2\ip\pmi\../avant/fifo_dc/rtl\lscc_fifo_dc.v":3435:28:3435:62|Found 10 by 10 bit equality operator ('==') empty_rel_cmp_w (in view: work.lscc_soft_fifo_dc_Z4_layer1(verilog))
+@N: FX493 |Applying initial value "0" on instance HM0360_Interface_comp.I2C_module_comp.mul_sel.
+@N: FX493 |Applying initial value "1" on instance HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.nx_state[13].
+@N: FX493 |Applying initial value "0" on instance HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.nx_state[12].
+@N: FX493 |Applying initial value "0" on instance HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.nx_state[11].
+@N: FX493 |Applying initial value "0" on instance HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.nx_state[10].
+@N: FX493 |Applying initial value "0" on instance HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.nx_state[9].
+@N: FX493 |Applying initial value "0" on instance HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.nx_state[8].
+@N: FX493 |Applying initial value "0" on instance HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.nx_state[7].
+@N: FX493 |Applying initial value "0" on instance HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.nx_state[6].
+@N: FX493 |Applying initial value "0" on instance HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.nx_state[5].
+@N: FX493 |Applying initial value "0" on instance HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.nx_state[4].
+@N: FX493 |Applying initial value "0" on instance HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.nx_state[3].
+@N: FX493 |Applying initial value "0" on instance HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.nx_state[2].
+@N: FX493 |Applying initial value "0" on instance HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.nx_state[1].
+@N: FX493 |Applying initial value "0" on instance HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.nx_state[0].
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: MT615 |Found clock trig_acq_module|pr_state_derived_clock[1] with period 5.00ns 
+@N: MT615 |Found clock counter_2|CLK_OUT_int_derived_clock with period 5.00ns 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

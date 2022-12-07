@@ -1,0 +1,257 @@
+Lattice Timing Report -  Setup  and Hold, Version Radiant Software (64-bit) 3.2.1.217.3
+
+Sat Dec  3 21:01:28 2022
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2022 Lattice Semiconductor Corporation,  All rights reserved.
+
+Command line:    timing -sethld -v 10 -u 10 -endpoints 10 -nperend 1 -sp 8_High-Performance_1.0V -hsp m -pwrprd -html -rpt HM0360_image_capture_HM0360_image_capture_impl.twr HM0360_image_capture_HM0360_image_capture_impl.udb -gui
+
+----------------------------------------------
+Design:          HM0360_Interface_top_level
+Family:          LIFCL
+Device:          LIFCL-40
+Package:         CSBGA289
+Performance:     8_High-Performance_1.0V
+Package Status:                     Final          Version 39
+Performance Hardware Data Status :   Final Version 115.1
+----------------------------------------------
+
+
+=====================================================================
+                    Table of Contents
+=====================================================================
+    1  DESIGN CHECKING
+        1.1  SDC Constraints
+        1.2  Combinational Loop
+    2  CLOCK SUMMARY
+    3  TIMING ANALYSIS SUMMARY
+        3.1  Overall (Setup and Hold)
+            3.1.1  Constraint Coverage
+            3.1.2  Timing Errors
+            3.1.3  Total Timing Score
+        3.2  Setup Summary Report
+        3.3  Hold Summary Report
+        3.4  Unconstrained Report
+            3.4.1  Unconstrained Start/End Points
+            3.4.2  Start/End Points Without Timing Constraints
+    4  DETAILED REPORT
+        4.1  Setup Detailed Report
+        4.2  Hold Detailed Report
+
+=====================================================================
+                    End of Table of Contents
+=====================================================================
+
+==============================================
+1  DESIGN CHECKING
+==============================================
+
+1.1  SDC Constraints
+=====================
+
+Operating conditions:
+--------------------
+    Temperature: 85
+
+1.2  Combinational Loop
+========================
+Combinational Loops
+-------------------
+++++ Loop1
+HM0360_Interface_comp/I2C_module_comp/read_config_module_comp/i6168_4_lut/Z	->	HM0360_Interface_comp/I2C_module_comp/read_config_module_comp/i7258_4_lut/Z
+
+++++ Loop2
+HM0360_Interface_comp/I2C_module_comp/read_config_module_comp/mux_550_i1_4_lut/B	->	HM0360_Interface_comp/I2C_module_comp/read_config_module_comp/mux_550_i1_4_lut/Z
+
+++++ Loop3
+HM0360_Interface_comp/I2C_module_comp/i4648_3_lut/A	->	HM0360_Interface_comp/I2C_module_comp/i4648_3_lut/Z
+
+++++ Loop4
+HM0360_Interface_comp/I2C_module_comp/i4845_3_lut/C	->	HM0360_Interface_comp/I2C_module_comp/i4845_3_lut/Z
+
+++++ Loop5
+HM0360_Interface_comp/I2C_module_comp/i4633_3_lut/A	->	HM0360_Interface_comp/I2C_module_comp/i4633_3_lut/Z
+
+++++ Loop6
+HM0360_Interface_comp/I2C_module_comp/configuration_module_comp/i12_4_lut/Z	->	HM0360_Interface_comp/I2C_module_comp/configuration_module_comp/i3387_3_lut/Z
+
+++++ Loop7
+HM0360_Interface_comp/I2C_module_comp/configuration_module_comp/i3379_3_lut/Z	->	{HM0360_Interface_comp/I2C_module_comp/configuration_module_comp/i3393.slicemux_inst/Z   HM0360_Interface_comp/I2C_module_comp/configuration_module_comp/i3393.lut4_inst1/Z   HM0360_Interface_comp/I2C_module_comp/configuration_module_comp/i3393.lut4_inst0/Z}
+
+++++ Loop8
+HM0360_Interface_comp/I2C_module_comp/configuration_module_comp/i3372_4_lut/Z	->	{HM0360_Interface_comp/I2C_module_comp/configuration_module_comp/mux_598_i3.slicemux_inst/Z   HM0360_Interface_comp/I2C_module_comp/configuration_module_comp/mux_598_i3.lut4_inst1/Z   HM0360_Interface_comp/I2C_module_comp/configuration_module_comp/mux_598_i3.lut4_inst0/Z}
+
+++++ Loop9
+HM0360_Interface_comp/I2C_module_comp/configuration_module_comp/i3391_3_lut/Z	->	{HM0360_Interface_comp/I2C_module_comp/configuration_module_comp/i3406.slicemux_inst/Z   HM0360_Interface_comp/I2C_module_comp/configuration_module_comp/i3406.lut4_inst1/Z   HM0360_Interface_comp/I2C_module_comp/configuration_module_comp/i3406.lut4_inst0/Z}
+
+++++ Loop10
+HM0360_Interface_comp/I2C_module_comp/read_config_module_comp/i1_4_lut/B	->	HM0360_Interface_comp/I2C_module_comp/read_config_module_comp/i1_4_lut/Z
+
+++++ Loop11
+HM0360_Interface_comp/I2C_module_comp/trig_acq_module_comp/i4690_4_lut/A	->	HM0360_Interface_comp/I2C_module_comp/trig_acq_module_comp/i4690_4_lut/Z
+
+++++ Loop12
+HM0360_Interface_comp/I2C_module_comp/trig_acq_module_comp/i3395_3_lut/A	->	HM0360_Interface_comp/I2C_module_comp/trig_acq_module_comp/i3395_3_lut/Z
+
+++++ Loop13
+HM0360_Interface_comp/I2C_module_comp/configuration_module_comp/i3213_4_lut/A	->	HM0360_Interface_comp/I2C_module_comp/configuration_module_comp/i3213_4_lut/Z
+
+==============================================
+2  CLOCK SUMMARY
+==============================================
+
+==============================================
+3  TIMING ANALYSIS SUMMARY
+==============================================
+
+3.1  Overall (Setup and Hold)
+==============================
+
+3.1.1  Constraint Coverage
+---------------------------
+Constraint Coverage: 0%
+
+3.1.2  Timing Errors
+---------------------
+Timing Errors: 0 endpoints (setup), 0 endpoints (hold)
+
+3.1.3  Total Timing Score
+--------------------------
+Total Negative Slack: 0.000 ns (setup), 0.000 ns (hold)
+
+3.2  Setup Summary Report
+==========================
+
+--------------------------------------------------
+There is no end point satisfying reporting criteria
+
+Total Negative Slack: 0
+
+
+3.3  Hold Summary Report
+=========================
+
+--------------------------------------------------
+There is no end point satisfying reporting criteria
+
+Total Negative Slack: 0
+
+
+3.4  Unconstrained Report
+===========================
+
+3.4.1  Unconstrained Start/End Points
+--------------------------------------
+
+Clocked but unconstrained timing start points
+--------------------------------------------------
+There is no start point satisfying reporting criteria
+
+
+Clocked but unconstrained timing end points
+--------------------------------------------------
+There is no end point satisfying reporting criteria
+
+
+3.4.2  Start/End Points Without Timing Constraints
+---------------------------------------------------
+
+I/O ports without constraint
+----------------------------
+Possible constraints to use on I/O ports are:
+set_input_delay,
+set_output_delay,
+set_max_delay,
+create_clock,
+create_generated_clock,
+...
+
+-------------------------------------------------------------------
+     Listing 10 Start or End Points     |           Type           
+-------------------------------------------------------------------
+SDA                                     |                     input
+debug_button_n                          |                     input
+command_button_n                        |                     input
+CLK                                     |                     input
+HM_CP                                   |                     input
+HM_CN                                   |                     input
+HM_DP[0]                                |                     input
+HM_DN[0]                                |                     input
+SDA                                     |                    output
+flag_debug_1_n                          |                    output
+-------------------------------------------------------------------
+                                        |                          
+Number of I/O ports without constraint  |                        19
+                                        |                          
+-------------------------------------------------------------------
+
+Registers without clock definition
+Define the clock for these registers.
+-------------------------------------------------------------------
+         Listing 10 Instance(s)         |           Type           
+-------------------------------------------------------------------
+gen_config_command_comp/c_1449_add_4_29 |                  No Clock
+gen_config_command_comp/c_1449_add_4_31 |                  No Clock
+gen_config_command_comp/c_1449_add_4_27 |                  No Clock
+gen_config_command_comp/c_1449_add_4_25 |                  No Clock
+gen_config_command_comp/c_1449_add_4_19 |                  No Clock
+gen_config_command_comp/c_1449_add_4_21 |                  No Clock
+gen_config_command_comp/c_1449_add_4_15 |                  No Clock
+gen_config_command_comp/c_1449_add_4_23 |                  No Clock
+gen_config_command_comp/c_1449_add_4_17 |                  No Clock
+gen_config_command_comp/c_1449_add_4_13 |                  No Clock
+-------------------------------------------------------------------
+                                        |                          
+Number of registers without clock defin |                          
+ition                                   |                      1237
+                                        |                          
+-------------------------------------------------------------------
+
+==============================================
+4  DETAILED REPORT
+==============================================
+
+4.1  Setup Detailed Report
+===========================
+
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+Detail report of critical paths
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+                    Detailed Report for timing paths 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+                    End of Detailed Report for timing paths 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+
+
+##########################################################
+
+4.2  Hold Detailed Report
+==========================
+
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+Detail report of critical paths
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+                    Detailed Report for timing paths 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+                    End of Detailed Report for timing paths 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+
+
+##########################################################
+

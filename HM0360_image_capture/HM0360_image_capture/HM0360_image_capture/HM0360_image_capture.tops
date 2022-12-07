@@ -1,0 +1,4 @@
+HM0360_CSI2_DPHY,/,C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/HM0360_CSI2_DPHY/rtl/HM0360_CSI2_DPHY.v
+debounce,/,C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/debounce.vhd
+enable_pic_source_logic,/,C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/enable_pic_source_logic.vhd
+HM0360_Interface_top_level_tb,/,C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/HM0360_Interface_top_level_tb.vhd

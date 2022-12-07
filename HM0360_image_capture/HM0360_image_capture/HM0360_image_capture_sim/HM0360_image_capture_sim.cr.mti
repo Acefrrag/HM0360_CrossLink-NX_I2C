@@ -1,0 +1,54 @@
+C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source.vhd {0 {vcom -work work -2008 -explicit -stats=none C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source.vhd
+Model Technology ModelSim - Lattice FPGA Edition vcom 2021.4 Compiler 2021.10 Oct 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity pic_source
+-- Compiling architecture Behavioral of pic_source
+** Error: C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source.vhd(22): (vcom-1136) Unknown identifier "img_t".
+** Error: C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source.vhd(24): (vcom-1136) Unknown identifier "text".
+** Error: C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source.vhd(24): FILE declaration must have a subtype indication that is a file type.
+** Error: C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source.vhd(25): (vcom-1136) Unknown identifier "line".
+** Error: C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source.vhd(28): near "656": (vcom-1576) expecting ';'.
+** Error: C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source.vhd(29): near "496": (vcom-1576) expecting ';'.
+** Error: C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source.vhd(31): (vcom-1136) Unknown identifier "vertical_size".
+** Error: C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source.vhd(31): (vcom-1591) Bad expression in right bound of range expression.
+** Error: C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source.vhd(31): Cannot resolve expression type.
+** Error: C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source.vhd(32): (vcom-1136) Unknown identifier "horizontal_size".
+** Error: C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source.vhd(32): (vcom-1591) Bad expression in right bound of range expression.
+** Error: C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source.vhd(32): Cannot resolve expression type.
+** Error: C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source.vhd(33): (vcom-1136) Unknown identifier "readline".
+** Error: C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source.vhd(35): Illegal target for signal assignment.
+** Error: C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source.vhd(35): (vcom-1136) Unknown identifier "img".
+** Error: C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source.vhd(37): (vcom-1136) Unknown identifier "img".
+** Error: C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source.vhd(39): near "function": (vcom-1576) expecting LOOP.
+** Error: C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source.vhd(53): (vcom-1282) Cannot reference signal [mode OUT port] "HSYNC" inside pure function "create_image".
+** Error: C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source.vhd(53): Cannot drive signal "HSYNC" from function "create_image".
+** Error: C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source.vhd(53): (vcom-1136) Unknown identifier "HSYNC_internal".
+** Error: C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source.vhd(54): (vcom-1282) Cannot reference signal [mode OUT port] "FSYNC" inside pure function "create_image".
+** Error: C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source.vhd(54): Cannot drive signal "FSYNC" from function "create_image".
+** Error: C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source.vhd(54): (vcom-1136) Unknown identifier "FSYNC_internal".
+** Error: C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source.vhd(55): (vcom-1282) Cannot reference signal [mode OUT port] "streamed" inside pure function "create_image".
+** Error: C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source.vhd(55): Cannot drive signal "streamed" from function "create_image".
+** Error: C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source.vhd(55): (vcom-1136) Unknown identifier "streamed_internal".
+** Error: C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source.vhd(57): Illegal sequential statement.
+** Error: C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source.vhd(60): Wait statements are not allowed in functions.
+** Error: C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source.vhd(61): Illegal target for signal assignment.
+** Error: C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source.vhd(61): (vcom-1136) Unknown identifier "PCLKO_internal".
+** Error: C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source.vhd(61): (vcom-1136) Unknown identifier "PCLKO_internal".
+** Error: C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source.vhd(62): Illegal sequential statement.
+** Error: C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source.vhd(67): (vcom-1136) Unknown identifier "PCLKO_internal".
+** Error: C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source.vhd(67): Expression is not a signal.
+** Error: C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source.vhd(67): Illegal sequential statement.
+** Error: C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source.vhd(70): (vcom-1136) Unknown identifier "cycles".
+** Error: C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source.vhd(72): (vcom-1136) Unknown identifier "PCLKO_internal".
+** Error: C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source.vhd(73): (vcom-1282) Cannot reference signal [mode IN port] "enable" inside pure function "create_image".
+** Error: C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source.vhd(74): Illegal target for signal assignment.
+** Error: C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source.vhd(74): (vcom-1136) Unknown identifier "streamed_internal".
+** Error: C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source.vhd(75): (vcom-1282) Cannot reference signal [mode OUT port] "D" inside pure function "create_image".
+** Error: C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source.vhd(75): (vcom-1136) Unknown identifier "vertical_size".
+** Error: C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source.vhd(75): (vcom-1136) Unknown identifier "img_t".
+** Note: C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source.vhd(76): VHDL Compiler exiting
+
+} {9.0 52.0} {}}

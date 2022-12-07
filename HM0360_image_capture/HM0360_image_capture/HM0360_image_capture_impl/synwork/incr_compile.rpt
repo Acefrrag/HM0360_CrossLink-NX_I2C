@@ -1,0 +1,292 @@
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09LR-2
+Install: C:\lscc\radiant\3.2\synpbase
+OS: Windows 10 or later
+Hostname: DESKTOP-9VA2EUV
+
+Implementation : HM0360_image_capture_impl
+Synopsys HDL compiler and linker, Version comp202109synp1, Build 403R, Built Jun 27 2022 11:09:13, @
+
+Modified Files: 1
+FID:  path (prevtimestamp, timestamp)
+0        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 94
+MID:  lib.cell.view
+28       work.HM0360_CSI2_DPHY.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+29       work.HM0360_CSI2_DPHY_ipgen_lscc_axi_stream_master.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+30       work.HM0360_CSI2_DPHY_ipgen_lscc_capture_ctrl.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+31       work.HM0360_CSI2_DPHY_ipgen_lscc_clock_divider.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+32       work.HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+33       work.HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_core.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+34       work.HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_lmmi.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+35       work.HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_wrap.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+36       work.HM0360_CSI2_DPHY_ipgen_lscc_dphy_rx_wrap_cil.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+37       work.HM0360_CSI2_DPHY_ipgen_lscc_gddr_sync.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+38       work.HM0360_CSI2_DPHY_ipgen_lscc_lane_align.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+39       work.HM0360_CSI2_DPHY_ipgen_lscc_lp_hs_ctrl.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+40       work.HM0360_CSI2_DPHY_ipgen_lscc_mipi_dphy_soft_rx.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+41       work.HM0360_CSI2_DPHY_ipgen_lscc_rx_fifo.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+42       work.HM0360_CSI2_DPHY_ipgen_lscc_rx_fifo_pp.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+43       work.HM0360_CSI2_DPHY_ipgen_lscc_rx_fifo_queue.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+44       work.HM0360_CSI2_DPHY_ipgen_lscc_rx_fifo_single.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+45       work.HM0360_CSI2_DPHY_ipgen_lscc_rx_global_ctrl.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+46       work.HM0360_CSI2_DPHY_ipgen_lscc_synchronizer_rx.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+47       work.HM0360_CSI2_DPHY_ipgen_lscc_word_align.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+48       work.PLL_sync_clk.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+49       work.PLL_sync_clk_ipgen_lscc_apb2lmmi.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+50       work.PLL_sync_clk_ipgen_lscc_pll.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+0        work.configuration_module.behavioral may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+2        work.counter.behavioral may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+10       work.hm0360_interface.behavioral may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (architecture and entity definition)
+12       work.hm0360_serial_master.behavioral may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+16       work.i2c_module.behavioral may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+18       work.image_buffer.behavioral may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+51       work.lscc_add_sub.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+52       work.lscc_adder.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+53       work.lscc_cntr.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+54       work.lscc_complex_mult.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+55       work.lscc_distributed_dpram.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+56       work.lscc_distributed_rom.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+57       work.lscc_distributed_spram.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+58       work.lscc_fifo.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+59       work.lscc_fifo_dc.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+60       work.lscc_fifo_dc_main.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+61       work.lscc_fifo_fwft_fabric.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+62       work.lscc_fifo_hw_core.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+63       work.lscc_fifo_main.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+64       work.lscc_fifo_mem.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+65       work.lscc_fifo_mem_core.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+66       work.lscc_fifo_mem_main.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+67       work.lscc_hard_fifo_dc.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+68       work.lscc_mult_accumulate.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+69       work.lscc_mult_add_sub.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+70       work.lscc_mult_add_sub_sum.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+71       work.lscc_multiplier.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+72       work.lscc_multiplier_dsp.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+73       work.lscc_multiplier_lut.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+74       work.lscc_ram_dp.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+75       work.lscc_ram_dp_core.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+76       work.lscc_ram_dp_main.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+77       work.lscc_ram_dp_true.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+78       work.lscc_ram_dp_true_core.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+79       work.lscc_ram_dp_true_inst.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+80       work.lscc_ram_dp_true_main.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+81       work.lscc_ram_dq.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+82       work.lscc_ram_dq_core.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+83       work.lscc_ram_dq_inst.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+84       work.lscc_ram_dq_main.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+85       work.lscc_rom.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+86       work.lscc_rom_inst.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+87       work.lscc_rom_inst_core.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+88       work.lscc_shift_register.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+89       work.lscc_soft_fifo.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+90       work.lscc_soft_fifo_dc.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+91       work.lscc_subtractor.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+92       work.lscc_write_through.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+93       work.pmi_add.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+94       work.pmi_addsub.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+95       work.pmi_complex_mult.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+96       work.pmi_counter.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+97       work.pmi_distributed_dpram.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+98       work.pmi_distributed_rom.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+99       work.pmi_distributed_shift_reg.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+100      work.pmi_distributed_spram.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+101      work.pmi_fifo.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+102      work.pmi_fifo_dc.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+103      work.pmi_mac.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+104      work.pmi_mult.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+105      work.pmi_multaddsub.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+106      work.pmi_multaddsubsum.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+107      work.pmi_ram_dp.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+108      work.pmi_ram_dp_be.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+109      work.pmi_ram_dp_true.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+110      work.pmi_ram_dq.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+111      work.pmi_ram_dq_be.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+112      work.pmi_rom.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+113      work.pmi_sub.verilog may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+22       work.prescaler.behavioral may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+24       work.trig_acq_module.behavioral may have changed because the following files changed:
+                        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd (2022-11-21 21:53:47, 2022-11-21 21:56:45) <-- (may instantiate this module)
+
+*******************************************************************
+Unmodified files: 70
+FID:  path (timestamp)
+27       C:\Users\miche\Desktop\my_designs\HM0360_image_capture\HM0360_CSI2_DPHY\rtl\HM0360_CSI2_DPHY.v (2022-11-19 20:47:38)
+28       C:\Users\miche\Desktop\my_designs\HM0360_image_capture\PLL_sync_clk\rtl\PLL_sync_clk.v (2022-11-19 20:41:55)
+26       C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface_top_level.vhd (2022-11-21 19:35:18)
+2        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_serial_master.vhd (2022-11-11 22:51:14)
+4        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\I2C_module.vhd (2022-11-21 19:36:05)
+5        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\configuration_module.vhd (2022-11-20 15:11:51)
+6        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd (2022-10-31 12:20:05)
+7        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\debounce.vhd (2022-10-04 18:59:51)
+9        C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\image_buffer.vhd (2022-11-20 00:03:48)
+11       C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\prescaler.vhd (2022-10-30 19:02:45)
+12       C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\trig_acq_module.vhd (2022-11-11 16:56:04)
+29       C:\lscc\radiant\3.2\ip\pmi\../avant/fifo/rtl/lscc_fifo.v (2022-06-23 10:19:02)
+30       C:\lscc\radiant\3.2\ip\pmi\../avant/fifo_dc/rtl/lscc_fifo_dc.v (2022-06-23 10:19:33)
+31       C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp/rtl/lscc_ram_dp.v (2022-06-23 10:20:05)
+32       C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl/lscc_ram_dp_true.v (2022-04-05 07:51:23)
+33       C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dq/rtl/lscc_ram_dq.v (2022-06-23 10:20:36)
+34       C:\lscc\radiant\3.2\ip\pmi\../avant/rom/rtl/lscc_rom.v (2022-06-23 10:21:04)
+35       C:\lscc\radiant\3.2\ip\pmi\../common/adder/rtl/lscc_adder.v (2019-08-05 09:40:57)
+36       C:\lscc\radiant\3.2\ip\pmi\../common/adder_subtractor/rtl/lscc_add_sub.v (2019-10-18 13:58:02)
+37       C:\lscc\radiant\3.2\ip\pmi\../common/complex_mult/rtl/lscc_complex_mult.v (2021-09-10 03:26:39)
+38       C:\lscc\radiant\3.2\ip\pmi\../common/counter/rtl/lscc_cntr.v (2019-08-05 09:41:47)
+39       C:\lscc\radiant\3.2\ip\pmi\../common/distributed_dpram/rtl/lscc_distributed_dpram.v (2020-03-09 11:52:16)
+40       C:\lscc\radiant\3.2\ip\pmi\../common/distributed_rom/rtl/lscc_distributed_rom.v (2020-03-09 11:55:31)
+41       C:\lscc\radiant\3.2\ip\pmi\../common/distributed_spram/rtl/lscc_distributed_spram.v (2020-03-09 03:49:56)
+42       C:\lscc\radiant\3.2\ip\pmi\../common/mult_accumulate/rtl/lscc_mult_accumulate.v (2020-03-18 10:18:16)
+43       C:\lscc\radiant\3.2\ip\pmi\../common/mult_add_sub/rtl/lscc_mult_add_sub.v (2020-03-18 10:17:43)
+44       C:\lscc\radiant\3.2\ip\pmi\../common/mult_add_sub_sum/rtl/lscc_mult_add_sub_sum.v (2020-03-18 10:15:40)
+45       C:\lscc\radiant\3.2\ip\pmi\../common/multiplier/rtl/lscc_multiplier.v (2019-08-05 09:42:13)
+46       C:\lscc\radiant\3.2\ip\pmi\../common/ram_shift_reg/rtl/lscc_shift_register.v (2022-02-16 09:05:57)
+47       C:\lscc\radiant\3.2\ip\pmi\../common/subtractor/rtl/lscc_subtractor.v (2019-08-05 09:43:15)
+48       C:\lscc\radiant\3.2\ip\pmi\pmi_add.v (2019-07-11 01:12:46)
+49       C:\lscc\radiant\3.2\ip\pmi\pmi_addsub.v (2019-07-11 01:13:20)
+50       C:\lscc\radiant\3.2\ip\pmi\pmi_complex_mult.v (2019-07-11 01:14:03)
+51       C:\lscc\radiant\3.2\ip\pmi\pmi_counter.v (2019-07-11 01:14:35)
+52       C:\lscc\radiant\3.2\ip\pmi\pmi_distributed_dpram.v (2019-08-06 04:55:15)
+53       C:\lscc\radiant\3.2\ip\pmi\pmi_distributed_rom.v (2019-08-06 04:55:15)
+54       C:\lscc\radiant\3.2\ip\pmi\pmi_distributed_shift_reg.v (2020-03-12 09:02:01)
+55       C:\lscc\radiant\3.2\ip\pmi\pmi_distributed_spram.v (2019-08-06 04:55:15)
+56       C:\lscc\radiant\3.2\ip\pmi\pmi_fifo.v (2021-12-22 06:54:41)
+57       C:\lscc\radiant\3.2\ip\pmi\pmi_fifo_dc.v (2021-12-22 06:57:43)
+58       C:\lscc\radiant\3.2\ip\pmi\pmi_lifcl.v (2020-05-11 03:31:25)
+14       C:\lscc\radiant\3.2\ip\pmi\pmi_lifcl.vhd (2022-03-29 09:54:48)
+59       C:\lscc\radiant\3.2\ip\pmi\pmi_mac.v (2019-07-11 01:15:11)
+60       C:\lscc\radiant\3.2\ip\pmi\pmi_mult.v (2019-07-11 01:15:37)
+61       C:\lscc\radiant\3.2\ip\pmi\pmi_multaddsub.v (2019-07-11 01:16:06)
+62       C:\lscc\radiant\3.2\ip\pmi\pmi_multaddsubsum.v (2019-07-11 01:16:55)
+63       C:\lscc\radiant\3.2\ip\pmi\pmi_ram_dp.v (2022-02-16 03:51:13)
+64       C:\lscc\radiant\3.2\ip\pmi\pmi_ram_dp_be.v (2022-02-16 04:07:36)
+65       C:\lscc\radiant\3.2\ip\pmi\pmi_ram_dp_true.v (2022-02-16 03:51:54)
+66       C:\lscc\radiant\3.2\ip\pmi\pmi_ram_dq.v (2022-02-16 03:52:03)
+67       C:\lscc\radiant\3.2\ip\pmi\pmi_ram_dq_be.v (2022-02-16 03:52:13)
+68       C:\lscc\radiant\3.2\ip\pmi\pmi_rom.v (2022-02-16 03:52:24)
+69       C:\lscc\radiant\3.2\ip\pmi\pmi_sub.v (2019-07-11 01:17:30)
+70       C:\lscc\radiant\3.2\synpbase\lib\lucent\lifcl.v (2022-07-22 06:11:56)
+71       C:\lscc\radiant\3.2\synpbase\lib\lucent\pmi_def.v (2022-06-28 23:20:09)
+15       C:\lscc\radiant\3.2\synpbase\lib\vhd2008\arith.vhd (2022-06-28 23:20:16)
+16       C:\lscc\radiant\3.2\synpbase\lib\vhd2008\location.map (2022-06-28 23:20:16)
+17       C:\lscc\radiant\3.2\synpbase\lib\vhd2008\numeric.vhd (2022-06-28 23:20:16)
+18       C:\lscc\radiant\3.2\synpbase\lib\vhd2008\std.vhd (2022-06-28 23:20:16)
+19       C:\lscc\radiant\3.2\synpbase\lib\vhd2008\std1164.vhd (2022-06-28 23:20:16)
+20       C:\lscc\radiant\3.2\synpbase\lib\vhd2008\std_textio.vhd (2022-06-28 23:20:16)
+21       C:\lscc\radiant\3.2\synpbase\lib\vhd2008\unsigned.vhd (2022-06-28 23:20:16)
+22       C:\lscc\radiant\3.2\synpbase\lib\vhd\hyperents.vhd (2022-06-28 23:20:16)
+23       C:\lscc\radiant\3.2\synpbase\lib\vhd\math_real.vhd (2022-06-28 23:20:16)
+24       C:\lscc\radiant\3.2\synpbase\lib\vhd\snps_haps_pkg.vhd (2022-06-28 23:20:16)
+25       C:\lscc\radiant\3.2\synpbase\lib\vhd\umr_capim.vhd (2022-06-28 23:20:16)
+72       C:\lscc\radiant\3.2\synpbase\lib\vlog\hypermods.v (2022-06-28 23:20:16)
+73       C:\lscc\radiant\3.2\synpbase\lib\vlog\scemi_objects.v (2022-06-28 23:20:16)
+74       C:\lscc\radiant\3.2\synpbase\lib\vlog\scemi_pipes.svh (2022-06-28 23:20:16)
+75       C:\lscc\radiant\3.2\synpbase\lib\vlog\umr_capim.v (2022-06-28 23:20:16)
+
+*******************************************************************
+Unchanged modules: 4
+MID:  lib.cell.view
+4        work.debounce.logic
+5        work.debounce.vhdl
+26       work.hm0360_interface_top_level.behavioral
+27       work.hm0360_interface_top_level.vhdl

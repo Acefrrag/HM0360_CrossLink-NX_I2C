@@ -1,0 +1,8 @@
+-ver "C:/lscc/radiant/3.2/ip/pmi/pmi_lifcl.v"
+-lib pmi -vhd "C:/lscc/radiant/3.2/ip/pmi/pmi_lifcl.vhd"
+-ver "C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/PLL_sync_clk/rtl/PLL_sync_clk.v"
+-sdc  "C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/PLL_sync_clk/constraints/PLL_sync_clk.ldc"
+-path "C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/PLL_sync_clk"
+-vh2008
+-top PLL_sync_clk
+-a "LIFCL"

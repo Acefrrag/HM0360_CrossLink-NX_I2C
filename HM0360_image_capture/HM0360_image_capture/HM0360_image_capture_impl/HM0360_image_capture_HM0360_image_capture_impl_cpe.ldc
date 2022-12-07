@@ -1,0 +1,10 @@
+###File created by Lattice CPE. Do not modify.###
+set_hierarchy_separator /
+#create_clock -name {clki_i} -period 37.037 [get_pins {PLL_sync_comp/clki_i }]
+##Original File: C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/PLL_sync_clk/constraints/PLL_sync_clk.ldc
+#create_clock -name {clki_i} -period 37.037 [get_pins {HM0360_Interface_comp/PLL_sync_clk_comp/clki_i }]
+##Original File: C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/PLL_sync_clk/constraints/PLL_sync_clk.ldc
+# IO_TYPE constraint - Refclk
+##Original File: C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/PLL_sync_clk/constraints/PLL_sync_clk.ldc
+# IO_TYPE constraint - Refclk
+##Original File: C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/PLL_sync_clk/constraints/PLL_sync_clk.ldc

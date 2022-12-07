@@ -1,0 +1,4 @@
+@E: CD326 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\I2C_module.vhd":111:0:111:19|Port clk of entity work.trig_acq_module is unconnected. If a port needs to remain unconnected, use the keyword open.
+@E: CD326 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\I2C_module.vhd":120:0:120:24|Port clk of entity work.configuration_module is unconnected. If a port needs to remain unconnected, use the keyword open.
+@E::Errors while synthesizing top module HM0360_Interface.
+

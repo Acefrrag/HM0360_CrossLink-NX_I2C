@@ -1,0 +1,105 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-top|HM0360_Interface|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-ignore_undefined_lib|-lib|pmi|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-fileorder|C:\\Users\\miche\\Desktop\\my_designs\\HM0360_image_capture\\HM0360_image_capture_impl\\rev_7\\syntmp\\hdlorder.tcl"
+#CUR:"C:\\lscc\\radiant\\3.2\\synpbase\\bin64\\c_vhdl.exe":1656451202
+#CUR:"C:\\lscc\\radiant\\3.2\\synpbase\\lib\\vhd2008\\location.map":1656451216
+#CUR:"C:\\lscc\\radiant\\3.2\\synpbase\\lib\\vhd2008\\std.vhd":1656451216
+#CUR:"C:\\lscc\\radiant\\3.2\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1656451216
+#CUR:"C:\\lscc\\radiant\\3.2\\synpbase\\lib\\vhd2008\\std1164.vhd":1656451216
+#CUR:"C:\\lscc\\radiant\\3.2\\synpbase\\lib\\vhd2008\\std_textio.vhd":1656451216
+#CUR:"C:\\lscc\\radiant\\3.2\\synpbase\\lib\\vhd2008\\numeric.vhd":1656451216
+#CUR:"C:\\lscc\\radiant\\3.2\\synpbase\\lib\\vhd\\umr_capim.vhd":1656451216
+#CUR:"C:\\lscc\\radiant\\3.2\\synpbase\\lib\\vhd2008\\arith.vhd":1656451216
+#CUR:"C:\\lscc\\radiant\\3.2\\synpbase\\lib\\vhd2008\\unsigned.vhd":1656451216
+#CUR:"C:\\lscc\\radiant\\3.2\\synpbase\\lib\\vhd\\hyperents.vhd":1656451216
+#CUR:"C:\\lscc\\radiant\\3.2\\ip\\pmi\\pmi_lifcl.vhd":1648540488
+#CUR:"C:\\Users\\miche\\Desktop\\my_designs\\HM0360_image_capture\\source\\HM0360_image_capture_impl\\HM0360_Interface.vhd":1668181057
+#CUR:"C:\\Users\\miche\\Desktop\\my_designs\\HM0360_image_capture\\source\\HM0360_image_capture_impl\\counter.vhd":1667215205
+#CUR:"C:\\Users\\miche\\Desktop\\my_designs\\HM0360_image_capture\\source\\HM0360_image_capture_impl\\debounce.vhd":1664902791
+#CUR:"C:\\Users\\miche\\Desktop\\my_designs\\HM0360_image_capture\\source\\HM0360_image_capture_impl\\HM0360_device.vhd":1668169993
+#CUR:"C:\\Users\\miche\\Desktop\\my_designs\\HM0360_image_capture\\source\\HM0360_image_capture_impl\\HM0360_serial_master.vhd":1667837075
+#CUR:"C:\\Users\\miche\\Desktop\\my_designs\\HM0360_image_capture\\source\\HM0360_image_capture_impl\\prescaler.vhd":1667152965
+#CUR:"C:\\Users\\miche\\Desktop\\my_designs\\HM0360_image_capture\\source\\HM0360_image_capture_impl\\I2C_module.vhd":1668170191
+#CUR:"C:\\Users\\miche\\Desktop\\my_designs\\HM0360_image_capture\\source\\HM0360_image_capture_impl\\configuration_module.vhd":1667934629
+#CUR:"C:\\Users\\miche\\Desktop\\my_designs\\HM0360_image_capture\\source\\HM0360_image_capture_impl\\trig_acq_module.vhd":1668182164
+#CUR:"C:\\Users\\miche\\Desktop\\my_designs\\HM0360_image_capture\\source\\HM0360_image_capture_impl\\HM0360_top_level.vhd":1668181882
+#CUR:"C:\\Users\\miche\\Desktop\\my_designs\\HM0360_image_capture\\source\\HM0360_image_capture_impl\\image_buffer.vhd":1667917636
+#CUR:"C:\\Users\\miche\\Desktop\\my_designs\\HM0360_image_capture\\source\\HM0360_image_capture_impl\\pic_source.vhd":1668162604
+#CUR:"C:\\Users\\miche\\Desktop\\my_designs\\HM0360_image_capture\\source\\HM0360_image_capture_impl\\enable_pic_source_logic.vhd":1668180915
+#CUR:"C:\\lscc\\radiant\\3.2\\cae_library\\synthesis\\vhdl\\lifcl.vhd":1655791307
+0 "C:\lscc\radiant\3.2\ip\pmi\pmi_lifcl.vhd" vhdl
+1 "C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd" vhdl
+2 "C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd" vhdl
+3 "C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\debounce.vhd" vhdl
+4 "C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_device.vhd" vhdl
+5 "C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_serial_master.vhd" vhdl
+6 "C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\prescaler.vhd" vhdl
+7 "C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\I2C_module.vhd" vhdl
+8 "C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\configuration_module.vhd" vhdl
+9 "C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\trig_acq_module.vhd" vhdl
+10 "C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_top_level.vhd" vhdl
+11 "C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\image_buffer.vhd" vhdl
+12 "C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\pic_source.vhd" vhdl
+13 "C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\enable_pic_source_logic.vhd" vhdl
+14 "C:\lscc\radiant\3.2\cae_library\synthesis\vhdl\lifcl.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 7 11 
+2 -1
+3 -1
+4 -1
+5 6 
+6 2 
+7 5 9 8 
+8 -1
+9 -1
+10 3 1 13 4 12 
+11 -1
+12 -1
+13 -1
+14 -1
+
+# Dependency Lists (Users Of)
+0 -1
+1 10 
+2 6 
+3 10 
+4 10 
+5 7 
+6 5 
+7 1 
+8 7 
+9 7 
+10 -1
+11 1 
+12 10 
+13 10 
+14 -1
+
+# Design Unit to File Association
+arch work hm0360_interface behavioral 1
+module work hm0360_interface 1
+arch work counter behavioral 2
+module work counter 2
+arch work debounce logic 3
+module work debounce 3
+arch work hm0360_device behavioral 4
+module work hm0360_device 4
+arch work hm0360_serial_master behavioral 5
+module work hm0360_serial_master 5
+arch work prescaler behavioral 6
+module work prescaler 6
+arch work i2c_module behavioral 7
+module work i2c_module 7
+arch work configuration_module behavioral 8
+module work configuration_module 8
+arch work trig_acq_module behavioral 9
+module work trig_acq_module 9
+arch work hm0360_top_level behavioral 10
+module work hm0360_top_level 10
+arch work image_buffer behavioral 11
+module work image_buffer 11
+arch work pic_source behavioral 12
+module work pic_source 12
+arch work enable_pic_source_logic behavioral 13
+module work enable_pic_source_logic 13

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RadiantProject version="4.2" radiant="3.2.1.217.3" title="HM0360_image_capture" device="LIFCL-40-8MG289C" performance_grade="8_High-Performance_1.0V" default_implementation="HM0360_image_capture_impl">
+    <Options/>
+    <Implementation title="HM0360_image_capture_impl" dir="HM0360_image_capture_impl" description="HM0360_image_capture_impl" synthesis="lse" default_strategy="Strategy1">
+        <Options top="HM0360_Interface_top_level"/>
+        <Source name="HM0360_CSI2_DPHY/HM0360_CSI2_DPHY.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="PLL_sync_clk/PLL_sync_clk.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="source/HM0360_image_capture_impl/HM0360_Interface_top_level.vhd" type="VHDL" type_short="VHDL">
+            <Options top_module="HM0360_Interface_top_level"/>
+        </Source>
+        <Source name="source/HM0360_image_capture_impl/HM0360_Interface.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="source/HM0360_image_capture_impl/I2C_module.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="source/HM0360_image_capture_impl/configuration_module.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="source/HM0360_image_capture_impl/trig_acq_module.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="source/HM0360_image_capture_impl/read_config_module.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="source/HM0360_image_capture_impl/HM0360_serial_master.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="source/HM0360_image_capture_impl/counter.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="source/HM0360_image_capture_impl/debounce.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="source/HM0360_image_capture_impl/gen_config_command.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="source/HM0360_image_capture_impl/prescaler.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="source/HM0360_image_capture_impl/image_buffer.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="source/HM0360_image_capture_impl/HM0360_device.vhd" type="VHDL" type_short="VHDL" syn_sim="SimOnly">
+            <Options/>
+        </Source>
+        <Source name="source/HM0360_image_capture_impl/HM0360_top_level.vhd" type="VHDL" type_short="VHDL" excluded="TRUE" syn_sim="SimOnly">
+            <Options/>
+        </Source>
+        <Source name="source/HM0360_image_capture_impl/pic_source.vhd" type="VHDL" type_short="VHDL" excluded="TRUE" syn_sim="SimOnly">
+            <Options/>
+        </Source>
+        <Source name="source/HM0360_image_capture_impl/enable_pic_source_logic.vhd" type="VHDL" type_short="VHDL" syn_sim="SimOnly">
+            <Options/>
+        </Source>
+        <Source name="source/HM0360_image_capture_impl/debounce_2.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="source/HM0360_image_capture_impl/pic_source_tb.vhd" type="VHDL" type_short="VHDL" excluded="TRUE" syn_sim="SimOnly">
+            <Options/>
+        </Source>
+        <Source name="source/HM0360_image_capture_impl/debounce_2_tb.vhd" type="VHDL" type_short="VHDL" excluded="TRUE" syn_sim="SimOnly">
+            <Options/>
+        </Source>
+        <Source name="source/HM0360_image_capture_impl/sample_and_hold.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="source/HM0360_image_capture_impl/debug_pulse.vhd" type="VHDL" type_short="VHDL" excluded="TRUE">
+            <Options/>
+        </Source>
+        <Source name="source/HM0360_image_capture_impl/HM0360_Interface_top_level_tb.vhd" type="VHDL" type_short="VHDL" syn_sim="SimOnly">
+            <Options/>
+        </Source>
+        <Source name="HM0360_CSI2_DPHY_device_contr.pdc" type="Physical Constraints File" type_short="PDC">
+            <Options/>
+        </Source>
+        <Source name="HM0360_image_capture/HM0360_image_capture.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="HM0360_image_capture_sim/HM0360_image_capture_sim.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="HM0360_image_capture1.sty"/>
+</RadiantProject>

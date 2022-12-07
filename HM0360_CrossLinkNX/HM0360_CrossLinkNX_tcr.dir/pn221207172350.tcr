@@ -1,0 +1,8 @@
+#Start recording tcl command: 12/7/2022 16:28:12
+#Project Location: C:/Users/miche/Github_Repositories/HM0360_CrossLink-NX_I2C/HM0360_CrossLinkNX; Project name: HM0360_CrossLinkNX
+prj_open "C:/Users/miche/Github_Repositories/HM0360_CrossLink-NX_I2C/HM0360_CrossLinkNX/HM0360_CrossLinkNX.rdf"
+prj_remove_source "C:/Users/miche/Github_Repositories/HM0360_CrossLink-NX_I2C/HM0360_CrossLinkNX/source/HM0360_CrossLinkNX_impl/HM0360_top_level.vhd"
+prj_remove_source "C:/Users/miche/Github_Repositories/HM0360_CrossLink-NX_I2C/HM0360_CrossLinkNX/source/HM0360_CrossLinkNX_impl/HM0360_top_level_tb.vhd"
+prj_add_source "C:/Users/miche/Github_Repositories/HM0360_CrossLink-NX_I2C/HM0360_CrossLinkNX/source/HM0360_CrossLinkNX_impl/HM0360_I2C_master_top_level_tb.vhd" "C:/Users/miche/Github_Repositories/HM0360_CrossLink-NX_I2C/HM0360_CrossLinkNX/source/HM0360_CrossLinkNX_impl/HM0360_I2C_master_top_level.vhd"
+prj_syn_sim_source -src "C:/Users/miche/Github_Repositories/HM0360_CrossLink-NX_I2C/HM0360_CrossLinkNX/source/HM0360_CrossLinkNX_impl/HM0360_I2C_master_top_level_tb.vhd" SimulateOnly
+#Stop recording: 12/7/2022 17:23:50

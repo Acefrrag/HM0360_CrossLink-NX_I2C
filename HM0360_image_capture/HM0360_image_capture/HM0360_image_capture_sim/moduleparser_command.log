@@ -1,0 +1,1 @@
+C:/lscc/radiant/3.2/bin/nt64/moduleparser.exe -PROJ HM0360_image_capture_sim -pf C:/lscc/radiant/3.2/cae_library/synthesis/vhdl/lifcl.vhd -pf C:/lscc/radiant/3.2/cae_library/synthesis/verilog/lifcl.v -lib lifcl -vhdl2008 -lst C:/Users/miche/Desktop/my_designs/HM0360_image_capture/HM0360_image_capture_sim/source_files.lst

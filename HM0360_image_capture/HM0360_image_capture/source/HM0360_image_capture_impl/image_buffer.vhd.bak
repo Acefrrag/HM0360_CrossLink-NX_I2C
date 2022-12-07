@@ -1,0 +1,72 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+library std;
+use std.textio.all;
+
+entity image_buffer is
+port(
+FSYNC: in std_logic;
+HSYNC: in std_logic;
+PCLK: in std_logic;
+PADDR: in std_logic_vector(18 downto 0);
+D: in std_logic_vector(7 downto 0);
+data_out: out std_logic_vector(7 downto 0)
+);
+end image_buffer;
+
+Architecture Behavioral of image_buffer is
+
+type buffer_data_t is array(0 to 524_288) of std_logic_vector(7 downto 0);
+signal buffer_data: buffer_data_t := (others => (others => '0'));
+constant buffer_filename: string := "C:\Users\miche\Desktop\my_designs\HM0360_image_capture\scripts\buffer_file.txt";
+constant vertical_size: integer := 656;
+constant horizontal_size: integer := 496;
+
+procedure save_buffer (filename: string; buffer_d: buffer_data_t) is
+
+file buffer_file_handle: text;
+variable row: line;
+variable i,j: integer := 0;
+
+begin
+file_open(buffer_file_handle, filename, write_mode);         
+for i in 0 to vertical_size-1 loop
+	for j in 0 to horizontal_size-1 loop
+		write(row, buffer_d(496*i+j));
+		writeline(buffer_file_handle, row);
+	end loop;
+end loop;
+file_close(buffer_file_handle);
+
+
+end procedure;
+
+begin
+
+
+
+buffer_fill_pr: process(PCLK) is
+variable c: integer := 0;
+variable buffer_data_save: buffer_data_t := (others => (others => '0'));
+
+begin
+if falling_edge(PCLK) then
+	if FSYNC = '1' and HSYNC = '1' then
+		buffer_data(c) <= D;
+		buffer_data_save(c) := D;
+		c := c + 1;
+	end if;
+	if c = 325_376 then
+		c := 0;
+		--Save the buffer to file
+		save_buffer(buffer_filename, buffer_data_save)		
+	end if;
+end if;
+end process;
+
+data_out <= buffer_data(to_integer(unsigned(PADDR)));
+
+
+end Behavioral;

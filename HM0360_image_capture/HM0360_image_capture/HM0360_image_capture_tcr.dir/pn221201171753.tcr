@@ -1,0 +1,11 @@
+#Start recording tcl command: 12/1/2022 17:16:40
+#Project Location: C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture; Project name: HM0360_image_capture
+C:/Users/miche/Desktop/my_designs/HM0360/button_code_timeout
+button_code_timeout
+#Start recording tcl command: 12/1/2022 17:17:53
+#Project Location: C:/Users/miche/Desktop/my_designs/HM0360/button_code_timeout; Project name: button_code_timeout
+prj_open "C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/HM0360_image_capture.rdf"
+prj_close
+prj_create -name "button_code_timeout" -impl "button_code_timeout_impl" -dev LIFCL-40-8MG289C -performance "8_High-Performance_1.0V" -synthesis "lse"
+prj_save 
+#Stop recording: 12/1/2022 17:17:53

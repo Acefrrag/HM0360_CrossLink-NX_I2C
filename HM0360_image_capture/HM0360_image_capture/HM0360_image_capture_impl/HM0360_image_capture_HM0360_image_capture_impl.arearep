@@ -1,0 +1,226 @@
+----------------------------------------------------------------------
+Report for cell HM0360_Interface_top_level.TECH
+Register bits:  273 of 32256 (0.846%)
+I/O cells:      19
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                                 BB         1          100.0
+                               CCU2       438          100.0
+                            FD1P3DX       135          100.0
+                            FD1P3IX       137          100.0
+                            FD1P3JX         1          100.0
+                                GSR         1          100.0
+                                 IB         3          100.0
+                               LUT4       458          100.0
+                                 OB        16          100.0
+                            WIDEFN9        33          100.0
+SUB MODULES
+                   HM0360_Interface         1
+HM0360_serial_master(system_clock_f=27000000,two_wire_f=1000000,slave_id="0100100")         1
+                         I2C_module         1
+               configuration_module         1
+        counter(end_value=13500000)         1
+         counter(end_value=6750000)         1
+               counter(end_value=7)         1
+      debounce_2(stable_time=100.0)         1
+   debounce_2(stable_time=100.0)_U0         1
+                 gen_config_command         1
+prescaler(input_frequency=54000000,output_frequency=1)         1
+      prescaler(output_frequency=1)         1
+prescaler(output_frequency=1000000)         1
+                 read_config_module         1
+                    sample_and_hold         1
+                    trig_acq_module         1
+                              TOTAL      1239
+----------------------------------------------------------------------
+Report for cell gen_config_command.v1
+Instance Path : gen_config_command_comp
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               CCU2       129           29.5
+                            FD1P3DX        34           25.2
+                            FD1P3IX        31           22.6
+                            FD1P3JX         1          100.0
+                               LUT4        46           10.0
+SUB MODULES
+         counter(end_value=6750000)         1
+      prescaler(output_frequency=1)         1
+                              TOTAL       243
+----------------------------------------------------------------------
+Report for cell prescaler(output_frequency=1).v1
+Instance Path : gen_config_command_comp.prescaler_comp
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               CCU2       113           25.8
+                            FD1P3DX         1            0.7
+                            FD1P3IX        31           22.6
+                               LUT4        32            7.0
+SUB MODULES
+         counter(end_value=6750000)         1
+                              TOTAL       178
+----------------------------------------------------------------------
+Report for cell counter(end_value=6750000).v1
+Instance Path : gen_config_command_comp.prescaler_comp.counter_comp
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               CCU2       113           25.8
+                            FD1P3DX         1            0.7
+                            FD1P3IX        31           22.6
+                               LUT4        32            7.0
+                              TOTAL       177
+----------------------------------------------------------------------
+Report for cell debounce_2(stable_time=100.0)_U0.v1
+Instance Path : debounce_acq_trig
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               CCU2        12            2.7
+                            FD1P3DX         3            2.2
+                            FD1P3IX        22           16.1
+                               LUT4        10            2.2
+                              TOTAL        47
+----------------------------------------------------------------------
+Report for cell HM0360_Interface.v1
+Instance Path : HM0360_Interface_comp
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                                 BB         1          100.0
+                               CCU2       174           39.7
+                            FD1P3DX        92           68.1
+                            FD1P3IX        31           22.6
+                               LUT4       357           77.9
+                            WIDEFN9        33          100.0
+SUB MODULES
+HM0360_serial_master(system_clock_f=27000000,two_wire_f=1000000,slave_id="0100100")         1
+                         I2C_module         1
+               configuration_module         1
+               counter(end_value=7)         1
+prescaler(output_frequency=1000000)         1
+                 read_config_module         1
+                    trig_acq_module         1
+                              TOTAL       695
+----------------------------------------------------------------------
+Report for cell I2C_module.v1
+Instance Path : HM0360_Interface_comp.I2C_module_comp
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                                 BB         1          100.0
+                               CCU2       174           39.7
+                            FD1P3DX        92           68.1
+                            FD1P3IX        31           22.6
+                               LUT4       357           77.9
+                            WIDEFN9        33          100.0
+SUB MODULES
+HM0360_serial_master(system_clock_f=27000000,two_wire_f=1000000,slave_id="0100100")         1
+               configuration_module         1
+               counter(end_value=7)         1
+prescaler(output_frequency=1000000)         1
+                 read_config_module         1
+                    trig_acq_module         1
+                              TOTAL       694
+----------------------------------------------------------------------
+Report for cell trig_acq_module.v1
+Instance Path : HM0360_Interface_comp.I2C_module_comp.trig_acq_module_comp
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3DX         2            1.5
+                               LUT4         4            0.9
+                              TOTAL         6
+----------------------------------------------------------------------
+Report for cell read_config_module.v1
+Instance Path : HM0360_Interface_comp.I2C_module_comp.read_config_module_comp
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3DX         2            1.5
+                               LUT4         5            1.1
+                              TOTAL         7
+----------------------------------------------------------------------
+Report for cell configuration_module.v1
+Instance Path : HM0360_Interface_comp.I2C_module_comp.configuration_module_comp
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3DX         4            3.0
+                               LUT4        47           10.3
+                            WIDEFN9         5           15.2
+                              TOTAL        56
+----------------------------------------------------------------------
+Report for cell HM0360_serial_master(system_clock_f=27000000,two_wire_f=1000000,slave_id="0100100").v1
+Instance Path : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                                 BB         1          100.0
+                               CCU2       174           39.7
+                            FD1P3DX        84           62.2
+                            FD1P3IX        31           22.6
+                               LUT4       281           61.4
+                            WIDEFN9        28           84.8
+SUB MODULES
+               counter(end_value=7)         1
+prescaler(output_frequency=1000000)         1
+                              TOTAL       601
+----------------------------------------------------------------------
+Report for cell prescaler(output_frequency=1000000).v1
+Instance Path : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.prescaler_comp
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               CCU2       127           29.0
+                            FD1P3DX         2            1.5
+                            FD1P3IX        31           22.6
+                               LUT4        36            7.9
+SUB MODULES
+               counter(end_value=7)         1
+                              TOTAL       197
+----------------------------------------------------------------------
+Report for cell counter(end_value=7).v1
+Instance Path : HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.prescaler_comp.counter_comp
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               CCU2       127           29.0
+                            FD1P3DX         2            1.5
+                            FD1P3IX        31           22.6
+                               LUT4        36            7.9
+                              TOTAL       196
+----------------------------------------------------------------------
+Report for cell sample_and_hold.v1
+Instance Path : sample_and_hold_comp
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               CCU2       111           25.3
+                            FD1P3DX         3            2.2
+                            FD1P3IX        31           22.6
+                               LUT4        31            6.8
+SUB MODULES
+        counter(end_value=13500000)         1
+prescaler(input_frequency=54000000,output_frequency=1)         1
+                              TOTAL       178
+----------------------------------------------------------------------
+Report for cell prescaler(input_frequency=54000000,output_frequency=1).v1
+Instance Path : sample_and_hold_comp.prescaler_comp
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               CCU2       111           25.3
+                            FD1P3DX         1            0.7
+                            FD1P3IX        31           22.6
+                               LUT4        31            6.8
+SUB MODULES
+        counter(end_value=13500000)         1
+                              TOTAL       175
+----------------------------------------------------------------------
+Report for cell counter(end_value=13500000).v1
+Instance Path : sample_and_hold_comp.prescaler_comp.counter_comp
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               CCU2       111           25.3
+                            FD1P3DX         1            0.7
+                            FD1P3IX        31           22.6
+                               LUT4        31            6.8
+                              TOTAL       174
+----------------------------------------------------------------------
+Report for cell debounce_2(stable_time=100.0).v1
+Instance Path : debounce_command
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               CCU2        12            2.7
+                            FD1P3DX         3            2.2
+                            FD1P3IX        22           16.1
+                               LUT4        10            2.2
+                              TOTAL        47

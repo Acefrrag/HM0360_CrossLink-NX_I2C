@@ -1,0 +1,12 @@
+#Start recording tcl command: 12/2/2022 08:43:37
+#Project Location: C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture; Project name: HM0360_image_capture
+C:/Users/miche/Desktop/my_designs/HM0360/sample_and_hold
+sample_and_hold
+#Start recording tcl command: 12/2/2022 08:47:58
+#Project Location: C:/Users/miche/Desktop/my_designs/HM0360/sample_and_hold; Project name: sample_and_hold
+prj_open "C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/HM0360_image_capture.rdf"
+prj_save 
+prj_close
+prj_create -name "sample_and_hold" -impl "sample_and_hold_impl" -dev LIFCL-40-8MG289C -performance "8_High-Performance_1.0V" -synthesis "lse"
+prj_save 
+#Stop recording: 12/2/2022 08:47:58

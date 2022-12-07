@@ -1,0 +1,19 @@
+<RadiantSimulationProject name="HM0360_image_capture_sim" simType="ModelSim" version="2.0" stage="0" language="1" path=".">
+    <Source worklib="work" path="source/HM0360_image_capture_impl/image_buffer.vhd" langstandard="VHDL_2008" type="VHDL" include="none"/>
+    <Source worklib="work" path="source/HM0360_image_capture_impl/I2C_module.vhd" langstandard="VHDL_2008" type="VHDL" include="none"/>
+    <Source worklib="work" path="source/HM0360_image_capture_impl/HM0360_Interface.vhd" langstandard="VHDL_2008" type="VHDL" include="none"/>
+    <Source worklib="work" path="source/HM0360_image_capture_impl/debounce.vhd" langstandard="VHDL_2008" type="VHDL" include="none"/>
+    <Source worklib="work" path="source/HM0360_image_capture_impl/counter.vhd" langstandard="VHDL_2008" type="VHDL" include="none"/>
+    <Source worklib="work" path="source/HM0360_image_capture_impl/prescaler.vhd" langstandard="VHDL_2008" type="VHDL" include="none"/>
+    <Source worklib="work" path="source/HM0360_image_capture_impl/HM0360_serial_master.vhd" langstandard="VHDL_2008" type="VHDL" include="none"/>
+    <Source worklib="work" path="source/HM0360_image_capture_impl/configuration_module.vhd" langstandard="VHDL_2008" type="VHDL" include="none"/>
+    <Source worklib="work" path="source/HM0360_image_capture_impl/trig_acq_module.vhd" langstandard="VHDL_2008" type="VHDL" include="none"/>
+    <Source worklib="work" path="source/HM0360_image_capture_impl/pic_source.vhd" langstandard="VHDL_2008" type="VHDL" include="none"/>
+    <Source worklib="work" path="source/HM0360_image_capture_impl/HM0360_Interface_tb.vhd" langstandard="VHDL_2008" type="VHDL" include="none"/>
+    <Source worklib="work" path="source/HM0360_image_capture_impl/pic_source_tb.vhd" langstandard="VHDL_2008" type="VHDL" include="none"/>
+    <SimLib value="pmi_work ovi_lifcl"/>
+    <GlbInc value=""/>
+    <Macro value=""/>
+    <Udo value=""/>
+    <TopModule name="HM0360_Interface" language="VHDL" instance=""/>
+</RadiantSimulationProject>

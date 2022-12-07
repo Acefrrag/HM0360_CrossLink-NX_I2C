@@ -1,0 +1,5 @@
+#Start recording tcl command: 12/1/2022 13:36:57
+#Project Location: C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture; Project name: HM0360_image_capture
+prj_open "C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/HM0360_image_capture.rdf"
+prj_run Export -impl HM0360_image_capture_impl
+#Stop recording: 12/1/2022 13:53:46

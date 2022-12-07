@@ -1,0 +1,146 @@
+%%% protect protected_file
+#OPTIONS:"|-bldtbl|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-ignore_undefined_lib|-lib|pmi|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\radiant\\3.2\\synpbase\\bin64\\c_vhdl.exe":1656451202
+#CUR:"C:\\lscc\\radiant\\3.2\\synpbase\\lib\\vhd2008\\location.map":1656451216
+#CUR:"C:\\lscc\\radiant\\3.2\\synpbase\\lib\\vhd2008\\std.vhd":1656451216
+#CUR:"C:\\lscc\\radiant\\3.2\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1656451216
+#CUR:"C:\\lscc\\radiant\\3.2\\synpbase\\lib\\vhd2008\\std1164.vhd":1656451216
+#CUR:"C:\\lscc\\radiant\\3.2\\synpbase\\lib\\vhd2008\\std_textio.vhd":1656451216
+#CUR:"C:\\lscc\\radiant\\3.2\\synpbase\\lib\\vhd2008\\numeric.vhd":1656451216
+#CUR:"C:\\lscc\\radiant\\3.2\\synpbase\\lib\\vhd\\umr_capim.vhd":1656451216
+#CUR:"C:\\lscc\\radiant\\3.2\\synpbase\\lib\\vhd2008\\arith.vhd":1656451216
+#CUR:"C:\\lscc\\radiant\\3.2\\synpbase\\lib\\vhd2008\\unsigned.vhd":1656451216
+#CUR:"C:\\lscc\\radiant\\3.2\\ip\\pmi\\pmi_lifcl.vhd":1648540488
+#CUR:"C:\\Users\\miche\\Desktop\\my_designs\\HM0360_image_capture\\source\\HM0360_image_capture_impl\\counter.vhd":1667215205
+#CUR:"C:\\lscc\\radiant\\3.2\\synpbase\\lib\\vhd\\math_real.vhd":1656451216
+#CUR:"C:\\Users\\miche\\Desktop\\my_designs\\HM0360_image_capture\\source\\HM0360_image_capture_impl\\debounce.vhd":1664902791
+#CUR:"C:\\Users\\miche\\Desktop\\my_designs\\HM0360_image_capture\\source\\HM0360_image_capture_impl\\configuration_module.vhd":1668953511
+#CUR:"C:\\Users\\miche\\Desktop\\my_designs\\HM0360_image_capture\\source\\HM0360_image_capture_impl\\trig_acq_module.vhd":1668182164
+#CUR:"C:\\Users\\miche\\Desktop\\my_designs\\HM0360_image_capture\\source\\HM0360_image_capture_impl\\image_buffer.vhd":1668899028
+#CUR:"C:\\Users\\miche\\Desktop\\my_designs\\HM0360_image_capture\\source\\HM0360_image_capture_impl\\prescaler.vhd":1667152965
+#CUR:"C:\\Users\\miche\\Desktop\\my_designs\\HM0360_image_capture\\source\\HM0360_image_capture_impl\\HM0360_serial_master.vhd":1668203474
+#CUR:"C:\\Users\\miche\\Desktop\\my_designs\\HM0360_image_capture\\source\\HM0360_image_capture_impl\\I2C_module.vhd":1669055765
+#CUR:"C:\\Users\\miche\\Desktop\\my_designs\\HM0360_image_capture\\source\\HM0360_image_capture_impl\\HM0360_Interface.vhd":1669064205
+#CUR:"C:\\Users\\miche\\Desktop\\my_designs\\HM0360_image_capture\\source\\HM0360_image_capture_impl\\HM0360_Interface_top_level.vhd":1669055718
+@E8lFkRDC]dvjnQj_Ms0CVCNO_b0F_PDCCDD
+HNLssI$RF
+s	HkMb0pRBi
+R4HkMF07R1q
+R4Fbk0k10RB4pR
+bHMkH0RM_H0OVFMHLo_kF00MR_M4M
+HbRk00osH_JNO_0Lk0_FMM
+R4HkMF0vR]_RBu4M
+HFRk0]Bv_h
+R4HkMF0vR]_R7u4M
+HFRk0]7v_h
+R4Fbk0k]0RvB_vp4iR
+0FkbRk0]Bv_p1i_ 4pR
+0FkbRk0])v_a4BR
+0FkbRk0]1v_]7zam_Whh
+R4Fbk0k]0Rvp_1 _ uh
+R4Fbk0k80RN_0NF_k08kCLoR_MUM
+C88lFk
+DClkF8D]CRvnjdjM_Q0VCsN
+OCDsHLNRs$I	Fs
+bHMkB0Rp4iR
+FHMk10R74qR
+0FkbRk01RBp4M
+HbRk0H0MH_MOFVRHo4M
+HbRk00osH_JNORH4
+M0FkR_]vB4uR
+FHMk]0Rvh_BRH4
+M0FkR_]v74uR
+FHMk]0Rvh_7RF4
+kk0b0vR]_pvBi
+R4Fbk0k]0Rvp_Bi _1p
+R4Fbk0k]0Rva_)B
+R4Fbk0k]0Rv]_1zma7Whh_RF4
+kk0b0vR]_ 1p hu_RH4
+M0bkR7uq78)_CoLkRFc
+kk0b0NR80FN_k80_CoLkRFU
+kk0b00R8_8F_CoLkRCn
+MF8l8CkD
+8lFkRDCQ_.BlkF8DDC
+HNLssI$RF
+s	HkMb0pRBi
+R4HkMF07R1q
+R4Fbk0k10RB4pR
+bHMkH0RM_H0OVFMRH4
+M0bkRH0soO_NJ
+R4Fbk0kO0RFHMVoH_VMEH#C48R
+0FkbRk00osH_MVHHC#E8
+R4ClM8FD8kCF
+l8CkDRj]vd_nj#HCsNlD_NC#0sH
+DLssN$FRIsb	
+NlsNCs0CR##$0_ClOODF	R_wHCM0o
+CsbNNslCC0sIRaFH_WswC_R0HMCsoC
+sbNN0lCC#sRDCNP_RQ7#_08DHFoOC_POs0F
+bHMks0RC0#C_-MR4M
+HbRk0BRpi-H4
+M0FkRq17R
+-4Fbk0k10RB-pR4M
+HbRk0Ns88R
+-4HkMb0_R)W4R-
+bHMk80RN_0NI0sHC4R-
+0FkbRk08NN0_NsC84R-
+bHMk#0R00NsR
+-4Fbk0kV0RH#MHERC8-F4
+kk0b0sRCsRFs-F4
+kk0b0sRCs_Fs8kCLo4R-
+0FkbRk0LVkVC8s_CoLkR
+-4ClM8FD8kCF
+l8CkDRCbs#DONCDs
+HNLssI$RF
+s	bNNslCC0sMRHb_k0VJsCkOCM$MRH0CCosN
+bsCNl0RCsFbk0kV0_skCJC$MOR0HMCsoC
+bHMkB0RpQi_h4R-
+0FkbRk0B_pimRza-F4
+kk0b0ER#HCV08p_Biz_ma4R-
+8CMlkF8DlC
+FD8kClRHN_oCLVkVCDs
+HNLssI$RF
+s	HkMb0MRC_l#NbRDC4M
+HbRk0uiBpRH4
+M0bkR7uq7c)R
+bHMk70RRFU
+kk0b0NR80FN_kU0R
+8CMlkF8DlC
+FD8kCsR0HNo_OlJ_FD8kCH
+DLssN$FRIsH	
+M0bkRiBpRH4
+M0bkRH0soO_NJ
+R4HkMb0HRVMEH#Cs8_CFo_b
+R4Fbk0k80RN_0NI0sHC
+RUFbk0kN0R8R8s4Fn
+kk0b00R#NRs04M
+C88lFk
+DClkF8DOCRFHMVoNks0MHF_8lFk
+DCDsHLNRs$I	Fs
+bHMkB0Rp4iR
+bHMkH0RM_H0OVFMH4oR
+bHMkV0RH#MHE_C8s_CoF4bR
+0FkbRk08NN0_HIs0UCR
+0FkbRk0Ns88R
+4nFbk0k#0R00NsRC4
+MF8l8CkD
+8lFkRDC8FCLkCMO
+LDHs$NsRsIF	N
+bsCNl0RCsO_D	VJsCR0HMCsoC
+sbNN0lCC#sR0DNLCH_0lHCRMo0CCHs
+M0bkR	ODR
+-4HkMb0CRs#_C0M4R-
+bHMkL0RkF00M4R-
+0FkbRk0L0k0F8M_C-LR4M
+C88lFk
+DClkF8DOCRF0kMCDs
+HNLssI$RF
+s	bNNslCC0sMRC8N_PDRkCHCM0o
+CsHkMb0pRBih_QR
+-4Fbk0kB0Rpmi_z-aR4k
+F00bkRH#EV80C_iBp_amzR
+-4ClM8FD8kC
+
+
+
+
+@ 

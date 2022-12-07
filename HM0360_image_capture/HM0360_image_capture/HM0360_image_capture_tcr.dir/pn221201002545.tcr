@@ -1,0 +1,12 @@
+#Start recording tcl command: 11/30/2022 22:58:34
+#Project Location: C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture; Project name: HM0360_image_capture
+prj_open "C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/HM0360_image_capture.rdf"
+prj_add_source "C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/HM0360_image_capture/HM0360_image_capture.spf"
+prj_add_source "C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/HM0360_image_capture/HM0360_image_capture.spf"
+prj_disable_source "C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/source/HM0360_image_capture_impl/debounce_2_tb.vhd"
+prj_add_source "C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/HM0360_image_capture/HM0360_image_capture.spf"
+prj_add_source "C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/HM0360_image_capture/HM0360_image_capture.spf"
+prj_run Synthesis -impl HM0360_image_capture_impl
+prj_run Synthesis -impl HM0360_image_capture_impl
+prj_run Export -impl HM0360_image_capture_impl
+#Stop recording: 12/1/2022 00:25:45

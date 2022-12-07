@@ -1,0 +1,45 @@
+Resource Usage Report
+Part: lifcl_40-8
+
+Register bits: 345 of 32256 (1%)
+PIC Latch:       0
+I/O cells:       18
+
+Details:
+BB:             1
+BFD1P3KX:       1
+CCU2:           91
+DPHY:           1
+FD1P3IX:        333
+FD1P3JX:        6
+GSR:            1
+IB:             3
+INV:            17
+LUT4:           450
+OB:             14
+OFD1P3IX:       6
+PDP16K:         1
+PLL:            1
+VHI:            26
+VLO:            26
+WIDEFN9:        17
+
+Resource Usage inside macros:
+Registers: 0
+LUTs: 0
+EBRs: 0
+LRAMs: 0
+DSPs: 0
+Distributed RAMs: 0
+Carry Chains: 0
+Blackboxes: 0
+
+Mapping Summary:
+Total number of registers: 345 + 0 = 345 of 32256 (1.07%)
+Total number of LUTs: 450 + 0 = 450 
+Total number of EBRs: 1 + 0 = 1 of 84 (1.19%)
+Total number of LRAMs: 0 + 0 = 0 of 2 (0.00%)
+Total number of DSPs: 0 + 0 = 0 of 56 (0.00%)
+Total number of Distributed RAMs: 0 + 0 = 0 
+Total number of Carry Chains: 91 + 0 = 91 
+Total number of BlackBoxes: 55 + 0 = 55 

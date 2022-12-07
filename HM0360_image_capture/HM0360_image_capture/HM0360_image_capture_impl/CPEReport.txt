@@ -1,0 +1,7 @@
+###File created by Lattice CPE. Do not modify.###
+create_clock -name {clki_i} -period 37.037 [get_ports clki_i] originating in instance PLL_sync_comp was removed because it is a create_clock on IP input, which should be redefined at top level.
+create_clock -name {clki_i} -period 37.037 [get_ports clki_i] originating in instance PLL_sync_clk_comp was removed because it is a create_clock on IP input, which should be redefined at top level.
+# IO_TYPE constraint - Refclk originating in instance PLL_sync_comp was updated to # IO_TYPE constraint - Refclk and kept.
+
+# IO_TYPE constraint - Refclk originating in instance PLL_sync_clk_comp was updated to # IO_TYPE constraint - Refclk and kept.
+

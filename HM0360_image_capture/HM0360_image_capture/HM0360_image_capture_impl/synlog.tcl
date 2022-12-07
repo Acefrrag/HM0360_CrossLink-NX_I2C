@@ -1,0 +1,1 @@
+run_tcl -fg HM0360_image_capture_HM0360_image_capture_impl_synplify.tcl

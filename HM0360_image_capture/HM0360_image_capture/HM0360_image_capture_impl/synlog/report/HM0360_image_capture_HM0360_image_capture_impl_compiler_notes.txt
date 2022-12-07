@@ -1,0 +1,258 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface_top_level.vhd":6:7:6:32|Top entity is set to HM0360_Interface_top_level.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\lscc\radiant\3.2\ip\pmi\pmi_lifcl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\debounce.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\configuration_module.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\trig_acq_module.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\image_buffer.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\prescaler.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_serial_master.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\I2C_module.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface_top_level.vhd'.
+@N: CD231 :"C:\lscc\radiant\3.2\synpbase\lib\vhd2008\std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N|Running in 64-bit mode
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../common/adder_subtractor/rtl\lscc_add_sub.v":313:13:313:25|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../common/adder_subtractor/rtl\lscc_add_sub.v":333:13:333:24|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\pmi_complex_mult.v":92:11:92:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\pmi_complex_mult.v":101:11:101:22|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../common/counter/rtl\lscc_cntr.v":129:13:129:25|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../common/counter/rtl\lscc_cntr.v":143:13:143:24|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../common/ram_shift_reg/rtl\lscc_shift_register.v":132:25:132:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../common/ram_shift_reg/rtl\lscc_shift_register.v":136:25:136:36|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../common/ram_shift_reg/rtl\lscc_shift_register.v":174:29:174:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../common/ram_shift_reg/rtl\lscc_shift_register.v":178:29:178:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../common/ram_shift_reg/rtl\lscc_shift_register.v":214:29:214:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../common/ram_shift_reg/rtl\lscc_shift_register.v":218:29:218:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\pmi_distributed_shift_reg.v":126:11:126:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\pmi_distributed_shift_reg.v":135:11:135:22|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../avant/fifo/rtl\lscc_fifo.v":3273:17:3273:29|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../avant/fifo/rtl\lscc_fifo.v":3280:17:3280:28|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../avant/fifo_dc/rtl\lscc_fifo_dc.v":4879:25:4879:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../avant/fifo_dc/rtl\lscc_fifo_dc.v":4883:25:4883:36|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../avant/fifo_dc/rtl\lscc_fifo_dc.v":4914:29:4914:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../avant/fifo_dc/rtl\lscc_fifo_dc.v":4918:29:4918:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\pmi_mac.v":94:11:94:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\pmi_mac.v":109:11:109:22|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../common/mult_add_sub_sum/rtl\lscc_mult_add_sub_sum.v":210:13:210:25|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../common/mult_add_sub_sum/rtl\lscc_mult_add_sub_sum.v":227:13:227:24|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\pmi_multaddsubsum.v":84:11:84:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\pmi_multaddsubsum.v":93:11:93:22|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\pmi_multaddsub.v":91:11:91:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\pmi_multaddsub.v":100:11:100:22|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\pmi_mult.v":87:11:87:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\pmi_mult.v":96:11:96:22|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp/rtl\lscc_ram_dp.v":1077:25:1077:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp/rtl\lscc_ram_dp.v":1081:25:1081:36|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp/rtl\lscc_ram_dp.v":1112:29:1112:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp/rtl\lscc_ram_dp.v":1116:29:1116:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\pmi_ram_dp_be.v":146:11:146:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\pmi_ram_dp_be.v":155:11:155:22|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":1830:29:1830:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":1835:29:1835:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":1866:33:1866:45|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":1870:33:1870:44|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":1903:29:1903:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":1908:29:1908:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":1938:33:1938:45|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":1942:33:1942:44|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":2454:29:2454:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":2459:29:2459:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":2490:33:2490:45|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":2494:33:2494:44|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":2527:29:2527:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":2532:29:2532:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":2563:33:2563:45|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":2567:33:2567:44|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":3050:29:3050:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":3055:29:3055:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":3086:33:3086:45|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":3090:33:3090:44|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":3123:29:3123:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":3128:29:3128:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":3159:33:3159:45|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":3163:33:3163:44|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dq/rtl\lscc_ram_dq.v":1465:25:1465:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dq/rtl\lscc_ram_dq.v":1471:25:1471:36|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\pmi_ram_dq_be.v":87:11:87:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\pmi_ram_dq_be.v":95:11:95:22|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../avant/rom/rtl\lscc_rom.v":955:25:955:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../avant/rom/rtl\lscc_rom.v":961:25:961:36|Read directive translate_on.
+@N:"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface_top_level.vhd":6:7:6:32|Top entity is set to HM0360_Interface_top_level.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\lscc\radiant\3.2\ip\pmi\pmi_lifcl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\debounce.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\configuration_module.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\trig_acq_module.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\image_buffer.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\prescaler.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_serial_master.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\I2C_module.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface_top_level.vhd'.
+@N: CD231 :"C:\lscc\radiant\3.2\synpbase\lib\vhd2008\std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface_top_level.vhd":6:7:6:32|Synthesizing work.hm0360_interface_top_level.behavioral.
+@N: CD630 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd":6:7:6:22|Synthesizing work.hm0360_interface.behavioral.
+@N: CD630 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\image_buffer.vhd":10:7:10:18|Synthesizing work.image_buffer.behavioral.
+@N: CL134 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\image_buffer.vhd":23:7:23:17|Found RAM buffer_data, depth=16, width=8
+@N: CD630 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\I2C_module.vhd":5:7:5:16|Synthesizing work.i2c_module.behavioral.
+@N: CD604 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\I2C_module.vhd":148:0:148:13|OTHERS clause is not synthesized.
+@N: CD630 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\configuration_module.vhd":5:7:5:26|Synthesizing work.configuration_module.behavioral.
+@N: CD231 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\configuration_module.vhd":18:17:18:18|Using onehot encoding for type fsm_state_t. For example, enumeration idle_s is mapped to "10000000000000".
+@N: CD630 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\trig_acq_module.vhd":5:7:5:21|Synthesizing work.trig_acq_module.behavioral.
+@N: CD233 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\trig_acq_module.vhd":18:17:18:18|Using sequential encoding for type fsm_state_t.
+@N: CD630 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_serial_master.vhd":5:7:5:26|Synthesizing work.hm0360_serial_master.behavioral.
+@N: CD231 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_serial_master.vhd":31:22:31:23|Using onehot encoding for type hm0360_fsm_state. For example, enumeration idle_s is mapped to "10000000000000".
+@N: CD630 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\prescaler.vhd":6:7:6:15|Synthesizing work.prescaler.behavioral.
+@N: CD630 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":5:7:5:13|Synthesizing work.counter.behavioral.
+@N: CD630 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\prescaler.vhd":6:7:6:15|Synthesizing work.prescaler.behavioral.
+@N: CD630 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":5:7:5:13|Synthesizing work.counter.behavioral.
+@N: CD630 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\debounce.vhd":29:7:29:14|Synthesizing work.debounce.logic.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface_top_level.vhd":143:0:143:1|Register bit mux_data_out_debug(7) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface_top_level.vhd":143:0:143:1|Register bit mux_data_out_debug(6) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(3) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(4) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(5) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(6) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(7) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(8) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(9) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(10) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(11) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(12) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(13) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(14) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(15) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(16) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(17) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(18) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(19) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(20) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(21) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(22) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(23) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(24) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(25) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(26) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(27) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(28) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(29) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(30) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(9) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(10) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(11) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(12) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(13) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(14) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(15) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(16) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(17) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(18) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(19) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(20) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(21) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(22) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(23) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(24) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(25) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(26) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(27) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(28) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(29) is always 0.
+@N: CL189 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\counter.vhd":27:0:27:1|Register bit c(30) is always 0.
+@N: CL201 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_serial_master.vhd":92:1:92:2|Trying to extract state machine for register pr_state.
+@N: CL159 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\source\HM0360_image_capture_impl\HM0360_Interface.vhd":27:0:27:10|Input PADDR_debug is unused.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../common/adder_subtractor/rtl\lscc_add_sub.v":313:13:313:25|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../common/adder_subtractor/rtl\lscc_add_sub.v":333:13:333:24|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\pmi_complex_mult.v":92:11:92:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\pmi_complex_mult.v":101:11:101:22|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../common/counter/rtl\lscc_cntr.v":129:13:129:25|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../common/counter/rtl\lscc_cntr.v":143:13:143:24|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../common/ram_shift_reg/rtl\lscc_shift_register.v":132:25:132:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../common/ram_shift_reg/rtl\lscc_shift_register.v":136:25:136:36|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../common/ram_shift_reg/rtl\lscc_shift_register.v":174:29:174:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../common/ram_shift_reg/rtl\lscc_shift_register.v":178:29:178:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../common/ram_shift_reg/rtl\lscc_shift_register.v":214:29:214:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../common/ram_shift_reg/rtl\lscc_shift_register.v":218:29:218:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\pmi_distributed_shift_reg.v":126:11:126:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\pmi_distributed_shift_reg.v":135:11:135:22|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../avant/fifo/rtl\lscc_fifo.v":3273:17:3273:29|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../avant/fifo/rtl\lscc_fifo.v":3280:17:3280:28|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../avant/fifo_dc/rtl\lscc_fifo_dc.v":4879:25:4879:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../avant/fifo_dc/rtl\lscc_fifo_dc.v":4883:25:4883:36|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../avant/fifo_dc/rtl\lscc_fifo_dc.v":4914:29:4914:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../avant/fifo_dc/rtl\lscc_fifo_dc.v":4918:29:4918:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\pmi_mac.v":94:11:94:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\pmi_mac.v":109:11:109:22|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../common/mult_add_sub_sum/rtl\lscc_mult_add_sub_sum.v":210:13:210:25|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../common/mult_add_sub_sum/rtl\lscc_mult_add_sub_sum.v":227:13:227:24|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\pmi_multaddsubsum.v":84:11:84:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\pmi_multaddsubsum.v":93:11:93:22|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\pmi_multaddsub.v":91:11:91:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\pmi_multaddsub.v":100:11:100:22|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\pmi_mult.v":87:11:87:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\pmi_mult.v":96:11:96:22|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp/rtl\lscc_ram_dp.v":1077:25:1077:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp/rtl\lscc_ram_dp.v":1081:25:1081:36|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp/rtl\lscc_ram_dp.v":1112:29:1112:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp/rtl\lscc_ram_dp.v":1116:29:1116:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\pmi_ram_dp_be.v":146:11:146:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\pmi_ram_dp_be.v":155:11:155:22|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":1830:29:1830:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":1835:29:1835:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":1866:33:1866:45|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":1870:33:1870:44|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":1903:29:1903:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":1908:29:1908:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":1938:33:1938:45|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":1942:33:1942:44|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":2454:29:2454:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":2459:29:2459:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":2490:33:2490:45|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":2494:33:2494:44|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":2527:29:2527:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":2532:29:2532:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":2563:33:2563:45|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":2567:33:2567:44|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":3050:29:3050:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":3055:29:3055:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":3086:33:3086:45|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":3090:33:3090:44|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":3123:29:3123:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":3128:29:3128:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":3159:33:3159:45|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dp_true/rtl\lscc_ram_dp_true.v":3163:33:3163:44|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dq/rtl\lscc_ram_dq.v":1465:25:1465:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../avant/ram_dq/rtl\lscc_ram_dq.v":1471:25:1471:36|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\pmi_ram_dq_be.v":87:11:87:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\pmi_ram_dq_be.v":95:11:95:22|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.2\ip\pmi\../avant/rom/rtl\lscc_rom.v":955:25:955:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.2\ip\pmi\../avant/rom/rtl\lscc_rom.v":961:25:961:36|Read directive translate_on.
+@N: CG364 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\HM0360_CSI2_DPHY\rtl\HM0360_CSI2_DPHY.v":11:7:11:22|Synthesizing module HM0360_CSI2_DPHY in library work.
+@N: CG364 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\PLL_sync_clk\rtl\PLL_sync_clk.v":155:7:155:33|Synthesizing module PLL_sync_clk_ipgen_lscc_pll in library work.
+@N: CG364 :"C:\lscc\radiant\3.2\synpbase\lib\lucent\lifcl.v":9891:7:9891:9|Synthesizing module PLL in library work.
+@N: CG364 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\PLL_sync_clk\rtl\PLL_sync_clk.v":11:7:11:18|Synthesizing module PLL_sync_clk in library work.
+@N: CL159 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\PLL_sync_clk\rtl\PLL_sync_clk.v":256:10:256:20|Input usr_fbclk_i is unused.
+@N: CL159 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\PLL_sync_clk\rtl\PLL_sync_clk.v":280:10:280:20|Input refdetreset is unused.
+@N: CL159 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\PLL_sync_clk\rtl\PLL_sync_clk.v":293:10:293:19|Input apb_pclk_i is unused.
+@N: CL159 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\PLL_sync_clk\rtl\PLL_sync_clk.v":294:10:294:23|Input apb_preset_n_i is unused.
+@N: CL159 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\PLL_sync_clk\rtl\PLL_sync_clk.v":295:15:295:27|Input apb_penable_i is unused.
+@N: CL159 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\PLL_sync_clk\rtl\PLL_sync_clk.v":296:15:296:24|Input apb_psel_i is unused.
+@N: CL159 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\PLL_sync_clk\rtl\PLL_sync_clk.v":297:15:297:26|Input apb_pwrite_i is unused.
+@N: CL159 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\PLL_sync_clk\rtl\PLL_sync_clk.v":298:21:298:31|Input apb_paddr_i is unused.
+@N: CL159 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\PLL_sync_clk\rtl\PLL_sync_clk.v":299:21:299:32|Input apb_pwdata_i is unused.
+@N: CL159 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\HM0360_CSI2_DPHY\rtl\HM0360_CSI2_DPHY.v":6908:15:6908:27|Input lmmi_resetn_i is unused.
+@N: CL159 :"C:\Users\miche\Desktop\my_designs\HM0360_image_capture\HM0360_CSI2_DPHY\rtl\HM0360_CSI2_DPHY.v":6912:15:6912:28|Input lmmi_request_i is unused.
+@N: CL159 :"C:\lscc\radiant\3.2\ip\pmi\../avant/fifo_dc/rtl\lscc_fifo_dc.v":7443:32:7443:46|Input rd_out_clk_en_i is unused.
+@N: CL159 :"C:\lscc\radiant\3.2\ip\pmi\../avant/fifo_dc/rtl\lscc_fifo_dc.v":7450:32:7450:36|Input ben_i is unused.
+@N: CL159 :"C:\lscc\radiant\3.2\ip\pmi\../avant/fifo_dc/rtl\lscc_fifo_dc.v":4456:34:4456:38|Input ben_i is unused.
+@N: CL159 :"C:\lscc\radiant\3.2\ip\pmi\../avant/fifo_dc/rtl\lscc_fifo_dc.v":3081:28:3081:43|Input almost_full_th_i is unused.
+@N: CL159 :"C:\lscc\radiant\3.2\ip\pmi\../avant/fifo_dc/rtl\lscc_fifo_dc.v":3082:28:3082:47|Input almost_full_clr_th_i is unused.
+@N: CL159 :"C:\lscc\radiant\3.2\ip\pmi\../avant/fifo_dc/rtl\lscc_fifo_dc.v":3083:28:3083:44|Input almost_empty_th_i is unused.
+@N: CL159 :"C:\lscc\radiant\3.2\ip\pmi\../avant/fifo_dc/rtl\lscc_fifo_dc.v":3084:28:3084:48|Input almost_empty_clr_th_i is unused.
+@N: CL159 :"C:\lscc\radiant\3.2\ip\pmi\../avant/fifo/rtl\lscc_fifo.v":260:26:260:30|Input clk_i is unused.
+@N: CL159 :"C:\lscc\radiant\3.2\ip\pmi\../avant/fifo/rtl\lscc_fifo.v":261:26:261:30|Input rst_i is unused.
+@N|Running in 64-bit mode
+

@@ -1,0 +1,162 @@
+i HM0360_Interface_comp.HM0360_CSI2_DPHY_comp.lscc_dphy_rx_inst.CIL_TOP®u_hard_dphy.clk_byte_o_i
+m 0 0
+u 7 53
+p {t:HM0360_Interface_comp.HM0360_CSI2_DPHY_comp.lscc_dphy_rx_inst.CIL_TOP\.u_hard_dphy.u_dphy_cil.URWDCKHS}{t:HM0360_Interface_comp.HM0360_CSI2_DPHY_comp.lscc_dphy_rx_inst.CIL_TOP\.u_hard_dphy.clk_byte_o_inferred_clock.I[0]}{t:HM0360_Interface_comp.HM0360_CSI2_DPHY_comp.lscc_dphy_rx_inst.CIL_TOP\.u_hard_dphy.clk_byte_o_inferred_clock.OUT[0]}{t:HM0360_Interface_comp.HM0360_CSI2_DPHY_comp.lscc_dphy_rx_inst.CIL_TOP\.u_hard_dphy.u_hs_rx_data_r[7:0].C}
+e ckid0_0 {t:HM0360_Interface_comp.HM0360_CSI2_DPHY_comp.lscc_dphy_rx_inst.CIL_TOP\.u_hard_dphy.u_hs_rx_data_r[7:0].C} dffr
+c ckid0_0 {t:HM0360_Interface_comp.HM0360_CSI2_DPHY_comp.lscc_dphy_rx_inst.CIL_TOP\.u_hard_dphy.u_dphy_cil.URWDCKHS} DPHY_Z2_layer1 Unsupported/too complex instance on clock path
+i HM0360_Interface_comp.prescaler_6MHz.counter_comp.CLK_OUT_int
+m 0 0
+u 30 165
+n ckid0_1 {t:HM0360_Interface_comp.HM0360_CSI2_DPHY_comp.lscc_dphy_rx_inst.CIL_TOP\.u_hard_dphy.fr_fifo_0.u_fifo0.fifo_dc0._FABRIC\.u_fifo.EBR\.genblk12\.u_fifo_mem0.mem_main.NON_MIX\.ADDR_ROUTE\[0\]\.DATA_ROUTE\[0\]\.no_init\.u_mem0.LIFCL_MEM\.pdp16k.CLKR} Clock Optimization not enabled
+p {p:HM0360_Interface_comp.HM0360_CSI2_DPHY_comp.lscc_dphy_rx_inst.CIL_TOP\.u_hard_dphy.fr_fifo_0.u_fifo0.fifo_dc0._FABRIC\.u_fifo.EBR\.genblk12\.u_fifo_mem0.mem_main.NON_MIX\.ADDR_ROUTE\[0\]\.DATA_ROUTE\[0\]\.no_init\.u_mem0.rd_clk_i}{t:HM0360_Interface_comp.HM0360_CSI2_DPHY_comp.lscc_dphy_rx_inst.CIL_TOP\.u_hard_dphy.fr_fifo_0.u_fifo0.fifo_dc0._FABRIC\.u_fifo.EBR\.genblk12\.u_fifo_mem0.mem_main.NON_MIX\.ADDR_ROUTE\[0\]\.DATA_ROUTE\[0\]\.no_init\.u_mem0.LIFCL_MEM\.pdp16k.CLKR}
+e ckid0_1 {t:HM0360_Interface_comp.HM0360_CSI2_DPHY_comp.lscc_dphy_rx_inst.CIL_TOP\.u_hard_dphy.fr_fifo_0.u_fifo0.fifo_dc0._FABRIC\.u_fifo.EBR\.genblk12\.u_fifo_mem0.mem_main.NON_MIX\.ADDR_ROUTE\[0\]\.DATA_ROUTE\[0\]\.no_init\.u_mem0.LIFCL_MEM\.pdp16k.CLKR} PDP16K
+p {p:HM0360_Interface_comp.HM0360_CSI2_DPHY_comp.lscc_dphy_rx_inst.CIL_TOP\.u_hard_dphy.fr_fifo_0.u_fifo0.fifo_dc0._FABRIC\.u_fifo.rd_clk_i}{t:HM0360_Interface_comp.HM0360_CSI2_DPHY_comp.lscc_dphy_rx_inst.CIL_TOP\.u_hard_dphy.fr_fifo_0.u_fifo0.fifo_dc0._FABRIC\.u_fifo.async_rd_controller\.empty_r.C}
+e ckid0_2 {t:HM0360_Interface_comp.HM0360_CSI2_DPHY_comp.lscc_dphy_rx_inst.CIL_TOP\.u_hard_dphy.fr_fifo_0.u_fifo0.fifo_dc0._FABRIC\.u_fifo.async_rd_controller\.empty_r.C} dffs
+p {p:ENCRYPTED}{t:ENCRYPTED}
+e ckid0_3 {t:ENCRYPTED} <ENCRYPTED>
+p {p:HM0360_Interface_comp.HM0360_CSI2_DPHY_comp.lscc_dphy_rx_inst.ENCINST0.clk_byte_fr_i}{t:HM0360_Interface_comp.HM0360_CSI2_DPHY_comp.lscc_dphy_rx_inst.CIL_TOP\.u_hard_dphy.toggle.C}
+e ckid0_4 {t:HM0360_Interface_comp.HM0360_CSI2_DPHY_comp.lscc_dphy_rx_inst.CIL_TOP\.u_hard_dphy.toggle.C} dffe
+d ckid0_1,ckid0_2,ckid0_3,ckid0_4 {t:HM0360_Interface_comp.prescaler_6MHz.counter_comp.CLK_OUT_int.Q[0]} sdffre Clock Optimization not enabled
+i HM0360_Interface_comp.PLL_sync_clk_comp.lscc_pll_inst.clkop_o
+m 0 0
+u 2 3
+n ckid0_5 {t:ENCRYPTED} Clock Optimization not enabled
+p {p:ENCRYPTED}{t:ENCRYPTED}
+e ckid0_5 {t:ENCRYPTED} <ENCRYPTED>
+d ckid0_5 {t:HM0360_Interface_comp.PLL_sync_clk_comp.lscc_pll_inst.gen_no_refclk_mon\.u_PLL.CLKOP} PLL Clock Optimization not enabled
+i CLK
+m 0 0
+u 42 130
+p {p:CLK}{t:mux_data_out_debug[5:0].C}
+e ckid0_6 {t:mux_data_out_debug[5:0].C} dff
+c ckid0_6 {p:CLK} port Unsupported/too complex instance on clock path
+i HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.un1_nx_state_1_sqmuxa
+m 0 0
+u 14 14
+n ckid0_7 {t:HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.nx_state[0].C} Clock Optimization not enabled
+p {t:HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.un1_nx_state_1_sqmuxa_1.OUT[0]}{t:HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.nx_state[0].C}
+e ckid0_7 {t:HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.nx_state[0].C} latr
+d ckid0_7 {t:HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.un1_nx_state_1_sqmuxa.OUT} or Clock Optimization not enabled
+i HM0360_Interface_comp.I2C_module_comp.trig_acq_module_comp.pr_state[1]
+m 0 0
+u 2 2
+n ckid0_8 {t:HM0360_Interface_comp.I2C_module_comp.trig_acq_module_comp.nx_state[1].C} Clock Optimization not enabled
+p {t:HM0360_Interface_comp.I2C_module_comp.trig_acq_module_comp.pr_state_derived_clock[1].OUT[0]}{t:HM0360_Interface_comp.I2C_module_comp.trig_acq_module_comp.nx_state[1].C}
+e ckid0_8 {t:HM0360_Interface_comp.I2C_module_comp.trig_acq_module_comp.nx_state[1].C} latrs
+d ckid0_8 {t:HM0360_Interface_comp.I2C_module_comp.trig_acq_module_comp.pr_state[1].Q[0]} dffr Clock Optimization not enabled
+i HM0360_Interface_comp.prescaler_6MHz.counter_comp.CLK_OUT_int_i
+m 0 0
+u 0 0
+i HM0360_Interface_comp.I2C_module_comp.trig_acq_module_comp.pr_state_i[1]
+m 0 0
+u 0 0
+i HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.un1_nx_state_1_sqmuxa_i
+m 0 0
+u 0 0
+i HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.pr_state[11]
+m 0 0
+u 0 0
+i HM0360_Interface_comp.I2C_module_comp.HM0360_serial_master_comp.finished_internal
+m 0 0
+u 0 0
+i HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.pr_state[9]
+m 0 0
+u 0 0
+i HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.pr_state[7]
+m 0 0
+u 0 0
+i HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.pr_state[6]
+m 0 0
+u 0 0
+i HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.pr_state[5]
+m 0 0
+u 0 0
+i HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.pr_state[4]
+m 0 0
+u 0 0
+i HM0360_Interface_comp.I2C_module_comp.configuration_module_comp.pr_state[13]
+m 0 0
+u 0 0
+i debounce_init_config.button_deb
+m 0 0
+u 0 0
+i HM0360_Interface_comp.HM0360_CSI2_DPHY_comp.lscc_dphy_rx_inst.CIL_TOP®u_hard_dphy.u_hs_rx_data[0]
+m 0 0
+u 0 0
+i HM0360_Interface_comp.HM0360_CSI2_DPHY_comp.lscc_dphy_rx_inst.CIL_TOP®u_hard_dphy.u_hs_rx_data[1]
+m 0 0
+u 0 0
+i HM0360_Interface_comp.HM0360_CSI2_DPHY_comp.lscc_dphy_rx_inst.CIL_TOP®u_hard_dphy.u_hs_rx_data[2]
+m 0 0
+u 0 0
+i HM0360_Interface_comp.HM0360_CSI2_DPHY_comp.lscc_dphy_rx_inst.CIL_TOP®u_hard_dphy.u_hs_rx_data[3]
+m 0 0
+u 0 0
+i HM0360_Interface_comp.HM0360_CSI2_DPHY_comp.lscc_dphy_rx_inst.CIL_TOP®u_hard_dphy.u_hs_rx_data[4]
+m 0 0
+u 0 0
+i HM0360_Interface_comp.HM0360_CSI2_DPHY_comp.lscc_dphy_rx_inst.CIL_TOP®u_hard_dphy.u_hs_rx_data[5]
+m 0 0
+u 0 0
+i HM0360_Interface_comp.HM0360_CSI2_DPHY_comp.lscc_dphy_rx_inst.CIL_TOP®u_hard_dphy.u_hs_rx_data[6]
+m 0 0
+u 0 0
+i HM0360_Interface_comp.HM0360_CSI2_DPHY_comp.lscc_dphy_rx_inst.CIL_TOP®u_hard_dphy.u_hs_rx_data[7]
+m 0 0
+u 0 0
+i HM0360_Interface_comp.HM0360_CSI2_DPHY_comp.lscc_dphy_rx_inst.CIL_TOP®u_hard_dphy.u_rx_sync_hs_w[0]
+m 0 0
+u 0 0
+i HM0360_Interface_comp.HM0360_CSI2_DPHY_comp.lscc_dphy_rx_inst.CIL_TOP®u_hard_dphy.u_rx_sync_hs_w[1]
+m 0 0
+u 0 0
+i HM0360_Interface_comp.HM0360_CSI2_DPHY_comp.lscc_dphy_rx_inst.CIL_TOP®u_hard_dphy.u_rx_sync_hs_w[2]
+m 0 0
+u 0 0
+i HM0360_Interface_comp.HM0360_CSI2_DPHY_comp.lscc_dphy_rx_inst.CIL_TOP®u_hard_dphy.u_rx_sync_hs_w[3]
+m 0 0
+u 0 0
+i HM0360_Interface_comp.HM0360_CSI2_DPHY_comp.lscc_dphy_rx_inst.CIL_TOP®u_hard_dphy.lane0_stop_state_w
+m 0 0
+u 0 0
+i HM0360_Interface_comp.HM0360_CSI2_DPHY_comp.lscc_dphy_rx_inst.CIL_TOP®u_hard_dphy.u1_rx_sync_hs_w[0]
+m 0 0
+u 0 0
+i HM0360_Interface_comp.HM0360_CSI2_DPHY_comp.lscc_dphy_rx_inst.CIL_TOP®u_hard_dphy.u1_rx_sync_hs_w[1]
+m 0 0
+u 0 0
+i HM0360_Interface_comp.HM0360_CSI2_DPHY_comp.lscc_dphy_rx_inst.CIL_TOP®u_hard_dphy.u1_rx_sync_hs_w[2]
+m 0 0
+u 0 0
+i HM0360_Interface_comp.HM0360_CSI2_DPHY_comp.lscc_dphy_rx_inst.CIL_TOP®u_hard_dphy.u1_rx_sync_hs_w[3]
+m 0 0
+u 0 0
+i HM0360_Interface_comp.HM0360_CSI2_DPHY_comp.lscc_dphy_rx_inst.CIL_TOP®u_hard_dphy.u2_rx_sync_hs_w[0]
+m 0 0
+u 0 0
+i HM0360_Interface_comp.HM0360_CSI2_DPHY_comp.lscc_dphy_rx_inst.CIL_TOP®u_hard_dphy.u2_rx_sync_hs_w[1]
+m 0 0
+u 0 0
+i HM0360_Interface_comp.HM0360_CSI2_DPHY_comp.lscc_dphy_rx_inst.CIL_TOP®u_hard_dphy.u2_rx_sync_hs_w[2]
+m 0 0
+u 0 0
+i HM0360_Interface_comp.HM0360_CSI2_DPHY_comp.lscc_dphy_rx_inst.CIL_TOP®u_hard_dphy.u2_rx_sync_hs_w[3]
+m 0 0
+u 0 0
+i HM0360_Interface_comp.HM0360_CSI2_DPHY_comp.lscc_dphy_rx_inst.CIL_TOP®u_hard_dphy.u3_rx_sync_hs_w[0]
+m 0 0
+u 0 0
+i HM0360_Interface_comp.HM0360_CSI2_DPHY_comp.lscc_dphy_rx_inst.CIL_TOP®u_hard_dphy.u3_rx_sync_hs_w[1]
+m 0 0
+u 0 0
+i HM0360_Interface_comp.HM0360_CSI2_DPHY_comp.lscc_dphy_rx_inst.CIL_TOP®u_hard_dphy.u3_rx_sync_hs_w[2]
+m 0 0
+u 0 0
+i HM0360_Interface_comp.HM0360_CSI2_DPHY_comp.lscc_dphy_rx_inst.CIL_TOP®u_hard_dphy.u3_rx_sync_hs_w[3]
+m 0 0
+u 0 0
+i HM0360_Interface_comp.PLL_sync_clk_comp.lscc_pll_inst.clkop_o_i
+m 0 0
+u 0 0
+l 0 0 0 0 0 0
+r 0 0 0 0 0 0 0 0

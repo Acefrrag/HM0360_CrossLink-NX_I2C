@@ -1,0 +1,138 @@
+-- Analyzing VHDL file 'C:/lscc/radiant/3.2/ispfpga/vhdl_packages/vh2008/std/standard_2008.vhd' (VHDL-1481)
+-- Analyzing VHDL file C:/lscc/radiant/3.2/ispfpga/vhdl_packages/vh2008/std/standard_2008.vhd
+-- Analyzing VHDL file 'C:/lscc/radiant/3.2/ispfpga/vhdl_packages/vh2008/std/textio_2008.vhd' (VHDL-1481)
+-- Analyzing VHDL file C:/lscc/radiant/3.2/ispfpga/vhdl_packages/vh2008/std/textio_2008.vhd
+-- Analyzing VHDL file 'C:/lscc/radiant/3.2/ispfpga/vhdl_packages/vh2008/std/env_2008.vhd' (VHDL-1481)
+-- Analyzing VHDL file C:/lscc/radiant/3.2/ispfpga/vhdl_packages/vh2008/std/env_2008.vhd
+-- Analyzing VHDL file 'C:/lscc/radiant/3.2/ispfpga/vhdl_packages/vh2008/ieee/std_logic_1164_2008.vhd' (VHDL-1481)
+-- Analyzing VHDL file C:/lscc/radiant/3.2/ispfpga/vhdl_packages/vh2008/ieee/std_logic_1164_2008.vhd
+-- Analyzing VHDL file 'C:/lscc/radiant/3.2/ispfpga/vhdl_packages/vh2008/ieee/std_logic_textio.vhdl' (VHDL-1481)
+-- Analyzing VHDL file C:/lscc/radiant/3.2/ispfpga/vhdl_packages/vh2008/ieee/std_logic_textio.vhdl
+-- Analyzing VHDL file 'C:/lscc/radiant/3.2/ispfpga/vhdl_packages/vh2008/ieee/numeric_std_2008.vhd' (VHDL-1481)
+-- Analyzing VHDL file C:/lscc/radiant/3.2/ispfpga/vhdl_packages/vh2008/ieee/numeric_std_2008.vhd
+-- Analyzing VHDL file 'C:/lscc/radiant/3.2/ispfpga/vhdl_packages/vh2008/ieee/numeric_std_unsigned_2008.vhd' (VHDL-1481)
+-- Analyzing VHDL file C:/lscc/radiant/3.2/ispfpga/vhdl_packages/vh2008/ieee/numeric_std_unsigned_2008.vhd
+-- Analyzing VHDL file 'C:/lscc/radiant/3.2/ispfpga/vhdl_packages/vh2008/ieee/numeric_bit.vhdl' (VHDL-1481)
+-- Analyzing VHDL file C:/lscc/radiant/3.2/ispfpga/vhdl_packages/vh2008/ieee/numeric_bit.vhdl
+-- Analyzing VHDL file 'C:/lscc/radiant/3.2/ispfpga/vhdl_packages/vh2008/ieee/numeric_bit-body.vhdl' (VHDL-1481)
+-- Analyzing VHDL file C:/lscc/radiant/3.2/ispfpga/vhdl_packages/vh2008/ieee/numeric_bit-body.vhdl
+-- Analyzing VHDL file 'C:/lscc/radiant/3.2/ispfpga/vhdl_packages/vh2008/ieee/numeric_bit_unsigned.vhdl' (VHDL-1481)
+-- Analyzing VHDL file C:/lscc/radiant/3.2/ispfpga/vhdl_packages/vh2008/ieee/numeric_bit_unsigned.vhdl
+-- Analyzing VHDL file 'C:/lscc/radiant/3.2/ispfpga/vhdl_packages/vh2008/ieee/numeric_bit_unsigned-body.vhdl' (VHDL-1481)
+-- Analyzing VHDL file C:/lscc/radiant/3.2/ispfpga/vhdl_packages/vh2008/ieee/numeric_bit_unsigned-body.vhdl
+-- Analyzing VHDL file 'C:/lscc/radiant/3.2/ispfpga/vhdl_packages/vh2008/ieee/math_real.vhdl' (VHDL-1481)
+-- Analyzing VHDL file 'C:/lscc/radiant/3.2/ispfpga/vhdl_packages/vh2008/ieee/math_real-body.vhdl' (VHDL-1481)
+-- Analyzing VHDL file 'C:/lscc/radiant/3.2/ispfpga/vhdl_packages/vh2008/ieee/math_complex.vhdl' (VHDL-1481)
+-- Analyzing VHDL file C:/lscc/radiant/3.2/ispfpga/vhdl_packages/vh2008/ieee/math_complex.vhdl
+-- Analyzing VHDL file 'C:/lscc/radiant/3.2/ispfpga/vhdl_packages/vh2008/ieee/math_complex-body.vhdl' (VHDL-1481)
+-- Analyzing VHDL file C:/lscc/radiant/3.2/ispfpga/vhdl_packages/vh2008/ieee/math_complex-body.vhdl
+-- Analyzing VHDL file 'C:/lscc/radiant/3.2/ispfpga/vhdl_packages/vh2008/ieee/fixed_float_types.vhdl' (VHDL-1481)
+-- Analyzing VHDL file C:/lscc/radiant/3.2/ispfpga/vhdl_packages/vh2008/ieee/fixed_float_types.vhdl
+-- Analyzing VHDL file 'C:/lscc/radiant/3.2/ispfpga/vhdl_packages/vh2008/ieee/fixed_generic_pkg.vhdl' (VHDL-1481)
+-- Analyzing VHDL file C:/lscc/radiant/3.2/ispfpga/vhdl_packages/vh2008/ieee/fixed_generic_pkg.vhdl
+-- Analyzing VHDL file 'C:/lscc/radiant/3.2/ispfpga/vhdl_packages/vh2008/ieee/fixed_generic_pkg-body.vhdl' (VHDL-1481)
+-- Analyzing VHDL file C:/lscc/radiant/3.2/ispfpga/vhdl_packages/vh2008/ieee/fixed_generic_pkg-body.vhdl
+-- Analyzing VHDL file 'C:/lscc/radiant/3.2/ispfpga/vhdl_packages/vh2008/ieee/float_generic_pkg.vhdl' (VHDL-1481)
+-- Analyzing VHDL file C:/lscc/radiant/3.2/ispfpga/vhdl_packages/vh2008/ieee/float_generic_pkg.vhdl
+-- Analyzing VHDL file 'C:/lscc/radiant/3.2/ispfpga/vhdl_packages/vh2008/ieee/float_generic_pkg-body.vhdl' (VHDL-1481)
+-- Analyzing VHDL file C:/lscc/radiant/3.2/ispfpga/vhdl_packages/vh2008/ieee/float_generic_pkg-body.vhdl
+-- Analyzing VHDL file 'C:/lscc/radiant/3.2/ispfpga/vhdl_packages/vh2008/ieee/fixed_pkg.vhdl' (VHDL-1481)
+-- Analyzing VHDL file C:/lscc/radiant/3.2/ispfpga/vhdl_packages/vh2008/ieee/fixed_pkg.vhdl
+-- Analyzing VHDL file 'C:/lscc/radiant/3.2/ispfpga/vhdl_packages/vh2008/ieee/float_pkg.vhdl' (VHDL-1481)
+-- Analyzing VHDL file C:/lscc/radiant/3.2/ispfpga/vhdl_packages/vh2008/ieee/float_pkg.vhdl
+-- Analyzing VHDL file 'C:/lscc/radiant/3.2/ispfpga/vhdl_packages/vh2008/ieee/ieee_bit_context.vhd' (VHDL-1481)
+-- Analyzing VHDL file C:/lscc/radiant/3.2/ispfpga/vhdl_packages/vh2008/ieee/ieee_bit_context.vhd
+-- Analyzing VHDL file 'C:/lscc/radiant/3.2/ispfpga/vhdl_packages/vh2008/ieee/ieee_std_context.vhd' (VHDL-1481)
+-- Analyzing VHDL file C:/lscc/radiant/3.2/ispfpga/vhdl_packages/vh2008/ieee/ieee_std_context.vhd
+-- Analyzing VHDL file 'C:/lscc/radiant/3.2/ispfpga/vhdl_packages/syn_attr.vhd' (VHDL-1481)
+-- Analyzing VHDL file C:/lscc/radiant/3.2/ispfpga/vhdl_packages/syn_attr.vhd
+-- Analyzing VHDL file 'C:/lscc/radiant/3.2/ispfpga/vhdl_packages/vh2008/ieee/syn_misc_2008.vhd' (VHDL-1481)
+-- Analyzing VHDL file C:/lscc/radiant/3.2/ispfpga/vhdl_packages/vh2008/ieee/syn_misc_2008.vhd
+-- Analyzing VHDL file 'C:/lscc/radiant/3.2/ispfpga/vhdl_packages/vh2008/arithmetic/mgc_arit_2008.vhd' (VHDL-1481)
+-- Analyzing VHDL file C:/lscc/radiant/3.2/ispfpga/vhdl_packages/vh2008/arithmetic/mgc_arit_2008.vhd
+-- Analyzing VHDL file 'C:/lscc/radiant/3.2/ispfpga/vhdl_packages/mixed_lang_vltype.vhd' (VHDL-1481)
+-- Analyzing VHDL file C:/lscc/radiant/3.2/ispfpga/vhdl_packages/mixed_lang_vltype.vhd
+-- Analyzing VHDL file 'C:/lscc/radiant/3.2/ispfpga/vhdl_packages/syn_arit.vhd' (VHDL-1481)
+-- Analyzing VHDL file C:/lscc/radiant/3.2/ispfpga/vhdl_packages/syn_arit.vhd
+-- Analyzing VHDL file 'C:/lscc/radiant/3.2/ispfpga/vhdl_packages/syn_sign.vhd' (VHDL-1481)
+-- Analyzing VHDL file C:/lscc/radiant/3.2/ispfpga/vhdl_packages/syn_sign.vhd
+-- Analyzing VHDL file 'C:/lscc/radiant/3.2/ispfpga/vhdl_packages/syn_unsi.vhd' (VHDL-1481)
+-- Analyzing VHDL file C:/lscc/radiant/3.2/ispfpga/vhdl_packages/syn_unsi.vhd
+-- Analyzing VHDL file 'C:/lscc/radiant/3.2/ispfpga/vhdl_packages/synattr.vhd' (VHDL-1481)
+-- Analyzing VHDL file C:/lscc/radiant/3.2/ispfpga/vhdl_packages/synattr.vhd
+-- Analyzing Verilog file 'C:/lscc/radiant/3.2/cae_library/synthesis/verilog/lifcl.v' (VERI-1482)
+-- Analyzing VHDL file 'C:/lscc/radiant/3.2/cae_library/synthesis/vhdl/lifcl.vhd' (VHDL-1481)
+-- Analyzing VHDL file C:/lscc/radiant/3.2/cae_library/synthesis/vhdl/lifcl.vhd
+-- Analyzing VHDL file 'C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/HM0360_Interface.vhd' (VHDL-1481)
+-- Analyzing VHDL file C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/HM0360_Interface.vhd
+-- Analyzing VHDL file 'C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/counter.vhd' (VHDL-1481)
+-- Analyzing VHDL file C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/counter.vhd
+-- Analyzing VHDL file 'C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/debounce.vhd' (VHDL-1481)
+-- Analyzing VHDL file C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/debounce.vhd
+-- Analyzing VHDL file 'C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/HM0360_serial_master.vhd' (VHDL-1481)
+-- Analyzing VHDL file C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/HM0360_serial_master.vhd
+-- Analyzing VHDL file 'C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/prescaler.vhd' (VHDL-1481)
+-- Analyzing VHDL file C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/prescaler.vhd
+-- Analyzing VHDL file 'C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/I2C_module.vhd' (VHDL-1481)
+-- Analyzing VHDL file C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/I2C_module.vhd
+C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/I2C_module.vhd(84): ERROR: syntax error near ')' (VHDL-1261)
+C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/I2C_module.vhd(89): ERROR: 'hm0360_serial_master' is not a type (VHDL-1238)
+C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/I2C_module.vhd(134): ERROR: 'mul_sel' is not declared (VHDL-1241)
+C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/I2C_module.vhd(135): ERROR: syntax error near 'elsif' (VHDL-1261)
+C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/I2C_module.vhd(136): ERROR: 'mul_sel' is not declared (VHDL-1241)
+C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/I2C_module.vhd(137): ERROR: syntax error near 'if' (VHDL-1261)
+C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/I2C_module.vhd(141): ERROR: 'addr' is not declared (VHDL-1241)
+C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/I2C_module.vhd(142): ERROR: 'data_write' is not declared (VHDL-1241)
+C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/I2C_module.vhd(143): ERROR: 'start' is not declared (VHDL-1241)
+C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/I2C_module.vhd(144): ERROR: syntax error near 'when' (VHDL-1261)
+C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/I2C_module.vhd(145): ERROR: 'addr' is not declared (VHDL-1241)
+C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/I2C_module.vhd(146): ERROR: 'data_write' is not declared (VHDL-1241)
+C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/I2C_module.vhd(147): ERROR: 'start' is not declared (VHDL-1241)
+C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/I2C_module.vhd(148): ERROR: syntax error near 'when' (VHDL-1261)
+C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/I2C_module.vhd(149): ERROR: 'addr' is not declared (VHDL-1241)
+C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/I2C_module.vhd(150): ERROR: 'data_write' is not declared (VHDL-1241)
+C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/I2C_module.vhd(151): ERROR: 'start' is not declared (VHDL-1241)
+C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/I2C_module.vhd(152): ERROR: syntax error near 'case' (VHDL-1261)
+-- VHDL file 'C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/I2C_module.vhd' ignored due to errors (VHDL-1482)
+-- Analyzing VHDL file 'C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/configuration_module.vhd' (VHDL-1481)
+-- Analyzing VHDL file C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/configuration_module.vhd
+-- Analyzing VHDL file 'C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/trig_acq_module.vhd' (VHDL-1481)
+-- Analyzing VHDL file C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/trig_acq_module.vhd
+-- Analyzing VHDL file 'C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/image_buffer.vhd' (VHDL-1481)
+-- Analyzing VHDL file C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/image_buffer.vhd
+-- Analyzing VHDL file 'C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source.vhd' (VHDL-1481)
+-- Analyzing VHDL file C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source.vhd
+C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source.vhd(22): ERROR: 'img_t' is not declared (VHDL-1241)
+C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source.vhd(24): ERROR: 'text' is not declared (VHDL-1241)
+C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source.vhd(25): ERROR: 'line' is not declared (VHDL-1241)
+C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source.vhd(28): ERROR: syntax error near '656' (VHDL-1261)
+C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source.vhd(33): ERROR: 'row' is already declared in this region (VHDL-1223)
+C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source.vhd(34): ERROR: 'pixel' is already declared in this region (VHDL-1223)
+C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source.vhd(43): ERROR: 'img_t' is not declared (VHDL-1241)
+C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source.vhd(44): ERROR: signal declaration is not allowed in a subprogram (VHDL-1306)
+C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source.vhd(45): ERROR: signal declaration is not allowed in a subprogram (VHDL-1306)
+C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source.vhd(52): ERROR: cannot access 'pclko' from inside pure function 'create_image'. (VHDL-1415)
+C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source.vhd(52): ERROR: cannot assign signal 'pclko' from within a subprogram (VHDL-1538)
+C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source.vhd(53): ERROR: cannot access 'hsync' from inside pure function 'create_image'. (VHDL-1415)
+C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source.vhd(53): ERROR: cannot assign signal 'hsync' from within a subprogram (VHDL-1538)
+C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source.vhd(54): ERROR: cannot access 'fsync' from inside pure function 'create_image'. (VHDL-1415)
+C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source.vhd(54): ERROR: cannot assign signal 'fsync' from within a subprogram (VHDL-1538)
+C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source.vhd(55): ERROR: cannot access 'streamed' from inside pure function 'create_image'. (VHDL-1415)
+C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source.vhd(55): ERROR: cannot assign signal 'streamed' from within a subprogram (VHDL-1538)
+C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source.vhd(55): ERROR: 'streamed_internal' is not declared (VHDL-1241)
+C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source.vhd(57): ERROR: syntax error near 'process' (VHDL-1261)
+-- Sorry, too many errors..
+-- Analyzing VHDL file 'C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/HM0360_Interface_tb.vhd' (VHDL-1481)
+-- Analyzing VHDL file C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/HM0360_Interface_tb.vhd
+C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/HM0360_Interface_tb.vhd(2): ERROR: unexpected EOF (VHDL-1283)
+-- VHDL file 'C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/HM0360_Interface_tb.vhd' ignored due to errors (VHDL-1482)
+-- Analyzing VHDL file 'C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source_tb.vhd' (VHDL-1481)
+-- Analyzing VHDL file C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source_tb.vhd
+C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source_tb.vhd(12): ERROR: syntax error near ';' (VHDL-1261)
+C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source_tb.vhd(37): ERROR: 'pclko' is not declared (VHDL-1241)
+C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source_tb.vhd(37): ERROR: actual of formal out port 'pclko' cannot be an expression (VHDL-1318)
+C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source_tb.vhd(38): ERROR: 'd' is not declared (VHDL-1241)
+C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source_tb.vhd(38): ERROR: actual of formal out port 'd' cannot be an expression (VHDL-1318)
+C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source_tb.vhd(40): ERROR: formal streamed is not declared (VHDL-1084)
+C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source_tb.vhd(56): ERROR: unit 'behavioral' ignored due to previous errors (VHDL-1284)
+-- VHDL file 'C:/Users/miche/Desktop/my_designs/HM0360_image_capture/source/HM0360_image_capture_impl/pic_source_tb.vhd' ignored due to errors (VHDL-1482)

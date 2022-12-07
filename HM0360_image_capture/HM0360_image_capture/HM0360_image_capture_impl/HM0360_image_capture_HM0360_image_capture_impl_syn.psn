@@ -1,0 +1,16 @@
+POSTSYN: Post Synthesis Process Radiant Software (64-bit) 3.2.1.217.3
+Command Line: postsyn -a LIFCL -p LIFCL-40 -t CSBGA289 -sp 8_High-Performance_1.0V -oc Commercial -top -w -o HM0360_image_capture_HM0360_image_capture_impl_syn.udb -ldc C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/HM0360_image_capture_impl/HM0360_image_capture_HM0360_image_capture_impl.ldc -gui -msgset C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/promote.xml HM0360_image_capture_HM0360_image_capture_impl.vm 
+   Architecture:     LIFCL
+   Device:           LIFCL-40
+   Package:          CSBGA289
+   Performance:      8_High-Performance_1.0V
+Reading input file 'HM0360_image_capture_HM0360_image_capture_impl.vm' ...
+Reading constraint file 'C:/Users/miche/Desktop/my_designs/HM0360/HM0360_image_capture/HM0360_image_capture_impl/HM0360_image_capture_HM0360_image_capture_impl.ldc' ...
+Removing unused logic ...
+INFO - Signal GSR_INST.GSROUT undriven or does not drive anything - clipped
+Starting design annotation....
+Writing output file 'HM0360_image_capture_HM0360_image_capture_impl_syn.udb'.
+POSTSYN finished successfully.
+Total CPU Time: 3 secs 
+Total REAL Time: 3 secs 
+Peak Memory Usage: 139 MB
